@@ -1,0 +1,38 @@
+{
+  "name": "tp-simulacion-2017",
+  "version": "1.0.0",
+  "description": "Trabajo Practico de Simulación",
+  "main": "init.js",
+  "scripts": {
+    "start": "node .",
+    "start:watch": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirisiopablo/tp-simulacion-2017.git"
+  },
+  "keywords": [
+    "simulacion",
+    "utn-frba",
+    "utn",
+    "frba"
+  ],
+  "bugs": {
+    "url": "https://github.com/dirisiopablo/tp-simulacion-2017/issues"
+  },
+  "homepage": "https://github.com/dirisiopablo/tp-simulacion-2017#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "dependable": "^0.2.5",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.9"
+  }
+}
