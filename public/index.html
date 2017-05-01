@@ -1,1 +1,45 @@
-Heheheheh
+<!DOCTYPE html>
+<html ng-app="simulationApp">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/angular.min.js"></script>
+    <script src="src/app.js"></script>
+
+    <script src="src/simulation/simulation.controller.js"></script>
+
+    <title>Trabajo Práctico de simulación</title>
+  </head>
+  <body>
+    <div ng-controller="simulationController as ctrl" class="container">
+      <div class="row">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="cantidadFermentadores">Cantidad de Fermentadores</label>
+            <input ng-model="ctrl.CF" ng-change="initState" type="text" class="form-control" id="cantidadFermentadores" placeholder="Cantidad de fermentadores"></input>
+          </div>
+          <div class="form-group">
+            <label for="stockMaximo">Stock Máximo</label>
+            <input ng-model="ctrl.stockMaximo" class="form-control" id="stockMaximo" placeholder="Stock Máximo"></input>
+          </div>
+
+          <button ng-disabled="!ctrl.stockMaximo" class="btn btn-default">Comenzar Simulación!</button>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="row">
+          <div class="col-md-4">{{}}</div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
