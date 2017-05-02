@@ -21,15 +21,36 @@
         <form class="form-inline">
           <div class="form-group">
             <label for="cantidadFermentadores">Cantidad de Fermentadores</label>
-            <input ng-model="ctrl.CF" ng-change="initState" type="text" class="form-control" id="cantidadFermentadores" placeholder="Cantidad de fermentadores"></input>
+            <input ng-model="ctrl.CF" ng-change="initState" type="number" class="form-control" id="cantidadFermentadores" placeholder="Cantidad de fermentadores">
           </div>
           <div class="form-group">
             <label for="stockMaximo">Stock Máximo</label>
-            <input ng-model="ctrl.stockMaximo" class="form-control" id="stockMaximo" placeholder="Stock Máximo"></input>
+            <input ng-model="ctrl.stockMaximo" type="number" class="form-control" id="stockMaximo" placeholder="Stock Máximo">
           </div>
 
-          <button ng-disabled="!ctrl.stockMaximo" class="btn btn-default">Comenzar Simulación!</button>
+          <button ng-disabled="!ctrl.stockMaximo" ng-click="ctrl.startSimulation()" class="btn btn-default">Comenzar Simulación!</button>
         </form>
+
+        <div class="row" ng-each="ctrl.resultados as resultado">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>
+                  Descripción
+                </th>
+                <th>
+                  Valor
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-each="resultado as res">
+                <td> {{res.description}}</td>
+                <td> {{res.value}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div class="row">

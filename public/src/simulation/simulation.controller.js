@@ -30,17 +30,17 @@
     }
 
     // Control
-    this.CF; // Cantidad Fermentadores
-    this.stockMaximo;
-    this.CDF = 20; // Capacidad De Fermentadores;
-    this.CDC = 20; // Capacidad De Cocina;
+    ctrl.CF = 5; // Cantidad Fermentadores
+    ctrl.stockMaximo = 100;
+    ctrl.CDF = 20; // Capacidad De Fermentadores;
+    ctrl.CDC = 20; // Capacidad De Cocina;
 
     // Array de resultados
-    this.resultados = [];
+    ctrl.resultados = [];
 
     initState();
 
-    this.startSimulation = function(){
+    ctrl.startSimulation = function(){
       let proxFermentadorIdx;
       let fermentadorLibre;
       let tiempoFermentacion;
@@ -48,53 +48,136 @@
       let intervaloArribo;
       let cantidadComprada;
 
-      proxFermentadorIdx = getIndexProximoFermentador();
+      let resultado;
 
-      if (this.TPC <= this.TPV){
-        if (this.TPC <= this.TPF[proxFermentadorIdx]]){
-            this.T = this.TPC;
-            fermentadorLibre = getFermentadorLibre();
+      while (ctrl.T <= ctrl.TF) {
+        proxFermentadorIdx = getIndexProximoFermentador();
 
-            if (fermentadorLibre) {
-              this.ITOC = this.T;
-              this.TPC = HV;
+        if (ctrl.TPC <= ctrl.TPV){
+          if (ctrl.TPC <= ctrl.TPF[proxFermentadorIdx]){
+            ramaCoccion();
+          } else {
+            ramaTPF(proxFermentadorIdx);
+          }
+        } else {
+          if (ctrl.TPF[proxFermentadorIdx] <= ctrl.TPV){
+            ramaTPF(proxFermentadorIdx);
+          } else {
+            ramaVenta();
+          }
+        }
+      };
 
-            } else {
-              tiempoFermentacion = this.TFER();
-              tiempoCoccion = this.TC();
+      resultado = calcularResultado();
+      ctrl.resultados.push(resultado);
 
-              this.TPC = this.T + tiempoCoccion;
-              this.TPF[fermentadorLibre] = this.TPC + tiempoFermentacion;
+      initState();
+    };
 
-              this.STOF[fermentadorLibre] += (this.T - this.ITOF[fermentadorLibre]);
+    function ramaCoccion(){
+      ctrl.T = ctrl.TPC;
+      fermentadorLibre = getFermentadorLibre();
 
-              this.FMT[fermentadorLibre] = 1;
-              this.STOC += (this.T - this.ITOC);
-              this.CLP += this.CDC;
-            }
+      if (fermentadorLibre) {
+        ctrl.ITOC = ctrl.T;
+        ctrl.TPC = HV;
+
+      } else {
+        tiempoFermentacion = TFER();
+        tiempoCoccion = TC();
+
+        ctrl.TPC = ctrl.T + tiempoCoccion;
+        ctrl.TPF[fermentadorLibre] = ctrl.TPC + tiempoFermentacion;
+
+        ctrl.STOF[fermentadorLibre] += (ctrl.T - ctrl.ITOF[fermentadorLibre]);
+
+        ctrl.STOC += (ctrl.T - ctrl.ITOC);
+        ctrl.CLP += ctrl.CDC;
+      }
+    }
+
+    function ramaTPF(indiceProximaFermentadora){
+      ctrl.T = ctrl.TPF[indiceProximaFermentadora];
+      ctrl.TPF[indiceProximaFermentadora] = HV;
+      ctrl.SA += ctrl.CDF;
+
+      if (ctrl.SA < ctrl.stockMaximo){
+        if (ctrl.TPC === HV){
+          tiempoCoccion = TC();
+          ctrl.TPC = ctrl.T + tiempoCoccion;
+          ctrl.STOC += (ctrl.T - ctrl.ITOC);
 
         } else {
-
+          // Do nothing
         }
       } else {
-        if (this.TPF[proxFermentadorIdx] <= this.TPV){
+        ctrl.CLD += (ctrl.SA - ctrl.stockMaximo);
+        ctrl.SA = ctrl.stockMaximo;
 
-        } else {
-          intervaloArribo = this.IA();
-          cantidadComprada = this.CC();
-
-          this.T = this.TPV;
-          this.TPV = this.T + intervaloArribo;
-
-          if (cantidadComprada <= this.SA){
-            
-          } else {
-
-          }
-
-        }
+        ctrl.TPC = HV;
+        ctrl.ITOC = ctrl.T;
       }
-    };
+
+      ctrl.ITOF[indiceProximaFermentadora] = ctrl.T;
+    }
+
+    function ramaVenta(){
+      intervaloArribo = IA();
+      cantidadComprada = CC();
+
+      ctrl.T = ctrl.TPV;
+      ctrl.TPV = ctrl.T + intervaloArribo;
+
+      if (cantidadComprada <= ctrl.SA){
+        ctrl.SA -= cantidadComprada;
+        ctrl.CLC += cantidadComprada;
+
+        if (ctrl.TPC == HV){
+          tiempoCoccion = TC();
+          ctrl.TPC = ctrl.T + tiempoCoccion;
+
+          ctrl.STOC += (ctrl.T - ctrl.ITOC);
+        } else {
+          // Nada...
+        }
+
+      } else {
+        ctrl.CLNE += cantidadComprada;
+      }
+    }
+
+    function calcularResultado(){
+      let resultados = [];
+
+      // Porcentaje Tiempo Ocioso Fermentador
+      let PTOF = [];
+      ctrl.STOF.forEach( STOFI => PTOF.push(100 * ( STOFI / ctrl.T)) );
+      PTOF = PTOF.map( (value, idx) => {description: `Porcentaje Tiempo Ocioso Fermentador ${idx}`, value});
+      PTOF.forEach( _ => resultados.push(_));
+
+      // Porcentaje Tiempo Ocioso equipo de Cocción
+      let PTOC = {
+        description: `Porcentaje Tiempo Ocioso equipo de Cocción`,
+        value: 100 * (ctrl.STOC / ctrl.T)
+      };
+      resultados.push(PTOC);
+
+      // Porcentaje Litros No Entregados
+      let PLNE = {
+        description: `Porcentaje Litros No Entregados`,
+        value: 100 * (ctrl.CLNE / (ctrl.CLNE + ctrl.CLC))
+      };
+      resultados.push(PLNE);
+
+      // Promedio de Desperdicio
+      let PDD = {
+        description: `Promedio de Desperdicio`,
+        value: 100 * (ctrl.CLD / ctrl.CLP)
+      };
+      resultados.push(PDD);
+
+      return resultados;
+    }
 
     function initArrayWith(arraySize, value){
       let array = [];
@@ -104,10 +187,10 @@
     }
 
     function getIndexProximoFermentador(){
-      let index;
-      let min;
+      let index,
+          min;
 
-      this.TPF.forEach( (current, idx)) => {
+      ctrl.TPF.forEach( (current, idx) => {
         if (!min) {
           min = current;
           index = idx;
@@ -115,14 +198,14 @@
           min = current;
           index = idx;
         }
-      }
+      });
 
       return index;
     }
 
     function getFermentadorLibre(){
       let idx;
-      let fermentadores = this.TPF.length;
+      let fermentadores = ctrl.TPF.length;
 
       for (let i = 0; i < fermentadores; i++) {
         if (fermentadores[i] === HV){
@@ -136,30 +219,30 @@
 
     function initState(){
       // Resultado
-      this.PTOF = initArrayWith(this.CF, 0); // Porcentaje Tiempo Ocioso Fermentador
-      this.PTOC = initArrayWith(this.CF, 0); // Porcentaje Tiempo Ocioso equipo de Cocción
-      this.PDD = 0; // Promedio de Desperdicio
+      ctrl.PTOF = initArrayWith(ctrl.CF, 0); // Porcentaje Tiempo Ocioso Fermentador
+      ctrl.PTOC = 0; // Porcentaje Tiempo Ocioso equipo de Cocción
+      ctrl.PLNE = 0; // Porcentaje Litros No Entregados
+      ctrl.PDD = 0; // Promedio de Desperdicio
 
       // Estado
-      this.FMT = initArrayWith(this.CF, 0); // Array de fermentadores
-      this.SA = 0; // Stock Actual
+      ctrl.SA = 0; // Stock Actual
 
       // TEF
-      this.TPC = 0; //Tiempo Próxima Cocción
-      this.TPV = 21; //Tiempo Próxima Venta
-      this.TPF = initArrayWith(this.CF, HV); //Tiempo Próximo Fermentador
+      ctrl.TPC = 0; //Tiempo Próxima Cocción
+      ctrl.TPV = 21; //Tiempo Próxima Venta
+      ctrl.TPF = initArrayWith(ctrl.CF, HV); //Tiempo Próximo Fermentador
 
       // Auxiliares
-      this.T = 0;
-      this.TF = 0;
-      this.ITOF = initArrayWith(this.CF, 0); // Inicio Tiempo Ocioso Fermentador
-      this.STOF = initArrayWith(this.CF, 0); // Sumatoria Tiempo Ocioso Fermentador
-      this.ITOC = 0; // Inicio Tiempo Ocioso Cocina
-      this.STOC = 0; // Sumatoria Tiempo Ocioso Cocina
-      this.CLP = 0; // Cantidad Litros Producidos
-      this.CLD = 0; // Cantidad Litros Desperdicio
-      this.CLC = 0; // Cantidad Litros Comprados
-      this.CLNV = 0; // Cantidad Litros No Vendidos
+      ctrl.T = 0;
+      ctrl.TF = 500;
+      ctrl.ITOF = initArrayWith(ctrl.CF, 0); // Inicio Tiempo Ocioso Fermentador
+      ctrl.STOF = initArrayWith(ctrl.CF, 0); // Sumatoria Tiempo Ocioso Fermentador
+      ctrl.ITOC = 0; // Inicio Tiempo Ocioso Cocina
+      ctrl.STOC = 0; // Sumatoria Tiempo Ocioso Cocina
+      ctrl.CLP = 0; // Cantidad Litros Producidos
+      ctrl.CLD = 0; // Cantidad Litros Desperdicio
+      ctrl.CLC = 0; // Cantidad Litros Comprados
+      ctrl.CLNE = 0; // Cantidad Litros No Entregados
     }
   }
 })();
