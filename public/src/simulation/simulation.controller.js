@@ -34,6 +34,7 @@
     ctrl.stockMaximo = 100;
     ctrl.CDF = 20; // Capacidad De Fermentadores;
     ctrl.CDC = 20; // Capacidad De Cocina;
+    ctrl.TF = 1000; // Tiempo Final
 
     // Array de resultados
     ctrl.resultados = [];
@@ -244,7 +245,6 @@
 
       // Auxiliares
       ctrl.T = 0;
-      ctrl.TF = 1000;
       ctrl.ITOF = initArrayWith(ctrl.CF, 0); // Inicio Tiempo Ocioso Fermentador
       ctrl.STOF = initArrayWith(ctrl.CF, 0); // Sumatoria Tiempo Ocioso Fermentador
       ctrl.ITOC = 0; // Inicio Tiempo Ocioso Cocina
