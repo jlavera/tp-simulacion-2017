@@ -10,7 +10,7 @@
     // Intervalo entre Arribos
     function IA(){
       //TODO es fdp
-      return 6;
+      return 3;
     }
 
     // Tiempo Fermentación
@@ -26,7 +26,7 @@
     // Cantidad Comprada
     function CC(){
       //TODO es fdp
-      return 4;
+      return 15;
     }
 
     // Control
@@ -41,6 +41,8 @@
     initState();
 
     ctrl.startSimulation = function(){
+      initState();
+      ctrl.simulating = true;
       let proxFermentadorIdx;
       let fermentadorLibre;
       let tiempoFermentacion;
@@ -70,15 +72,14 @@
 
       resultado = calcularResultado();
       ctrl.resultados.push(resultado);
-
-      initState();
+      ctrl.simulating = false;
     };
 
     function ramaCoccion(){
       ctrl.T = ctrl.TPC;
       fermentadorLibre = getFermentadorLibre();
 
-      if (fermentadorLibre) {
+      if (typeof fermentadorLibre === 'undefined') {
         ctrl.ITOC = ctrl.T;
         ctrl.TPC = HV;
 
@@ -91,7 +92,6 @@
 
         ctrl.STOF[fermentadorLibre] += (ctrl.T - ctrl.ITOF[fermentadorLibre]);
 
-        ctrl.STOC += (ctrl.T - ctrl.ITOC);
         ctrl.CLP += ctrl.CDC;
       }
     }
@@ -132,7 +132,7 @@
         ctrl.SA -= cantidadComprada;
         ctrl.CLC += cantidadComprada;
 
-        if (ctrl.TPC == HV){
+        if (ctrl.TPC === HV){
           tiempoCoccion = TC();
           ctrl.TPC = ctrl.T + tiempoCoccion;
 
@@ -152,7 +152,12 @@
       // Porcentaje Tiempo Ocioso Fermentador
       let PTOF = [];
       ctrl.STOF.forEach( STOFI => PTOF.push(100 * ( STOFI / ctrl.T)) );
-      PTOF = PTOF.map( (value, idx) => {description: `Porcentaje Tiempo Ocioso Fermentador ${idx}`, value});
+      PTOF = PTOF.map( (value, idx) => {
+        return {
+          description: `Porcentaje Tiempo Ocioso Fermentador ${idx}`,
+          value: value
+        };
+      });
       PTOF.forEach( _ => resultados.push(_));
 
       // Porcentaje Tiempo Ocioso equipo de Cocción
@@ -176,7 +181,12 @@
       };
       resultados.push(PDD);
 
-      return resultados;
+      return {
+        cantidadFermentadores: ctrl.CF,
+        stockMaximo: ctrl.stockMaximo,
+        duracion: ctrl.TF,
+        resultados
+      };
     }
 
     function initArrayWith(arraySize, value){
@@ -205,9 +215,9 @@
 
     function getFermentadorLibre(){
       let idx;
-      let fermentadores = ctrl.TPF.length;
+      let fermentadores = ctrl.TPF;
 
-      for (let i = 0; i < fermentadores; i++) {
+      for (let i = 0; i < fermentadores.length; i++) {
         if (fermentadores[i] === HV){
           idx = i;
           break;
@@ -234,7 +244,7 @@
 
       // Auxiliares
       ctrl.T = 0;
-      ctrl.TF = 500;
+      ctrl.TF = 1000;
       ctrl.ITOF = initArrayWith(ctrl.CF, 0); // Inicio Tiempo Ocioso Fermentador
       ctrl.STOF = initArrayWith(ctrl.CF, 0); // Sumatoria Tiempo Ocioso Fermentador
       ctrl.ITOC = 0; // Inicio Tiempo Ocioso Cocina

@@ -17,22 +17,52 @@
   </head>
   <body>
     <div ng-controller="simulationController as ctrl" class="container">
-      <div class="row">
-        <form class="form-inline">
-          <div class="form-group">
-            <label for="cantidadFermentadores">Cantidad de Fermentadores</label>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="cantidadFermentadores">Cantidad de Fermentadores</label>
+          <div class="col-md-2">
             <input ng-model="ctrl.CF" ng-change="initState" type="number" class="form-control" id="cantidadFermentadores" placeholder="Cantidad de fermentadores">
           </div>
-          <div class="form-group">
-            <label for="stockMaximo">Stock Máximo</label>
+
+          <label class="col-md-3 control-label" for="capacidadFermentadores">Capacidad de Fermentadores</label>
+          <div class="col-md-2">
+            <input disabled ng-model="ctrl.CDF" ng-change="initState" type="number" class="form-control" id="capacidadFermentadores" placeholder="Capacidad de fermentadores">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="stockMaximo">Stock Máximo</label>
+          <div class="col-md-2">
             <input ng-model="ctrl.stockMaximo" type="number" class="form-control" id="stockMaximo" placeholder="Stock Máximo">
           </div>
 
-          <button ng-disabled="!ctrl.stockMaximo" ng-click="ctrl.startSimulation()" class="btn btn-default">Comenzar Simulación!</button>
-        </form>
+          <label class="col-md-3 control-label" for="capacidadCocina">Capacidad de Cocina</label>
+          <div class="col-md-2">
+            <input disabled ng-model="ctrl.CDC" ng-change="initState" type="number" class="form-control" id="capacidadCocina" placeholder="Capacidad de cocina">
+          </div>
+        </div>
 
-        <div class="row" ng-each="ctrl.resultados as resultado">
-          <table class="table table-bordered">
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="tiempoFinal">Tiempo Final</label>
+          <div class="col-md-2">
+            <input ng-model="ctrl.TF" type="number" class="form-control" id="tiempoFinal" placeholder="Tiempo Final">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-md-offset-3 col-md-3">
+            <button ng-disabled="!ctrl.stockMaximo && !ctrl.simulating" ng-click="ctrl.startSimulation()" class="btn btn-default">Comenzar Simulación!</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="col-md-6" ng-repeat="resultado in ctrl.resultados">
+          <div class="col-md-4">Fermentadores: {{resultado.cantidadFermentadores}}</div>
+          <div class="col-md-4">Stock Máximo: {{resultado.stockMaximo}}</div>
+          <div class="col-md-4">Duración: {{resultado.duracion}}</div>
+
+          <table class="table table-bordered table-striped table-hover table-condensed">
             <thead>
               <tr>
                 <th>
@@ -44,23 +74,14 @@
               </tr>
             </thead>
             <tbody>
-              <tr ng-each="resultado as res">
+              <tr ng-repeat="res in resultado.resultados">
                 <td> {{res.description}}</td>
-                <td> {{res.value}}</td>
+                <td> {{res.value | number : 2}}</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
-
-      <div class="row">
-        <div class="row">
-          <div class="col-md-4">{{}}</div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-        </div>
-      </div>
     </div>
   </body>
-
 </html>
