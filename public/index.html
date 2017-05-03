@@ -13,6 +13,9 @@
 
     <script src="src/simulation/simulation.controller.js"></script>
 
+    <script src="js/chart.bundle.min.js"></script>
+    <script src="js/angular-chart.min.js"></script>
+
     <title>Trabajo Práctico de simulación</title>
   </head>
   <body>
@@ -80,6 +83,13 @@
               </tr>
             </tbody>
           </table>
+
+          <div class="row">
+            <canvas class="chart chart-bar"
+              chart-data="res.data"
+              chart-labels="res.labels"
+              chart-series="res.series"></canvas>
+          </div>
         </div>
       </div>
     </div>

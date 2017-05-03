@@ -183,6 +183,9 @@
       resultados.push(PDD);
 
       return {
+        labels: ['Promedio Desperdicio', 'Porcentaje No Entregados'],
+        series: ['Desperdicio', 'No Entregado'],
+        data: [[PDD], [PLNE]],
         cantidadFermentadores: ctrl.CF,
         stockMaximo: ctrl.stockMaximo,
         duracion: ctrl.TF,
