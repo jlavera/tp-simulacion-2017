@@ -2,15 +2,15 @@
   angular.module('simulationApp')
   .controller('simulationController', SimulationController);
 
-  SimulationController.$inject = ['HV', '$filter']
-  function SimulationController(HV, $filter){
+  SimulationController.$inject = ['HV', '$filter', '$scope']
+  function SimulationController(HV, $filter, $scope){
     let ctrl = this;
 
     // Datos
     // Intervalo entre Arribos
     function IA(){
       //TODO es fdp
-      return 3;
+      return 1;
     }
 
     // Tiempo Fermentación
@@ -24,10 +24,23 @@
     }
 
     // Cantidad Comprada
-    function CC(){
-      //TODO es fdp
-      return 15;
+    function CC(rand){
+      return Math.round(-4.84 * Math.log(1 - rand));
     }
+
+    function randomForFdpFactory(fdp){
+      switch (fdp) {
+        case 'CC': return getRandomArbitrary(0.2, 0.95);
+      }
+    }
+
+    function getRandomArbitrary(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    $scope.$on('chart-create', function (evt, chart) {
+      console.log(chart);
+    });
 
     // Control
     ctrl.CF = 5; // Cantidad Fermentadores
@@ -48,12 +61,10 @@
       let fermentadorLibre;
       let tiempoFermentacion;
       let tiempoCoccion;
-      let intervaloArribo;
-      let cantidadComprada;
 
       let resultado;
 
-      while (ctrl.T <= ctrl.TF) {
+      while (ctrl.T < ctrl.TF) {
         proxFermentadorIdx = getIndexProximoFermentador();
 
         if (ctrl.TPC <= ctrl.TPV){
@@ -78,20 +89,20 @@
 
     function ramaCoccion(){
       ctrl.T = ctrl.TPC;
-      fermentadorLibre = getFermentadorLibre();
+      let fermentadorLibre = getFermentadorLibre();
 
       if (typeof fermentadorLibre === 'undefined') {
         ctrl.ITOC = ctrl.T;
         ctrl.TPC = HV;
 
       } else {
-        tiempoFermentacion = TFER();
-        tiempoCoccion = TC();
+        let tiempoFermentacion = TFER();
+        let tiempoCoccion = TC();
 
         ctrl.TPC = ctrl.T + tiempoCoccion;
         ctrl.TPF[fermentadorLibre] = ctrl.TPC + tiempoFermentacion;
 
-        ctrl.STOF[fermentadorLibre] += (ctrl.T - ctrl.ITOF[fermentadorLibre]);
+        ctrl.STOF[fermentadorLibre] += (ctrl.T + tiempoCoccion - ctrl.ITOF[fermentadorLibre]);
 
         ctrl.CLP += ctrl.CDC;
       }
@@ -123,8 +134,10 @@
     }
 
     function ramaVenta(){
-      intervaloArribo = IA();
-      cantidadComprada = CC();
+      let intervaloArribo = IA();
+
+      let ccRand = randomForFdpFactory('CC');
+      let cantidadComprada = CC(ccRand);
 
       ctrl.T = ctrl.TPV;
       ctrl.TPV = ctrl.T + intervaloArribo;
@@ -169,9 +182,10 @@
       resultados.push(PTOC);
 
       // Porcentaje Litros No Entregados
+      let cociente = ctrl.CLNE + ctrl.CLC;
       let PLNE = {
         description: `Porcentaje Litros No Entregados`,
-        value: 100 * (ctrl.CLNE / (ctrl.CLNE + ctrl.CLC))
+        value: cociente === 0 ? 0 : 100 * (ctrl.CLNE / (ctrl.CLNE + ctrl.CLC))
       };
       resultados.push(PLNE);
 
@@ -186,14 +200,23 @@
       let plneValue = $filter('number')(PLNE.value, 2);
 
       return {
+        colors: [getChartColorFor(parseInt(pddValue)), getChartColorFor(parseInt(plneValue))],
         labels: ['Promedio Desperdicio', 'Porcentaje No Entregados'],
         series: ['Desperdicio', 'No Entregado'],
-        data: [[pddValue], [plneValue]],
+        data: [pddValue, plneValue],
         cantidadFermentadores: ctrl.CF,
         stockMaximo: ctrl.stockMaximo,
         duracion: ctrl.TF,
         resultados
       };
+    }
+
+    function getChartColorFor(value){
+      if (value < 5) return "rgb(66,244,69)";
+      else if (value < 25) return "rgb(9,14,160)";
+      else if (value < 50) return "rgb(247,255,43)";
+      else if (value < 75) return "rgb(242,124,33)";
+      else return "rgb(186,26,1)";
     }
 
     function initArrayWith(arraySize, value){

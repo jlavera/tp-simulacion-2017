@@ -79,13 +79,14 @@
             <tbody>
               <tr ng-repeat="res in resultado.resultados">
                 <td> {{res.description}}</td>
-                <td> {{res.value | number : 2}}</td>
+                <td> {{res.value | number : 2 }} %</td>
               </tr>
             </tbody>
           </table>
 
           <div class="row">
             <canvas class="chart chart-bar"
+              chart-colors="resultado.colors"
               chart-data="resultado.data"
               chart-labels="resultado.labels"
               chart-series="resultado.series"></canvas>
