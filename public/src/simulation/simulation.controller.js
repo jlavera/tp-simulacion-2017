@@ -2,8 +2,8 @@
   angular.module('simulationApp')
   .controller('simulationController', SimulationController);
 
-  SimulationController.$inject = ['HV']
-  function SimulationController(HV){
+  SimulationController.$inject = ['HV', '$filter']
+  function SimulationController(HV, $filter){
     let ctrl = this;
 
     // Datos
@@ -182,10 +182,13 @@
       };
       resultados.push(PDD);
 
+      let pddValue = $filter('number')(PDD.value, 2);
+      let plneValue = $filter('number')(PLNE.value, 2);
+
       return {
         labels: ['Promedio Desperdicio', 'Porcentaje No Entregados'],
         series: ['Desperdicio', 'No Entregado'],
-        data: [[PDD], [PLNE]],
+        data: [[pddValue], [plneValue]],
         cantidadFermentadores: ctrl.CF,
         stockMaximo: ctrl.stockMaximo,
         duracion: ctrl.TF,
