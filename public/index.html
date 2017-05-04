@@ -30,60 +30,60 @@
     <div ng-controller="simulationController as ctrl" class="container">
       <form class="form-horizontal">
         <div class="form-group">
-          <label class="col-md-3 control-label" for="cantidadFermentadores">Cantidad de Fermentadores</label>
-          <div class="col-md-2">
+          <label class="col-sm-3 control-label" for="cantidadFermentadores">Cantidad de Fermentadores</label>
+          <div class="col-sm-2">
             <input ng-model="ctrl.CF" ng-change="initState" type="number" class="form-control" id="cantidadFermentadores" placeholder="Cantidad de fermentadores">
           </div>
 
-          <label class="col-md-3 control-label" for="capacidadFermentadores">Capacidad de Fermentadores</label>
-          <div class="col-md-2">
+          <label class="col-sm-3 control-label" for="capacidadFermentadores">Capacidad de Fermentadores</label>
+          <div class="col-sm-2">
             <input disabled ng-model="ctrl.CDF" ng-change="initState" type="number" class="form-control" id="capacidadFermentadores" placeholder="Capacidad de fermentadores">
           </div>
         </div>
 
         <div class="form-group">
-          <label class="col-md-3 control-label" for="stockMaximo">Stock Máximo</label>
-          <div class="col-md-2">
+          <label class="col-sm-3 control-label" for="stockMaximo">Stock Máximo</label>
+          <div class="col-sm-2">
             <input ng-model="ctrl.stockMaximo" type="number" class="form-control" id="stockMaximo" placeholder="Stock Máximo">
           </div>
 
-          <label class="col-md-3 control-label" for="capacidadCocina">Capacidad de Cocina</label>
-          <div class="col-md-2">
+          <label class="col-sm-3 control-label" for="capacidadCocina">Capacidad de Cocina</label>
+          <div class="col-sm-2">
             <input disabled ng-model="ctrl.CDC" ng-change="initState" type="number" class="form-control" id="capacidadCocina" placeholder="Capacidad de cocina">
           </div>
         </div>
 
         <div class="form-group">
-          <label class="col-md-3 control-label" for="tiempoFinal">Tiempo Final</label>
-          <div class="col-md-2">
+          <label class="col-sm-3 control-label" for="tiempoFinal">Tiempo Final</label>
+          <div class="col-sm-2">
             <input ng-model="ctrl.TF" type="number" class="form-control" id="tiempoFinal" placeholder="Tiempo Final">
           </div>
         </div>
 
         <div class="form-group">
-          <div class="col-md-offset-3 col-md-3">
+          <div class="col-sm-offset-3 col-sm-3">
             <button ng-disabled="!ctrl.stockMaximo && !ctrl.simulating" ng-click="ctrl.startSimulation()" class="btn btn-default">Comenzar Simulación!</button>
           </div>
         </div>
       </form>
 
       <div class="row">
-        <div class="col-md-12" ng-repeat="resultado in ctrl.resultados track by $index">
+        <div class="col-sm-12" ng-repeat="resultado in ctrl.resultados track by $index">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
                 <div class="panel-heading resultado-heading" role="tab" id="heading{{$index}}">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$index}}" aria-expanded="true" aria-controls="collapse{{$index}}">
-                      <div class="col-md-3 resultado-heading-content">Fermentadores: {{resultado.cantidadFermentadores}}</div>
-                      <div class="col-md-3 resultado-heading-content">Stock Máximo: {{resultado.stockMaximo}}</div>
-                      <div class="col-md-3 resultado-heading-content">Duración: {{resultado.duracion}}</div>
+                      <div class="col-sm-3 resultado-heading-content">Fermentadores: {{resultado.cantidadFermentadores}}</div>
+                      <div class="col-sm-3 resultado-heading-content">Stock Máximo: {{resultado.stockMaximo}}</div>
+                      <div class="col-sm-3 resultado-heading-content">Duración: {{resultado.duracion}}</div>
                     </a>
                   </h4>
                 </div>
 
                 <div id="collapse{{$index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{$index}}">
                   <div class="panel-body">
-                    <div class="col-md-8">
+                    <div class="col-sm-8">
                       <table class="table table-bordered table-striped table-hover table-condensed">
                         <thead>
                           <tr>
@@ -104,7 +104,7 @@
                       </table>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                       <canvas class="chart chart-bar"
                         chart-colors="resultado.colors"
                         chart-data="resultado.data"
