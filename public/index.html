@@ -19,6 +19,14 @@
     <title>Trabajo Práctico de simulación</title>
   </head>
   <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">TP Simulación</a>
+        </div>
+      </div>
+    </nav>
+
     <div ng-controller="simulationController as ctrl" class="container">
       <form class="form-horizontal">
         <div class="form-group">
@@ -60,37 +68,53 @@
       </form>
 
       <div class="row">
-        <div class="col-md-6" ng-repeat="resultado in ctrl.resultados">
-          <div class="col-md-4">Fermentadores: {{resultado.cantidadFermentadores}}</div>
-          <div class="col-md-4">Stock Máximo: {{resultado.stockMaximo}}</div>
-          <div class="col-md-4">Duración: {{resultado.duracion}}</div>
+        <div class="col-md-12" ng-repeat="resultado in ctrl.resultados track by $index">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading resultado-heading" role="tab" id="heading{{$index}}">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$index}}" aria-expanded="true" aria-controls="collapse{{$index}}">
+                      <div class="col-md-3 resultado-heading-content">Fermentadores: {{resultado.cantidadFermentadores}}</div>
+                      <div class="col-md-3 resultado-heading-content">Stock Máximo: {{resultado.stockMaximo}}</div>
+                      <div class="col-md-3 resultado-heading-content">Duración: {{resultado.duracion}}</div>
+                    </a>
+                  </h4>
+                </div>
 
-          <table class="table table-bordered table-striped table-hover table-condensed">
-            <thead>
-              <tr>
-                <th>
-                  Descripción
-                </th>
-                <th>
-                  Valor
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr ng-repeat="res in resultado.resultados">
-                <td> {{res.description}}</td>
-                <td> {{res.value | number : 2 }} %</td>
-              </tr>
-            </tbody>
-          </table>
+                <div id="collapse{{$index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{$index}}">
+                  <div class="panel-body">
+                    <div class="col-md-8">
+                      <table class="table table-bordered table-striped table-hover table-condensed">
+                        <thead>
+                          <tr>
+                            <th>
+                              Descripción
+                            </th>
+                            <th>
+                              Valor
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr ng-repeat="res in resultado.resultados">
+                            <td> {{res.description}}</td>
+                            <td> {{res.value | number : 2 }} %</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
 
-          <div class="row">
-            <canvas class="chart chart-bar"
-              chart-colors="resultado.colors"
-              chart-data="resultado.data"
-              chart-labels="resultado.labels"
-              chart-series="resultado.series"></canvas>
-          </div>
+                    <div class="col-md-4">
+                      <canvas class="chart chart-bar"
+                        chart-colors="resultado.colors"
+                        chart-data="resultado.data"
+                        chart-labels="resultado.labels"
+                        chart-series="resultado.series"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>

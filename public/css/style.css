@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+}
+
+.resultado-heading .resultado-heading-content {
+  display: inline-block;
+  float: none;
+  padding: 0;
+}
+
+.resultado-heading a {
+  text-decoration: none;
+}
