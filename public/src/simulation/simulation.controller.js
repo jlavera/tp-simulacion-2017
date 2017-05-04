@@ -2,15 +2,14 @@
   angular.module('simulationApp')
   .controller('simulationController', SimulationController);
 
-  SimulationController.$inject = ['HV', '$filter', '$scope']
-  function SimulationController(HV, $filter, $scope){
+  SimulationController.$inject = ['HV', '$filter']
+  function SimulationController(HV, $filter){
     let ctrl = this;
 
     // Datos
     // Intervalo entre Arribos
-    function IA(){
-      //TODO es fdp
-      return 1;
+    function IA(rand){
+      return Math.round(Math.log((1/rand) - 1) * 3.3459 + 5.2727);
     }
 
     // Tiempo Fermentación
@@ -31,6 +30,7 @@
     function randomForFdpFactory(fdp){
       switch (fdp) {
         case 'CC': return getRandomArbitrary(0.2, 0.95);
+        case 'IA': return getRandomArbitrary(0.01, 0.8);
       }
     }
 
@@ -38,15 +38,11 @@
       return Math.random() * (max - min) + min;
     }
 
-    $scope.$on('chart-create', function (evt, chart) {
-      console.log(chart);
-    });
-
     // Control
     ctrl.CF = 5; // Cantidad Fermentadores
     ctrl.stockMaximo = 100;
-    ctrl.CDF = 20; // Capacidad De Fermentadores;
-    ctrl.CDC = 20; // Capacidad De Cocina;
+    ctrl.CDF = 10; // Capacidad De Fermentadores;
+    ctrl.CDC = 10; // Capacidad De Cocina;
     ctrl.TF = 1000; // Tiempo Final
 
     // Array de resultados
@@ -134,7 +130,8 @@
     }
 
     function ramaVenta(){
-      let intervaloArribo = IA();
+      let iaRand = randomForFdpFactory('IA');
+      let intervaloArribo = IA(iaRand);
 
       let ccRand = randomForFdpFactory('CC');
       let cantidadComprada = CC(ccRand);
