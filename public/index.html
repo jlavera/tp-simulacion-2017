@@ -37,7 +37,7 @@
 
           <label class="col-sm-3 control-label" for="capacidadFermentadores">Capacidad de Fermentadores</label>
           <div class="col-sm-2">
-            <input disabled ng-model="ctrl.CDF" ng-change="initState" type="number" class="form-control" id="capacidadFermentadores" placeholder="Capacidad de fermentadores">
+            <input disabled ng-model="ctrl.CDF" ng-max-length="2" ng-change="initState" type="number" class="form-control" id="capacidadFermentadores" placeholder="Capacidad de fermentadores">
           </div>
         </div>
 
@@ -83,7 +83,7 @@
 
                 <div id="collapse{{$index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{$index}}">
                   <div class="panel-body">
-                    <div class="col-sm-8">
+                    <div class="col-sm-7">
                       <table class="table table-bordered table-striped table-hover table-condensed">
                         <thead>
                           <tr>
@@ -104,8 +104,9 @@
                       </table>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                       <canvas class="chart chart-bar"
+                        height="300"
                         chart-colors="resultado.colors"
                         chart-data="resultado.data"
                         chart-labels="resultado.labels"
