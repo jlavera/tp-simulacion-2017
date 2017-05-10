@@ -8,3 +8,7 @@ La cantidad comprada por cada cliente se determina a partir de una f.d.p conocid
 A su vez cuenta con un stock máximo que frena el proceso de producción.
 Thomas está buscando expandir su producción y para ello quiere adquirir más fermentadores, que son los que más tiempo le consumen el proceso de producción.
 Se desea conocer cuál es la relación óptima entre la cantidad de fermentadores y el stock máximo ya que cuando una producción supera el stock máximo, la cerveza es donada a familiares y por ende es un desperdicio para Thomas, ya que es cerveza que no se vende.
+
+# Dependencies
+
+https://github.com/jtblin/angular-chart.js
