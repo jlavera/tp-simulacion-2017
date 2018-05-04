@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Δεν μπορείτε να βαθμολογήσετε τοπικά αρχεία ή εσωτερικές καρτέλες"
+   },
+   "VoteThank": {
+      "message": "Σας ευχαριστούμε! Η ψήφος σας αποθηκεύτηκε επιτυχώς."
+   },
+   "anonymousUser": {
+      "message": "Ανώνυμος χρήστης"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>απομονώνει με ασφάλεια αγορές και συνδέσεις σε ιστοσελίδες τραπεζών για να μην μπορούν οι χάκερ\u003C/b> να υποκλέψουν \u003Cb>αριθμούς πιστωτικών καρτών, κωδικούς\u003C/b> και \u003Cb>άλλα απόρρητα στοιχεία.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", μέρος του Avast Secure Browser που έχει εγκατασταθεί με το Avast antivirus, \u003Cb>απομονώνει με ασφάλεια αγορές και συνδέσεις σε ιστοσελίδες τραπεζών για να μην μπορούν οι χάκερ να υποκλέψουν\u003C/b> \u003Cb>αριθμούς πιστωτικών καρτών, κωδικούς\u003C/b> και \u003Cb>άλλα απόρρητα στοιχεία.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Τραπεζική Λειτουργία\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Όχι τώρα"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Άνοιγμα του Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Μετάβαση τώρα"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ΑΝΟΙΓΜΑ ΞΑΝΑ ΣΤΟ ΠΡΟΓΡΑΜΜΑ ΠΕΡΙΗΓΗΣΗΣ ΤΟΥ AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "ΑΝΟΙΓΜΑ ΞΑΝΑ ΣΤΟ SAFEZONE ΤΟΥ AVAST"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "ΝΑ ΑΝΟΙΞΕΙ ΜΕ ΑΣΦΑΛΕΙΑ ΑΥΤΗ Η ΣΕΛΙΔΑ"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ΆΝΟΙΓΜΑ ΣΕ ΤΡΑΠΕΖΙΚΗ ΛΕΙΤΟΥΡΓΙΑ"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Πρόγραμμα περιήγησης του Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "απομονώνει τις συνεδρίες σας και δεν αφήνει τους χάκερ να καταγράφουν πληκτρολογήσεις και να υποκλέπτουν κωδικούς πρόσβασης και άλλα προσωπικά δεδομένα. Έχει ήδη εγκατασταθεί με το Avast antivirus, επομένως είναι ρυθμισμένο και είναι έτοιμο για χρήση."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Μάθετε περισσότερα"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Συμβουλή Avast: Το πρόγραμμα περιήγησης SafeZone μπλοκάρει τις διαφημίσεις για να σας προστατεύει από cookies εντοπισμού και κακόβουλης διαφήμισης."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Κάντε με ασφάλεια ηλεκτρονικές πληρωμές, χρησιμοποιώντας αντί αυτού το πρόγραμμα περιήγησης Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Αυτό το πρόγραμμα περιήγησης δεν θωρακίζει απόλυτα τις τραπεζικές συναλλαγές."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Τραπεζικές συναλλαγές που διενεργούνται από αυτό το πρόγραμμα περιήγησης μπορεί να είναι επικίνδυνες."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Σας συνιστούμε να διενεργείτε τραπεζικές συναλλαγές μόνο από το πρόγραμμα περιήγησης του Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Τα οικονομικά σας στοιχεία ενδέχεται να είναι ορατά σε άλλους."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Εξασφαλίστε τις καλύτερες προσφορές και πληρώστε με ασφάλεια, με το πρόγραμμα περιήγησης Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Γνωρίζατε ότι μπορείτε εύκολα να κατεβάσετε βίντεο από ιστότοπους για streaming;"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Να μην εμφανιστεί ξανά"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Να μην εμφανιστεί ξανά σε αυτήν την ιστοσελίδα"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "ΕΝΤΑΞΕΙ, ΝΑ ΑΝΟΙΞΕΙ ΜΕ ΑΣΦΑΛΕΙΑ ΑΥΤΗ Η ΙΣΤΟΣΕΛΙΔΑ"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Όχι, ευχαριστώ, να κρυφτούν οριστικά αυτές οι προειδοποιήσεις"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Το πρόγραμμα περιήγησης του Avast περιλαμβάνεται ήδη στο πρόγραμμα προστασίας από ιούς Avast."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Ένα μόνο κλικ θα ανοίξει ξανά αυτήν τη σελίδα στο πρόγραμμα περιήγησης του Avast και θα σας προστατεύει."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Θέλετε πραγματικά να θέσετε σε κίνδυνο το λογαριασμό σας;"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Ασφάλεια"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Να επιτραπούν όλα τα συστήματα ανίχνευσης"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "σε όλες τις ιστοσελίδες"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Να αποκλειστούν όλα τα συστήματα ανίχνευσης"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Γενικές ρυθμίσεις"
+   },
+   "baMoreSettingsAction": {
+      "message": "Περισσότερες ρυθμίσεις"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "επιτράπηκε"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "αποκλείστηκε"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Τα συστήματα ανίχνευσης είναι προς το παρόν"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "στην ιστοσελίδα"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "συστήματα ανίχνευσης"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Αξιολογείτε αυτήν την ιστοσελίδα ως"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "αρνητική"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "θετικό"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Δώστε την ψήφο σας"
+   },
+   "checkAll": {
+      "message": "(Τσεκάρετε όσα ισχύουν)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Κλείσιμο"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Εταιρικά"
+   },
+   "currentVote": {
+      "message": "Συνολική αξιολόγηση"
+   },
+   "detailsHeadline": {
+      "message": "Το Avast έχει ελέγξει αυτήν την ιστοσελίδα"
+   },
+   "detailsMalwareNo": {
+      "message": "Δεν ανιχνεύθηκε κακόβουλο λογισμικό"
+   },
+   "detailsMalwareYes": {
+      "message": "Εντοπίστηκε κακόβουλο λογισμικό!"
+   },
+   "detailsPhishingNo": {
+      "message": "Δεν εντοπίστηκε phishing!"
+   },
+   "detailsPhishingYes": {
+      "message": "Εντοπίστηκε phishing!"
+   },
+   "disabledTab": {
+      "message": "Δεν μπορείτε να βαθμολογήσετε τοπικά αρχεία ή εσωτερικές καρτέλες"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Εντοπισμός διαφημίσεων"
+   },
+   "dntAllowGroupAction": {
+      "message": "Να επιτραπούν όλα"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Να επιτραπεί"
+   },
+   "dntAllowed": {
+      "message": "που επιτράπηκαν"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Αυτόματος αποκλεισμός προγραμμάτων ανίχνευσης: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Ανενεργός"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Ενεργός"
+   },
+   "dntBlockGroupAction": {
+      "message": "Να αποκλειστούν όλα"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Να αποκλειστεί"
+   },
+   "dntBlocked": {
+      "message": "που αποκλείστηκαν"
+   },
+   "dntHeadline": {
+      "message": "%s εταιρείες προσπάθησαν να σας εντοπίσουν"
+   },
+   "dntNetworks": {
+      "message": "Δίκτυα"
+   },
+   "dntNetworksDetected": {
+      "message": "%s δίκτυα εντοπίστηκαν"
+   },
+   "dntOthersNetworks": {
+      "message": "Άλλα"
+   },
+   "dntSocialNetworks": {
+      "message": "Κοινων. δίκτυα"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Όλα τα επιτρεπόμενα"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Όλα τα αποκλεισμένα"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Αποκλείστηκε"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Αποκλείστηκαν μερικά"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Ανάλυση Web"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Αλκοόλ/Ναρκωτικά"
+   },
+   "error": {
+      "message": "Σφάλμα"
+   },
+   "errorUnexpected": {
+      "message": "Αναπάντεχο σφάλμα"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Τυχερά παιχνίδια"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Σας αρέσει αυτή η ιστοσελίδα;"
+   },
+   "illegal": {
+      "message": "Warez/Παράνομα"
+   },
+   "it": {
+      "message": "IT/Λήψεις"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Ως ανώνυμος χρήστης"
+   },
+   "loginDesc": {
+      "message": "Εισάγετε τα στοιχεία σύνδεσης στον λογαριασμό my.avast.com:"
+   },
+   "loginError": {
+      "message": "Η σύνδεση απέτυχε"
+   },
+   "loginLogin": {
+      "message": "Σύνδεση"
+   },
+   "loginLogout": {
+      "message": "Αποσύνδεση"
+   },
+   "loginName": {
+      "message": "Όνομα:"
+   },
+   "loginPswd": {
+      "message": "Κωδικός πρόσβασης:"
+   },
+   "malwareNext": {
+      "message": "Κατεβάστε το Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Αυτή η ιστοσελίδα ενδέχεται να έβλαψε τον υπολογιστή σας."
+   },
+   "malwareSiteRec": {
+      "message": "Σας συνιστούμε να εγκαταστήσετε το Avast Antivirus για να κάνετε έλεγχο του υπολογιστή σας."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Ειδήσεις/Blog"
+   },
+   "noRating": {
+      "message": "Η ιστοσελίδα δεν έχει αξιολόγηση"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Άλλα"
+   },
+   "phishingBack": {
+      "message": "Θέλω να φύγω από εδώ"
+   },
+   "phishingClose": {
+      "message": "Παράβλεψη προειδοποίησης"
+   },
+   "phishingCreditNumber": {
+      "message": "Φαίνεται ότι προσπαθείτε να εισάγετε κωδικό ή αριθμό πιστωτικής κάρτας σε ιστοσελίδα με κακή αξιολόγηση. Παρακαλούμε ελέγξτε ότι η σελίδα είναι αυθεντική. Η εισαγωγή προσωπικών στοιχείων σε αναξιόπιστη σελίδα μπορεί να θέσει σε κίνδυνο την ασφάλειά σας."
+   },
+   "phishingDesc": {
+      "message": "Το phishing είναι η απόπειρα απόσπασης ευαίσθητων πληροφοριών, όπως ονόματα χρήστη, κωδικοί πρόσβασης και στοιχεία πιστωτικών καρτών..."
+   },
+   "phishingPhishingSite": {
+      "message": "Η ιστοσελίδα έχει επισημανθεί ως ιστοσελίδα phishing."
+   },
+   "phishingTrust": {
+      "message": "Αξιόπιστος τομέας"
+   },
+   "phishingWarning": {
+      "message": "Προειδοποίηση"
+   },
+   "pornography": {
+      "message": "Πορνογραφία"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Η ιστοσελίδα έχει μέτρια αξιολόγηση"
+   },
+   "ratingBad": {
+      "message": "Η ιστοσελίδα έχει κακή αξιολόγηση"
+   },
+   "ratingCommunity": {
+      "message": "Βαθμολογία κοινότητας %s"
+   },
+   "ratingDone": {
+      "message": "Ολοκληρώθηκε"
+   },
+   "ratingGood": {
+      "message": "Η ιστοσελίδα έχει καλή αξιολόγηση"
+   },
+   "ratingLevelAverage": {
+      "message": "Μέτρια"
+   },
+   "ratingLevelBad": {
+      "message": "Κακή"
+   },
+   "ratingLevelPositive": {
+      "message": "Θετικό"
+   },
+   "ratingLevelUndefined": {
+      "message": "Όχι"
+   },
+   "ratingNegative": {
+      "message": "Γιατί αξιολογήσατε την εμπειρία σας ως αρνητική;"
+   },
+   "ratingNoRate": {
+      "message": "Δεν θέλω να βαθμολογήσω τώρα"
+   },
+   "ratingPending": {
+      "message": "Ανάκτηση αξιολόγησης"
+   },
+   "ratingPositive": {
+      "message": "Γιατί αξιολογήσατε την εμπειρία σας ως θετική;"
+   },
+   "ratingRate": {
+      "message": "Πώς θα αξιολογούσατε την εμπειρία σας σε αυτήν την ιστοσελίδα;"
+   },
+   "ratingTextAverage": {
+      "message": "αυτή η ιστοσελίδα έχει κακή φήμη"
+   },
+   "ratingTextBad": {
+      "message": "αυτή η ιστοσελίδα δεν είναι ασφαλής"
+   },
+   "ratingTextPositive": {
+      "message": "αυτή η ιστοσελίδα είναι ασφαλής"
+   },
+   "ratingTextUndefined": {
+      "message": "άγνωστη ιστοσελίδα"
+   },
+   "ratingVeryBad": {
+      "message": "Η ιστοσελίδα έχει πολύ κακή αξιολόγηση"
+   },
+   "reasonBlocker": {
+      "message": "(αποκλείστηκε απειλή)"
+   },
+   "reasonPhishing": {
+      "message": "(εντοπίστηκε ιστοσελίδα phishing)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Η ιστοσελίδα δεν έχει ακόμη αξιολόγηση"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Επαναφορά"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Βρέθηκαν παρόμοια ξενοδοχεία!"
+   },
+   "safeZoneDecline": {
+      "message": "Να μην προσφέρεται το SafeZone για "
+   },
+   "safeZoneDesc": {
+      "message": "Το Avast συνιστά να μεταβείτε στο SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "Για την ασφάλειά σας, η διεύθυνση URL που ζητήθηκε έχει ανοίξει στο SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Όχι"
+   },
+   "safeZoneYes": {
+      "message": "Μετάβαση τώρα"
+   },
+   "sasSPInstalled": {
+      "message": "Το \u003Cb>Avast SafePrice\u003C/b> είναι πανέτοιμο. Καλές αγορές!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Επαναφορά στην προεπιλογή"
+   },
+   "settingsSave": {
+      "message": "Αποθήκευση"
+   },
+   "settingscommunityIQ": {
+      "message": "Ανταλλαγή δεδομένων"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Με την ενεργοποίηση αυτής της επιλογής δίνετε τη συγκατάθεσή σας για ανώνυμη προώθηση ορισμένων πληροφοριών στην Avast. Ενδέχεται να μοιραστούμε ανώνυμες πληροφορίες με τρίτους."
+   },
+   "settingsdnt": {
+      "message": "Χωρίς παρακολούθηση"
+   },
+   "settingsdnt0": {
+      "message": "Ασπίδα Προσωπικού Απορρήτου"
+   },
+   "settingsdnt2": {
+      "message": "Χωρίς παρακολούθηση"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Αποκλεισμός παρακολούθησης διαφημίσεων ως προεπιλογή"
+   },
+   "settingsdntDesc": {
+      "message": "Ανιχνεύει και μπλοκάρει ανεπιθύμητα διαφημιστικά μηνύματα και εμποδίζει ιστοσελίδες ανάλυσης να σας παρακολουθούν κρυφά"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Αποκλεισμός άλλων ως προεπιλογή"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Αποκλεισμός κοινωνικών δικτύων ως προεπιλογή"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Αποκλεισμός ανάλυσης web ως προεπιλογή"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Ασπίδα Σερφαρίσματος"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Ελέγχει ιστοσελίδες για κακόβουλο λογισμικό και αποτρέπει το phishing"
+   },
+   "settingssafeZone": {
+      "message": "Safezone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Αλλαγή σε SafeZone για ευαίσθητες οικονομικές ιστοσελίδες (απαιτείται εγκατάσταση του Avast Antivirus)"
+   },
+   "settingsserp": {
+      "message": "Αποτελέσματα μηχανών αναζήτησης"
+   },
+   "settingsserpDesc": {
+      "message": "Ενεργοποίηση χρωματισμού της σελίδας αποτελεσμάτων αναζήτησης"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Ενεργοποίηση αναδυόμενων παραθύρων στη σελίδα των αποτελεσμάτων αναζήτησης"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Παράλειψη εντολής και αυτόματη ανακατεύθυνση σε νόμιμες ιστοσελίδες"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Ανιχνεύει και διορθώνει εσφαλμένα URL και τα κατευθύνει σε νόμιμες ιστοσελίδες"
+   },
+   "sfzoneAlways": {
+      "message": "Ναι, πάντοτε"
+   },
+   "sfzoneDesc": {
+      "message": "Εισήλθατε σε ιστοσελίδα online τραπεζικών συναλλαγών. Θέλετε να την ανοίξετε στο Avast SafeZone;"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Ποτέ"
+   },
+   "sfzoneNo": {
+      "message": "Όχι"
+   },
+   "sfzoneSwitch": {
+      "message": "Μετάβαση στο Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Ναι"
+   },
+   "shopping": {
+      "message": "Αγορές"
+   },
+   "sideDashboard": {
+      "message": "Το Avast μου"
+   },
+   "sideDetails": {
+      "message": "Μάθετε περισσότερα"
+   },
+   "sideRate": {
+      "message": "Βαθμολογήστε τώρα"
+   },
+   "sideSettings": {
+      "message": "Ρυθμίσεις"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Στο εξής, να μεταφέρομαι αυτόματα στις σωστές σελίδες"
+   },
+   "sitecorrectBarButton": {
+      "message": "Δεν έκανα λάθος, θέλω να επιστρέψω"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: αυτόματη ανακατεύθυνση από %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Για να ρυθμίσετε το Avast SiteCorrect, ανοίξτε το παράθυρο χρήστη του Avast, πηγαίνετε στην επιλογή &quot;Πρόσθετη προστασία&quot;, &quot;Προστασία προγράμματος περιήγησης&quot; και πατήστε &quot;Ρυθμίσεις&quot;."
+   },
+   "sitecorrectMean": {
+      "message": "Μήπως εννοούσατε %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Όχι, εννοούσα %s"
+   },
+   "sitecorrectText": {
+      "message": "Μάλλον αυτή δεν είναι η σελίδα που θέλετε να επισκεφθείτε."
+   },
+   "sitecorrectYes": {
+      "message": "Ναι"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Κοινωνικά/Παιχνίδια"
+   },
+   "thanksHeadline": {
+      "message": "Ευχαριστούμε για την βαθμολογία σας!"
+   },
+   "thanksMessage": {
+      "message": "Η ψήφος σας υποβλήθηκε."
+   },
+   "title": {
+      "message": "Ρυθμίσεις οnline ασφάλειας του Avast"
+   },
+   "topBarDetails": {
+      "message": "Εμφάνιση λεπτομερειών"
+   },
+   "topBarRatingAverage": {
+      "message": "Το %s έχει αξιολογηθεί ως εντάξει"
+   },
+   "topBarRatingBad": {
+      "message": "Το %s έχει αξιολογηθεί ως επικίνδυνο"
+   },
+   "topBarRatingGood": {
+      "message": "Το %s έχει αξιολογηθεί ως ασφαλές"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Όπλα/Βία"
+   },
+   "vote": {
+      "message": "Ψηφίστε"
+   },
+   "voteNegative": {
+      "message": "αρνητικό"
+   },
+   "votePositive": {
+      "message": "θετικό"
+   },
+   "webrepDisabled": {
+      "message": "Το WebRep είναι απενεργοποιημένο"
+   },
+   "whatTypeContent": {
+      "message": "Τι είδος περιεχομένου προσφέρει αυτή η ιστοσελίδα;"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

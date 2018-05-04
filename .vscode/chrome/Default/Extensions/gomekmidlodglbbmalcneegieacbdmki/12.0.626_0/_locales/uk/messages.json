@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Ви не можете оцінити локальні файли або внутрішні вкладки"
+   },
+   "VoteThank": {
+      "message": "Спасибі! Ваш голос був успішно збережений."
+   },
+   "anonymousUser": {
+      "message": "Анонімний користувач"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>безпечно ізолює сеанси покупок і банківських операцій, не даючи хакерам змоги\u003C/b> викрасти ваші \u003Cb>паролі, номери кредитних карток\u003C/b> та \u003Cb>інші конфіденційні дані.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", частина захищеного браузера Avast, установленого разом з антивірусом Avast, \u003Cb>безпечно ізолює сеанси покупок і банківських операцій, не даючи хакерам змоги\u003C/b> викрасти ваші \u003Cb>паролі, номери кредитних карток\u003C/b> та \u003Cb>інші конфіденційні дані.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Режим банківських операцій\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Пізніше"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Відкрити Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Переключитися"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ВІДКРИТИ В БРАУЗЕРІ AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "ВІДКРИТИ В БРАУЗЕРІ AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "ВІДКРИТИ ЦЮ СТОРІНКУ В БЕЗПЕЧНОМУ РЕЖИМІ"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ВІДКРИТИ В РЕЖИМІ БАНКІВСЬКИХ ОПЕРАЦІЙ"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Браузер Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "захищає сеанс банкінгу від хакерів, щоб вони не могли зчитувати натиснуті клавіші та дізнаватися ваші паролі й інші особисті дані. Його встановлено разом із пакетом вашого антивіруса Avast і налаштовано для роботи."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Докладніше"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Порада від Avast: браузер SafeZone блокує рекламу, щоб захистити вас від файлів cookie, що стежать, і зловмисної реклами."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Натомість захистіть свої онлайн-платежі за допомогою браузера Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Цей браузер не забезпечує повну надійність під час користування інтернет-банкінгом."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Користування банкінгом у цьому браузері може бути ризикованим для вашого рахунка."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Настійно рекомендуємо користуватися банкінгом тільки в браузері Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Ваші фінансові дані можуть бачити інші користувачі."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Збережіть найвигідніші пропозиції та оплатіть їх за допомогою браузера Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Вам відомо, як можна легко завантажити потокове відео?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Не показувати це знову"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Більше не показувати на цьому веб-сайті"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "ВІДКРИТИ ЦЕЙ САЙТ У БЕЗПЕЧНОМУ РЕЖИМІ"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Ні, дякую. Ніколи більше не показуйте ці попередження"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Комплект антивіруса Avast містить власний браузер."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Натиснувши одну кнопку, можна безпечно відкрити цю сторінку в браузері Avast."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Ви справді готові ризикувати своїм рахунком?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Безпека в Інтернеті"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Дозволити всі системи відстеження"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "на всіх веб-сайтах"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Блокувати всі системи вістеження"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Глобальні параметри"
+   },
+   "baMoreSettingsAction": {
+      "message": "Інші параметри"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "дозволені"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "блокуються"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Системи відстеження наразі"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "на веб-сайті"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "систем(-и) відстеження"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Ви оцінюєте цей сайт"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "негативно"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "позитивно"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Віддайте свій голос"
+   },
+   "checkAll": {
+      "message": "(Перевірити усе що підходить)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Закрити"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Корпоративне"
+   },
+   "currentVote": {
+      "message": "Загальний рейтинг"
+   },
+   "detailsHeadline": {
+      "message": "Avast просканував цей сайт"
+   },
+   "detailsMalwareNo": {
+      "message": "Шкідливого ПЗ не виявлено"
+   },
+   "detailsMalwareYes": {
+      "message": "Виявлене шкідливе ПЗ!"
+   },
+   "detailsPhishingNo": {
+      "message": "Ознак фішингу не виявлено"
+   },
+   "detailsPhishingYes": {
+      "message": "Виявлені ознаки фішингу!"
+   },
+   "disabledTab": {
+      "message": "Ви не можете оцінити локальні файли або внутрішні вкладки"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Відстеження реклами"
+   },
+   "dntAllowGroupAction": {
+      "message": "Дозволити всі"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Дозволити"
+   },
+   "dntAllowed": {
+      "message": "- дозволено"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Автоматичне блокування трекерів: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Вимкнено"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Увімкнено"
+   },
+   "dntBlockGroupAction": {
+      "message": "Блокувати всі"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Блокувати"
+   },
+   "dntBlocked": {
+      "message": "- блокування"
+   },
+   "dntHeadline": {
+      "message": "%s компаній (-ї) намагалися відстежувати ваші дії"
+   },
+   "dntNetworks": {
+      "message": "Мережі"
+   },
+   "dntNetworksDetected": {
+      "message": "%s мереж (-і) виявлено"
+   },
+   "dntOthersNetworks": {
+      "message": "Інші"
+   },
+   "dntSocialNetworks": {
+      "message": "Соціальні мережі"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Всі дозволені"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Всі блокуються"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Блоковано"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Деякі блокуються"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Веб-аналітика"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Алкоголь / Наркотики"
+   },
+   "error": {
+      "message": "Помилка"
+   },
+   "errorUnexpected": {
+      "message": "Неочікувана помилка"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Азартні ігри"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Як Вам подобається ця сторінка?"
+   },
+   "illegal": {
+      "message": "Варез / Нелегальне"
+   },
+   "it": {
+      "message": "Програмування / Завантаження"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Як анонімний користувач"
+   },
+   "loginDesc": {
+      "message": "Введіть Ваш логін для my.avast.com:"
+   },
+   "loginError": {
+      "message": "Логін неправильний"
+   },
+   "loginLogin": {
+      "message": "Логін"
+   },
+   "loginLogout": {
+      "message": "Вихід"
+   },
+   "loginName": {
+      "message": "Ім'я:"
+   },
+   "loginPswd": {
+      "message": "Пароль:"
+   },
+   "malwareNext": {
+      "message": "Завантажити безкоштовний антивірус Avast Free"
+   },
+   "malwareSite": {
+      "message": "Цей сайт міг пошкодити вашому комп’ютеру."
+   },
+   "malwareSiteRec": {
+      "message": "Рекомендуємо встановити антивірус Avast та просканувати комп’ютер."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Новини / Блоги"
+   },
+   "noRating": {
+      "message": "Ця сторінка немає рейтингу"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Інші"
+   },
+   "phishingBack": {
+      "message": "Заберіть мене звідси"
+   },
+   "phishingClose": {
+      "message": "Ігнорувати це попередження"
+   },
+   "phishingCreditNumber": {
+      "message": "Здається, що ви намагаєтеся ввести пароль або номер кредитної карти на сайті з поганою репутацією. Будь ласка, ще раз перевірте, що сайт є справжнім. Введення персональної інформації на ненадійних сайтах може представляти загрозу безпеці."
+   },
+   "phishingDesc": {
+      "message": "Фішинг — це спроба заволодіти конфіденційною інформацією, як-от іменем користувача, паролем і даними кредитної картки тощо."
+   },
+   "phishingPhishingSite": {
+      "message": "Ця сторінка була позначена як фішингова."
+   },
+   "phishingTrust": {
+      "message": "Довіряти цьому веб-сайту"
+   },
+   "phishingWarning": {
+      "message": "Попередження"
+   },
+   "pornography": {
+      "message": "Порнографія"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Ця сторінка має середній рейтинг"
+   },
+   "ratingBad": {
+      "message": "Ця сторінка має поганий рейтинг"
+   },
+   "ratingCommunity": {
+      "message": "%s рейтинг користувацької спільноти"
+   },
+   "ratingDone": {
+      "message": "Готово"
+   },
+   "ratingGood": {
+      "message": "Ця сторінка має хороший рейтинг"
+   },
+   "ratingLevelAverage": {
+      "message": "Середній"
+   },
+   "ratingLevelBad": {
+      "message": "Поганий"
+   },
+   "ratingLevelPositive": {
+      "message": "Позитивний"
+   },
+   "ratingLevelUndefined": {
+      "message": "Відсутній"
+   },
+   "ratingNegative": {
+      "message": "Чому ви оцінили свій досвід користування як негативний?"
+   },
+   "ratingNoRate": {
+      "message": "Не бажаю оцінювати"
+   },
+   "ratingPending": {
+      "message": "Отримується рейтинг"
+   },
+   "ratingPositive": {
+      "message": "Чому ви оцінили свій досвід користування як позитивний?"
+   },
+   "ratingRate": {
+      "message": "Як ви оцінюєте свій досвід користування сайтом?"
+   },
+   "ratingTextAverage": {
+      "message": "цей сайт має погану репутацію"
+   },
+   "ratingTextBad": {
+      "message": "цей сайт є небезпечним"
+   },
+   "ratingTextPositive": {
+      "message": "цей сайт є безпечним"
+   },
+   "ratingTextUndefined": {
+      "message": "невідомий сайт"
+   },
+   "ratingVeryBad": {
+      "message": "Ця сторінка має дуже поганий рейтинг"
+   },
+   "reasonBlocker": {
+      "message": "(загрозу заблоковано)"
+   },
+   "reasonPhishing": {
+      "message": "(виявлено фішинговий сайт)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Ця сторінка ще не має рейтингу"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Відновити"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Знайдено подібні готелі!"
+   },
+   "safeZoneDecline": {
+      "message": "Не пропонувати SafeZone для "
+   },
+   "safeZoneDesc": {
+      "message": "Avast рекомендує переключитися до Безпечної зони"
+   },
+   "safeZoneFeedback": {
+      "message": "Заради вашої впевненості URL-адреса була відкрита у Безпечній зоні"
+   },
+   "safeZoneNo": {
+      "message": "Ні"
+   },
+   "safeZoneYes": {
+      "message": "Переключитися"
+   },
+   "sasSPInstalled": {
+      "message": "Модуль \u003Cb>Avast SafePrice\u003C/b> готовий до роботи. Приємних покупок!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Скинути до налаштувань за замовчуванням"
+   },
+   "settingsSave": {
+      "message": "Зберегти"
+   },
+   "settingscommunityIQ": {
+      "message": "Передача даних"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Активуючи цей параметр, ви даєте згоду на анонімну передачу певної інформації до Avast. Ми можемо ділитися анонімізованою зібраною інформацією зі сторонніми особами."
+   },
+   "settingsdnt": {
+      "message": "Не відстежувати"
+   },
+   "settingsdnt0": {
+      "message": "Екран конфіденційності"
+   },
+   "settingsdnt2": {
+      "message": "Не відстежувати"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Блокувати відслідковування реклами за замовчуванням"
+   },
+   "settingsdntDesc": {
+      "message": "Виявлення та блокування небажаної реклами, попереджання таємного відстеження ваших дій з боку аналітичних сайтів"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Блокувати інші за замовчуванням"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Блокувати соціальні мережі за замовчуванням"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Блокувати веб-аналітику за замовчуванням"
+   },
+   "settingsphishing": {
+      "message": "Захист від фішингу"
+   },
+   "settingsphishing0": {
+      "message": "Інтернет-екран"
+   },
+   "settingsphishing2": {
+      "message": "Захист від фішингу"
+   },
+   "settingsphishingDesc": {
+      "message": "Сканування веб-сайтів на наявність шкідливих програм, а також попереджання фішингу"
+   },
+   "settingssafeZone": {
+      "message": "Безпечна Зона"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Переходити до Безпечної зони при відкритті вразливих фінансових сайтів (потрібно встановити антивірус Avast)"
+   },
+   "settingsserp": {
+      "message": "Результати пошукової системи"
+   },
+   "settingsserpDesc": {
+      "message": "Увімкнути кольори сторінки результатів пошуку"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Увімкнути спливаючі повідомлення на сторінці результатів пошуку"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Пропускати підказку та автоматично виконувати перенаправлення на &quot;правильні&quot; сайти"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Виявлення та виправлення помилково введених URL-адрес, перенаправлення до &quot;правильних&quot; сайтів"
+   },
+   "sfzoneAlways": {
+      "message": "Так, завжди"
+   },
+   "sfzoneDesc": {
+      "message": "Ви зайшли на сторінку інтернет-банкінгу. Ви хочете відкрити його у Безпечній Зоні Avast!?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast Безпечна Зона"
+   },
+   "sfzoneNever": {
+      "message": "Ніколи"
+   },
+   "sfzoneNo": {
+      "message": "Ні"
+   },
+   "sfzoneSwitch": {
+      "message": "Перемкнутись у Безпечну Зону Avast"
+   },
+   "sfzoneYes": {
+      "message": "Так"
+   },
+   "shopping": {
+      "message": "Покупки"
+   },
+   "sideDashboard": {
+      "message": "Мій Avast"
+   },
+   "sideDetails": {
+      "message": "Взнати більше"
+   },
+   "sideRate": {
+      "message": "Оцінити"
+   },
+   "sideSettings": {
+      "message": "Налаштування"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Відтепер, автоматично переносити мене до відомих корректних сайтів"
+   },
+   "sitecorrectBarButton": {
+      "message": "Це не була помилка, поверніть мене назад"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: автоматичне перенаправлення від %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Для налаштування Avast SiteCorrect, відкрийте Avast інтерфейс користувача, перейдіть до Додаткового Захисту, Захисту Браузера і натисніть кнопку Налаштування."
+   },
+   "sitecorrectMean": {
+      "message": "Ви мали на увазі %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Ні,я дійсно мав на увазі %s"
+   },
+   "sitecorrectText": {
+      "message": "Ймовірно, це не той сайт, на який Ви намагалися увійти."
+   },
+   "sitecorrectYes": {
+      "message": "Так"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Соціальні / Ігри"
+   },
+   "thanksHeadline": {
+      "message": "Дякуємо за оцінку!"
+   },
+   "thanksMessage": {
+      "message": "Ваш голос враховано."
+   },
+   "title": {
+      "message": "Налаштування захисту Avast"
+   },
+   "topBarDetails": {
+      "message": "Переглянути деталі"
+   },
+   "topBarRatingAverage": {
+      "message": "%s оцінюється як нейтральний"
+   },
+   "topBarRatingBad": {
+      "message": "%s оцінюється як небезпечний"
+   },
+   "topBarRatingGood": {
+      "message": "%s оцінюється як безпечний"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Зброя / Насильство"
+   },
+   "vote": {
+      "message": "Голосувати"
+   },
+   "voteNegative": {
+      "message": "негативний"
+   },
+   "votePositive": {
+      "message": "позитивний"
+   },
+   "webrepDisabled": {
+      "message": "WebRep вимкнено"
+   },
+   "whatTypeContent": {
+      "message": "Що за вміст ця сторінка пропонує?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

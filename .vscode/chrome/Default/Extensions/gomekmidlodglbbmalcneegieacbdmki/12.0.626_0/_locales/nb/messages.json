@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Du kan ikke vurdere lokale filer eller interne kategorier"
+   },
+   "VoteThank": {
+      "message": "Takk! Stemmen din ble lagret."
+   },
+   "anonymousUser": {
+      "message": "Anonym bruker"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>skiller trygt økter med netthandel og nettbank for å stoppe hackere\u003C/b> fra å stjele \u003Cb>kredittkortnumre, passord\u003C/b> og \u003Cb>andre private data.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "er en del av Avasts sikre nettleser som ble installert med Avast Antivirus og \u003Cb>skiller trygt økter med shopping og nettbank for å stoppe hackere fra å\u003C/b> stjele \u003Cb>kredittkortnumre, passord\u003C/b> og \u003Cb>andre private data.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bankmodus\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Ikke nå"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Åpne Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Bytt nå"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ÅPNE PÅ NYTT I AVASTS NETTLESER"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "ÅPNE PÅ NYTT I AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "ÅPNE DENNE SIDEN PÅ NYTT PÅ EN SIKKER MÅTE"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ÅPNE I BANKMODUS"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avasts nettleser "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "isolerer nettbankøkten slik at hackere ikke kan registrere tastetrykkene dine og stjele passord og andre personlige data. Den ble installert sammen med Avast antivirus, og er derfor konfigurert og klar til å brukes."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Les mer"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast-tips: SafeZone-nettleseren blokkerer reklame for å beskytte deg mot sporingskapsler og skadelige annonser."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Betal trygt på nettet med Avast SafeZone-nettleseren i stedet."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Denne nettleseren kan ikke gi full sikkerhet mens du bruker nettbank."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Bruk av nettbank i denne nettleseren kan utsette kontoen din for risiko."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Vi anbefaler på det sterkeste at du bare bruker nettbank fra Avasts nettleser."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Økonomidataene dine kan være synlige for andre."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Få de beste tilbudene og betalt trygt for dem med Avast SafeZone-nettleseren."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Visste du at det er lett å laste ned videoer fra strømmenettsteder?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Ikke vis dette igjen"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Ikke vis for dette nettstedet igjen"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "OK, ÅPNE NETTSTEDET PÅ NYTT PÅ EN SIKKER MÅTE"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Nei takk, og skjul alltid disse advarslene"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Avasts nettleser ble installert sammen med Avast antivirus."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Med ett klikk åpnes siden på nytt i Avasts nettleser for å beskytte deg."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Vil du virkelig utsette kontoen din for risiko?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Tillat alle sporingssystemer"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "på alle nettsteder"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Blokker alle sporingssystemer"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Globale innstillinger"
+   },
+   "baMoreSettingsAction": {
+      "message": "Flere innstillinger"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "tillatt"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blokkert"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Sporingssystemer er"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "på nettstedet"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "sporingssystemer"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Vurderer du dette nettstedet"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negativt"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positivt"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "?"
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Avgi stemme"
+   },
+   "checkAll": {
+      "message": "(Velg alle som passer)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Lukk"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Bedrifter"
+   },
+   "currentVote": {
+      "message": "Samlet vurdering"
+   },
+   "detailsHeadline": {
+      "message": "Avast har skannet dette nettstedet"
+   },
+   "detailsMalwareNo": {
+      "message": "Ingen skadelig programvare oppdaget"
+   },
+   "detailsMalwareYes": {
+      "message": "Skadelig programvare ble oppdaget!"
+   },
+   "detailsPhishingNo": {
+      "message": "Ingen nettfisking (phishing) ble oppdaget"
+   },
+   "detailsPhishingYes": {
+      "message": "Nettfisking (phishing) ble oppdaget!"
+   },
+   "disabledTab": {
+      "message": "Du kan ikke vurdere lokale filer eller interne kategorier"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Annonsesporing"
+   },
+   "dntAllowGroupAction": {
+      "message": "Tillat alle"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Tillat"
+   },
+   "dntAllowed": {
+      "message": "tillatt"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Automatisk blokkering av sporing: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Deaktivert"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Aktivert"
+   },
+   "dntBlockGroupAction": {
+      "message": "Blokker alle"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokker"
+   },
+   "dntBlocked": {
+      "message": "blokkert"
+   },
+   "dntHeadline": {
+      "message": "%s selskaper har forsøkt å spore deg"
+   },
+   "dntNetworks": {
+      "message": "Nettverk"
+   },
+   "dntNetworksDetected": {
+      "message": "%s nettverk oppdaget"
+   },
+   "dntOthersNetworks": {
+      "message": "Andre"
+   },
+   "dntSocialNetworks": {
+      "message": "Sosiale nettverk"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Alle tillatt"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Alle blokkert"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Blokkert"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Noen blokkert"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Webanalyse"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkohol / Narkotika"
+   },
+   "error": {
+      "message": "Feil"
+   },
+   "errorUnexpected": {
+      "message": "Uventet feil"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Gambling"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Liker du dette nettstedet?"
+   },
+   "illegal": {
+      "message": "Warez / Ulovlig"
+   },
+   "it": {
+      "message": "IT / Nedlasting"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Som anonym bruker"
+   },
+   "loginDesc": {
+      "message": "Fyll inn påloggingsopplysningene for kontoen din på my.avast.com:"
+   },
+   "loginError": {
+      "message": "Innlogging mislyktes"
+   },
+   "loginLogin": {
+      "message": "Logg inn"
+   },
+   "loginLogout": {
+      "message": "Logg ut"
+   },
+   "loginName": {
+      "message": "Navn:"
+   },
+   "loginPswd": {
+      "message": "Passord:"
+   },
+   "malwareNext": {
+      "message": "Last ned Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Dette nettstedet kunne ha skadet datamaskinen."
+   },
+   "malwareSiteRec": {
+      "message": "Vi anbefaler at du installerer Avast Antivirus for å skanne datamaskinen."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Nyheter / Blogg"
+   },
+   "noRating": {
+      "message": "Dette nettstedet er ikke vurdert"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Andre"
+   },
+   "phishingBack": {
+      "message": "Få meg bort herfra"
+   },
+   "phishingClose": {
+      "message": "Ignorer advarselen"
+   },
+   "phishingCreditNumber": {
+      "message": "Det virker som du prøver å skrive inn et passord eller kredittkortnummer på et nettsted med et dårlig rykte. Kontroller at området er ekte. Hvis du legger inn personlig informasjon på et område som ikke er betrodd, kan det utgjøre en sikkerhetsrisiko."
+   },
+   "phishingDesc": {
+      "message": "Phishing er forsøk på å få tilgang til sensitiv informasjon som blant annet brukernavn, passord og kredittkortopplysninger."
+   },
+   "phishingPhishingSite": {
+      "message": "Dette nettstedet har blitt merket som et phishing-nettsted (nettfisking)."
+   },
+   "phishingTrust": {
+      "message": "I trust this website"
+   },
+   "phishingWarning": {
+      "message": "Advarsel"
+   },
+   "pornography": {
+      "message": "Pornografi"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Dette nettstedet har en gjennomsnittlig vurdering"
+   },
+   "ratingBad": {
+      "message": "Dette nettstedet har en dårlig vurdering"
+   },
+   "ratingCommunity": {
+      "message": "%s vurdering fra Community"
+   },
+   "ratingDone": {
+      "message": "Utført"
+   },
+   "ratingGood": {
+      "message": "Dette området har en god vurdering"
+   },
+   "ratingLevelAverage": {
+      "message": "Gjennomsnittlig"
+   },
+   "ratingLevelBad": {
+      "message": "Dårlig"
+   },
+   "ratingLevelPositive": {
+      "message": "Positiv"
+   },
+   "ratingLevelUndefined": {
+      "message": "Ingen"
+   },
+   "ratingNegative": {
+      "message": "Hvorfor vurderte du opplevelsen som negativ?"
+   },
+   "ratingNoRate": {
+      "message": "Jeg ønsker ikke å vurdere nå"
+   },
+   "ratingPending": {
+      "message": "Henter vurdering"
+   },
+   "ratingPositive": {
+      "message": "Hvorfor vurderte du opplevelsen som positiv?"
+   },
+   "ratingRate": {
+      "message": "Hvordan vurderer du opplevelsen din på dette nettstedet?"
+   },
+   "ratingTextAverage": {
+      "message": "dette nettstedet har dårlig rykte"
+   },
+   "ratingTextBad": {
+      "message": "dette nettstedet er ikke trygt"
+   },
+   "ratingTextPositive": {
+      "message": "dette nettstedet er trygt"
+   },
+   "ratingTextUndefined": {
+      "message": "ukjent nettsted"
+   },
+   "ratingVeryBad": {
+      "message": "Dette nettstedet har en svært dårlig vurdering"
+   },
+   "reasonBlocker": {
+      "message": "(trussel blokkert)"
+   },
+   "reasonPhishing": {
+      "message": "(phishing-nettsted oppdaget)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Dette nettstedet er ikke vurdert ennå"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Tilbakestill"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Lignende hoteller funnet!"
+   },
+   "safeZoneDecline": {
+      "message": "Ikke tilby SafeZone for "
+   },
+   "safeZoneDesc": {
+      "message": "Avast anbefaler at du bytter til SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "For å gi deg trygghet, har den forespurte nettadressen blitt åpnet i SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Nei"
+   },
+   "safeZoneYes": {
+      "message": "Bytt nå"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> er klar til å sette i gang. God handel!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Tilbakestill til standard"
+   },
+   "settingsSave": {
+      "message": "Lagre"
+   },
+   "settingscommunityIQ": {
+      "message": "Datautveksling"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Ved å aktivere dette alternativet, samtykker du i at visse opplysninger blir videresendt anonymt til Avast. Vi kan utveksle anonyme data med andre."
+   },
+   "settingsdnt": {
+      "message": "Ikke spor"
+   },
+   "settingsdnt0": {
+      "message": "Personvernskjold"
+   },
+   "settingsdnt2": {
+      "message": "Ikke spor"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Blokker annonsesporing som standard"
+   },
+   "settingsdntDesc": {
+      "message": "Oppdager og blokkerer uønsket reklame og hindrer analysenettsteder fra å spore deg i hemmelighet"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Blokker andre som standard"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Blokker sosiale nettverk som standard"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Blokker webanalysering som standard"
+   },
+   "settingsphishing": {
+      "message": "Anti-phishing"
+   },
+   "settingsphishing0": {
+      "message": "Surfeskjold"
+   },
+   "settingsphishing2": {
+      "message": "Anti-phishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Skanner nettsteder etter skadelig programvare og forhindrer nettfisking"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Bytt til SafeZone for sensitive økonomiske nettsteder (Avast Antivirus må være installert)"
+   },
+   "settingsserp": {
+      "message": "Søkemotorresultater"
+   },
+   "settingsserpDesc": {
+      "message": "Aktiver farging av søkeresultatsiden"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Aktiver pop-ups på søkeresultatsiden"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Ikke vis melding og omdiriger automatisk til legitime nettsteder"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Oppdager og korrigerer nettadresser som er feilstavet og omdirigerer til legitime nettsteder"
+   },
+   "sfzoneAlways": {
+      "message": "Ja, alltid"
+   },
+   "sfzoneDesc": {
+      "message": "Du har gått inn på en nettbanktjeneste. Vil du åpne den i Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Aldri"
+   },
+   "sfzoneNo": {
+      "message": "Nei"
+   },
+   "sfzoneSwitch": {
+      "message": "Bytt til Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Ja"
+   },
+   "shopping": {
+      "message": "Butikk"
+   },
+   "sideDashboard": {
+      "message": "Min Avast"
+   },
+   "sideDetails": {
+      "message": "Les mer"
+   },
+   "sideRate": {
+      "message": "Vurder nå"
+   },
+   "sideSettings": {
+      "message": "Innstillinger"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Ta meg automatisk til kjente riktige steder fra nå av"
+   },
+   "sitecorrectBarButton": {
+      "message": "Dette var ikke en feil, få meg tilbake"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: Automatisk omdirigering fra%s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "For å konfigurere Avast SiteCorrect-funksjonen, åpner du brukergrensesnittet til Avast, går til Tilleggsbeskyttelse, Nettleser-beskyttelse og Innstillinger."
+   },
+   "sitecorrectMean": {
+      "message": "Mente du %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Nei, jeg mente %s"
+   },
+   "sitecorrectText": {
+      "message": "Dette er sannsynligvis ikke det nettstedet du prøvde å gå inn på."
+   },
+   "sitecorrectYes": {
+      "message": "Ja"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Sosial / Spilling"
+   },
+   "thanksHeadline": {
+      "message": "Takk for vurderingen!"
+   },
+   "thanksMessage": {
+      "message": "Stemmen din er sendt inn."
+   },
+   "title": {
+      "message": "Avast Innstillinger for nettsikkerhet"
+   },
+   "topBarDetails": {
+      "message": "Vis detaljer"
+   },
+   "topBarRatingAverage": {
+      "message": "%s er vurdert som OK"
+   },
+   "topBarRatingBad": {
+      "message": "%s er vurdert som farlig"
+   },
+   "topBarRatingGood": {
+      "message": "%s er vurdert som trygg"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Våpen / Vold"
+   },
+   "vote": {
+      "message": "Stem"
+   },
+   "voteNegative": {
+      "message": "negativ"
+   },
+   "votePositive": {
+      "message": "positiv"
+   },
+   "webrepDisabled": {
+      "message": "WebRep er deaktivert"
+   },
+   "whatTypeContent": {
+      "message": "Hva slags innhold er det på dette nettstedet?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

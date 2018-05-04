@@ -1,0 +1,2371 @@
+/* SafeShop */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.avast-sas,
+.avast-sas * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 0 ;
+  margin: 0 ;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none ;
+  text-rendering: auto ;
+  text-shadow: none ;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0 ;
+  left: 0;
+  top: 0px;
+  z-index: 2147483644;
+  height: 710px;
+  position: fixed ;
+  cursor: default ;
+  width: 811px;
+  height: 652px;
+  position: relative;
+}
+.avast-sas-block {
+  float: left ;
+  position: relative ;
+  border-right: solid 1px #fbfbfb;
+  display: block ;
+  height: 50px;
+  padding: 0 ;
+  margin: 0 ;
+  cursor: default ;
+}
+.avast-sas-drop-show {
+  display: block !important;
+}
+.avast-sas-ripple,
+.avast-sas-ripple-settings {
+  position: absolute ;
+  background-color: #087e3a;
+  opacity: 1;
+  border-radius: 50% ;
+  width: 100%;
+  height: 100%;
+  pointer-events: none ;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+}
+.animate {
+  animation: ripple 0.35s linear;
+  z-index: -9999;
+  transition: width 2s;
+  transition: height 2s;
+}
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+.avast-sas-display-grid {
+  display: grid !important;
+}
+.avast-sas-display-block {
+  display: block !important;
+}
+.avast-sas-display-none {
+  display: none !important;
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #0a9746;
+    -webkit-box-shadow: inset 0 0 3px #0a9746;
+  }
+  50% {
+    background-color: #0cb754;
+    -webkit-box-shadow: inset 0 0 40px #0cb754;
+  }
+  100% {
+    background-color: #0a9746;
+    -webkit-box-shadow: inset 0 0 3px #0a9746;
+  }
+}
+@-moz-keyframes glowing {
+  0% {
+    background-color: #0a9746;
+    -moz-box-shadow: inset 0 0 3px #0a9746;
+  }
+  50% {
+    background-color: #0cb754;
+    -moz-box-shadow: inset 0 0 40px #0cb754;
+  }
+  100% {
+    background-color: #0a9746;
+    -moz-box-shadow: inset 0 0 3px #0a9746;
+  }
+}
+@-o-keyframes glowing {
+  0% {
+    background-color: #0a9746;
+    box-shadow: inset 0 0 3px #0a9746;
+  }
+  50% {
+    background-color: #0cb754;
+    box-shadow: inset 0 0 40px #0cb754;
+  }
+  100% {
+    background-color: #0a9746;
+    box-shadow: inset 0 0 3px #0a9746;
+  }
+}
+@keyframes glowing {
+  0% {
+    background-color: #0a9746;
+    box-shadow: inset 0 0 3px #0a9746;
+  }
+  50% {
+    background-color: #0cb754;
+    box-shadow: inset 0 0 40px #0cb754;
+  }
+  100% {
+    background-color: #0a9746;
+    box-shadow: inset 0 0 3px #0a9746;
+  }
+}
+.avast-sas-settings-page {
+  position: fixed;
+  left: 0 ;
+  top: 0 ;
+  width: 100% ;
+  min-width: 100%;
+  height: 100% ;
+  min-height: 652px;
+  background-color: #8b8b8b;
+  box-shadow: #1d2438;
+  cursor: default ;
+  display: none;
+  background-color: transparent;
+  position: relative;
+  height: 652px;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup {
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 811px;
+  -ms-grid-columns: 811px;
+  grid-template-rows: 58px 590px 62px;
+  -ms-grid-rows: 58px 590px 62px;
+  height: 710px;
+  width: 811px;
+  top: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  background-color: #ffffff;
+  grid-template-rows: 0px 590px 62px;
+  -ms-grid-rows: 0px 590px 62px;
+  height: 652px;
+  top: 2px;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-title-box {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 11px 32px 8px 726px 8px 14px 11px;
+  -ms-grid-columns: 11px 32px 8px 726px 8px 14px 11px;
+  grid-template-rows: 58px;
+  -ms-grid-rows: 58px;
+  height: 58px;
+  width: 811px;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-title-box .avast-sas-settings-title-icon {
+  height: 32px;
+  width: 32px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: center;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  padding-top: 9px;
+  padding-bottom: 17px;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-title-box .avast-sas-settings-title-close {
+  height: 11px;
+  width: 11px;
+  grid-column: 6;
+  -ms-grid-column: 6;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: center;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent ;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-title-box .avast-sas-settings-title-text {
+  height: 58px;
+  width: auto;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #7a7a7a;
+  font-family: "Roboto", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: normal;
+  height: 20px;
+  font-size: 15px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  max-width: 692px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 14px;
+  padding-bottom: 25px;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 10px 180px 610px;
+  -ms-grid-columns: 10px 180px 610px;
+  grid-template-rows: 590px;
+  -ms-grid-rows: 590px;
+  height: 590px;
+  width: 801px;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu {
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 180px;
+  -ms-grid-columns: 180px;
+  grid-template-rows: 15px 36px 36px 36px auto;
+  -ms-grid-rows: 15px 36px 36px 36px auto;
+  height: 590px;
+  width: 180px;
+  background-color: #dadae6;
+  grid-column: 2;
+  -ms-grid-column: 2;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-notifications {
+  width: 180px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 19px;
+  height: 36px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-left: 3px solid #dadae6;
+  background-color: #dadae6;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-notifications:hover {
+  color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-notifications-selected {
+  width: 180px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 19px;
+  height: 36px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-left: 3px solid #0cb754;
+  background-color: #f1f1f8;
+  cursor: default;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-custom-list {
+  width: 180px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 3;
+  -ms-grid-row: 3;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 19px;
+  height: 36px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-left: 3px solid #dadae6;
+  background-color: #dadae6;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-custom-list:hover {
+  color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-custom-list-selected {
+  width: 180px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 3;
+  -ms-grid-row: 3;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 19px;
+  height: 36px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-left: 3px solid #0cb754;
+  background-color: #f1f1f8;
+  cursor: default;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-help {
+  width: 180px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 19px;
+  height: 36px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-left: 3px solid #dadae6;
+  background-color: #dadae6;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-menu .avast-sas-middle-item-help-selected {
+  width: 180px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 19px;
+  height: 36px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-left: 3px solid #0cb754;
+  background-color: #f1f1f8;
+  cursor: default;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options {
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 51px 508px 51px;
+  -ms-grid-columns: 51px 508px 51px;
+  grid-template-rows: 75%;
+  -ms-grid-rows: 75%;
+  height: 590px;
+  width: 610px;
+  background-color: #f1f1f8;
+  grid-column: 3;
+  -ms-grid-column: 3;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications {
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 20px 14px 10px 464px;
+  -ms-grid-columns: 20px 14px 10px 464px;
+  grid-template-rows: 23px 19px 14px 34px 34px 34px 54px 21px 28px 34px 19px 14px 34px 34px 54px 34px 19px 14px 54px 19px;
+  -ms-grid-rows: 23px 19px 14px 34px 34px 34px 54px 21px 28px 34px 19px 14px 34px 34px 54px 34px 19px 14px 54px 19px;
+  height: 590px;
+  width: 508px;
+  background-color: #f1f1f8;
+  display: none;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-title-offers,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-title-coupons,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-title-others {
+  width: 508px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  grid-column-end: 5;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: normal;
+  height: 19px;
+  font-size: 14px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-title-coupons {
+  grid-row: 11;
+  -ms-grid-row: 11;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-title-others {
+  grid-row: 17;
+  -ms-grid-row: 17;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  grid-column-end: 4;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 20px 14px 10px 459px;
+  -ms-grid-columns: 20px 14px 10px 459px;
+  grid-template-rows: 34px;
+  -ms-grid-rows: 34px;
+  height: 34px;
+  width: 508px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button {
+  height: 10px;
+  width: 10px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  margin-top: 10px;
+  box-shadow: 0 0 0 2px #858592;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button:hover {
+  color: #0cb754;
+  box-shadow: 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button:hover .avast-sas-radio-button-desc {
+  color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .asp-check-box,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .asp-check-box,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .asp-check-box,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .asp-check-box,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .asp-check-box,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .asp-check-box {
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative;
+  margin: 0px;
+  margin-top: 9px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px;
+  object-fit: contain;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button-desc {
+  height: 25px;
+  width: 459px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: normal;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-top: 7px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button-desc:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button-desc:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button-desc:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button-desc:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button-desc:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button-desc:hover {
+  color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button-desc:hover .avast-sas-radio-button {
+  color: #0cb754;
+  box-shadow: 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1 .avast-sas-radio-button-desc:hover .avast-sas-radio-button:before,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2 .avast-sas-radio-button-desc:hover .avast-sas-radio-button:before,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3 .avast-sas-radio-button-desc:hover .avast-sas-radio-button:before,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4 .avast-sas-radio-button-desc:hover .avast-sas-radio-button:before,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5 .avast-sas-radio-button-desc:hover .avast-sas-radio-button:before,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button-desc:hover .avast-sas-radio-button:before {
+  box-shadow: inset 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6:hover {
+  color: #0cb754;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6:hover .avast-sas-radio-button {
+  box-shadow: 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6:hover .avast-sas-radio-button-desc {
+  color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  grid-column-end: 4;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 20px 14px 10px 459px;
+  -ms-grid-columns: 20px 14px 10px 459px;
+  grid-template-rows: 34px;
+  -ms-grid-rows: 34px;
+  height: 34px;
+  width: 508px;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1-selected .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2-selected .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3-selected .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4-selected .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5-selected .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected .avast-sas-radio-button {
+  height: 10px;
+  width: 10px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  margin-top: 10px;
+  box-shadow: 0 0 0 2px #858592;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #0cb754;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 0 2px #0cb754;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: solid 2px #ffffff;
+  cursor: default;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-1-selected .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2-selected .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3-selected .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4-selected .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5-selected .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected .avast-sas-radio-button-desc {
+  height: 25px;
+  width: 459px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: normal;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-top: 7px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-2-selected {
+  grid-row: 5;
+  -ms-grid-row: 5;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-3-selected {
+  grid-row: 6;
+  -ms-grid-row: 6;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-4-selected {
+  grid-row: 13;
+  -ms-grid-row: 13;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-5-selected {
+  grid-row: 14;
+  -ms-grid-row: 14;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected {
+  height: 54px;
+  grid-row: 19;
+  -ms-grid-row: 19;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected .avast-sas-radio-button-desc {
+  height: 37px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  display: -webkit-box;
+  white-space: normal;
+  color: #2d364c;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected:hover {
+  color: #2d364c;
+  box-shadow: 0 0 0 0 transparent;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-box-6-selected:hover .avast-sas-radio-button-desc {
+  color: #2d364c;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 7;
+  -ms-grid-row: 7;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  grid-column-end: 4;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 20px 14px 10px 459px;
+  -ms-grid-columns: 20px 14px 10px 459px;
+  grid-template-rows: 25px 29px;
+  -ms-grid-rows: 25px 29px;
+  height: 54px;
+  width: 508px;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button {
+  height: 10px;
+  width: 10px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  margin-top: 10px;
+  box-shadow: 0 0 0 2px #858592;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button:hover {
+  box-shadow: 0 0 0 2px #0cb754;
+  color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button:hover .avast-sas-radio-button-desc {
+  color: #0cb754;
+  border-color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button-desc {
+  height: 25px;
+  width: 459px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: normal;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-top: 6px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button-desc:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button-desc:hover {
+  color: #0cb754;
+  border-color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button-desc:hover .avast-sas-radio-button {
+  color: #0cb754;
+  box-shadow: 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button-option-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button-option-desc {
+  height: 29px;
+  width: 459px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #5f687e;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  line-height: normal;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button-option-desc:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button-option-desc:hover .avast-sas-radio-button {
+  box-shadow: 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1 .avast-sas-radio-button-option-desc:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2 .avast-sas-radio-button-option-desc:hover .avast-sas-radio-button-desc {
+  color: #0cb754;
+  border-color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1:hover,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2:hover {
+  color: #0cb754;
+  border-color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1:hover .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2:hover .avast-sas-radio-button {
+  box-shadow: 0 0 0 2px #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1:hover .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2:hover .avast-sas-radio-button-desc {
+  color: #0cb754;
+  border-color: #0cb754;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2-selected {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 7;
+  -ms-grid-row: 7;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  grid-column-end: 4;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 20px 14px 10px 459px;
+  -ms-grid-columns: 20px 14px 10px 459px;
+  grid-template-rows: 25px 29px;
+  -ms-grid-rows: 25px 29px;
+  height: 54px;
+  width: 508px;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1-selected .avast-sas-radio-button,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2-selected .avast-sas-radio-button {
+  height: 10px;
+  width: 10px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  margin-top: 10px;
+  box-shadow: 0 0 0 2px #858592;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #0cb754;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 0 2px #0cb754;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: solid 2px #ffffff;
+  cursor: default;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1-selected .avast-sas-radio-button-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2-selected .avast-sas-radio-button-desc {
+  height: 25px;
+  width: 459px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: normal;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-top: 6px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-1-selected .avast-sas-radio-button-option-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2-selected .avast-sas-radio-button-option-desc {
+  height: 29px;
+  width: 459px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #5f687e;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  line-height: normal;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: normal;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-g-box-2-selected {
+  grid-row: 15;
+  -ms-grid-row: 15;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers {
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 9;
+  -ms-grid-row: 9;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  grid-column-end: 4;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: min-content 13px max-content 47px max-content;
+  -ms-grid-columns: min-content 13px max-content 47px max-content;
+  grid-template-rows: 28px;
+  -ms-grid-rows: 28px;
+  height: 28px;
+  width: 486px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-offers {
+  height: 28px;
+  width: auto;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 400;
+  line-height: normal;
+  height: 19px;
+  font-size: 13px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  padding: 5px 10px 5px 5px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-1,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 2px;
+  color: #2d364c;
+  background-color: transparent;
+  padding: 0px;
+  float: right;
+  position: relative;
+  border: 0px;
+  text-decoration: none;
+  overflow: hidden;
+  text-rendering: auto;
+  text-shadow: none;
+  height: 28px;
+  width: auto;
+  grid-column: 3;
+  -ms-grid-column: 3;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: center;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-1 .asp-check-box,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-2 .asp-check-box {
+  float: left;
+  position: relative;
+  margin: 0px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px;
+  object-fit: contain;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-1 .avast-sas-check-box-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-2 .avast-sas-check-box-desc {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: 1.58;
+  height: 19px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  padding-top: 1px;
+  padding-left: 8px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: auto;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-1-selected,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-2-selected {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 2px;
+  color: #0cb754;
+  background-color: transparent;
+  padding: 0px;
+  float: right;
+  position: relative;
+  border: 0px;
+  text-decoration: none;
+  overflow: hidden;
+  text-rendering: auto;
+  text-shadow: none;
+  height: 28px;
+  width: auto;
+  grid-column: 3;
+  -ms-grid-column: 3;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: center;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-2,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-notifications .avast-sas-p-a-include-offers .avast-sas-text-include-button-1-2-selected {
+  grid-column: 5;
+  -ms-grid-column: 5;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list {
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: minmax(100px, 508px);
+  -ms-grid-columns: minmax(100px, 508px);
+  grid-template-rows: 23px 19px 21px 30px 7px 387px 21px;
+  -ms-grid-rows: 23px 19px 21px 30px 7px 387px 21px;
+  height: 590px;
+  width: 508px;
+  background-color: #f1f1f8;
+  display: none;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-title {
+  background-color: #f1f1f8;
+  width: 508px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: normal;
+  height: 19px;
+  font-size: 14px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 2px;
+  color: #0cb754;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  position: relative;
+  border: 0px;
+  text-decoration: none;
+  overflow: hidden;
+  text-rendering: auto;
+  text-shadow: none;
+  max-height: 30px;
+  max-width: auto;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  position: relative ;
+  border: 1px solid #0cb754;
+  padding: 6px 10px 8px 10px;
+  margin: 0px auto 0px 0px;
+  float: left;
+  width: auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  cursor: pointer;
+  display: none;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button .avast-sas-p-cl-add-site-button-icon {
+  position: relative;
+  float: left;
+  width: 14px;
+  height: 14px;
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-right: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent ;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button .avast-sas-p-cl-add-site-button-icon:hover {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button .avast-sas-p-cl-add-site-button-icon:hover .avast-sas-p-cl-add-site-button-text {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button .avast-sas-p-cl-add-site-button-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 13px;
+  height: 13px;
+  font-size: 11px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  position: relative;
+  float: left;
+  width: auto;
+  cursor: pointer;
+  padding-top: 1px;
+  padding-left: 4px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button .avast-sas-p-cl-add-site-button-text:hover {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button .avast-sas-p-cl-add-site-button-text:hover .avast-sas-p-cl-add-site-button-icon {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button:hover {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button:hover .avast-sas-p-cl-add-site-button-text,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-button:hover .avast-sas-p-cl-add-site-button-icon {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box {
+  height: 30px;
+  max-width: 508px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  position: relative ;
+  border-bottom: 1px solid #0cb754;
+  display: none;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box .avast-sas-p-cl-add-site-text {
+  height: 30px;
+  /*grid-column: 1;
+                -ms-grid-column: 1;
+                grid-row: 1;          
+                -ms-grid-row: 1;*/
+  position: relative ;
+  padding: 6px 0px 0px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: normal ;
+  height: 20px;
+  font-size: 12px;
+  border: 0px ;
+  margin: 0px;
+  text-decoration: none ;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  overflow: hidden;
+  width: 292px;
+  float: left;
+  box-shadow: 0 0 0 transparent, 0 0 0 transparent inset;
+  -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent inset;
+  background-color: #f1f1f8;
+  cursor: auto;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box .avast-sas-p-cl-add-site-text:focus {
+  outline: none;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box .avast-sas-p-cl-add-site-cancel {
+  height: 24px;
+  /*grid-column: 3;
+                -ms-grid-column: 3;
+                grid-row: 1;          
+                -ms-grid-row: 1;*/
+  position: relative ;
+  width: auto;
+  max-width: 96px;
+  float: right;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: 600;
+  line-height: normal;
+  height: 12px;
+  font-size: 10px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  padding: 6px 0px;
+  margin: 0px 0px 0px 12px;
+  text-align: right;
+  cursor: pointer;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box .avast-sas-p-cl-add-site-cancel:hover {
+  color: #636c83;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box .avast-sas-p-cl-add-site-add {
+  height: 24px;
+  /*grid-column: 5;
+                -ms-grid-column: 5;
+                grid-row: 1;          
+                -ms-grid-row: 1;*/
+  position: relative ;
+  width: auto;
+  max-width: 96px;
+  margin-right: 0px;
+  margin-left: 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #0cb754;
+  padding: 11px 0 11px 0;
+  margin: 0px;
+  float: right;
+  position: relative;
+  border: 0px;
+  text-decoration: none;
+  overflow: hidden;
+  text-rendering: auto;
+  text-shadow: none;
+  padding: 6px 10px;
+  margin: 0px 0px 0px 12px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-add-site-box .avast-sas-p-cl-add-site-add:hover {
+  background-color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box {
+  height: 387px;
+  max-width: 508px;
+  width: 508px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 6;
+  -ms-grid-row: 6;
+  position: relative ;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box::-webkit-scrollbar-track {
+  -moz-appearance: none !important;
+  margin-left: 0px;
+  float: left;
+  height: 387px;
+  width: 4px;
+  background: #f1f1f8;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+  background-color: #f1f1f8;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box::-webkit-scrollbar {
+  -moz-appearance: none !important;
+  margin-left: 0px;
+  float: left;
+  height: 387px;
+  width: 4px;
+  background: #f1f1f8;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+  background-color: #f1f1f8;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box::-webkit-scrollbar-thumb {
+  -moz-appearance: none !important;
+  margin-left: 0px;
+  float: left;
+  height: 50px;
+  width: 4px;
+  background: #f1f1f8;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-color: #f1f1f8;
+  background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#0cb754), to(#0cb754), color-stop(0.6, #0cab4e));
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element {
+  height: 34px;
+  width: 508px;
+  position: relative ;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element .avast-sas-p-cl-box-element-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 20px;
+  height: 34px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  position: relative ;
+  padding: 7px 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 462px;
+  float: left;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element .avast-sas-p-cl-box-element-text:hover .avast-sas-p-cl-box-element {
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element .avast-sas-p-cl-box-element-text:hover .avast-sas-p-cl-box-element-close {
+  display: block;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element .avast-sas-p-cl-box-element-close {
+  height: 14px;
+  width: 14px;
+  position: relative ;
+  float: right;
+  margin: 10px 16px;
+  cursor: pointer ;
+  display: none;
+  background-color: #8891a7;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element .avast-sas-p-cl-box-element-close:hover {
+  background-color: #636c83;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element .avast-sas-p-cl-box-element-close:hover .avast-sas-p-cl-box-element-text {
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element:hover {
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element:hover .avast-sas-p-cl-box-element-close {
+  display: block;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-custom-list .avast-sas-p-cl-sites-box .avast-sas-p-cl-box-element:hover .avast-sas-p-cl-box-element-text {
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help {
+  height: 590px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 508px;
+  -ms-grid-columns: 508px;
+  grid-template-rows: 23px max-content max-content max-content max-content 17px 1fr;
+  -ms-grid-rows: 23px max-content max-content max-content max-content 17px 1fr;
+  height: max-content;
+  width: 508px;
+  background-color: #f1f1f8;
+  display: none;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-1,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-2,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-3,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-4 {
+  height: auto;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 508px;
+  -ms-grid-columns: 508px;
+  grid-template-rows: 18px 10px min-content 30px;
+  -ms-grid-rows: 18px 10px min-content 30px;
+  height: max-content;
+  width: 508px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-1 .avast-sas-help-title,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-2 .avast-sas-help-title,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-3 .avast-sas-help-title,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-4 .avast-sas-help-title {
+  grid-row: 1;
+  -ms-grid-row: 1;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: 1.29;
+  height: 18px;
+  font-size: 14px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  width: 508px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-1 .avast-sas-help-title-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-2 .avast-sas-help-title-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-3 .avast-sas-help-title-desc,
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-4 .avast-sas-help-title-desc {
+  grid-row: 3;
+  -ms-grid-row: 3;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: normal;
+  line-height: 1.5;
+  height: auto;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 508px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-2 {
+  grid-row: 3;
+  -ms-grid-row: 3;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-3 {
+  grid-row: 4;
+  -ms-grid-row: 4;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-group-4 {
+  grid-row: 5;
+  -ms-grid-row: 5;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-faqs {
+  height: 590px;
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 6;
+  -ms-grid-row: 6;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: normal;
+  line-height: normal;
+  height: 17px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  position: relative;
+  width: 508px;
+  background-color: #f1f1f8;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-middle-box .avast-sas-middle-options .avast-sas-middle-panel-help .avast-sas-help-faqs .asp-faqs-span {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: normal;
+  line-height: normal;
+  height: 17px;
+  font-size: 12px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  position: relative;
+  background-color: #f1f1f8;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box {
+  grid-column: 1;
+  -ms-grid-column: 1;
+  grid-row: 3;
+  -ms-grid-row: 3;
+  float: left;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  position: relative;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 10px 522px 12px 108px 12px 108px 28px 10px;
+  -ms-grid-columns: 10px 522px 12px 108px 12px 108px 28px 10px;
+  grid-template-rows: 14px 34px 14px;
+  -ms-grid-rows: 14px 34px 14px;
+  height: 62px;
+  width: 801px;
+  background-color: #ffffff;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-margin-left {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  width: 10px;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-margin-right {
+  grid-column-start: 8;
+  grid-column-end: 8;
+  -ms-grid-column: 8;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  width: 10px;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-cancel {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 2px;
+  color: #0cb754;
+  background-color: transparent;
+  padding: 9px 0 11px 0;
+  float: right;
+  position: relative;
+  border: 0px;
+  text-decoration: none;
+  overflow: hidden;
+  text-rendering: auto;
+  text-shadow: none;
+  height: 34px;
+  width: 108px;
+  grid-column: 4;
+  -ms-grid-column: 4;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: center;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  border: 1px solid #0cb754;
+  z-index: 0;
+  cursor: pointer;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-cancel:hover {
+  border-color: #0a9746;
+  color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-save {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #0cb754;
+  padding: 11px 0 11px 0;
+  float: right;
+  position: relative;
+  border: 0px;
+  text-decoration: none;
+  overflow: hidden;
+  text-rendering: auto;
+  text-shadow: none;
+  height: 34px;
+  width: 108px;
+  grid-column: 6;
+  -ms-grid-column: 6;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  float: center;
+  position: relative ;
+  margin: 0px;
+  cursor: default ;
+  cursor: pointer;
+  z-index: 0;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-save:hover {
+  background-color: #0a9746;
+}
+.avast-sas-settings-page .avast-sas-settings-poppup .avast-sas-settings-footer-box .avast-sas-settings-footer-save .avast-sas-glowing {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+div#avast-sas-poppup-settings-save.avast-sas-settings-footer-save.avast-sas-glowing {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+.avast-sas-ext-name {
+  float: left ;
+  position: relative ;
+  border-right: solid 1px #fbfbfb;
+  display: block ;
+  height: 50px;
+  padding: 0 ;
+  margin: 0 ;
+  background-color: #ffffff;
+  border-right: solid 1px #ffffff;
+  border-left: solid 1px #ffffff;
+  width: auto;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal ;
+  font-weight: bold;
+  line-height: normal;
+  height: 19px;
+  font-size: 14px;
+  border: 0 ;
+  cursor: default ;
+  text-decoration: none ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.2px;
+  padding-bottom: 16px;
+  padding-top: 15px;
+  padding-left: 9px;
+}

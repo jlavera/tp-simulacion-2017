@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Nu puteți evalua fișierele locale sau filele interne"
+   },
+   "VoteThank": {
+      "message": "Vă mulțumim! Votul dumneavoastră a fost salvat cu succes."
+   },
+   "anonymousUser": {
+      "message": "Utilizator anonim"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>izolează în siguranță sesiunile bancare sau de cumpărături, pentru a opri hackerii\u003C/b> să vă fure \u003Cb>numerele cardurilor de credit, parolele\u003C/b> și \u003Cb>și alte date private.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", o componentă din Avast Secure Browser, instalată odată cu antivirusul Avast, \u003Cb>izolează în siguranță sesiunile bancare și de cumpărături, pentru a opri hackerii să vă fure\u003C/b> \u003Cb>numerele cardurilor de credit, parolele\u003C/b> și \u003Cb>alte date private.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Modul Bancă\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Nu acum"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Deschidere Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Comutați acum"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "REDESCHIDERE ÎN BROWSERUL DE LA AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "REDESCHIDERE ÎN ZONA SIGURĂ AVAST"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "REDESCHIDEREA ACESTEI PAGINI ÎN MOD SECURIZAT"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "DESCHIDERE ÎN MOD BANCĂ"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Browserul de la Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "izolează sesiunea bancară, pentru a împiedica hackerii să înregistreze acționările de taste și să captureze parolele și alte date personale. Acesta a fost deja instalat odată cu programul antivirus de la Avast, astfel că el este deja configurat și gata de funcționare."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Aflaţi mai multe"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Sfat Avast: browserul SafeZone blochează reclamele pentru a vă proteja de module cookie de urmărire și de reclame cu conținut dăunător."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Efectuați plățile on-line în condiții de siguranță utilizând în schimb browserul Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Acest browser de Web nu poate securiza pe deplin operațiunile bancare online."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Operațiunile bancare efectuate din cadrul acestui browser Web pot supune contul dvs. unor riscuri."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Vă recomandăm insistent să efectuați operațiunile bancare numai din cadrul browserului Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Este posibil ca datele dvs. financiare să fie vizibile pentru alte persoane."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Asigurați-vă de cele mai bune oferte și plătiți pentru ele în condiții de siguranță cu browserul Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Știați că puteți descărca cu ușurință clipuri video de pe site-uri cu redare în flux?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Nu mai afișa din nou"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Doresc să nu se afișeze din nou pe acest site"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "OK, REDESCHIDEȚI ACEST SITE ÎN MOD SECURIZAT"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Nu, mulțumesc, vreau să se ascundă definitiv aceste atenționări"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Browserul Avast a fost inclus odată cu programul antivirus de la Avast."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "La un singur clic se va redeschide această pagină în browserul Avast, pentru a vă proteja."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Chiar doriți să supuneți contul dvs. unor riscuri?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Securitate Online"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Permite toate sistemele de urmărire"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "pe toate site-urile"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Blocarea sistemelor de urmărire"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Setări Globale"
+   },
+   "baMoreSettingsAction": {
+      "message": "Mai multe setări"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "permis"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blocat"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Urmărirea sistemelor este la"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "pe site-ul"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "sisteme de urmărire"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Ați evaluat acest site ca"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negativ"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "pozitiv"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Publicați-vă votul"
+   },
+   "checkAll": {
+      "message": "(bifați ce se potrivește)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Închide"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Corporatist"
+   },
+   "currentVote": {
+      "message": "Evaluare generală"
+   },
+   "detailsHeadline": {
+      "message": "Avast a scanat acest site"
+   },
+   "detailsMalwareNo": {
+      "message": "Nu s-au detectat programe dăunătoare!"
+   },
+   "detailsMalwareYes": {
+      "message": "S-au detectat programe dăunătoare!"
+   },
+   "detailsPhishingNo": {
+      "message": "Nu s-au detectat tentative de phishing!"
+   },
+   "detailsPhishingYes": {
+      "message": "S-a detectat o tentativă de phishing!"
+   },
+   "disabledTab": {
+      "message": "Nu puteți evalua fișierele locale sau filele interne"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Site-uri de urmărire"
+   },
+   "dntAllowGroupAction": {
+      "message": "Permite tot"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Permite"
+   },
+   "dntAllowed": {
+      "message": "permis"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Blocare automată urmăritori: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Dezactivată"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Activată"
+   },
+   "dntBlockGroupAction": {
+      "message": "Blochează tot"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blochează"
+   },
+   "dntBlocked": {
+      "message": "blocat"
+   },
+   "dntHeadline": {
+      "message": "%s companii încearcă să vă urmărească"
+   },
+   "dntNetworks": {
+      "message": "Rețele"
+   },
+   "dntNetworksDetected": {
+      "message": "%s rețele detectate"
+   },
+   "dntOthersNetworks": {
+      "message": "Altele"
+   },
+   "dntSocialNetworks": {
+      "message": "Rețele sociale"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Totul este permis"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Totul este blocat"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Blocat"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Unele sunt blocate"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Analiză web"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alcool / Droguri"
+   },
+   "error": {
+      "message": "Eroare"
+   },
+   "errorUnexpected": {
+      "message": "Eroare Neașteptată"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Jocuri de noroc"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Cum vă place acest site?"
+   },
+   "illegal": {
+      "message": "Warez / Ilegal"
+   },
+   "it": {
+      "message": "IT / Descărcări"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Ca utilizator anonim"
+   },
+   "loginDesc": {
+      "message": "Completați-vă informațiile de conectare pentru contul my.avast.com:"
+   },
+   "loginError": {
+      "message": "Conectarea a eșuat"
+   },
+   "loginLogin": {
+      "message": "Conectare"
+   },
+   "loginLogout": {
+      "message": "Deconectare"
+   },
+   "loginName": {
+      "message": "Nume:"
+   },
+   "loginPswd": {
+      "message": "Parolă:"
+   },
+   "malwareNext": {
+      "message": "Descărcare versiune gratuită a antivirusului Avast"
+   },
+   "malwareSite": {
+      "message": "Acest site vă poate face rău sistemului."
+   },
+   "malwareSiteRec": {
+      "message": "Vă recomandăm ca după instalarea antivirusului Avast să scanați sistemul."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Noutăți / Blog"
+   },
+   "noRating": {
+      "message": "Site-ul nu este evaluat"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Altele"
+   },
+   "phishingBack": {
+      "message": "Du-mă de aici"
+   },
+   "phishingClose": {
+      "message": "Ignoră atenționarea"
+   },
+   "phishingCreditNumber": {
+      "message": "Se pare că doriți să introduceți o parolă sau un număr de card de credit pe un site cu o reputație îndoielnică. Vă rugăm să verificați dacă site-ul este cel original. Puteți genera un risc de securitate dacă vă introduceți informațiile personale pe un site nesigur."
+   },
+   "phishingDesc": {
+      "message": "Phishing este încercarea de a dobândi informații sensibile, cum ar fi nume de utilizator, parole și detalii despre cardurile de credit..."
+   },
+   "phishingPhishingSite": {
+      "message": "Site-ul a fost marcat ca site de phishing."
+   },
+   "phishingTrust": {
+      "message": "Am încredere în acest website"
+   },
+   "phishingWarning": {
+      "message": "Atenție"
+   },
+   "pornography": {
+      "message": "Pornografic"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Site-ul are un punctaj mediu"
+   },
+   "ratingBad": {
+      "message": "Site-ul are un punctaj slab"
+   },
+   "ratingCommunity": {
+      "message": "%s rată comunitate"
+   },
+   "ratingDone": {
+      "message": "Gata"
+   },
+   "ratingGood": {
+      "message": "Site-ul are un punctaj bun"
+   },
+   "ratingLevelAverage": {
+      "message": "Medie"
+   },
+   "ratingLevelBad": {
+      "message": "Rea"
+   },
+   "ratingLevelPositive": {
+      "message": "Pozitivă"
+   },
+   "ratingLevelUndefined": {
+      "message": "Nu"
+   },
+   "ratingNegative": {
+      "message": "De ce v-ați măsurat experiența ca negativă?"
+   },
+   "ratingNoRate": {
+      "message": "Nu doresc să o măsor acum"
+   },
+   "ratingPending": {
+      "message": "Încarc evaluarea"
+   },
+   "ratingPositive": {
+      "message": "De ce v-ați măsurat experiența ca pozitivă?"
+   },
+   "ratingRate": {
+      "message": "Cum vă măsurați experiența pe acest site?"
+   },
+   "ratingTextAverage": {
+      "message": "site-ul are o reputație rea"
+   },
+   "ratingTextBad": {
+      "message": "acest site nu este sigur"
+   },
+   "ratingTextPositive": {
+      "message": "site-ul este sigur"
+   },
+   "ratingTextUndefined": {
+      "message": "site necunoscut"
+   },
+   "ratingVeryBad": {
+      "message": "Acest site are o evaluare foarte proastă"
+   },
+   "reasonBlocker": {
+      "message": "(amenințare blocată)"
+   },
+   "reasonPhishing": {
+      "message": "(site de phishing detectat)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Acest site nu are încă nicio evaluare"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Revenire"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Hoteluri similare găsite!"
+   },
+   "safeZoneDecline": {
+      "message": "Nu oferi ZonaSigură pentru "
+   },
+   "safeZoneDesc": {
+      "message": "Avast recomandă să comutați pe ZonaSigură"
+   },
+   "safeZoneFeedback": {
+      "message": "Pentru siguranța dumneavoastră, pagina solicitată a fost deschisă în ZonaSigură"
+   },
+   "safeZoneNo": {
+      "message": "Nu"
+   },
+   "safeZoneYes": {
+      "message": "Comutați acum"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> este gata de lucru. Succes la cumpărături!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Resetează la valorile inițiale"
+   },
+   "settingsSave": {
+      "message": "Salvează"
+   },
+   "settingscommunityIQ": {
+      "message": "Partajare date"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Prin activarea acestei opţiuni vă daţi acordul să înaintaţi în mod anonim anumite informaţii către Avast. Este posibil să partajăm informaţii anonimizate părţilor terţe."
+   },
+   "settingsdnt": {
+      "message": "Nu urmări"
+   },
+   "settingsdnt0": {
+      "message": "Scut Intimitate"
+   },
+   "settingsdnt2": {
+      "message": "Nu urmări"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Blochează site-urile de reclame predefinit"
+   },
+   "settingsdntDesc": {
+      "message": "Detectează și blochează reclame nedorite și previne site-urile de statistici să vă urmărească"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Blochează alte site-uri predefinit"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Blochează rețelele sociale predefinit"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Blochează site-urile de analiză a traficului predefinit"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Scut Navigare"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Scanează site-urile web contra programelor dăunătoare și previne phishing-ul"
+   },
+   "settingssafeZone": {
+      "message": "ZonăSigură"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Comută pe ZonaSigură pe site-urile financiare sensibile (necesită instalarea antivirusului Avast)"
+   },
+   "settingsserp": {
+      "message": "Rezultate motor de căutare"
+   },
+   "settingsserpDesc": {
+      "message": "Activează utilizarea culorilor pe pagina cu rezultatele motoarelor de căutare"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Activează mesajele pe pagina rezultatelor căutărilor"
+   },
+   "settingssiteCorrect": {
+      "message": "CorectareSite"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Redirectare automată la adresele legitime"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Detectează și corectează adresele web scrise incorect și redirectează navigatorul către site-urile legitime"
+   },
+   "sfzoneAlways": {
+      "message": "Da, întotdeauna"
+   },
+   "sfzoneDesc": {
+      "message": "Ați intrat pe un site de banking online. Doriți să-l deschideți în ZonaSigură Avast?"
+   },
+   "sfzoneHeadline": {
+      "message": "ZonaSigură Avast"
+   },
+   "sfzoneNever": {
+      "message": "Niciodată"
+   },
+   "sfzoneNo": {
+      "message": "Nu"
+   },
+   "sfzoneSwitch": {
+      "message": "Comută pe ZonaSigură Avast"
+   },
+   "sfzoneYes": {
+      "message": "Da"
+   },
+   "shopping": {
+      "message": "Cumpărături"
+   },
+   "sideDashboard": {
+      "message": "Avast-ul meu"
+   },
+   "sideDetails": {
+      "message": "Aflaţi mai multe"
+   },
+   "sideRate": {
+      "message": "Evaluează acum"
+   },
+   "sideSettings": {
+      "message": "Setări"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Direcționează-mă automat la site-ul corect de acum încolo"
+   },
+   "sitecorrectBarButton": {
+      "message": "Aceasta nu a fost o greșeală. Direcționează-mă înapoi."
+   },
+   "sitecorrectBarMsg": {
+      "message": "CorectareSite: redirecţionare automată de la %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "CorectareSite"
+   },
+   "sitecorrectHelp": {
+      "message": "Pentru a configura opțiunea Avast SiteCorrect, vă rog să deschideți fereastra Avast, mergeți la Protecție Suplimentară, Protecție Navigator și utilizați butonul Setări."
+   },
+   "sitecorrectMean": {
+      "message": "Ați dorit %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Nu, de fapt am dorit %s"
+   },
+   "sitecorrectText": {
+      "message": "Acesta nu este probabil site-ul pe care doreați să intrați."
+   },
+   "sitecorrectYes": {
+      "message": "Da"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Social / Jocuri"
+   },
+   "thanksHeadline": {
+      "message": "Mulțumim pentru evaluarea ratei!"
+   },
+   "thanksMessage": {
+      "message": "Votul a fost subscris."
+   },
+   "title": {
+      "message": "Setări Avast Securitate Online"
+   },
+   "topBarDetails": {
+      "message": "Vizualizare detalii"
+   },
+   "topBarRatingAverage": {
+      "message": "%s este evaluat ca fiind ok"
+   },
+   "topBarRatingBad": {
+      "message": "%s este evaluat ca fiind periculos"
+   },
+   "topBarRatingGood": {
+      "message": "%s este evaluat ca fiind sigur"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Arme / Violență"
+   },
+   "vote": {
+      "message": "Votaţi"
+   },
+   "voteNegative": {
+      "message": "negativ"
+   },
+   "votePositive": {
+      "message": "pozitiv"
+   },
+   "webrepDisabled": {
+      "message": "WebRep este dezactivat"
+   },
+   "whatTypeContent": {
+      "message": "Ce fel de conținut oferă acest site?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

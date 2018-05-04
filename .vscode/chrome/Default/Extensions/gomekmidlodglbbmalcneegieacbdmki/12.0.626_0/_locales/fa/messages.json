@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "نمی توانید به فایل های محلی یا زبانه های داخلی رتبه بدهید"
+   },
+   "VoteThank": {
+      "message": "سپاس! رای تان با موفقیت ذخیره شد."
+   },
+   "anonymousUser": {
+      "message": "کاربر ناشناس"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>فعالیت‌های خرید و بانکداری شما را از سایر گشت و گذارهای اینترنتی مجزا می‌کند تا هکرها\u003C/b> فرصتی برای سرقت \u003Cb>شماره کارت‌های اعتباری، رمزهای عبور\u003C/b> و \u003Cb>سایر داده‌های شخصی شما نداشته نباشند.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "به عنوان بخشی از قابلیت Avast Secure Browser به همراه ضد ویروس Avast شما نصب می‌شود و \u003Cb>فعالیت‌های خرید و بانکداری شما را از سایر گشت و گذارهای اینترنتی مجزا می‌کند تا هکرها فرصتی برای سرقت شماره کارت‌های اعتباری، رمزهای عبور \u003C/b>و\u003Cb>همچنین سایر \u003C/b>داده‌های شخصی\u003Cb> شما نداشته باشند.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>حالت بانک‌داری\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "اکنون خیر"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "باز کردن Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "اکنون تغییر دهید"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "باز کردن مجدد در مرورگر AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "باز کردن مجدد در محدوده امن AVAST"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "این سایت به طور امن مجدداً باز شود"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "باز کردن در حالت بانکداری اینترنتی"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "مرورگر Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "نشست امور بانکی شما را از سایر فعالیت‌ها مجزا می‌کند تا از کلیدنگاری ضربات صفحه‌کلید و ضبط عکس رمزهای عبور و سایر داده‌های شخصی شما توسط هکرها جلوگیری شود. این مرورگر از قبل همراه با ضدویروس Avast نصب شده است، بنابراین، از قبل تنظیمات آن انجام شده و آماده استفاده است."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "بیشتر بدانید"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "نکنه Avast: مرورگر SafeZone تبلیغات را مسدود می‌کند تا از شما در برابر ردیابی کوکی‌ها و تبلیغات منفی محافظت کند."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "با استفاده از مرورگر Avast SafeZone، پرداخت‌های آنلاین خود را ایمن انجام دهید."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "این مرورگر وب نمی‌تواند به طور کامل امنیت بانکداری آنلاین شما را تامین کند."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "انجام امور بانکی از طریق این مرورگر ممکن است حساب شما را در معرض ریسک قرار دهد."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "اکیداً توصیه می‌کنیم امور بانکی خود را از طریق مرورگر Avast انجام دهید."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "ممکن است دیگران قادر به رویت داده‌های مالی شما باشند."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "با مرورگر Avast SafeZone، بهترین معامله‌ها را ایمن کرده و هزینه آنها را ایمن پرداخت کنید."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "آیا می‌دانید که می‌توانید ویدیوها را به آسانی از سایت‌های پخش آنلاین دانلود کنید؟"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "دوباره نشان داده نشود"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "دیگر برای این سایت نشان داده نشود"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "بسیار خوب، این سایت به طور امن باز شود"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "خیر متشکرم، لطفاً این هشدارها برای همیشه پنهان شوند"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "مرورگر Avast در بسته ضدویروس Avast شما گنجانده شده است."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "با تنها یک کلید، این صفحه مجدداً در مرورگر Avast باز شده و محافظت می‌شود."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "آیا واقعاً در نظر دارید حساب‌تان را در معرض خطر قرار دهید؟"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "امنیت آنلاین"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "هم ردگیری های سیستم مجاز است"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "در همه ی سایت ها"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "باز داشتن همه ی سیستم های ردگیری"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "تنظیمات سراسری"
+   },
+   "baMoreSettingsAction": {
+      "message": "تنظیمات بیشتر"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "مجاز است"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "باز داشته شده است"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "ردگیری سیستم ها در حال حاضر"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "در سایت"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "سیستم ردگیری"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "رای شما به این سایت:"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "منفی"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "مثبت"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "رای بدهید"
+   },
+   "checkAll": {
+      "message": "(همه موارد مربوطه را علامت بزنید)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "بستن"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "شرکتی"
+   },
+   "currentVote": {
+      "message": "رتبه کلی"
+   },
+   "detailsHeadline": {
+      "message": "Avast این سایت را اسکن کرده است"
+   },
+   "detailsMalwareNo": {
+      "message": "بدافزاری شناسایی نشد"
+   },
+   "detailsMalwareYes": {
+      "message": "بدافزار شناسایی شد!"
+   },
+   "detailsPhishingNo": {
+      "message": "هیچ فیشینگ شناسایی نشد"
+   },
+   "detailsPhishingYes": {
+      "message": "فیشینگ شناسایی شد!"
+   },
+   "disabledTab": {
+      "message": "نمی توانید به فایل های محلی یا زبانه های داخلی رتبه بدهید"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "ردیابی آگهی"
+   },
+   "dntAllowGroupAction": {
+      "message": "همگی مجاز"
+   },
+   "dntAllowTrackerAction": {
+      "message": "مجاز"
+   },
+   "dntAllowed": {
+      "message": "مجاز است"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "انسداد خودکار ردیاب‌ها: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "غیرفعال"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "فعال"
+   },
+   "dntBlockGroupAction": {
+      "message": "همه را باز دار"
+   },
+   "dntBlockTrackerAction": {
+      "message": "باز دار"
+   },
+   "dntBlocked": {
+      "message": "باز دار"
+   },
+   "dntHeadline": {
+      "message": "%s شرکت سعی کردند شما را ردیابی کنند"
+   },
+   "dntNetworks": {
+      "message": "شبکه ها"
+   },
+   "dntNetworksDetected": {
+      "message": "%s شبکه شناسایی شد"
+   },
+   "dntOthersNetworks": {
+      "message": "سایرین"
+   },
+   "dntSocialNetworks": {
+      "message": "شبکه های اجتماعی"
+   },
+   "dntStatusAllAllowed": {
+      "message": "همه موارد مجاز است"
+   },
+   "dntStatusAllBlocked": {
+      "message": "همه باز داشته شدند"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "بازداشته"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "برخی باز داشته شدند"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "تحلیل وب"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "الکل / مواد مخدر"
+   },
+   "error": {
+      "message": "خطا"
+   },
+   "errorUnexpected": {
+      "message": "خطای نا منتظره"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "قمار"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "نظرتان درباره این سایت چیست؟"
+   },
+   "illegal": {
+      "message": "نرم افزار دزدی / غیرقانونی"
+   },
+   "it": {
+      "message": "فناوری اطلاعات / دانلود"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "به عنوان کاربر ناشناس"
+   },
+   "loginDesc": {
+      "message": "اطلاعات ورود به سیستم را برای حساب my.avast.com وارد کنید:"
+   },
+   "loginError": {
+      "message": "ورود به سیستم انجام نشد"
+   },
+   "loginLogin": {
+      "message": "ورود به سیستم"
+   },
+   "loginLogout": {
+      "message": "خروج از سیستم"
+   },
+   "loginName": {
+      "message": "نام:"
+   },
+   "loginPswd": {
+      "message": "رمز عبور:"
+   },
+   "malwareNext": {
+      "message": "داونلود ضد ویروس رایگان Avast"
+   },
+   "malwareSite": {
+      "message": "این سایت می توانست به رایانه تان آسیب برساند."
+   },
+   "malwareSiteRec": {
+      "message": "پیشنهاد می کنیم ضد ویروس Avast را نصب کرده و رایانه تان را اسکن کنید."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "خبر /و بلاگ"
+   },
+   "noRating": {
+      "message": "این سایت رتبه بندی ندارد"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "سایرین"
+   },
+   "phishingBack": {
+      "message": "من را از اینجا بیرون ببر"
+   },
+   "phishingClose": {
+      "message": "نادیده گرفتن هشدار"
+   },
+   "phishingCreditNumber": {
+      "message": "ظاهراً می خواهید یک رمز عبور یا شماره کارت اعتباری را در سایتی که شهرت خوبی ندارد تایپ کنید. لطفاً دوباره بررسی کنید که سایت واقعی باشد. وارد کردن اطلاعات شخصی در سایت نامطمئن ممکن است خطرهای امنیتی به همراه داشته باشد."
+   },
+   "phishingDesc": {
+      "message": "فیشینگ تلاشی برای دستیابی به اطلاعات حساس مانند نام‌های کاربری، رمزهای عبور و جزئیات کارت‌های اعتباری است..."
+   },
+   "phishingPhishingSite": {
+      "message": "این سایت به عنوان سایت فیشینگ علامت گذاری شده است."
+   },
+   "phishingTrust": {
+      "message": "به این سایت اطمینان دارم"
+   },
+   "phishingWarning": {
+      "message": "هشدار"
+   },
+   "pornography": {
+      "message": "هرزه نگاری"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "این سایت رتبه متوسطی دارد"
+   },
+   "ratingBad": {
+      "message": "این سایت رتبه بدی دارد"
+   },
+   "ratingCommunity": {
+      "message": "%s رتبه ای است که جامعه داده"
+   },
+   "ratingDone": {
+      "message": "انجام شد"
+   },
+   "ratingGood": {
+      "message": "این سایت رتبه خوبی دارد"
+   },
+   "ratingLevelAverage": {
+      "message": "میانه"
+   },
+   "ratingLevelBad": {
+      "message": "بد"
+   },
+   "ratingLevelPositive": {
+      "message": "مثبت"
+   },
+   "ratingLevelUndefined": {
+      "message": "نه"
+   },
+   "ratingNegative": {
+      "message": "چرا به تجربه تان رتبه ی منفی دادید؟"
+   },
+   "ratingNoRate": {
+      "message": "اکنون رتبه بندی نمی کنم"
+   },
+   "ratingPending": {
+      "message": "در حال بازیابی رتبه"
+   },
+   "ratingPositive": {
+      "message": "چرا به تجربه تان رتبه ی مثبت دادید؟"
+   },
+   "ratingRate": {
+      "message": "چه رتبه ای به تجربه تان از این سایت می دهید؟"
+   },
+   "ratingTextAverage": {
+      "message": "این سایت بدنام است"
+   },
+   "ratingTextBad": {
+      "message": "این سایت نا امن است"
+   },
+   "ratingTextPositive": {
+      "message": "این سایت امن است"
+   },
+   "ratingTextUndefined": {
+      "message": "سایت ناشناخته"
+   },
+   "ratingVeryBad": {
+      "message": "این سایت رتبه بسیار بدی دارد"
+   },
+   "reasonBlocker": {
+      "message": "(تهدید مسدود شد)"
+   },
+   "reasonPhishing": {
+      "message": "(سایت فیشینگ شناسایی شد)"
+   },
+   "reasonUnknownFullText": {
+      "message": "این سایت هنوز رتبه‌بندی نشده است"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "برگرداندن"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "هتل‌های مشابه یافت شد!"
+   },
+   "safeZoneDecline": {
+      "message": "عدم ارائه ی محدوده ی امن برای "
+   },
+   "safeZoneDesc": {
+      "message": "Avast پیشنهاد می کند به SafeZone روی آورید"
+   },
+   "safeZoneFeedback": {
+      "message": "برای اطمینان تان، نشانی درخواستی در محدوده ی امن باز شده است"
+   },
+   "safeZoneNo": {
+      "message": "نه"
+   },
+   "safeZoneYes": {
+      "message": "روی آوری هم اینک"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> آماده استفاده است. خرید خوبی داشته باشید!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "ریست به وضعیت پیشفرض"
+   },
+   "settingsSave": {
+      "message": "ذخیره"
+   },
+   "settingscommunityIQ": {
+      "message": "اشتراک گذاری داده"
+   },
+   "settingscommunityIQDesc": {
+      "message": "با فعال کردن این گزینه رضایت می دهید که بعضی اطلاعات خاص به صورت ناشناس برای Avast ارسال شود. ممکن است اطلاعات ناشناس را با اشخاص ثالث به اشتراک بگذاریم."
+   },
+   "settingsdnt": {
+      "message": "ردگیری نکن"
+   },
+   "settingsdnt0": {
+      "message": "سپر حریم خصوصی"
+   },
+   "settingsdnt2": {
+      "message": "ردگیری نکن"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "بازداری هر گونه ردگیری به گونه ی پیشفرض"
+   },
+   "settingsdntDesc": {
+      "message": "تبلیغات ناخواسته را شناسایی و مسدود ساخته و از ردیابی شدن پنهان تان از سوی سایت های تحلیل وب جلوگیری می کند"
+   },
+   "settingsdntOthersDesc": {
+      "message": "مسدود کردن سایرین به صورت پیش فرض"
+   },
+   "settingsdntSocialDesc": {
+      "message": "بازداری شبکه های اجتماعی به گونه ی پیشفرض"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "مسدود بودن تحلیل وب بطور پیشفرض"
+   },
+   "settingsphishing": {
+      "message": "ضد فیشینگ"
+   },
+   "settingsphishing0": {
+      "message": "سپر وبگردی"
+   },
+   "settingsphishing2": {
+      "message": "ضد فیشینگ"
+   },
+   "settingsphishingDesc": {
+      "message": "سایت ها را در پی بد-افزار اسکن کرده و از فیشینگ پیشگیری می کند"
+   },
+   "settingssafeZone": {
+      "message": "محدوده امن"
+   },
+   "settingssafeZoneDesc": {
+      "message": "روی آوری به SafeZone برای سایت های دارای حساسیت مالی (نصب بودن ضد ویروس Avast لازم است)"
+   },
+   "settingsserp": {
+      "message": "نتایج موتور جستجو"
+   },
+   "settingsserpDesc": {
+      "message": "رنگ بندی صفحه ی نتایج جستجو فعال باشد"
+   },
+   "settingsserpPopupDesc": {
+      "message": "بالاپر ها در صفحه ی نتایج جستجو فعال باشند"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "پیام نده و خودکار به سوی سایت های حقیقی رهنمون شو"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "نشانی های اینترنتی دارای اشتباه املایی را شناسایی و تصحیح کرده وشما را به سایت های معتبر هدایت می کند"
+   },
+   "sfzoneAlways": {
+      "message": "بله، همیشه"
+   },
+   "sfzoneDesc": {
+      "message": "وارد یک تارنمای بانکداری اینترنتی شده اید. آیا می خواهید تارنما را در محدوده ی امن Avast باز کنید؟"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "هرگز"
+   },
+   "sfzoneNo": {
+      "message": "نه"
+   },
+   "sfzoneSwitch": {
+      "message": "روی آوری به SafeZone Avast"
+   },
+   "sfzoneYes": {
+      "message": "بله"
+   },
+   "shopping": {
+      "message": "خرید"
+   },
+   "sideDashboard": {
+      "message": "Avast من"
+   },
+   "sideDetails": {
+      "message": "بیشتر بدانید"
+   },
+   "sideRate": {
+      "message": "رتبه بندی هم اینک"
+   },
+   "sideSettings": {
+      "message": "تنظیمات"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "از این پس مرا خودکار به سایت های درست شناخته شده ببر"
+   },
+   "sitecorrectBarButton": {
+      "message": "اشتباه نبود، بازم گردان"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: تغییر مسیر خودکار از %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "برای پیکربندی ویژگی SiteCorrect Avast لطفاً رابط کاربری Avast را گشوده، به حفاظت اضافه و سپس حفاظت مرورگر رفته و از دکمه ی تنظیمات استفاده کنید."
+   },
+   "sitecorrectMean": {
+      "message": "منظورتان %s بود؟"
+   },
+   "sitecorrectNo": {
+      "message": "نه، به راستی منظورم %s بود"
+   },
+   "sitecorrectText": {
+      "message": "این احتمالاً سایتی نیست که می خواستید وارد شوید."
+   },
+   "sitecorrectYes": {
+      "message": "بله"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "اجتماعی / بازی"
+   },
+   "thanksHeadline": {
+      "message": "سپاس از رتبه بندی تان!"
+   },
+   "thanksMessage": {
+      "message": "رای شما ارسال گردید."
+   },
+   "title": {
+      "message": "تنظیمات امنیت آنلاین Avast"
+   },
+   "topBarDetails": {
+      "message": "نمایش جزئیات"
+   },
+   "topBarRatingAverage": {
+      "message": "%s به عنوان &quot;قابل قبول&quot; رتبه بندی شده است"
+   },
+   "topBarRatingBad": {
+      "message": "%s خطرناک رتبه بندی شده"
+   },
+   "topBarRatingGood": {
+      "message": "%s به عنوان &quot;امن&quot; رتبه بندی شده است"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "اسلحه / خشونت"
+   },
+   "vote": {
+      "message": "رای"
+   },
+   "voteNegative": {
+      "message": "منفی"
+   },
+   "votePositive": {
+      "message": "مثبت"
+   },
+   "webrepDisabled": {
+      "message": "WebRep غیرفعال است"
+   },
+   "whatTypeContent": {
+      "message": "این سایت چه محتوایی ارائه می دهد؟"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

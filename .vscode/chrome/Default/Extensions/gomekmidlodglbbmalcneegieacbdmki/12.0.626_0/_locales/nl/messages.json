@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "U kunt geen lokale bestanden of interne tabbladen beoordelen."
+   },
+   "VoteThank": {
+      "message": "Bedankt! Uw stem is opgeslagen."
+   },
+   "anonymousUser": {
+      "message": "Anonieme gebruiker"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>schermt winkel- en banksessies op een veilige manier af om te voorkomen dat hackers\u003C/b> uw\u003Cb>creditcardnummers, wachtwoorden\u003C/b> en \u003Cb>andere privégegevens\u003C/b> stelen."
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", onderdeel van de Avast Secure Browser die is geïnstalleerd met Avast Antivirus\u003Cb>schermt winkel- en banksessies op een veilige manier af om te voorkomen dat hackers\u003C/b> uw\u003Cb>creditcardnummers, wachtwoorden\u003C/b> en \u003Cb>andere privégegevens\u003C/b> stelen."
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bankmodus\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Niet nu"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Avast SafeZone openen"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Nu activeren"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "OPNIEUW OPENEN IN DE BROWSER VAN AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "OPNIEUW OPENEN IN AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "DEZE PAGINA VEILIG OPNIEUW OPENEN"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "OPENEN IN BANKMODUS"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Met de browser van Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "kunt u uw banksessie afschermen van hackers die proberen uw toetsaanslagen vast te leggen, en uw wachtwoorden en andere persoonlijke gegevens te stelen. De browser is al geïnstalleerd bij Avast Antivirus, dus u kunt deze meteen gebruiken."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Meer informatie"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Tip van Avast: de SafeZone-browser blokkeert advertenties en beschermt u zo tegen tracking-cookies en malvertising."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Gebruik in plaats daarvan de Avast SafeZone-browser om betalingen online veilig af te handelen."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Deze webbrowser kan uw onlinebankzaken niet volledig beveiligen."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Uw rekening loopt mogelijk gevaar bij onlinebankieren vanuit deze webbrowser."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Het is raadzaam uw onlinebankzaken alleen te regelen met de browser van Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Uw financiële gegevens zijn mogelijk zichtbaar voor anderen."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Sluit de beste deals en handel de betaling veilig af met de Avast SafeZone-browser."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Wist u dat u moeiteloos video's kunt downloaden van streaming-sites?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Niet meer weergeven"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Niet meer weergeven op deze website"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "OK, DEZE SITE OPNIEUW VEILIG OPENEN"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Nee bedankt, deze waarschuwingen voortaan verbergen"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "De browser van Avast is geleverd bij Avast Antivirus."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "U kunt deze pagina met één klik opnieuw openen in de browser van Avast, zodat u beschermd bent."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Wilt u uw rekening echt in gevaar brengen?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Alle volgsystemen toestaan"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "op alle websites"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Alle volgsystemen blokkeren"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Algemene instellingen"
+   },
+   "baMoreSettingsAction": {
+      "message": "Meer instellingen"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "toegestaan"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "geblokkeerd"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Volgsystemen zijn momenteel"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "op website"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "volgsystemen"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "U beoordeelt deze site"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatief"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positief"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Breng uw stem uit"
+   },
+   "checkAll": {
+      "message": "(Selecteer een of meer opties)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Sluiten"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Bedrijfsinformatie"
+   },
+   "currentVote": {
+      "message": "Totale beoordeling"
+   },
+   "detailsHeadline": {
+      "message": "Avast heeft deze site gescand"
+   },
+   "detailsMalwareNo": {
+      "message": "Geen malware gedetecteerd"
+   },
+   "detailsMalwareYes": {
+      "message": "Malware gedetecteerd!"
+   },
+   "detailsPhishingNo": {
+      "message": "Geen phishing gedetecteerd"
+   },
+   "detailsPhishingYes": {
+      "message": "Phishing gedetecteerd!"
+   },
+   "disabledTab": {
+      "message": "U kunt geen lokale bestanden of interne tabbladen beoordelen."
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Advertentietracking"
+   },
+   "dntAllowGroupAction": {
+      "message": "Alles toestaan"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Toestaan"
+   },
+   "dntAllowed": {
+      "message": "toegestaan"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Trackers automatisch blokkeren: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Uitgeschakeld"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Ingeschakeld"
+   },
+   "dntBlockGroupAction": {
+      "message": "Alles blokkeren"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokkeren"
+   },
+   "dntBlocked": {
+      "message": "geblokkeerd"
+   },
+   "dntHeadline": {
+      "message": "%s bedrijven hebben geprobeerd uw activiteiten te traceren"
+   },
+   "dntNetworks": {
+      "message": "Netwerken"
+   },
+   "dntNetworksDetected": {
+      "message": "%s netwerken gedetecteerd"
+   },
+   "dntOthersNetworks": {
+      "message": "Overig"
+   },
+   "dntSocialNetworks": {
+      "message": "Sociale netwerken"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Alles toegestaan"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Alles geblokkeerd"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Geblokkeerd"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Sommige geblokkeerd"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Webanalyses"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alcohol/drugs"
+   },
+   "error": {
+      "message": "Fout"
+   },
+   "errorUnexpected": {
+      "message": "Onverwachte fout"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Gokken"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Wat vindt u van deze site?"
+   },
+   "illegal": {
+      "message": "Warez/illegaal"
+   },
+   "it": {
+      "message": "IT/downloads"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Als anonieme gebruiker"
+   },
+   "loginDesc": {
+      "message": "Vul de inloggegevens voor uw account in op my.avast.com:"
+   },
+   "loginError": {
+      "message": "Het inloggen is mislukt"
+   },
+   "loginLogin": {
+      "message": "Inloggen"
+   },
+   "loginLogout": {
+      "message": "Uitloggen"
+   },
+   "loginName": {
+      "message": "Naam:"
+   },
+   "loginPswd": {
+      "message": "Wachtwoord:"
+   },
+   "malwareNext": {
+      "message": "Avast Free Antivirus downloaden"
+   },
+   "malwareSite": {
+      "message": "Deze site had uw computer schade kunnen toebrengen."
+   },
+   "malwareSiteRec": {
+      "message": "Het is raadzaam Avast Antivirus te installeren om uw computer te scannen."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Nieuws/blog"
+   },
+   "noRating": {
+      "message": "Deze site is nog niet beoordeeld"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Overig"
+   },
+   "phishingBack": {
+      "message": "Wegwezen!"
+   },
+   "phishingClose": {
+      "message": "De waarschuwing negeren"
+   },
+   "phishingCreditNumber": {
+      "message": "U probeert een wachtwoord of creditcardnummer in te voeren op een site met een slechte reputatie. Controleer nogmaals of het om een legitieme website gaat. Het invoeren van uw persoonlijke informatie op een onbetrouwbare site kan een veiligheidsrisico inhouden."
+   },
+   "phishingDesc": {
+      "message": "Bij phishing wordt geprobeerd aan gevoelige informatie te komen, zoals gebruikersnamen, wachtwoorden en creditcardgegevens..."
+   },
+   "phishingPhishingSite": {
+      "message": "Deze site is gemarkeerd als phishing-site."
+   },
+   "phishingTrust": {
+      "message": "I trust this website"
+   },
+   "phishingWarning": {
+      "message": "Waarschuwing"
+   },
+   "pornography": {
+      "message": "Porno"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Deze site heeft een gemiddelde beoordeling"
+   },
+   "ratingBad": {
+      "message": "Deze site heeft een slechte beoordeling"
+   },
+   "ratingCommunity": {
+      "message": "%s beoordeling van de community"
+   },
+   "ratingDone": {
+      "message": "Gereed"
+   },
+   "ratingGood": {
+      "message": "Deze site heeft een goede beoordeling"
+   },
+   "ratingLevelAverage": {
+      "message": "Gemiddelde"
+   },
+   "ratingLevelBad": {
+      "message": "Verdacht"
+   },
+   "ratingLevelPositive": {
+      "message": "Positieve"
+   },
+   "ratingLevelUndefined": {
+      "message": "Nee"
+   },
+   "ratingNegative": {
+      "message": "Waarom beoordeelt u uw ervaringen als negatief?"
+   },
+   "ratingNoRate": {
+      "message": "Ik wil nu geen beoordeling geven"
+   },
+   "ratingPending": {
+      "message": "Beoordeling ophalen"
+   },
+   "ratingPositive": {
+      "message": "Waarom beoordeelt u uw ervaringen als positief?"
+   },
+   "ratingRate": {
+      "message": "Hoe beoordeelt u uw ervaringen met deze site?"
+   },
+   "ratingTextAverage": {
+      "message": "deze site heeft een slechte reputatie"
+   },
+   "ratingTextBad": {
+      "message": "deze site is onveilig"
+   },
+   "ratingTextPositive": {
+      "message": "deze site is veilig"
+   },
+   "ratingTextUndefined": {
+      "message": "onbekende site"
+   },
+   "ratingVeryBad": {
+      "message": "Deze site heeft een zeer slechte beoordeling"
+   },
+   "reasonBlocker": {
+      "message": "(dreiging geblokkeerd)"
+   },
+   "reasonPhishing": {
+      "message": "(phishing-site gedetecteerd)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Deze site is nog niet beoordeeld"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Terugkeren"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Vergelijkbare hotels gevonden!"
+   },
+   "safeZoneDecline": {
+      "message": "SafeZone niet aanbieden voor "
+   },
+   "safeZoneDesc": {
+      "message": "Avast raadt u aan SafeZone te activeren"
+   },
+   "safeZoneFeedback": {
+      "message": "Voor de zekerheid is de opgegeven URL geopend in SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Nee"
+   },
+   "safeZoneYes": {
+      "message": "Nu activeren"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> is klaar voor gebruik. Veel plezier met winkelen!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Standaardwaarden herstellen"
+   },
+   "settingsSave": {
+      "message": "Opslaan"
+   },
+   "settingscommunityIQ": {
+      "message": "Gegevensdeling"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Door deze optie in te schakelen geeft u toestemming om bepaalde informatie anoniem naar Avast door te sturen. Het is mogelijk dat wij geanonimiseerde informatie met derden delen."
+   },
+   "settingsdnt": {
+      "message": "Niet traceren"
+   },
+   "settingsdnt0": {
+      "message": "Privacyschild"
+   },
+   "settingsdnt2": {
+      "message": "Niet traceren"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Advertentietracking standaard blokkeren"
+   },
+   "settingsdntDesc": {
+      "message": "Hiermee worden ongewenste advertenties gedetecteerd en geblokkeerd, en wordt voorkomen dat analysesites uw internetactiviteiten volgen."
+   },
+   "settingsdntOthersDesc": {
+      "message": "Overige standaard blokkeren"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Sociale netwerken standaard blokkeren"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Webanalyses standaard blokkeren"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Surfschild"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Hiermee worden websites gescand op malware en wordt phishing voorkomen."
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "SafeZone activeren bij gevoelige financiële sites (installatie van Avast Antivirus vereist)"
+   },
+   "settingsserp": {
+      "message": "Resultaten van zoekmachine"
+   },
+   "settingsserpDesc": {
+      "message": "Kleuren van pagina met zoekresultaten inschakelen"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Pop-ups op pagina met zoekresultaten inschakelen"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Melding verbergen en automatisch omleiden naar legitieme sites"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Hiermee worden spelfouten in URL's opgemerkt en gecorrigeerd, en worden legitieme sites geladen."
+   },
+   "sfzoneAlways": {
+      "message": "Ja, altijd"
+   },
+   "sfzoneDesc": {
+      "message": "U hebt een site voor telebankieren opgevraagd. Wilt u deze in Avast SafeZone openen?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Nooit"
+   },
+   "sfzoneNo": {
+      "message": "Nee"
+   },
+   "sfzoneSwitch": {
+      "message": "Avast SafeZone activeren"
+   },
+   "sfzoneYes": {
+      "message": "Ja"
+   },
+   "shopping": {
+      "message": "Winkel"
+   },
+   "sideDashboard": {
+      "message": "My Avast"
+   },
+   "sideDetails": {
+      "message": "Meer informatie"
+   },
+   "sideRate": {
+      "message": "Nu beoordelen"
+   },
+   "sideSettings": {
+      "message": "Instellingen"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Voortaan automatisch de juiste websites weergeven"
+   },
+   "sitecorrectBarButton": {
+      "message": "Dit was geen vergissing, ga terug"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: automatisch omleiden vanaf %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Als u de functie Avast SiteCorrect wilt configureren, opent u de gebruikersinterface van Avast, gaat u naar Aanvullende bescherming, Browserbescherming en klikt u op de knop Instellingen."
+   },
+   "sitecorrectMean": {
+      "message": "Bedoelde u soms %s?"
+   },
+   "sitecorrectNo": {
+      "message": "Nee, ik bedoelde echt %s"
+   },
+   "sitecorrectText": {
+      "message": "Dit is waarschijnlijk een andere site dan u wilde weergeven."
+   },
+   "sitecorrectYes": {
+      "message": "Ja"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Sociale media/games"
+   },
+   "thanksHeadline": {
+      "message": "Bedankt voor uw beoordeling!"
+   },
+   "thanksMessage": {
+      "message": "Uw stem is verzonden."
+   },
+   "title": {
+      "message": "Instellingen voor Avast Online Security"
+   },
+   "topBarDetails": {
+      "message": "Details weergeven"
+   },
+   "topBarRatingAverage": {
+      "message": "%s is beoordeeld als OK"
+   },
+   "topBarRatingBad": {
+      "message": "%s is beoordeeld als gevaarlijk"
+   },
+   "topBarRatingGood": {
+      "message": "%s is beoordeeld als veilig"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Wapens/geweld"
+   },
+   "vote": {
+      "message": "Stemmen"
+   },
+   "voteNegative": {
+      "message": "negatief"
+   },
+   "votePositive": {
+      "message": "positief"
+   },
+   "webrepDisabled": {
+      "message": "WebRep is uitgeschakeld"
+   },
+   "whatTypeContent": {
+      "message": "Wat voor informatie biedt deze site?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

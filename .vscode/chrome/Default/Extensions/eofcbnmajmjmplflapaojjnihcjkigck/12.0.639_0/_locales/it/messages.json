@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Trova i prezzi migliori, offerte e coupon durante lo shopping online con l'estensione Avast per il confronto dei prezzi e i coupon."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Trova i prezzi migliori, offerte e coupon durante lo shopping online con l'estensione AVG per il confronto dei prezzi e i coupon."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Fai clic per copiare"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Codice copiato negli appunti."
+   },
+   "sasHintSettings": {
+      "message": "Impostazioni"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "A partire da: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Possono essere applicate tariffe e imposte aggiuntive"
+   },
+   "spApply": {
+      "message": "Applica coupon"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Guarda! Altre offerte"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Guarda!\u003Cbr> Altre offerte"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Altre offerte, altri risparmi!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Altre offerte,\u003Cbr> altri risparmi!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Hotel consigliati:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Copia e incolla al momento del pagamento:"
+   },
+   "spCouponApplied": {
+      "message": "Coupon applicato."
+   },
+   "spCouponsAvailableText": {
+      "message": "Disponibili"
+   },
+   "spCouponsExpiration": {
+      "message": "Scadenza: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Risparmia grazie ai coupon"
+   },
+   "spCouponsSelected": {
+      "message": "Coupon selezionati: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Selezionati"
+   },
+   "spCouponsTab": {
+      "message": "Coupon"
+   },
+   "spGetCouponCode": {
+      "message": "Ottieni codice"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Vale la pena di attendere."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Ricerca di offerte in corso..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Oh oh...\u003Cbr>Nessun coupon trovato..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Oh oh...\u003Cbr>Nessuna offerta trovata..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Oh oh...\u003Cbr>Nessuna offerta speciale trovata..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Meno"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Altro"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "MOSTRA OFFERTA"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Risparmia %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Offerte e coupon trovati. Fortunato!"
+   },
+   "spOffersTab": {
+      "message": "Offerte"
+   },
+   "spOthersTab": {
+      "message": "Altri"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Sono inclusi: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Ospitalità e viaggi"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "Negozi online"
+   },
+   "spSettingsPageCancel": {
+      "message": "Annulla"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Elenco personalizzato"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Aggiungi"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Aggiungi sito"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Non mostrare alcuna notifica su questi siti Web:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(puoi sempre vedere le offerte e i coupon facendo clic sull'icona della barra degli strumenti)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Guida"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Coupon"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Per utilizzare un coupon, tutto quello che devi fare è fare clic su di esso. Se viene indicato un codice, dovrai incollarlo nell'apposito campo al momento del pagamento. In caso contrario, il coupon viene applicato automaticamente."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Per maggiori informazioni, consulta le \u003Cspan class='asp-faqs-span'>domande frequenti\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Notifiche"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Quando SafePrice trova un'offerta o un coupon correlati alla tua ricerca, viene visualizzata una notifica. Fai clic sul pulsante verde per vedere quello che abbiamo trovato per te."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Offerte"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Facendo clic su un'offerta, verrai reindirizzato al negozio online attendibile di un partner, dove potrai ottenere il nuovo prezzo indicato nella notifica."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Altri"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Facendo clic su un'offerta speciale, verrai reindirizzato al negozio online attendibile di un partner."
+   },
+   "spSettingsPageSave": {
+      "message": "Salva"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Impostazioni di Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Impostazioni di AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Notifiche"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Notifiche di coupon"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Non visualizzare notifiche dei coupon"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(puoi sempre vedere i coupon facendo clic sull'icona della barra degli strumenti)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Mostra ogni volta che è disponibile un coupon"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Mostra solo una volta per ogni sito Web"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Notifiche di offerte"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Mostra solo quando è disponibile un'offerta migliore rispetto al prezzo originale"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Mostra solo per le offerte che assicurano un risparmio almeno del  10  %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Non visualizzare notifiche delle offerte"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(puoi sempre vedere le offerte facendo clic sull'icona della barra degli strumenti)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Mostra ogni volta che è disponibile un'offerta"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Altri"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Visualizza notifiche sulle offerte speciali per altre categorie (trasporti, finanza, energia elettrica e così via)"
+   },
+   "spShippingLabel": {
+      "message": "Imballaggio e spedizione da"
+   },
+   "spShowNotificationMessage": {
+      "message": "MOSTRA"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Guarda cosa abbiamo trovato!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Trovati hotel alternativi!"
+   }
+}

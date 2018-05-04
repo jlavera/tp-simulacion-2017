@@ -1,0 +1,27 @@
+{
+   "author": "Avast",
+   "background": {
+      "scripts": [ "common/libs/q.js", "common/libs/eventemitter2.js", "common/libs/protobuf.js", "common/libs/lodash.js", "common/scripts/gpb.js", "common/libs/burger.js", "scripts/abek.bl.crx.js", "common/scripts/query.js", "common/scripts/wrc.js", "common/scripts/bal.js", "scripts/bs.crx.js", "scripts/bs.sp.crx.js" ]
+   },
+   "browser_action": {
+      "default_icon": "common/ui/icons/logo-safeprice-gray.png"
+   },
+   "default_locale": "en",
+   "description": "__MSG_avastAppDesc__",
+   "icons": {
+      "128": "common/ui/icons/logo-safeprice-128.png",
+      "48": "common/ui/icons/logo-safeprice-48.png",
+      "64": "common/ui/icons/logo-safeprice-64.png",
+      "96": "common/ui/icons/logo-safeprice-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUFhEKozczrgOk7CMRTmu2DIs8HXJWlscKV9K/OlihFLfCaVqByGULFF+8rCHyEX8GNC99zM64JoTT6GKP4eTqv38U2GLmo4bdYLnKjwuXxPRUiSlx7sAvsr0mPiscIX+3drYch4JHfLTBRNnQ12abyjBXcAtUgOKi3rmj3x186BT1wSZahDvh0cK7b7TzmaOdkcG0t9UGo7HTPfN/d7NMm93PVrqAkZZmdEustOmTooRvEkcdIk895Us6HKd7MOkDRMEJyT8pW0OipTxEPxbHs6YpQ4hIreReMfBu90UgnvM8Pv5+jScqyAXEKbjCPzBGU7kcVRPfiaWGbdGNjuYQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_avastAppName__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "cookies", "*://*.avast.com/*", "http://*/*", "https://*/*", "tabs", "webNavigation", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "12.0.639",
+   "web_accessible_resources": [ "common/ui/*", "common/ui/icons/*", "common/ui/css/*", "common/ui/fonts/*" ]
+}

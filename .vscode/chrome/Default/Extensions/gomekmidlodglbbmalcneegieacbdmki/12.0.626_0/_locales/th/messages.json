@@ -1,0 +1,504 @@
+{
+   "InternalTabs": {
+      "message": "ท่านไม่สามารถให้คะแนนไฟล์พื้นฐานหรือแท็ปภายในได้"
+   },
+   "VoteThank": {
+      "message": "ขอบคุณที่ลงคะแนนโหวต การโหวตของท่านได้รับการบันทึกเรียบร้อยแล้ว"
+   },
+   "anonymousUser": {
+      "message": "ผู้ใช้ไม่ระบุชื่อ"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "อนุญาตระบบการติดตามทั้งหมด"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "สำหรับเว็บไซต์ทั้งหมด"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "บล็อกระบบการติดตามทั้งหมด"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "การตั้งค่าทั้งระบบ"
+   },
+   "baMoreSettingsAction": {
+      "message": "การตั้งค่าเพิ่มเติม"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "ได้รับอนุญาต"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "ถูกบล็อก"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "ขณะนี้ระบบการติดตาม"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "บนเว็บไซต์"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "ระบบการติดตาม"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "คุณให้คะแนนเว็บไซต์นี้เป็น"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "ลบ"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "บวก"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rate this site as | negative/positive | . ",
+      "message": "."
+   },
+   "castYourVote": {
+      "message": "การโหวตของคุณ"
+   },
+   "checkAll": {
+      "message": "(เลือกทั้งหมดที่นำไปใช้)"
+   },
+   "close": {
+      "message": "ปิด"
+   },
+   "corporate": {
+      "message": "บริษัท"
+   },
+   "currentVote": {
+      "message": "การจัดอันดับโดยรวม"
+   },
+   "detailsHeadline": {
+      "message": "Avast สแกนเว็บไซต์นี้แล้ว"
+   },
+   "detailsMalwareNo": {
+      "message": "ไม่พบมัลแวร์"
+   },
+   "detailsMalwareYes": {
+      "message": "การตรวจจับมัลแวร์!"
+   },
+   "detailsPhishingNo": {
+      "message": "ไม่พบเว็บไซต์หลอกลวง!"
+   },
+   "detailsPhishingYes": {
+      "message": "การตรวจจับเว็บไซต์หลอกลวง!"
+   },
+   "disabledTab": {
+      "message": "ท่านไม่สามารถให้คะแนนไฟล์พื้นฐานหรือแท็ปภายในได้"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "การติดตามโฆษณา"
+   },
+   "dntAllowGroupAction": {
+      "message": "อนุญาตทั้งหมด"
+   },
+   "dntAllowTrackerAction": {
+      "message": "อนุญาต"
+   },
+   "dntAllowed": {
+      "message": "อนุญาต"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "บล็อกโปรแกรมติดตามโดยอัตโนมัติ: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "ปิดใช้งานแล้ว"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "เปิดใช้งานแล้ว"
+   },
+   "dntBlockGroupAction": {
+      "message": "บล็อกทั้งหมด"
+   },
+   "dntBlockTrackerAction": {
+      "message": "บล็อก"
+   },
+   "dntBlocked": {
+      "message": "บล็อกแล้ว"
+   },
+   "dntHeadline": {
+      "message": "บริษัท %s พยายามที่จะติดตามคุณ"
+   },
+   "dntNetworks": {
+      "message": "เน็ตเวิร์ค"
+   },
+   "dntNetworksDetected": {
+      "message": "ตรวจจับเน็ตเวิร์คได้ %s"
+   },
+   "dntOthersNetworks": {
+      "message": "อื่นๆ"
+   },
+   "dntSocialNetworks": {
+      "message": "โซเชียลเน็ตเวิร์ค"
+   },
+   "dntStatusAllAllowed": {
+      "message": "อนุญาตทั้งหมดแล้ว"
+   },
+   "dntStatusAllBlocked": {
+      "message": "บล็อกทั้งหมดแล้ว"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "บล็อกแล้ว"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "บล็อกบางส่วน"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "วิเคราะห์เว็บไซต์"
+   },
+   "drugs": {
+      "message": "แอลกอฮอล์ / ยา"
+   },
+   "error": {
+      "message": "ข้อผิดพลาด"
+   },
+   "errorUnexpected": {
+      "message": "ข้อผิดพลาดที่ไม่คาดคิด"
+   },
+   "gambling": {
+      "message": "การพนัน"
+   },
+   "howLike": {
+      "message": "คุณชื่นชอบเว็บไซต์นี้มากแค่ไหน?"
+   },
+   "illegal": {
+      "message": "สินค้าเถื่อน / สิ่งผิดกฏหมาย"
+   },
+   "it": {
+      "message": "IT / ดาวน์โหลด"
+   },
+   "loginAnonymous": {
+      "message": "ในฐานะผู้ใช้ที่ไม่ระบุชื่อ"
+   },
+   "loginDesc": {
+      "message": "กรอกข้อมูลการเข้าสู่ระบบบัญชี my.avast.com ของคุณ:"
+   },
+   "loginError": {
+      "message": "การเข้าสู่ระบบล้มเหลว"
+   },
+   "loginLogin": {
+      "message": "เข้าสู่ระบบ"
+   },
+   "loginLogout": {
+      "message": "ออกจากระบบ"
+   },
+   "loginName": {
+      "message": "ชื่อ:"
+   },
+   "loginPswd": {
+      "message": "รหัสผ่าน:"
+   },
+   "malwareNext": {
+      "message": "ดาวน์โหลดโปรแกรมป้องกันไวรัส Avast"
+   },
+   "malwareSite": {
+      "message": "เว็บไซต์นี้อาจจะทำอันตรายต่อคอมพิวเตอร์ของคุณ"
+   },
+   "malwareSiteRec": {
+      "message": "เราขอแนะนำให้คุณติดตั้งโปรแกรมป้องกันไวรัส Avast เพื่อสแกนเครื่องคอมพิวเตอร์ของคุณ"
+   },
+   "news": {
+      "message": "ข่าวสาร / บล็อก"
+   },
+   "noRating": {
+      "message": "เว็บไซต์นี้ไม่มีการจัดอันดับ"
+   },
+   "noWeight": {
+      "message": "(คะแนนโหวตไม่เพียงพอ)"
+   },
+   "phishingBack": {
+      "message": "นำฉันออกจากที่นี่"
+   },
+   "phishingClose": {
+      "message": "เพิกเฉยต่อคำเตือน"
+   },
+   "phishingCreditNumber": {
+      "message": "เหมือนว่าคณกำลังพิมพ์รหัสผ่านหรือรหัสบัตรเครดิตบนเว็บไซต์ที่มีความน่าเชื่อถือต่ำ กรุณาตรวจสอบให้แน่ใจว่าเป็นเว็บไซต์ที่แท้จริง การกรอกข้อมูลส่วนตัวในเว็บที่ไม่น่าเชื่อถืออาจนำไปสู่ความไม่ปลอดภัย"
+   },
+   "phishingPhishingSite": {
+      "message": "เว็บไซต์นี้ถูกทำเครื่องหมายเป็นเว็บหลอกลวงทางอินเตอร์เน็ต"
+   },
+   "phishingTrust": {
+      "message": "ฉันเชื่อเว็บไซต์นี้"
+   },
+   "phishingWarning": {
+      "message": "คำเตือน"
+   },
+   "pornography": {
+      "message": "สื่อลามก"
+   },
+   "ratingAverage": {
+      "message": "เว็บไซต์นี้มีการจัดอันดับปานกลาง"
+   },
+   "ratingBad": {
+      "message": "เว็บไซต์นี้มีการจัดอันดับที่แย่"
+   },
+   "ratingCommunity": {
+      "message": "%s การจัดอันดับการสื่อสาร"
+   },
+   "ratingDone": {
+      "message": "เสร็จสิ้น"
+   },
+   "ratingGood": {
+      "message": "เว็บไซต์นี้มีการจัดอันดับที่ดี"
+   },
+   "ratingLevelAverage": {
+      "message": "ปานกลาง"
+   },
+   "ratingLevelBad": {
+      "message": "แย่"
+   },
+   "ratingLevelPositive": {
+      "message": "บวก"
+   },
+   "ratingLevelUndefined": {
+      "message": "ไม่"
+   },
+   "ratingNegative": {
+      "message": "ทำไมคุณถึงจัดอันดับประสบการณ์เป็นลบ?"
+   },
+   "ratingNoRate": {
+      "message": "ฉันยังไม่ต้องการให้คะแนนตอนนี้"
+   },
+   "ratingPending": {
+      "message": "กำลังเริ่มการจัดอันดับ"
+   },
+   "ratingPositive": {
+      "message": "ทำไมคุณถึงจัดอันดับประสบการณ์เป็นบวก?"
+   },
+   "ratingRate": {
+      "message": "คุณให้คะแนนประสบการณ์ของคุณต่อเว็บไซต์นี้อย่างไร?"
+   },
+   "ratingTextAverage": {
+      "message": "เว็บไซต์นี้มีชื่อเสียงที่ไม่ดี"
+   },
+   "ratingTextBad": {
+      "message": "เว็บไซต์นี้ไม่ปลอดภัย"
+   },
+   "ratingTextPositive": {
+      "message": "เว็บไซต์นี้ปลอดภัย"
+   },
+   "ratingTextUndefined": {
+      "message": "เว็บไซต์ที่ไม่รู้จัก"
+   },
+   "safeZoneDecline": {
+      "message": "ไม่มีการนำเสนอการ SafeZone เพื่อ "
+   },
+   "safeZoneDesc": {
+      "message": "Avast ขอแนะนำให้คุณสลับไปใช้  SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "เพื่อความมั่นใจของคุณ URL ที่ร้องขอได้รับการเปิดใน SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "ไม่"
+   },
+   "safeZoneYes": {
+      "message": "สลับตอนนี้"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice ค้นหาข้อเสนอที่ดีที่สุดสำหรับผลิตภัณฑ์ที่คุณต้องการ ตรวจสอบราคา เปรียบเทียบร้านค้า อ่านความคิดเห็นของลูกค้า ตรวจสอบชื่อเสียงของร้านค้าปลีก ดูวิดีโอผลิตภัณฑ์ และรับคูปองที่ถูกต้องในเว็บบราวเซอร์ของคุณ"
+   },
+   "settingsReset": {
+      "message": "รีเซ็ตเป็นค่าเริ่มต้น"
+   },
+   "settingsSave": {
+      "message": "บันทึก"
+   },
+   "settingscommunityIQ": {
+      "message": "การแบ่งปันข้อมูล"
+   },
+   "settingscommunityIQDesc": {
+      "message": "ด้วยการเปิดใช้งานตัวเลือกนี้ คุณกำลังให้ความยินยอมเพื่อให้ส่งต่อข้อมูลบางอย่างแบบนิรนามไปยัง Avast เราอาจแบ่งปันข้อมูลแบบไม่เฉพาะเจาะจงกับบุคคลที่สาม"
+   },
+   "settingsdnt": {
+      "message": "ไม่ได้ติดตาม"
+   },
+   "settingsdnt0": {
+      "message": "Privacy Shield"
+   },
+   "settingsdnt2": {
+      "message": "ไม่ได้ติดตาม"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "บล็อกการติดตามการโฆษณาตั้งแต่ค่าเริ่มต้น"
+   },
+   "settingsdntDesc": {
+      "message": "ตรวจสอบและบล็อกโฆษณาที่ไม่พึงประสงค์ และป้องกันเว็บไซต์การวิเคราะห์ที่แอบติดตามคุณ"
+   },
+   "settingsdntOthersDesc": {
+      "message": "บล็อกสิ่งอื่น ๆ ตั้งแต่ค่าเริ่มต้น"
+   },
+   "settingsdntSocialDesc": {
+      "message": "บล็อกเครือข่ายสังคมตั้งแต่ค่าเริ่มต้น"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "บล็อกการวิเคราะห์เว็บไซต์ตั้งแต่ค่าเริ่มต้น"
+   },
+   "settingsphishing": {
+      "message": "ป้องกันเว็บไซต์หลอกลวง"
+   },
+   "settingsphishing0": {
+      "message": "Surf Shield"
+   },
+   "settingsphishing2": {
+      "message": "ป้องกันเว็บไซต์หลอกลวง"
+   },
+   "settingsphishingDesc": {
+      "message": "สแกนเว็บไซต์สำหรับมัลแวร์และป้องกันเว็บไซต์หลอกลวงทางอินเตอร์เน็ต"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "สลับไปที่ SafeZone สำหรับเว็บไซต์ทางการเงินที่มีความสำคัญ (ต้องติดตั้งโปรแกรมป้องกันไวรัส Avast)"
+   },
+   "settingsserp": {
+      "message": "ผลลัพธ์ในการค้นหา"
+   },
+   "settingsserpDesc": {
+      "message": "เปิดใช้งานสีที่หน้าเพจผลลัพธ์การค้นหา"
+   },
+   "settingsserpPopupDesc": {
+      "message": "เปิดใช้งานป๊อปอัปในเพจผลลัพธ์การค้นหา"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "ข้ามการเตือนโดยอัตโนมัติและเปลี่ยนเส้นทางไปยังเว็บไซต์ที่ถูกต้อง"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "ตรวจสอบและแก้ไข URL ที่พิมพ์ผิดและนำไปยังเว็บไซต์ที่ถูกต้องตามกฎหมาย"
+   },
+   "sfzoneAlways": {
+      "message": "ใช่ ทุกครั้ง"
+   },
+   "sfzoneDesc": {
+      "message": "คุณได้เข้าสู่เว็บไซต์ธุรกรรมออนไลน์ คุณต้องการเปิดใน Avast SafeZone หรือไม่?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "ไม่ใช้อีกเลย"
+   },
+   "sfzoneNo": {
+      "message": "ไม่"
+   },
+   "sfzoneSwitch": {
+      "message": "สลับไปใช้ Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "ใช่"
+   },
+   "shopping": {
+      "message": "การซื้อสินค้า"
+   },
+   "sideDashboard": {
+      "message": "Avast ของฉัน"
+   },
+   "sideDetails": {
+      "message": "เรียนรู้เพิ่มเติม"
+   },
+   "sideRate": {
+      "message": "จัดอันดับเดี๋ยวนี้"
+   },
+   "sideSettings": {
+      "message": "ตั้งค่า"
+   },
+   "sitecorrectAuto": {
+      "message": "ต่อไปนี้ให้พาฉันไปยังเว็ปไซต์ที่ถูกต้องโดยอัตโนมัติ"
+   },
+   "sitecorrectBarButton": {
+      "message": "นี่ไม่ใช่ความผิดพลาด พาฉันกลับไปที่เดิม"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: เปลี่ยนทิศทางจาก %s โดยอัตโนมัติ"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "หากต้องการปรับค่าฟีเจอร์ Avast SiteCorrect กรุณาเปิดอินเตอร์เฟสผู้ใช้ของ Avast จากนั้นให้เข้าไปที่ 'การป้องกันเพิ่มเติม' 'การป้องกันบราวเซอร์' และใช้ปุ่ม 'การตั้งค่า'"
+   },
+   "sitecorrectMean": {
+      "message": "ท่านหมายถึง %s ใช่หรือไม่ ?"
+   },
+   "sitecorrectNo": {
+      "message": "ไม่ใช่ ฉันหมายถึง %s"
+   },
+   "sitecorrectText": {
+      "message": "เว็บไซต์นี้อาจจะไม่ใช่เว็ปไซต์ที่ท่านกำลังต้องการเข้าชม."
+   },
+   "sitecorrectYes": {
+      "message": "ใช่"
+   },
+   "social": {
+      "message": "สังคม / เกม"
+   },
+   "thanksHeadline": {
+      "message": "ขอบคุณสำหรับการจัดอันดับ!"
+   },
+   "thanksMessage": {
+      "message": "ส่งคะแนนโหวตของคุณเรียบร้อยแล้ว"
+   },
+   "title": {
+      "message": "โปรแกรมการตั้งค่าความปลอดภัยออนไลน์ของ Avast"
+   },
+   "topBarDetails": {
+      "message": "ดูรายละเอียด"
+   },
+   "topBarRatingAverage": {
+      "message": "%s ได้รับการจัดอันดับว่าโอเค"
+   },
+   "topBarRatingBad": {
+      "message": "%s ได้รับการจัดอันดับว่าอันตราย"
+   },
+   "topBarRatingGood": {
+      "message": "%s ได้รับการจัดอันดับว่าปลอดภัย"
+   },
+   "violence": {
+      "message": "อาวุธ / ความรุนแรง"
+   },
+   "vote": {
+      "message": "โหวต"
+   },
+   "voteNegative": {
+      "message": "ลบ"
+   },
+   "votePositive": {
+      "message": "บวก"
+   },
+   "webrepDisabled": {
+      "message": "ปิดการใช้งาน WebRep"
+   },
+   "weight1": {
+      "message": "(ใช้เสียงส่วนน้อยเป็นเกณฑ์)"
+   },
+   "weight2": {
+      "message": "(ใช้เสียงโหวตเฉพาะกลุ่มเป็นเกณฑ์)"
+   },
+   "weight3": {
+      "message": "(ใช้เสียงส่วนมากเป็นเกณฑ์)"
+   },
+   "whatTypeContent": {
+      "message": "เว็บไซต์นี้ให้ข้อมูลประเภทใดกับคุณ?"
+   }
+}

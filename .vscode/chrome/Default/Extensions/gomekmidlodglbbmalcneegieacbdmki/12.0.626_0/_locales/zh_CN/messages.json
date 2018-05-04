@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "您不能评价本机文件或内部选项卡"
+   },
+   "VoteThank": {
+      "message": "非常感谢！您的投票已成功保存。"
+   },
+   "anonymousUser": {
+      "message": "匿名用户"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>可安全隔离购物和银行会话以阻止黑客\u003C/b>窃取您的\u003Cb>信号卡号码、密码\u003C/b>和\u003Cb>其他私有数据。\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "，Avast 防病毒软件附带安装的 Avast Secure Browser 的一部分，\u003Cb>可安全隔离购物和银行会话以阻止黑客盗取\u003C/b>您的\u003Cb>信用卡号码、密码\u003C/b>和\u003Cb>其他私有数据。\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>银行模式\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "以后再说"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "打开 Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "立即切换"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "在 AVAST 的浏览器中重新打开"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "在 AVAST SAFEZONE 中重新打开"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "安全地重新打开此网站"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "在银行模式下打开"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avast 的浏览器"
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "会隔离您的银行操作会话，以防止黑客记录键击和捕获您的密码和其他个人数据。它已经随您的 Avast 防病毒软件一同安装，因此已设置好，可随时使用。"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "了解更多"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast 提示︰ SafeZone 浏览器阻止广告以保护您免受 Cookie 跟踪和恶意广告。"
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "改用 Avast SafeZone 浏览器安全地进行在线支付。"
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "此 Web 浏览器不能完全保护您的网上银行操作安全。"
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "使用此 Web 浏览器办理银行操作可能会将您的账户置于危险之中。"
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "我们强烈建议只从 Avast 的浏览器办理银行操作。"
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "其他人可能看见您的财务数据。"
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "获得最好的交易，并使用 Avast SafeZone 浏览器安全支付。"
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "您知道您可以从流媒体网站上轻松地下载视频吗？"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "不再显示此消息"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "在此站点上不再显示"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "好的，安全地重新打开此网站"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "不用了，谢谢，请永久隐藏这些警告"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Avast 的浏览器已随您的 Avast 防病毒软件安装。"
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "一次单击便可在 Avast 的浏览器中重新打开此页来保护您。"
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "真的要将您的账户置于危险之中？"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "在线安全"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "允许所有系统跟踪"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "在所有网站"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "拦截所有系统跟踪"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "整体设置"
+   },
+   "baMoreSettingsAction": {
+      "message": "更多设置"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "已允许"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "已拦截"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "当前正在跟踪系统"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "在网站"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "跟踪系统"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "您将该网站评为"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "消极"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "积极"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "。"
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "放弃您的投票"
+   },
+   "checkAll": {
+      "message": "(检查应用的所有内容)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "社团"
+   },
+   "currentVote": {
+      "message": "总体评级"
+   },
+   "detailsHeadline": {
+      "message": "Avast 已扫描此网站"
+   },
+   "detailsMalwareNo": {
+      "message": "未检测到恶意软件"
+   },
+   "detailsMalwareYes": {
+      "message": "检测到恶意软件！"
+   },
+   "detailsPhishingNo": {
+      "message": "未检测到网络钓鱼"
+   },
+   "detailsPhishingYes": {
+      "message": "检测到网络钓鱼！"
+   },
+   "disabledTab": {
+      "message": "您不能评价本机文件或内部选项卡"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "广告跟踪"
+   },
+   "dntAllowGroupAction": {
+      "message": "允许所有"
+   },
+   "dntAllowTrackerAction": {
+      "message": "允许"
+   },
+   "dntAllowed": {
+      "message": "允许"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "自动阻止跟踪程序： "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "已禁用"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "已启用"
+   },
+   "dntBlockGroupAction": {
+      "message": "拦截所有"
+   },
+   "dntBlockTrackerAction": {
+      "message": "拦截"
+   },
+   "dntBlocked": {
+      "message": "已拦截"
+   },
+   "dntHeadline": {
+      "message": "%s 家公司尝试跟踪您"
+   },
+   "dntNetworks": {
+      "message": "网络"
+   },
+   "dntNetworksDetected": {
+      "message": "检测到 %s 个网络"
+   },
+   "dntOthersNetworks": {
+      "message": "其他"
+   },
+   "dntSocialNetworks": {
+      "message": "社交网络"
+   },
+   "dntStatusAllAllowed": {
+      "message": "已允许所有"
+   },
+   "dntStatusAllBlocked": {
+      "message": "已拦截所有"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "已拦截"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "已拦截部分"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Web 分析"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "酒精/ 毒品"
+   },
+   "error": {
+      "message": "错误"
+   },
+   "errorUnexpected": {
+      "message": "意外错误"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "赌博"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "您觉得该站点怎么样？"
+   },
+   "illegal": {
+      "message": "盗版 / 非法"
+   },
+   "it": {
+      "message": "IT / 下载"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "作为匿名用户"
+   },
+   "loginDesc": {
+      "message": "为您的 my.avast.com 帐户填写您的登录数据。"
+   },
+   "loginError": {
+      "message": "登录失败"
+   },
+   "loginLogin": {
+      "message": "登录"
+   },
+   "loginLogout": {
+      "message": "注销"
+   },
+   "loginName": {
+      "message": "名称:"
+   },
+   "loginPswd": {
+      "message": "密码:"
+   },
+   "malwareNext": {
+      "message": "下载 Avast 免费杀毒软件"
+   },
+   "malwareSite": {
+      "message": "可能已对您的计算机造成危害。"
+   },
+   "malwareSiteRec": {
+      "message": "我们建议安装 Avast 防病毒软件扫描您的计算机。"
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "新闻 / 博客"
+   },
+   "noRating": {
+      "message": "该站点没有评级"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "其他"
+   },
+   "phishingBack": {
+      "message": "离开此处"
+   },
+   "phishingClose": {
+      "message": "忽略警告"
+   },
+   "phishingCreditNumber": {
+      "message": "您似乎正尝试在信誉不良的站点上键入密码或信用卡号码。请仔细确认此站点是真实站点。在不受信任的站点中输入您的个人信息可能带来安全风险。"
+   },
+   "phishingDesc": {
+      "message": "网络钓鱼是指获取敏感信息的不良企图，如用户名、 密码和信用卡详细信息等..."
+   },
+   "phishingPhishingSite": {
+      "message": "此站点已标记为网络钓鱼站点。"
+   },
+   "phishingTrust": {
+      "message": "我信任此网站"
+   },
+   "phishingWarning": {
+      "message": "警告"
+   },
+   "pornography": {
+      "message": "色情"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "该站点评级一般"
+   },
+   "ratingBad": {
+      "message": "该站点评级较差"
+   },
+   "ratingCommunity": {
+      "message": "%s 社区评价"
+   },
+   "ratingDone": {
+      "message": "完成"
+   },
+   "ratingGood": {
+      "message": "该站点评级较好"
+   },
+   "ratingLevelAverage": {
+      "message": "平均"
+   },
+   "ratingLevelBad": {
+      "message": "负面"
+   },
+   "ratingLevelPositive": {
+      "message": "正面"
+   },
+   "ratingLevelUndefined": {
+      "message": "否"
+   },
+   "ratingNegative": {
+      "message": "为何对您的体验评价为负面？"
+   },
+   "ratingNoRate": {
+      "message": "我不想立即评价"
+   },
+   "ratingPending": {
+      "message": "检索评级"
+   },
+   "ratingPositive": {
+      "message": "为何将您的体验评价为正面？"
+   },
+   "ratingRate": {
+      "message": "您对此网站有何评价？"
+   },
+   "ratingTextAverage": {
+      "message": "此网站信誉不佳"
+   },
+   "ratingTextBad": {
+      "message": "此网站不安全"
+   },
+   "ratingTextPositive": {
+      "message": "此网站是安全网站"
+   },
+   "ratingTextUndefined": {
+      "message": "未知网站"
+   },
+   "ratingVeryBad": {
+      "message": "该站点评级非常差"
+   },
+   "reasonBlocker": {
+      "message": "（威胁已拦截）"
+   },
+   "reasonPhishing": {
+      "message": "（检查到网络钓鱼站点）"
+   },
+   "reasonUnknownFullText": {
+      "message": "该站点仍没有评级"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "还原"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "找到类似的酒店！"
+   },
+   "safeZoneDecline": {
+      "message": "不为以下网站提供安全区 "
+   },
+   "safeZoneDesc": {
+      "message": "Avast 建议您切换到安全地带"
+   },
+   "safeZoneFeedback": {
+      "message": "为让您放心，请求的 URL 已在安全地带中打开"
+   },
+   "safeZoneNo": {
+      "message": "否"
+   },
+   "safeZoneYes": {
+      "message": "立即切换"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> 已准备就绪。购物愉快！"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "重置为默认值"
+   },
+   "settingsSave": {
+      "message": "保存"
+   },
+   "settingscommunityIQ": {
+      "message": "分享数据"
+   },
+   "settingscommunityIQDesc": {
+      "message": "启动此选项说明您同意匿名将某些信息转至 Avast。 我们可能会将匿名信息提供给第三方。"
+   },
+   "settingsdnt": {
+      "message": "不跟踪"
+   },
+   "settingsdnt0": {
+      "message": "隐私防护"
+   },
+   "settingsdnt2": {
+      "message": "不跟踪"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "默认拦截并跟踪"
+   },
+   "settingsdntDesc": {
+      "message": "监测并拦截不需要的广告，并防止分析网站对您进行秘密跟踪"
+   },
+   "settingsdntOthersDesc": {
+      "message": "默认拦截其他项目"
+   },
+   "settingsdntSocialDesc": {
+      "message": "默认拦截社交网络"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "默认拦截 Web 分析"
+   },
+   "settingsphishing": {
+      "message": "反网络钓鱼"
+   },
+   "settingsphishing0": {
+      "message": "网上冲浪防护"
+   },
+   "settingsphishing2": {
+      "message": "反网络钓鱼"
+   },
+   "settingsphishingDesc": {
+      "message": "扫描网站中的恶意软件并防止网络钓鱼"
+   },
+   "settingssafeZone": {
+      "message": "安全地带"
+   },
+   "settingssafeZoneDesc": {
+      "message": "对于敏感的财务网站，切换到安全地带 (需要安装 Avast 防病毒软件 )"
+   },
+   "settingsserp": {
+      "message": "搜索引擎结果"
+   },
+   "settingsserpDesc": {
+      "message": "启用搜索结果页面颜色编码"
+   },
+   "settingsserpPopupDesc": {
+      "message": "在搜索结果页面上启用弹出窗口"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "立即跳过并自动重定向到合法站点"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "检测并更正错误键入的 URL 并定向到合法站点"
+   },
+   "sfzoneAlways": {
+      "message": "是，始终"
+   },
+   "sfzoneDesc": {
+      "message": "您已进入在线银行站点。是否要在 Avast 安全地带中将其打开？"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast 安全地带"
+   },
+   "sfzoneNever": {
+      "message": "从不"
+   },
+   "sfzoneNo": {
+      "message": "否"
+   },
+   "sfzoneSwitch": {
+      "message": "切换到 Avast 安全地带"
+   },
+   "sfzoneYes": {
+      "message": "是"
+   },
+   "shopping": {
+      "message": "购物"
+   },
+   "sideDashboard": {
+      "message": "我的 Avast"
+   },
+   "sideDetails": {
+      "message": "了解更多"
+   },
+   "sideRate": {
+      "message": "立即评价"
+   },
+   "sideSettings": {
+      "message": "设置"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "立即自动将我带到已知的正确站点"
+   },
+   "sitecorrectBarButton": {
+      "message": "没有发生错误，请返回"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: 自动从 %s 重定向"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "要配置 Avast SiteCorrect 功能，请打开 Avast 用户界面，转至“其他防护”、“浏览器保护”并使用“设置”按钮。"
+   },
+   "sitecorrectMean": {
+      "message": "您是否要进入 %s ？"
+   },
+   "sitecorrectNo": {
+      "message": "否，我实际想进入 %s"
+   },
+   "sitecorrectText": {
+      "message": "这可能不是您要进入的站点。"
+   },
+   "sitecorrectYes": {
+      "message": "是"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "社交 / 游戏"
+   },
+   "thanksHeadline": {
+      "message": "感谢您的评价！"
+   },
+   "thanksMessage": {
+      "message": "您的投票已经提交。"
+   },
+   "title": {
+      "message": "Avast 在线安全设置"
+   },
+   "topBarDetails": {
+      "message": "查看详细信息"
+   },
+   "topBarRatingAverage": {
+      "message": "%s 评价为正常"
+   },
+   "topBarRatingBad": {
+      "message": "%s 评价为危险"
+   },
+   "topBarRatingGood": {
+      "message": "%s 评价为安全"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "武器 / 暴力"
+   },
+   "vote": {
+      "message": "投票"
+   },
+   "voteNegative": {
+      "message": "负面"
+   },
+   "votePositive": {
+      "message": "正面"
+   },
+   "webrepDisabled": {
+      "message": "网站监测已禁用"
+   },
+   "whatTypeContent": {
+      "message": "该站点提供什么类型的内容？"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

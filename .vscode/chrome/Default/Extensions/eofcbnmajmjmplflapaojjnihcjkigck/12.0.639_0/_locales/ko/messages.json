@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Avast에서 제공하는 가격 비교와 쿠폰 확장을 통해 온라인 쇼핑을 하는 동안 최저가, 최고의 거래 및 쿠폰을 찾아보십시오."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "AVG에서 제공하는 가격 비교와 쿠폰 확장을 통해 온라인 쇼핑을 하는 동안 최저가, 최고의 거래 및 쿠폰을 찾아보십시오."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "복사하려면 클릭"
+   },
+   "sasCouponCodeCopied": {
+      "message": "코드가 클립보드로 복사되었습니다."
+   },
+   "sasHintSettings": {
+      "message": "설정"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "최저가: %s"
+   },
+   "spAdditionalFees": {
+      "message": "추가 수수료 및 세금이 적용될 수 있습니다."
+   },
+   "spApply": {
+      "message": "쿠폰 적용"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "주목! 더 많은 제품"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "주목!\u003Cbr>더 많은 제품"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "더 많은 거래, 더 큰 할인!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "더 많은 거래,\u003Cbr>더 큰 할인!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "인기 호텔:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "결제 시 복사 및 붙여넣기:"
+   },
+   "spCouponApplied": {
+      "message": "쿠폰 적용됨."
+   },
+   "spCouponsAvailableText": {
+      "message": "이용 가능"
+   },
+   "spCouponsExpiration": {
+      "message": "만료 날짜: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "쿠폰을 사용해 할인받기"
+   },
+   "spCouponsSelected": {
+      "message": "선택된 쿠폰: "
+   },
+   "spCouponsSelectedText": {
+      "message": "선택됨"
+   },
+   "spCouponsTab": {
+      "message": "쿠폰"
+   },
+   "spGetCouponCode": {
+      "message": "코드 받기"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "기다릴만한 가치가 있음을 약속드립니다."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "거래 검색 중..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "이런...\u003Cbr>쿠폰이 없습니다..."
+   },
+   "spNothingFoundOffers": {
+      "message": "이런...\u003Cbr>제품이 없습니다..."
+   },
+   "spNothingFoundOthers": {
+      "message": "이런...\u003Cbr>특별 거래가 없습니다..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "간단히"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "자세히"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "거래 표시"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "%s 절약"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "제품 및 쿠폰 발견. 운이 좋네요!"
+   },
+   "spOffersTab": {
+      "message": "제품"
+   },
+   "spOthersTab": {
+      "message": "기타"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "포함: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "숙박 시설 및 여행"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "온라인 쇼핑몰"
+   },
+   "spSettingsPageCancel": {
+      "message": "취소"
+   },
+   "spSettingsPageCustomList": {
+      "message": "사용자 지정 목록"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "추가"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "사이트 추가"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "다음 웹 사이트에서는 모든 알림 표시 안 함"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(도구 모음 아이콘을 클릭하면 항상 제품 및 쿠폰을 볼 수 있음)"
+   },
+   "spSettingsPageHelp": {
+      "message": "도움말"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. 쿠폰"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "쿠폰을 클릭하기만 하면 사용할 수 있습니다. 쿠폰에 코드가 표시될 경우 결제 시 코드를 적절한 필드로 붙여넣어야 합니다. 코드가 표시되지 않을 경우에는 쿠폰이 작동으로 적용됩니다."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "자세한 내용은 \u003Cspan class='asp-faqs-span'>FAQ\u003C/span>에서 확인하십시오."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. 알림"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "SafePrice에서 검색 내용과 관련된 제품 또는 쿠폰을 발견하게 되면 알림이 나타납니다. 큰 녹색 버튼을 클릭하면 결과를 확인할 수 있습니다."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. 제품"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "제품을 클릭하면 파트너의 신뢰할 수 있는 온라인 상점으로 이동하여 알림에 있는 새 가격으로 구매할 수 있습니다."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. 기타"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "나열된 특별 거래를 클릭하면 파트너의 신뢰할 수 있는 온라인 상점으로 이동합니다."
+   },
+   "spSettingsPageSave": {
+      "message": "저장"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice 설정"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice 설정"
+   },
+   "spSettingsTabNotifications": {
+      "message": "알림"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "쿠폰 알림"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "쿠폰 알림 사용 안 함"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(도구 모음 아이콘을 클릭하면 항상 쿠폰을 볼 수 있음)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "쿠폰이 있을 때마다 표시"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "각 웹사이트당 한 번만 표시"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "제품 알림"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "정가보다 낮은 가격의 제품이 있을 때만 표시"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "최소 10% 할인된 가격의 제품만 표시"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "제품 알림 사용 안 함"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(도구 모음 아이콘을 클릭하면 항상 제품을 볼 수 있음)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "제품이 있을 때마다 표시"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "기타"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "다른 범주(교통, 금융, 전원 공급 장치 등)의 특별 거래 알림 사용"
+   },
+   "spShippingLabel": {
+      "message": "배송비"
+   },
+   "spShowNotificationMessage": {
+      "message": "표시"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "결과를 확인하세요!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "다른 호텔 발견!"
+   }
+}

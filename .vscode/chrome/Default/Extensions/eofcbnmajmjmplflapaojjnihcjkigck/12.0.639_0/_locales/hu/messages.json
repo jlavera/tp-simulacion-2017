@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "A legjobb árak, akciók és kuponok keresése online vásárlás közben az Avast ár-összehasonlításával és kuponmeghosszabbításával."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "A legjobb árak, akciók és kuponok keresése online vásárlás közben az AVG ár-összehasonlításával és kuponmeghosszabbításával."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Kattintson a másoláshoz"
+   },
+   "sasCouponCodeCopied": {
+      "message": "A kód kimásolva a vágólapra."
+   },
+   "sasHintSettings": {
+      "message": "Beállítások"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Legalacsonyabb ár: %s"
+   },
+   "spAdditionalFees": {
+      "message": "További díjak és adók merülhetnek fel"
+   },
+   "spApply": {
+      "message": "Kupon alkalmazása"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Odanézzen! További ajánlatok"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Odanézzen!\u003Cbr>További ajánlatok"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Több ajánlat, több megtakarítás!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Több ajánlat,\u003Cbr>több megtakarítás!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Népszerű szállodák:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Másolja és illessze be a fizetéskor:"
+   },
+   "spCouponApplied": {
+      "message": "Kupon alkalmazva."
+   },
+   "spCouponsAvailableText": {
+      "message": "Elérhető"
+   },
+   "spCouponsExpiration": {
+      "message": "Lejárat: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Megtakarítás kuponokkal"
+   },
+   "spCouponsSelected": {
+      "message": "Kiválasztott kuponok: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Kiválasztva"
+   },
+   "spCouponsTab": {
+      "message": "Kuponok"
+   },
+   "spGetCouponCode": {
+      "message": "Kód lekérése"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Garantáltan érdemes megvárni."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Ajánlatok keresése..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Ajjaj...\u003Cbr>Nem találtunk kupont..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Ajjaj...\u003Cbr>Nem találtunk ajánlatot..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Ajjaj...\u003Cbr>Nem találtunk különleges ajánlatot..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Kevesebb"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Több"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "AJÁNLAT MEGJELENÍTÉSE"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Megtakarítás: %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Ajánlatok és kuponok találhatók. Milyen szerencse!"
+   },
+   "spOffersTab": {
+      "message": "Ajánlatok"
+   },
+   "spOthersTab": {
+      "message": "Egyebek"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Tartalom: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Szállás és utazás"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "Webshopok"
+   },
+   "spSettingsPageCancel": {
+      "message": "Mégse"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Egyéni lista"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Hozzáadás"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Cím hozzáadása"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Értesítések elrejtése ezeken a webhelyeken:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(az eszköztár ikonjára kattintva mindig megtekintheti az ajánlatokat és kuponokat)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Súgó"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kuponok"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "A kupon használatához csak rá kell kattintania. Ha megjelenít egy kódot, akkor illessze be a megfelelő mezőbe a fizetéskor. Ha nem, akkor a kupon automatikusan érvényes lesz."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "További információt a \u003Cspan class='asp-faqs-span'>GYIK dokumentumokban\u003C/span> talál."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Értesítések"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Ha a SafePrice a kereséséhez kapcsolódó ajánlatot vagy kupont talál, előugrik egy értesítés. A nagy zöld gombra kattintva megtekintheti, hogy mit találtunk Önnek."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Ajánlatok"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Ha egy ajánlatra kattint, felkeresheti a partner megbízható online üzletét, ahol az értesítésben feltüntetett új árat fogja látni."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Egyebek"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Ha egy különleges ajánlatra kattint a listán, megnyílik egy partner megbízható online üzlete."
+   },
+   "spSettingsPageSave": {
+      "message": "Mentés"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Az Avast SafePrice beállításai"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Az AVG SafePrice beállításai"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Értesítések"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Kuponokról szóló értesítések"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Nem kérek értesítést a kuponokról"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(az eszköztár ikonjára kattintva mindig megtekintheti a kuponokat)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Minden elérhető kupon megjelenítése"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Megjelenítés webhelyenként csak egyszer"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Ajánlatokról szóló értesítések"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Csak az eredeti árnál kedvezőbb ajánlatok megjelenítése"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Csak a legalább 10%-os megtakarítással járó ajánlatok megjelenítése"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Nem kérek értesítést az ajánlatokról"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(az eszköztár ikonjára kattintva mindig megtekintheti az ajánlatokat)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Minden elérhető ajánlat megjelenítése"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Egyebek"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Értesítést kérek a más kategóriákhoz tartozó különleges ajánlatokról (szállítás, pénzügyi szolgáltatások, energia stb.)"
+   },
+   "spShippingLabel": {
+      "message": "SZ/K"
+   },
+   "spShowNotificationMessage": {
+      "message": "MEGJELENÍTÉS"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Nézze, mit találtunk!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Alternatív szállodákat találtunk!"
+   }
+}

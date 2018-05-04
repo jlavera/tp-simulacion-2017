@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Нельзя оценивать локальные файлы или внутренние вкладки"
+   },
+   "VoteThank": {
+      "message": "Благодарим вас! Ваш голос успешно сохранен."
+   },
+   "anonymousUser": {
+      "message": "Анонимный пользователь"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>безопасно изолирует сеансы покупок и банковских операций, не давая хакерам выкрасть\u003C/b> ваши \u003Cb>пароли, номера кредитных карт\u003C/b> и \u003Cb>другие конфиденциальные данные.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", компонент защищенного браузера Avast, установленного вместе с антивирусом Avast, \u003Cb>безопасно изолирует сеансы покупок и банковских операций, не давая хакерам выкрасть\u003C/b> ваши \u003Cb>пароли, номера кредитных карт\u003C/b> и \u003Cb>другие конфиденциальные данные.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Режим банковских операций\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Не сейчас"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Открыть Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Переключиться"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ОТКРЫТЬ В БРАУЗЕРЕ AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "ОТКРЫТЬ В БРАУЗЕРЕ AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "ОТКРЫТЬ ЭТУ СТРАНИЦУ В БЕЗОПАСНОМ РЕЖИМЕ"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ОТКРЫТЬ В РЕЖИМЕ БАНКОВСКИХ ОПЕРАЦИЙ"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Браузер Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "защищает сеанс банкинга от хакеров, не позволяя им узнать ваши пароли или другие личные данные путем отслеживания нажатий клавиш. Он установлен вместе с пакетом вашего антивируса Avast и уже готов к использованию."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Подробнее"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Рекомендация Avast: браузер SafeZone блокирует рекламу, чтобы защитить вас от следящих файлов cookie и вредоносной рекламы."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Совершайте платежи безопасно, используя вместо этого браузер Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Этот браузер не обеспечивает полную безопасность интернет-банкинга."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Пользование банкингом в этом веб-браузере может подвергнуть риску ваш счет."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Настоятельно рекомендуем пользоваться банкингом только в браузере Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Ваши финансовые данные могут увидеть посторонние."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Защитите лучшие предложения и безопасно оплачивайте их с помощью браузера Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Знаете ли вы, что можно без труда скачивать с сайтов потоковое видео?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Не показывать снова это сообщение"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Больше не показывать на этом сайте"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "ОТКРЫТЬ ЭТОТ САЙТ В БЕЗОПАСНОМ РЕЖИМЕ"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Нет, спасибо. Больше не показывать эти предупреждения"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "В пакет антивируса Avast входит собственный браузер."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Нажав всего одну кнопку, можно безопасно открыть эту страницу в браузере Avast."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Вы правда готовы рисковать своим счетом?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Разрешить все системы слежения"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "на всех веб-сайтах"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Заблокировать все системы слежения"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Глобальные настройки"
+   },
+   "baMoreSettingsAction": {
+      "message": "Другие настройки"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "разрешены"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "заблокированы"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Системы слежения сейчас"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "на веб-сайте"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "систем(ы) слежения"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Вы оценивайте этот сайт"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "отрицательно"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "положительно"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Проголосовать"
+   },
+   "checkAll": {
+      "message": "(отметьте все применимые категории)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Закрыть"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Корпоративный"
+   },
+   "currentVote": {
+      "message": "Общий рейтинг"
+   },
+   "detailsHeadline": {
+      "message": "Приложение Avast отсканировало этот сайт"
+   },
+   "detailsMalwareNo": {
+      "message": "Вредоносное ПО не обнаружено"
+   },
+   "detailsMalwareYes": {
+      "message": "Обнаружено вредоносное ПО!"
+   },
+   "detailsPhishingNo": {
+      "message": "Фишинг не обнаружен"
+   },
+   "detailsPhishingYes": {
+      "message": "Обнаружен фишинг!"
+   },
+   "disabledTab": {
+      "message": "Нельзя оценивать локальные файлы или внутренние вкладки"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Рекламное слежение"
+   },
+   "dntAllowGroupAction": {
+      "message": "Разрешить все"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Разрешить"
+   },
+   "dntAllowed": {
+      "message": "- разрешено"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Автоматическая блокировка отслеживания: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Отключено"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Включено"
+   },
+   "dntBlockGroupAction": {
+      "message": "Заблокировать все"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Заблокировать"
+   },
+   "dntBlocked": {
+      "message": "- заблокировано"
+   },
+   "dntHeadline": {
+      "message": "Число компаний, которые пытались следить за вами: %s"
+   },
+   "dntNetworks": {
+      "message": "Сети"
+   },
+   "dntNetworksDetected": {
+      "message": "Обнаружены социальные сети (%s)"
+   },
+   "dntOthersNetworks": {
+      "message": "Другие"
+   },
+   "dntSocialNetworks": {
+      "message": "Социальные сети"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Все разрешены"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Все заблокированы"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Блокировано"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Некоторые заблокированы"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Средства веб-аналитики"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Алкоголь / наркотики"
+   },
+   "error": {
+      "message": "Ошибка"
+   },
+   "errorUnexpected": {
+      "message": "Непредвиденная ошибка"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Азартные игры"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Нравится ли вам этот сайт?"
+   },
+   "illegal": {
+      "message": "Пиратский / противозаконный"
+   },
+   "it": {
+      "message": "ИТ / загрузка"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Как анонимный пользователь"
+   },
+   "loginDesc": {
+      "message": "Введите учетные данные для своей учетной записи my.avast.com:"
+   },
+   "loginError": {
+      "message": "Войти не удалось"
+   },
+   "loginLogin": {
+      "message": "Войти"
+   },
+   "loginLogout": {
+      "message": "Выйти"
+   },
+   "loginName": {
+      "message": "Имя пользователя:"
+   },
+   "loginPswd": {
+      "message": "Пароль:"
+   },
+   "malwareNext": {
+      "message": "Загрузить Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Этот сайт мог нанести вред вашему компьютеру."
+   },
+   "malwareSiteRec": {
+      "message": "Рекомендуем установить антивирус Avast Antivirus для сканирования вашего компьютера."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Новости / блоги"
+   },
+   "noRating": {
+      "message": "У этого сайта нет рейтинга"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Другие"
+   },
+   "phishingBack": {
+      "message": "Выйти"
+   },
+   "phishingClose": {
+      "message": "Игнорировать предупреждение"
+   },
+   "phishingCreditNumber": {
+      "message": "Судя по всему, вы пытаетесь ввести пароль или номер кредитной карты на веб-сайте с плохой репутацией. Рекомендуем проверить подлинность сайта. Ввод личной информации на ненадежном сайте может подвергнуть ваши данные опасности."
+   },
+   "phishingDesc": {
+      "message": "Фишинг — это попытка получить ценные сведения, такие как имена пользователя, пароли, данные кредитных карт и так далее."
+   },
+   "phishingPhishingSite": {
+      "message": "Этот сайт фигурирует в нашей базе данных как фишинговый."
+   },
+   "phishingTrust": {
+      "message": "Я доверяю этому сайту"
+   },
+   "phishingWarning": {
+      "message": "Предупреждение"
+   },
+   "pornography": {
+      "message": "Порнография"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "У этого сайта средний рейтинг"
+   },
+   "ratingBad": {
+      "message": "У этого сайта плохой рейтинг"
+   },
+   "ratingCommunity": {
+      "message": "Рейтинг сообщества: %s"
+   },
+   "ratingDone": {
+      "message": "Готово"
+   },
+   "ratingGood": {
+      "message": "У этого сайта хороший рейтинг"
+   },
+   "ratingLevelAverage": {
+      "message": "Средне"
+   },
+   "ratingLevelBad": {
+      "message": "Плохо"
+   },
+   "ratingLevelPositive": {
+      "message": "Положительно"
+   },
+   "ratingLevelUndefined": {
+      "message": "Нет"
+   },
+   "ratingNegative": {
+      "message": "Почему вы отметили свой опыт как отрицательный?"
+   },
+   "ratingNoRate": {
+      "message": "Не хочу давать оценку"
+   },
+   "ratingPending": {
+      "message": "Получение рейтинга"
+   },
+   "ratingPositive": {
+      "message": "Почему вы отметили свой опыт как положительный?"
+   },
+   "ratingRate": {
+      "message": "Как бы вы оценили свой опыт работы с этим сайтом?"
+   },
+   "ratingTextAverage": {
+      "message": "у этого сайта неважная репутация"
+   },
+   "ratingTextBad": {
+      "message": "этот сайт небезопасен"
+   },
+   "ratingTextPositive": {
+      "message": "этот сайт безопасен"
+   },
+   "ratingTextUndefined": {
+      "message": "неизвестный сайт"
+   },
+   "ratingVeryBad": {
+      "message": "У этого сайта очень плохой рейтинг"
+   },
+   "reasonBlocker": {
+      "message": "(блокирована угроза)"
+   },
+   "reasonPhishing": {
+      "message": "(обнаружен фишинг)"
+   },
+   "reasonUnknownFullText": {
+      "message": "У этого сайта еще нет рейтинга"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Восстановить"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Найдены похожие отели!"
+   },
+   "safeZoneDecline": {
+      "message": "Не предлагать SafeZone для следующих сайтов: "
+   },
+   "safeZoneDesc": {
+      "message": "Avast рекомендует переключиться на SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "Чтобы избавить вас от опасений, запрошенный URL-адрес был открыт в SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Не надо"
+   },
+   "safeZoneYes": {
+      "message": "Переключиться"
+   },
+   "sasSPInstalled": {
+      "message": "Расширение \u003Cb>Avast SafePrice\u003C/b> готово к работе. Приятных покупок!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Сбросить до настроек по умолчанию"
+   },
+   "settingsSave": {
+      "message": "Сохранить"
+   },
+   "settingscommunityIQ": {
+      "message": "Предоставление данных"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Выбрав этот параметр, вы тем самым даете свое согласие на анонимный сбор программой Avast определенной информации. Мы можем делиться анонимной информацией со сторонними организациями."
+   },
+   "settingsdnt": {
+      "message": "Запрет отслеживания"
+   },
+   "settingsdnt0": {
+      "message": "Экран конфиденциальности"
+   },
+   "settingsdnt2": {
+      "message": "Запрет слежения"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Блокировать рекламное слежение по умолчанию"
+   },
+   "settingsdntDesc": {
+      "message": "Запрет и блокировка скрытой слежки за вами со стороны рекламных и аналитических сайтов"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Блокировать остальное по умолчанию"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Блокировать социальные сети по умолчанию"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Блокировать веб-аналитику по умолчанию"
+   },
+   "settingsphishing": {
+      "message": "Защита от фишинга"
+   },
+   "settingsphishing0": {
+      "message": "Веб-экран"
+   },
+   "settingsphishing2": {
+      "message": "Защита от фишинга"
+   },
+   "settingsphishingDesc": {
+      "message": "Сканирование веб-сайтов на вредоносное ПО и предотвращение фишинга"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Переход в SafeZone при открытии конфиденциальных финансовых сайтов (требуется установленный антивирус Avast)"
+   },
+   "settingsserp": {
+      "message": "Результаты поисковой системы"
+   },
+   "settingsserpDesc": {
+      "message": "Включить цветовую идентификацию на странице результатов"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Включить всплывающие окна на странице результатов"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Пропускать запрос и автоматически перенаправлять сайт на легитимные сайты"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Выявление и исправление неправильно набранных URL-адресов с перенаправлением пользователя на правильный сайт"
+   },
+   "sfzoneAlways": {
+      "message": "Да, всегда"
+   },
+   "sfzoneDesc": {
+      "message": "Вы вошли на сайт интернет-банкинга. Хотите открыть его в Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Никогда"
+   },
+   "sfzoneNo": {
+      "message": "Нет"
+   },
+   "sfzoneSwitch": {
+      "message": "Переключиться в Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Да, в этот раз"
+   },
+   "shopping": {
+      "message": "Магазин"
+   },
+   "sideDashboard": {
+      "message": "Мой Avast"
+   },
+   "sideDetails": {
+      "message": "Подробнее"
+   },
+   "sideRate": {
+      "message": "Оценить"
+   },
+   "sideSettings": {
+      "message": "Настройки"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "В будущем автоматически перенаправлять меня на известные правильные сайты"
+   },
+   "sitecorrectBarButton": {
+      "message": "Никакой ошибки не было, верните меня назад"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: автоматическое перенаправление с адреса %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Чтобы настроить функцию Avast SiteCorrect, откройте пользовательский интерфейс Avast, выберите &quot;Дополнительная защита&quot;, &quot;Защита браузера&quot; и нажмите кнопку &quot;Настройки&quot;."
+   },
+   "sitecorrectMean": {
+      "message": "Вы имели в виду %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Нет, я действительно имел(а) в виду %s"
+   },
+   "sitecorrectText": {
+      "message": "Вероятно, вы хотели ввести другое имя сайта."
+   },
+   "sitecorrectYes": {
+      "message": "Да"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Социальный сайт / игры"
+   },
+   "thanksHeadline": {
+      "message": "Благодарим за вашу оценку!"
+   },
+   "thanksMessage": {
+      "message": "Ваш голос отправлен."
+   },
+   "title": {
+      "message": "Настройки Avast Online Security"
+   },
+   "topBarDetails": {
+      "message": "Сведения"
+   },
+   "topBarRatingAverage": {
+      "message": "%s имеет рейтинг &quot;ОК&quot;"
+   },
+   "topBarRatingBad": {
+      "message": "%s имеет рейтинг &quot;Опасно&quot;"
+   },
+   "topBarRatingGood": {
+      "message": "%s имеет рейтинг &quot;Безопасно&quot;"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Оружие / насилие"
+   },
+   "vote": {
+      "message": "Голосовать"
+   },
+   "voteNegative": {
+      "message": "отрицательно"
+   },
+   "votePositive": {
+      "message": "положительно"
+   },
+   "webrepDisabled": {
+      "message": "Служба WebRep отключена"
+   },
+   "whatTypeContent": {
+      "message": "Какое содержимое предлагает этот сайт?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

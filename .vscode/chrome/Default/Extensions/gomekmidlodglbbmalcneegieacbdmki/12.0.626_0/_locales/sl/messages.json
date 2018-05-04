@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Lokalnih datotek ali internih zavihkov ni možno oceniti"
+   },
+   "VoteThank": {
+      "message": "Hvala! Vaš glas je uspešno posredovan."
+   },
+   "anonymousUser": {
+      "message": "Anonimni uporabnik"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>varno osami nakupovalne ter bančne seje in tako hekerjem prepreči\u003C/b>, da bi ukradli \u003Cb>številke kreditnih kartic, gesla\u003C/b> in \u003Cb>druge zasebne podatke\u003C/b>."
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", del dodatka Avast Secure Browser, ki je nameščen s protivirusnim programom Avast, \u003Cb>varno osami nakupovalne ter bančne seje in tako hekerjem prepreči, da bi ukradli\u003C/b> \u003Cb>številke kreditnih kartic, gesla\u003C/b> in \u003Cb>druge zasebne podatke\u003C/b>."
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bančni način\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Ne zdaj"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Odpri Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Preklopi zdaj"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ZNOVA ODPRI V BRSKALNIKU DRUŽBE AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "ZNOVA ODPRI V VARNEM OBMOČJU AVAST"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "VARNO ZNOVA ODPRI TO STRAN"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ODPRI V BANČNEM NAČINU"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Brskalnik dužbe Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "osami vašo sejo bančništva in tako prepreči hekerjem, da bi zabeležili vaše pritiske tipk ter zajeli gesla in druge osebne podatke. Brskalnik je bil že nameščen skupaj s protivirusno zaščito družbe Avast, zato je že nastavljen in pripravljen za uporabo."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Več informacij"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Namig podjetja Avast: brskalnik SafeZone blokira oglase, da vas zaščiti pred sledilnimi piškotki in zlonamernim oglaševanjem."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Z brskalnikom Avast SafeZone lahko varno opravljate spletna plačila."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Ta spletni brskalnik ne more popolnoma zaščititi vašega spletnega bančništva."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Z uporabo bančništva v tem spletnem brsklaniku lahko izpostavite svoj račun tveganjem."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Priporočamo vam, da bančništvo uporabljate samo v brskalniku družbe Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Vaši finančni podatki so morda prikazani drugim."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Z brskalnikom Avast SafeZone lahko sklenete najboljše posle in jih plačate varno."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Ali ste vedeli, da lahko preprosto prenesete videoposnetke s spletnih mest za pretakanje?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Tega ne kaži več"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Tega spletnega mesta ne kaži več"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "V REDU, VARNO ZNOVA ODPRI TO SPLETNO MESTO"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Ne, hvala. Trajno skrijte ta opozorila."
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Brskalnik družbe Avast je vključen v protivirusno zaščito družbe Avast."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "To stran boste z enim samim klikom odprli v brskalniku družbe Avast in se zaščitili."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Ali res želite svoj račun izpostaviti tveganjem?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Omogoči vse sisteme sledenja"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "na vseh spletnih straneh"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Blokiraj sisteme sledenja"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Globalne nastavitve"
+   },
+   "baMoreSettingsAction": {
+      "message": "Več nastavitev"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "omogočeni"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blokirani"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Sistemi za sledenje so trenutno"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "na spletni strani"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "sistemov sledenja"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "To stran ste ocenili kot"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negativno"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "pozitivno"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Ocenite spletno stran"
+   },
+   "checkAll": {
+      "message": "(Označite vsebino spletne strani)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Zapri"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Podjetništvo"
+   },
+   "currentVote": {
+      "message": "Skupna ocena"
+   },
+   "detailsHeadline": {
+      "message": "Avast je pregledal to stran"
+   },
+   "detailsMalwareNo": {
+      "message": "Ni zaznana škodljiva programska koda"
+   },
+   "detailsMalwareYes": {
+      "message": "Zaznana škodljiva programska koda (malware)!"
+   },
+   "detailsPhishingNo": {
+      "message": "Spletno ribarjenje ni zaznano"
+   },
+   "detailsPhishingYes": {
+      "message": "Zaznano spletno ribarjenje (phishing)!"
+   },
+   "disabledTab": {
+      "message": "Lokalnih datotek ali internih zavihkov ni možno oceniti"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Sledenje oglasov"
+   },
+   "dntAllowGroupAction": {
+      "message": "Omogoči vse"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Omogoči"
+   },
+   "dntAllowed": {
+      "message": "dovoljeno"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Samodejno blokiranje sledilnikov: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Izklopljeno"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Vklopljeno"
+   },
+   "dntBlockGroupAction": {
+      "message": "Blokiraj vse"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokiraj"
+   },
+   "dntBlocked": {
+      "message": "blokirano"
+   },
+   "dntHeadline": {
+      "message": "Št. podjetij, ki vam je skušalo slediti: %s"
+   },
+   "dntNetworks": {
+      "message": "Omrežja"
+   },
+   "dntNetworksDetected": {
+      "message": "Št. zaznanih omrežij: %s"
+   },
+   "dntOthersNetworks": {
+      "message": "Ostalo"
+   },
+   "dntSocialNetworks": {
+      "message": "Socialna omrežja"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Vse omogočeno"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Vse blokirano"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Blokirano"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Delno blokirano"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Spletna analitika"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkohol/Droge"
+   },
+   "error": {
+      "message": "Napaka"
+   },
+   "errorUnexpected": {
+      "message": "Nepričakovana napaka"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Igralništvo"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Kako vam je všeč ta stran?"
+   },
+   "illegal": {
+      "message": "Nezakonitosti"
+   },
+   "it": {
+      "message": "IT/Prenosi"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Kot anonimni uporabnik"
+   },
+   "loginDesc": {
+      "message": "Vnesite svoje prijavne podatke za svoj my.avast.com račun:"
+   },
+   "loginError": {
+      "message": "Prijava ni uspela"
+   },
+   "loginLogin": {
+      "message": "Prijava"
+   },
+   "loginLogout": {
+      "message": "Odjava"
+   },
+   "loginName": {
+      "message": "Ime:"
+   },
+   "loginPswd": {
+      "message": "Geslo:"
+   },
+   "malwareNext": {
+      "message": "Prenesite Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Ta stran bi lahko škodovala vašemu računalniku."
+   },
+   "malwareSiteRec": {
+      "message": "Priporočamo, da si na svoj računalnik namestite Antivirusno zaščito Avast (www.avast.si)."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Novice/Blogi"
+   },
+   "noRating": {
+      "message": "Ta stran še nima ocene"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Ostalo"
+   },
+   "phishingBack": {
+      "message": "Želim stran od tukaj"
+   },
+   "phishingClose": {
+      "message": "Prezri opozorilo"
+   },
+   "phishingCreditNumber": {
+      "message": "Številko vaše kreditne kartice ali geslo želite vnesti na stran z nizko stopnjo verodostojnosti. Ponovno preverite, ali je stran prava. Vnos vaših osebnih podatkov na nezaupanja vredni strani lahko predstavlja veliko varnostno tveganje."
+   },
+   "phishingDesc": {
+      "message": "Lažno predstavljanje je poskus pridobitve zaupnih podatkov, kot so uporabniška imena, gesla in podrobnosti kreditne kartice ..."
+   },
+   "phishingPhishingSite": {
+      "message": "Ta stran je bila označena kot lažna stran."
+   },
+   "phishingTrust": {
+      "message": "Zaupam tej spletni strani"
+   },
+   "phishingWarning": {
+      "message": "Opozorilo"
+   },
+   "pornography": {
+      "message": "Pornografija"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Stran je ocenjena povprečno"
+   },
+   "ratingBad": {
+      "message": "Stran je ocenjena slabo"
+   },
+   "ratingCommunity": {
+      "message": "Ocena skupnosti »%s«"
+   },
+   "ratingDone": {
+      "message": "Opravljeno"
+   },
+   "ratingGood": {
+      "message": "Stran je ocenjena dobro"
+   },
+   "ratingLevelAverage": {
+      "message": "Povprečno"
+   },
+   "ratingLevelBad": {
+      "message": "Slabo"
+   },
+   "ratingLevelPositive": {
+      "message": "Pozitivno"
+   },
+   "ratingLevelUndefined": {
+      "message": "Ne"
+   },
+   "ratingNegative": {
+      "message": "Zakaj bi ocenili svojo izkušnjo kot negativno?"
+   },
+   "ratingNoRate": {
+      "message": "Ne želim dati ocene"
+   },
+   "ratingPending": {
+      "message": "Ocena strani"
+   },
+   "ratingPositive": {
+      "message": "Zakaj bi ocenili svojo izkušnjo kot pozitivno?"
+   },
+   "ratingRate": {
+      "message": "Kako bi ocenili svojo izkušnjo s to stranjo?"
+   },
+   "ratingTextAverage": {
+      "message": "ta stran je ocenjena zelo slabo"
+   },
+   "ratingTextBad": {
+      "message": "ta stran ni varna"
+   },
+   "ratingTextPositive": {
+      "message": "ta stran je varna"
+   },
+   "ratingTextUndefined": {
+      "message": "neznana stran"
+   },
+   "ratingVeryBad": {
+      "message": "To spletno mesto ima zelo slabo oceno"
+   },
+   "reasonBlocker": {
+      "message": "(grožnja je bila blokirana)"
+   },
+   "reasonPhishing": {
+      "message": "(zaznano je bilo lažno predstavljanje)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Ta stran nima še nobene ocene"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Povrni"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Našli smo podobne hotele."
+   },
+   "safeZoneDecline": {
+      "message": "Ne uporabi Varnega Območja za "
+   },
+   "safeZoneDesc": {
+      "message": "Avast priporoča, da preklopite v Varno Območje"
+   },
+   "safeZoneFeedback": {
+      "message": "Zaradi vaše zaščite bo zahtevani naslov URL odprt v Varnem Območju"
+   },
+   "safeZoneNo": {
+      "message": "Ne"
+   },
+   "safeZoneYes": {
+      "message": "Preklopite zdaj"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> je pripravljen za uporabo. Želimo vam zabavno nakupovanje."
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Ponastavitev na privzete vrednosti"
+   },
+   "settingsSave": {
+      "message": "Shrani"
+   },
+   "settingscommunityIQ": {
+      "message": "Izmenjava podatkov"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Z omogočitvijo te možnosti soglašate z anonimnim posredovanjem določenih informacij podjetju Avast. Anonimne informacije bomo morda posredovali tretjim osebam."
+   },
+   "settingsdnt": {
+      "message": "Zaščite pred sledenjem"
+   },
+   "settingsdnt0": {
+      "message": "Ščit Zasebnosti"
+   },
+   "settingsdnt2": {
+      "message": "Zaščite pred sledenjem"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Privzeto blokiranje sledenja uporabniku"
+   },
+   "settingsdntDesc": {
+      "message": "Odkrivanje in blokiranje pred neželenim oglaševanjem ter preprečevanje prikritega spremljanja delovanja uporabnika na spletu"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Privzeto blokiranje ostalih"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Privzeta blokada socialnih omrežij"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Privzeto blokiranje spletne analitike"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Ščit Varnega brskanja"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Pregled spletnih strani za zaščito pred zlonamerno programsko kodo (malware) in zaščito pred spletnim ribarjenjem (phishing)"
+   },
+   "settingssafeZone": {
+      "message": "VarnoObmočje"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Preklopite v VarnoObmočje za obisk spletnih strani z osebnim bančništvom (Antivirusna zaščita Avast mora biti nameščena na računalniku)"
+   },
+   "settingsserp": {
+      "message": "Brskalniki na voljo"
+   },
+   "settingsserpDesc": {
+      "message": "Omogoči označevanje strani z rezultati iskanja"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Omogoči pojavna okna na strani z rezultati iskanja"
+   },
+   "settingssiteCorrect": {
+      "message": "PravilnaStran"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Preskoči opozorilo in samodejno preusmeri na pravo spletno stran"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Odkrivanje in popravek napačno vnesenega URL naslova in preusmeritev na pravo spletno stran"
+   },
+   "sfzoneAlways": {
+      "message": "Da, vedno"
+   },
+   "sfzoneDesc": {
+      "message": "Vstopili ste na stran spletnega bančništva. Jo želite odpreti v Avast Varnem Območju?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast Varno Območje"
+   },
+   "sfzoneNever": {
+      "message": "Nikoli"
+   },
+   "sfzoneNo": {
+      "message": "Ne"
+   },
+   "sfzoneSwitch": {
+      "message": "Preklopite v Avast Varno Območje"
+   },
+   "sfzoneYes": {
+      "message": "Da"
+   },
+   "shopping": {
+      "message": "Nakupi"
+   },
+   "sideDashboard": {
+      "message": "Moj Avast"
+   },
+   "sideDetails": {
+      "message": "Preberi več"
+   },
+   "sideRate": {
+      "message": "Ocenite zdaj"
+   },
+   "sideSettings": {
+      "message": "Nastavitve"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Od zdaj naprej me samodejno preusmeri na znano pravilno stran"
+   },
+   "sitecorrectBarButton": {
+      "message": "To ni bila napaka, želim nazaj"
+   },
+   "sitecorrectBarMsg": {
+      "message": "PravilnaStran: samodejna preusmeritev iz %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "PravilnaStran"
+   },
+   "sitecorrectHelp": {
+      "message": "Da nastavite funkcijo Avast Pravilna Stran, odprite Avast Uporabniški vmesnik, pojdite na Dodatno zaščito, nato Zaščita brskalnika in kliknite Nastavitve."
+   },
+   "sitecorrectMean": {
+      "message": "Ste morda mislili %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Ne, mislil/-a sem %s"
+   },
+   "sitecorrectText": {
+      "message": "To najverjetneje ni stran, ki ste jo želeli videti."
+   },
+   "sitecorrectYes": {
+      "message": "Da"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Družba/Igre"
+   },
+   "thanksHeadline": {
+      "message": "Hvala za vašo oceno!"
+   },
+   "thanksMessage": {
+      "message": "Vaš glas bo posredovan."
+   },
+   "title": {
+      "message": "Varnostne nastavitve za Avast Online"
+   },
+   "topBarDetails": {
+      "message": "Pregled podrobnosti"
+   },
+   "topBarRatingAverage": {
+      "message": "%s je ocenjeno kot dobro"
+   },
+   "topBarRatingBad": {
+      "message": "%s je ocenjeno kot nevarno"
+   },
+   "topBarRatingGood": {
+      "message": "%s je ocenjeno kot varno"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Orožje/Nasilje"
+   },
+   "vote": {
+      "message": "Glasujte"
+   },
+   "voteNegative": {
+      "message": "negativno"
+   },
+   "votePositive": {
+      "message": "pozitivno"
+   },
+   "webrepDisabled": {
+      "message": "Spletna ocena je onemogočena"
+   },
+   "whatTypeContent": {
+      "message": "Kakšna je vsebina spletne strani?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

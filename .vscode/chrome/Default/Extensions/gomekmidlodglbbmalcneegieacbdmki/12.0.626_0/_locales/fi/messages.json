@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Paikallisia tiedostoja ja sisäisiä välilehtiä ei voi luokitella"
+   },
+   "VoteThank": {
+      "message": "Kiitos äänestämisestä! Antamasi ääni on talletettu."
+   },
+   "anonymousUser": {
+      "message": "Anonyymi käyttäjä"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>eristää suojatusti ostos- ja pankki-istunnot ja estää hakkereita\u003C/b> varastamasta \u003Cb>luottokorttinumeroita, salasanoja\u003C/b> ja \u003Cb>muita yksityisiä tietojasi.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", osa Avast Secure selainta, joka on asennettu Avast-virustorjuntaohjelmistosi kanssa, \u003Cb>eristää suojatusti  ostos- ja pankki-istunnot ja estää hakkereita varastamasta\u003C/b> \u003Cb>luottokorttinumeroita, salasanoja\u003C/b> ja \u003Cb>muita yksityisiä tietojasi.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Pankkitila\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Ei nyt"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Avaa Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Ota käyttöön"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "AVAA UUDELLEEN AVAST-SELAIMESSA"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "AVAA UUDELLEEN AVAST SAFEZONESSA"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "AVAA TÄMÄ SIVU UUDELLEEN SUOJATUSTI"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "AVAA PANKKITILASSA"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avast-selain "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "eristää verkkopankki-istontosi, jotta hakkerit eivät voi kirjata näppäinpainalluksiasi, salasanojasi tai muita henkilökohtaisia tietoja. Selain on jo asennettu Avast-virustorjunnan mukana, joten se on jo määritetty käyttövalmiiksi."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Lue lisää"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast-vinkki: SafeZone-selain suojaa jäljittäviltä evästeiltä ja haittamainonnalta estämällä mainoksia."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Maksa verkkomaksuja turvallisesti käyttämällä sen sijaan Avast SafeZone -selainta."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Tämä selain ei voi suojata täysin verkkopankkikäyttöäsi."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Jos käytät verkkopankkia tällä selaimella, pankkitilisi saattaa joutua vaaraan."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Suosittelemme vahvasti, että käytät verkkopankkia vain Avast-selaimella."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Talous- ja rahatietosi saattavat näkyä muille."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Varmista parhaat tarjoukset ja maksa ne suojatusti Avast SafeZone -selaimen avulla."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Tiesitkö, että voit ladata videoita helposti suoratoistosivustoilta?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Älä näytä tätä enää uudelleen"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Älä näytä enää uudelleen tällä sivustolla"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "OK, AVAA TÄMÄ SIVUSTO UUDELLEEN SUOJATUSTI"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Ei kiitos, piilota nämä varoitukset pysyvästi"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Avast-selain sisältyy Avast-virustorjuntaan."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Voit avata tämän sivun uudelleen suojatusti Avast-selaimessa yhdellä napsautuksella."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Haluatko todella asettaa pankkitilisi vaaraan?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Verkkoturvallisuus"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Salli kaikki seurantajärjestelmät"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "kaikilla verkkosivuilla"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Estä kaikki seurantajärjestelmät"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Yleiset asetukset"
+   },
+   "baMoreSettingsAction": {
+      "message": "Lisää asetuksia"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "sallittu"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "estetty"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Seurantajärjestelmät on tällä hetkellä"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "verkkosivulla"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "seurantajärjestelmää"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Sinun arviosi tästä sivusta on"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatiivinen"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positiivinen"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Anna äänesi"
+   },
+   "checkAll": {
+      "message": "(Valitse kaikki ne aiheet, jotka kuvaavat sisältöä)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Sulje"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Yrityssivusto"
+   },
+   "currentVote": {
+      "message": "Kokonaisluokitus"
+   },
+   "detailsHeadline": {
+      "message": "Avast on tarkistanut tämän sivuston"
+   },
+   "detailsMalwareNo": {
+      "message": "Haittaohjelmaa ei havaittu"
+   },
+   "detailsMalwareYes": {
+      "message": "Haittaohjelma havaittu!"
+   },
+   "detailsPhishingNo": {
+      "message": "Tietojen kalastelua ei havaittu"
+   },
+   "detailsPhishingYes": {
+      "message": "Tietojen kalastelu havaittu!"
+   },
+   "disabledTab": {
+      "message": "Paikallisia tiedostoja ja sisäisiä välilehtiä ei voi luokitella"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Ilmoitusten seuranta"
+   },
+   "dntAllowGroupAction": {
+      "message": "Salli kaikki"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Salli"
+   },
+   "dntAllowed": {
+      "message": "sallittu"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Seurannan automaattinen esto: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Ei käytössä"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Käytössä"
+   },
+   "dntBlockGroupAction": {
+      "message": "Estä kaikki"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Estä"
+   },
+   "dntBlocked": {
+      "message": "estetty"
+   },
+   "dntHeadline": {
+      "message": "%s tahoa yritti jäljittää sinua"
+   },
+   "dntNetworks": {
+      "message": "Verkot"
+   },
+   "dntNetworksDetected": {
+      "message": "%s verkostoa tunnistettu"
+   },
+   "dntOthersNetworks": {
+      "message": "Muut"
+   },
+   "dntSocialNetworks": {
+      "message": "Sosiaaliset verkostot"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Kaikki sallittu"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Kaikki estetty"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Estetty"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Jotkut estetty"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Verkkoanalyysit"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkoholia / Huumeita"
+   },
+   "error": {
+      "message": "Virhe"
+   },
+   "errorUnexpected": {
+      "message": "Odottamaton virhe"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Uhkapelejä"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Mitä pidit tästä sivustosta?"
+   },
+   "illegal": {
+      "message": "Laittomia ohjelmia"
+   },
+   "it": {
+      "message": "Tietotekniikkaa / Tiedostojen siirtoa"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Anonyyminä käyttäjänä"
+   },
+   "loginDesc": {
+      "message": "Anna my.avast.com kirjautumistietosi:"
+   },
+   "loginError": {
+      "message": "Kirjautuminen epäonnistui"
+   },
+   "loginLogin": {
+      "message": "Kirjautuminen"
+   },
+   "loginLogout": {
+      "message": "Kirjaudu ulos"
+   },
+   "loginName": {
+      "message": "Nimi:"
+   },
+   "loginPswd": {
+      "message": "Salasana:"
+   },
+   "malwareNext": {
+      "message": "Lataa Avast Antivirus"
+   },
+   "malwareSite": {
+      "message": "Tämä sivusto on saattanut vahingoittaa tietokonettasi."
+   },
+   "malwareSiteRec": {
+      "message": "Suosittelemme, että asennat Avast Antivirus -ohjelman tietokoneesi tarkistusta varten."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Uutisia / Blogeja"
+   },
+   "noRating": {
+      "message": "Tätä sivustoa ei ole luokiteltu"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Muut"
+   },
+   "phishingBack": {
+      "message": "Poistu täältä"
+   },
+   "phishingClose": {
+      "message": "Ohita varoitus"
+   },
+   "phishingCreditNumber": {
+      "message": "Olet antamassa salasanaa tai luottokortin numeroa sivulle, jolla on huono maineluokitus. Varmista vielä kertaalleen, että sivusto on luotettava. Henkilökohtaisten tietojen anto epäilyttäville sivustoille voi aiheuttaa tietoturvariskin."
+   },
+   "phishingDesc": {
+      "message": "Tietojenkalastelulla yritetään hankkia arkaluonteisia tietoja, kuten käyttäjänimiä, salasanoja ja luottokorttitietoja..."
+   },
+   "phishingPhishingSite": {
+      "message": "Tämä sivusto on merkitty tietojenkalastelusivustoksi."
+   },
+   "phishingTrust": {
+      "message": "I trust this website"
+   },
+   "phishingWarning": {
+      "message": "Varoitus"
+   },
+   "pornography": {
+      "message": "Pornografiaa"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Tämä sivusto on luokiteltu keskinkertaiseksi"
+   },
+   "ratingBad": {
+      "message": "Tämä sivusto on luokiteltu huonoksi"
+   },
+   "ratingCommunity": {
+      "message": "%s yhteisöluokitus"
+   },
+   "ratingDone": {
+      "message": "Valmis"
+   },
+   "ratingGood": {
+      "message": "Tämä sivusto on luokiteltu hyväksi"
+   },
+   "ratingLevelAverage": {
+      "message": "Keskimääräinen"
+   },
+   "ratingLevelBad": {
+      "message": "Huono"
+   },
+   "ratingLevelPositive": {
+      "message": "Positiivinen"
+   },
+   "ratingLevelUndefined": {
+      "message": "Puuttuva"
+   },
+   "ratingNegative": {
+      "message": "Miksi arvioit kokemuksesi kielteiseksi?"
+   },
+   "ratingNoRate": {
+      "message": "En halua nyt antaa arvosanaa"
+   },
+   "ratingPending": {
+      "message": "Noudetaan luokitusta"
+   },
+   "ratingPositive": {
+      "message": "Miksi arvioit kokemuksesi myönteiseksi?"
+   },
+   "ratingRate": {
+      "message": "Kuinka arvioisit tämän sivun käyttökokemuksesi?"
+   },
+   "ratingTextAverage": {
+      "message": "tällä sivustolla on huono maine"
+   },
+   "ratingTextBad": {
+      "message": "tämä sivu on turvaton"
+   },
+   "ratingTextPositive": {
+      "message": "tämä sivusto on turvallinen"
+   },
+   "ratingTextUndefined": {
+      "message": "tuntematon sivusto"
+   },
+   "ratingVeryBad": {
+      "message": "Tämä sivusto on luokiteltu hyvin huonoksi"
+   },
+   "reasonBlocker": {
+      "message": "(uhka estetty)"
+   },
+   "reasonPhishing": {
+      "message": "(tietokalastelusivusto havaittu)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Tätä sivustoa ei ole vielä luokiteltu"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Palauta"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Samanlaisia hotelleja löytynyt!"
+   },
+   "safeZoneDecline": {
+      "message": "Älä käytä SafeZonea seuraavalle: "
+   },
+   "safeZoneDesc": {
+      "message": "Suosittelemme, että otat SafeZonen käyttöön"
+   },
+   "safeZoneFeedback": {
+      "message": "Pyydetty URL-osoite on avattu SafeZonessa"
+   },
+   "safeZoneNo": {
+      "message": "Älä ota"
+   },
+   "safeZoneYes": {
+      "message": "Ota käyttöön"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> on toimintakunnossa. Nauti shoppailusta!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Palauta oletusasetukset"
+   },
+   "settingsSave": {
+      "message": "Tallenna"
+   },
+   "settingscommunityIQ": {
+      "message": "Tietojen jakaminen"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Kytkemällä tämän päälle annat luvan lähettää tiettyjä tietoja anonyymisti Avastille. Saatamme jakaa anonymisoitua tietoa kolmansien osapuolien kanssa."
+   },
+   "settingsdnt": {
+      "message": "Älä seuraa"
+   },
+   "settingsdnt0": {
+      "message": "Yksityisyyssuoja"
+   },
+   "settingsdnt2": {
+      "message": "Älä seuraa"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Estä oletuksena mainosseuranta"
+   },
+   "settingsdntDesc": {
+      "message": "Tunnistaa ja estää ei-toivotut mainokset sekä estää sivustoja jäljittämästä sinua"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Estä muut oletuksena"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Estä oletuksena yhteisöpalvelut"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Estä oletuksena nettisivustojen analyysityökalut"
+   },
+   "settingsphishing": {
+      "message": "Tietojen kalastelun esto"
+   },
+   "settingsphishing0": {
+      "message": "Surffaussuoja"
+   },
+   "settingsphishing2": {
+      "message": "Tietojen kalastelun esto"
+   },
+   "settingsphishingDesc": {
+      "message": "Tarkistaa nettisivut haittaohjelmien varalta ja estää tietojen kalastelun"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Käynnistä SafeZone, kun alat käyttää esimerkiksi verkkopankkia (vaatii Avast Antiviruksen)"
+   },
+   "settingsserp": {
+      "message": "Hakukoneiden tulokset"
+   },
+   "settingsserpDesc": {
+      "message": "Salli värien käyttö tulossivulla"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Salli ponnahdusikkunat tulossivulla"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Ohita vahvistus ja ohjaa uudelleen automaattisesti oikealle sivustolle"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Tunnistaa ja korjaa väärin kirjoitetut nettisivuosoitteet ja ohjaa oikealla sivustolle"
+   },
+   "sfzoneAlways": {
+      "message": "Kyllä, aina"
+   },
+   "sfzoneDesc": {
+      "message": "Olet mennyt verkkopankkisivustolle. Haluatko avata sivuston Avast SafeZonessa?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Ei koskaan"
+   },
+   "sfzoneNo": {
+      "message": "Ei"
+   },
+   "sfzoneSwitch": {
+      "message": "Vaihda Avast SafeZoneen"
+   },
+   "sfzoneYes": {
+      "message": "Kyllä"
+   },
+   "shopping": {
+      "message": "Ostoksia"
+   },
+   "sideDashboard": {
+      "message": "Minun Avast"
+   },
+   "sideDetails": {
+      "message": "Lue lisää"
+   },
+   "sideRate": {
+      "message": "Anna arvio"
+   },
+   "sideSettings": {
+      "message": "Asetukset"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Jatkossa ohjaa minut automaattisesti oletetulle oikealle sivustolle"
+   },
+   "sitecorrectBarButton": {
+      "message": "Kyseessä ei ollut virhe, jatka uudelleenohjausta"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: uudelleenohjaus automaattisesti osoitteesta %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Kun haluat muuttaa SiteCorrect-toiminnon asetuksia, valitse ohjelman käyttöliittymästä Lisäsuojaus / Selainsuoja / Asetukset."
+   },
+   "sitecorrectMean": {
+      "message": "Tarkoititko osoitetta %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "En, tarkoitin osoitetta %s"
+   },
+   "sitecorrectText": {
+      "message": "Tämä ei välttämättä ole se sivusto, jonne halusit mennä."
+   },
+   "sitecorrectYes": {
+      "message": "Kyllä"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Vapaa-aikaa / Pelaamista"
+   },
+   "thanksHeadline": {
+      "message": "Kiitos luokituksesta!"
+   },
+   "thanksMessage": {
+      "message": "Äänesi on lähetetty."
+   },
+   "title": {
+      "message": "Avast Verkkoturvallisuusasetukset"
+   },
+   "topBarDetails": {
+      "message": "Näytä lisätiedot"
+   },
+   "topBarRatingAverage": {
+      "message": "%s on arvioitu kunnossa olevaksi"
+   },
+   "topBarRatingBad": {
+      "message": "%s on arvioitu vaaralliseksi"
+   },
+   "topBarRatingGood": {
+      "message": "%s on arvioitu turvalliseksi"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Aseita / Väkivaltaa"
+   },
+   "vote": {
+      "message": "Äänestä"
+   },
+   "voteNegative": {
+      "message": "Kielteinen"
+   },
+   "votePositive": {
+      "message": "Myönteinen"
+   },
+   "webrepDisabled": {
+      "message": "WebRep on pois päältä"
+   },
+   "whatTypeContent": {
+      "message": "Mitä aiheita tämä sivusto käsittelee?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

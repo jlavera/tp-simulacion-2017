@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Yerel dosyaları veya dahili sekmeleri derecelendiremezsiniz"
+   },
+   "VoteThank": {
+      "message": "Teşekkürler! Oyunuz başarılı bir şekilde kaydedildi."
+   },
+   "anonymousUser": {
+      "message": "Anonim kullanıcı"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>alışveriş ve banka işlemleri oturumlarını izole ederek, bilgisayar korsanlarının\u003C/b> \u003Cb>kredi kartı numaralarınızı, parolalarınızı\u003C/b> ve \u003Cb>diğer kişisel verilerinizi\u003C/b> çalmasını engeller."
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", Avast antivirüs ürününüzle yüklenen Avast Secure Browser'ın bir parçasıdır. \u003Cb>Alışveriş ve banka işlemleri oturumlarını izole ederek, bilgisayar korsanlarının\u003C/b> \u003Cb>kredi kartı numaralarınızı, parolalarınızı\u003C/b> ve \u003Cb>diğer kişisel verilerinizi\u003C/b> çalmasını engeller."
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Banka Modu\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Şimdi değil"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Avast SafeZone'u açın"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Şimdi geç"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "AVAST TARAYICISINDA YENİDEN AÇ"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "AVAST SAFEZONE'DA YENİDEN AÇ"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "BU SAYFAYI GÜVENLİ BİR ŞEKİLDE YENİDEN AÇ"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "BANKA MODU'NDA AÇ"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avast tarayıcısı "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "Bilgisayar korsanlarının tuş vuruşlarınızı kaydetmesini, parolalarınıza ve diğer kişisel verilerinize erişmesini engellemek için bankacılık oturumunuzu gizler. Tarayıcı, Avast antivirüs yazılımınızla birlikte zaten yüklenmiş, ayarları yapılmış ve kullanıma hazır bulunuyor."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Daha fazla bilgi edinin"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast ipucu: SafeZone tarayıcısı, sizi izleme çerezlerinden ve kötü amaçlı reklamlardan korumak için reklamları engeller."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Avast SafeZone tarayıcısını kullanarak çevrim içi ödemelerinizi güvenli bir şekilde yapın."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Bu web tarayıcısı çevrim içi bankacılık işlemlerinizi tam olarak koruyamaz."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Bankacılık işlemlerinizi bu web tarayıcısından gerçekleştirmek hesabınızı riske atabilir."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Bankacılık işlemlerinizi yalnızca Avast tarayıcısından gerçekleştirmenizi önemle öneriyoruz."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Finansal verileriniz başkaları tarafından görülebilir."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Avast SafeZone tarayıcısı ile en iyi fırsatları yakalayın ve güvenli bir şekilde ödeme yapın."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Video yayını yapan sitelerden kolayca video indirebileceğinizi biliyor muydunuz?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Bunu bir daha gösterme"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Bu sitede bir daha gösterme"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "TAMAM, BU SİTEYİ GÜVENLİ BİR ŞEKİLDE YENİDEN AÇ"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Hayır teşekkürler, lütfen bu uyarıları kalıcı olarak gizle"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Avast antivirüs yazılımı Avast tarayıcısını içermektedir."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Kendinizi korumak için tek bir tıklama ile bu sayfayı Avast tarayıcısında yeniden açabilirsiniz."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Hesabınızı riske atmayı gerçekten istiyor musunuz?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Çevrimiçi Güvenlik"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Tüm izleme sistemlerine izin ver"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "tüm web sitelerinde"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Tüm izleme sistemlerini engelle"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Genel Atyarlar"
+   },
+   "baMoreSettingsAction": {
+      "message": "Diğer ayarlar"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "izin veriliyor"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "engelleniyor"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Şu anda izleme sistemlerine"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "web sitesinde"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "izleme sistemleri"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Bu site için değerlendirmeniz"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "olumsuz"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "olumlu"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Oyunuzu gönderin"
+   },
+   "checkAll": {
+      "message": "(Geçerli olanların tümünü işaretleyin)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Ticari"
+   },
+   "currentVote": {
+      "message": "Tüm derecelendirmeler"
+   },
+   "detailsHeadline": {
+      "message": "Avast bu siteyi taradı"
+   },
+   "detailsMalwareNo": {
+      "message": "Zararlı yazılım tespit edilmedi!"
+   },
+   "detailsMalwareYes": {
+      "message": "Zararlı yazılım tespit edildi!"
+   },
+   "detailsPhishingNo": {
+      "message": "Yemleme tespit edilmedi!"
+   },
+   "detailsPhishingYes": {
+      "message": "Yemleme tespit edildi!"
+   },
+   "disabledTab": {
+      "message": "Yerel dosyaları veya dahili sekmeleri derecelendiremezsiniz"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Reklam İzleme"
+   },
+   "dntAllowGroupAction": {
+      "message": "Tümüne izin ver"
+   },
+   "dntAllowTrackerAction": {
+      "message": "İzin ver"
+   },
+   "dntAllowed": {
+      "message": "izin verildi"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "İzleyicilerin otomatik engellenmesi: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Etkinleştirilmemiş"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Etkinleştirilmiş"
+   },
+   "dntBlockGroupAction": {
+      "message": "Tümünü engelle"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Engelle"
+   },
+   "dntBlocked": {
+      "message": "engellendi"
+   },
+   "dntHeadline": {
+      "message": "%s şirket sizi izlemeye çalıştı"
+   },
+   "dntNetworks": {
+      "message": "Ağlar"
+   },
+   "dntNetworksDetected": {
+      "message": "%s ağ tespit edildi"
+   },
+   "dntOthersNetworks": {
+      "message": "Diğerleri"
+   },
+   "dntSocialNetworks": {
+      "message": "Sosyal ağlar"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Tümü izinli"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Tümü engellenmiş"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Engellenmiş"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Bazıları engellenmiş"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Web İstatistikleri"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkol / Uyuşturucu"
+   },
+   "error": {
+      "message": "Hata"
+   },
+   "errorUnexpected": {
+      "message": "Beklenmeyen Hata"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Kumar"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Bu siteyi beğendiniz mi?"
+   },
+   "illegal": {
+      "message": "Warez / İllegal"
+   },
+   "it": {
+      "message": "BT / Download"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Anonim kullanıcı olarak"
+   },
+   "loginDesc": {
+      "message": "my.avast.com hesabınız için giriş bilgilerinizi girin:"
+   },
+   "loginError": {
+      "message": "Giriş başarısız oldu"
+   },
+   "loginLogin": {
+      "message": "Giriş"
+   },
+   "loginLogout": {
+      "message": "Çıkış"
+   },
+   "loginName": {
+      "message": "Ad:"
+   },
+   "loginPswd": {
+      "message": "Şifre:"
+   },
+   "malwareNext": {
+      "message": "Avast Free Antivirus'u indir"
+   },
+   "malwareSite": {
+      "message": "Bu site bilgisayarınıza zarar verebilirdi."
+   },
+   "malwareSiteRec": {
+      "message": "Bilgisayarınızı taramak için Avast Antivirüs'ü kurmanızı tavsiye ederiz."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Haber / Blog"
+   },
+   "noRating": {
+      "message": "Bu sitenin herhangi bir derecelendirmesi yok"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Diğerleri"
+   },
+   "phishingBack": {
+      "message": "Buradan çıkmak istiyorum"
+   },
+   "phishingClose": {
+      "message": "Uyarıyı yoksayın"
+   },
+   "phishingCreditNumber": {
+      "message": "Çok güvenilmeyen bir web sitesinde kredi kartı bilgilerinizi ya da şifrenizi giriyorsunuz. Lütfen bu sitenin resmi ve güvenilir olduğundan emin olun. Bilgilerinizi güvenilir olmayan bir siteye girmeniz güvenlik riski teşkil eder."
+   },
+   "phishingDesc": {
+      "message": "Kimlik avı; kullanıcı adları, parolalar ve kredi kartı bilgileri gibi hassas verileri ele geçirme denemesidir."
+   },
+   "phishingPhishingSite": {
+      "message": "Bu site phishing (dolandırıcılık) yapan bir site olarak işaretlendi."
+   },
+   "phishingTrust": {
+      "message": "Bu web sitesine güveniyorum"
+   },
+   "phishingWarning": {
+      "message": "Uyarı"
+   },
+   "pornography": {
+      "message": "Porno"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Bu sitenin derecelendirmesi orta"
+   },
+   "ratingBad": {
+      "message": "Bu sitenin değerlendirilmesi kötü"
+   },
+   "ratingCommunity": {
+      "message": "Topluluk derecelendirmesi %s"
+   },
+   "ratingDone": {
+      "message": "Tamamlandı"
+   },
+   "ratingGood": {
+      "message": "Bu sitenin derecelendirmesi iyi"
+   },
+   "ratingLevelAverage": {
+      "message": "Ortalama"
+   },
+   "ratingLevelBad": {
+      "message": "Kötü"
+   },
+   "ratingLevelPositive": {
+      "message": "Olumlu"
+   },
+   "ratingLevelUndefined": {
+      "message": "Yok"
+   },
+   "ratingNegative": {
+      "message": "Deneyiminizi neden olumsuz olarak değerlendirdiniz?"
+   },
+   "ratingNoRate": {
+      "message": "Şu anda değerlendirme yapmak istemiyorum"
+   },
+   "ratingPending": {
+      "message": "Derecelendirme alınıyor"
+   },
+   "ratingPositive": {
+      "message": "Deneyiminizi neden olumlu olarak değerlendirdiniz?"
+   },
+   "ratingRate": {
+      "message": "Bu sitedeki deneyiminizi nasıl derecelendirirsiniz?"
+   },
+   "ratingTextAverage": {
+      "message": "bu site kötü bir itibara sahip"
+   },
+   "ratingTextBad": {
+      "message": "bu site güvenli değil"
+   },
+   "ratingTextPositive": {
+      "message": "bu site güvenli"
+   },
+   "ratingTextUndefined": {
+      "message": "bilinmeyen site"
+   },
+   "ratingVeryBad": {
+      "message": "Bu sitenin değerlendirmesi çok kötü"
+   },
+   "reasonBlocker": {
+      "message": "(tehdit engellendi)"
+   },
+   "reasonPhishing": {
+      "message": "(kimlik avı sitesi tespit edildi)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Bu site henüz değerlendirilmedi"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Geri döndür"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Benzer oteller bulundu!"
+   },
+   "safeZoneDecline": {
+      "message": "Şunun için SafeZone'u önerme "
+   },
+   "safeZoneDesc": {
+      "message": "Avast SafeZone'a geçmenizi tavsiye ediyor"
+   },
+   "safeZoneFeedback": {
+      "message": "Güvenliğiniz için talep edilen URL SafeZone'da açıldı"
+   },
+   "safeZoneNo": {
+      "message": "Hayır"
+   },
+   "safeZoneYes": {
+      "message": "Şimdi geç"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> hazır. Mutlu alışverişler!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Öntanımlıya geri dön"
+   },
+   "settingsSave": {
+      "message": "Kaydet"
+   },
+   "settingscommunityIQ": {
+      "message": "Veri Paylaşımı"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Bu seçeneği etkinleştirmekle belirli bilgilerin anonim bir şekilde Avast'a iletilmesini onaylamış oluyorsunuz. Anonimleştirilmiş bilgileri üçüncü kişilerle paylaşabiliyoruz."
+   },
+   "settingsdnt": {
+      "message": "Beni İzleme"
+   },
+   "settingsdnt0": {
+      "message": "Gizlilik Kalkanı"
+   },
+   "settingsdnt2": {
+      "message": "Beni İzleme"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Reklam izlemesini önyüklü olarak engelle"
+   },
+   "settingsdntDesc": {
+      "message": "İstenmeyen reklam sitelerini tespit edip engeller ve analiz sitelerinin gizlice sizi izlemesine karşı sizi korur"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Diğerlerini önyüklü olarak engelle"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Sosyal ağları önyüklü olarak engelle"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Web istatistikçilerini önyüklü olarak engelle"
+   },
+   "settingsphishing": {
+      "message": "Yemleme önleyici"
+   },
+   "settingsphishing0": {
+      "message": "Gezinme Kalkanı"
+   },
+   "settingsphishing2": {
+      "message": "Yemleme önleyici"
+   },
+   "settingsphishingDesc": {
+      "message": "Zararlı yazılımlara ve yemlemelere karşı web sitelerini tarar"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Hassas finansal siteler için SafeZone'a geç (Avast Antivirüs'ün kurulu olmasını gerektirir)"
+   },
+   "settingsserp": {
+      "message": "Arama motoru sonuçları"
+   },
+   "settingsserpDesc": {
+      "message": "Arama sonuçları sayfasını renklendirmeyi etkinleştir"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Arama sonuçları sayfasında açılan pencereleri etkinleştir"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteDüzeltici"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Uyarı gösterme ve doğrudan meşru siteye yönlendir"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Hatalı yazılmış URL'leri tespit edip düzeltir ve doğru sitelere yönlendirir"
+   },
+   "sfzoneAlways": {
+      "message": "Her zaman evet"
+   },
+   "sfzoneDesc": {
+      "message": "Çevrimiçi bir bankacılık sitesine girdiniz. Onu Avast SafeZone'da açmak ister misiniz?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Asla"
+   },
+   "sfzoneNo": {
+      "message": "Hayır"
+   },
+   "sfzoneSwitch": {
+      "message": "Avast SafeZone'a geç"
+   },
+   "sfzoneYes": {
+      "message": "Evet"
+   },
+   "shopping": {
+      "message": "Alışveriş"
+   },
+   "sideDashboard": {
+      "message": "My Avast"
+   },
+   "sideDetails": {
+      "message": "Ayrıntılı bilgi"
+   },
+   "sideRate": {
+      "message": "Şimdi değerlendir"
+   },
+   "sideSettings": {
+      "message": "Ayarlar"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Şu andan itibaren otomatik olarak bilinen doğru sitelere git"
+   },
+   "sitecorrectBarButton": {
+      "message": "Bu hatalı değildi, geri dön"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteDüzeltici: otomatik olarak %s'dan transfer ediliyor"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteDüzeltici"
+   },
+   "sitecorrectHelp": {
+      "message": "Avast SiteDüzeltici özelliğini yapılandırmak için, Avast kullanıcı arayüzünü açın, Ek Koruma'ya gidin ve Tarayıcı Koruması altından Ayarlar düğmesini kullanın."
+   },
+   "sitecorrectMean": {
+      "message": "%s demek istediniz?"
+   },
+   "sitecorrectNo": {
+      "message": "Hayır, Gerçekten %s sitesine girmek istiyorum"
+   },
+   "sitecorrectText": {
+      "message": "Muhtemelen bu siteye giriş yapmak istemediniz."
+   },
+   "sitecorrectYes": {
+      "message": "Evet"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Sosyal / Oyun"
+   },
+   "thanksHeadline": {
+      "message": "Derecelendirdiğiniz için teşekkürler!"
+   },
+   "thanksMessage": {
+      "message": "Oyunuz iletilmiştir."
+   },
+   "title": {
+      "message": "Avast Çevrimiçi Güvenlik Ayarları"
+   },
+   "topBarDetails": {
+      "message": "Detaylara bak"
+   },
+   "topBarRatingAverage": {
+      "message": "%s fena değil olarak derecelendirilmiş"
+   },
+   "topBarRatingBad": {
+      "message": "%s tehlikeli olarak derecelendirilmiş"
+   },
+   "topBarRatingGood": {
+      "message": "%s güvenli olarak derecelendirilmiş"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Silah / Şiddet"
+   },
+   "vote": {
+      "message": "Oy ver"
+   },
+   "voteNegative": {
+      "message": "negatif"
+   },
+   "votePositive": {
+      "message": "pozitif"
+   },
+   "webrepDisabled": {
+      "message": "WebRep etkin değil"
+   },
+   "whatTypeContent": {
+      "message": "Bu site ne tür bir içerik sağlıyor?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

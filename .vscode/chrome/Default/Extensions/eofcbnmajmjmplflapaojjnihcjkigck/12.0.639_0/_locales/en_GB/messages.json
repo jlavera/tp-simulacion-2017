@@ -1,0 +1,26 @@
+{
+   "avastAppDesc": {
+      "message": "Find the best prices, deals and coupons while shopping online with the price comparison and coupon extension powered by Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "message": "Find the best prices, deals and coupons while shopping online with the price comparison and coupon extension powered by AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Click to copy"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Code copied to clipboard."
+   },
+   "sasHintSettings": {
+      "message": "Settings"
+   },
+   "sasShippingLabel": {
+      "message": "S/H from"
+   }
+}

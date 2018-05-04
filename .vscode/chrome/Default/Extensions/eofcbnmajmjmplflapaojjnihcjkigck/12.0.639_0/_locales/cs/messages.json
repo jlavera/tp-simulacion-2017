@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Toto rozšíření od Avastu porovnává ceny na internetu, hledá kupóny a při nakupování vám ukazuje ty nejvýhodnější nabídky."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Toto rozšíření od AVG porovnává ceny na internetu, hledá kupóny a při nakupování vám ukazuje ty nejvýhodnější nabídky."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Klikněte pro zkopírování"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kód byl zkopírován do schránky."
+   },
+   "sasHintSettings": {
+      "message": "Nastavení"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Od: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Mohou být uplatněny dodatečné poplatky a daně"
+   },
+   "spApply": {
+      "message": "Uplatnit kupón"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Podívejte se! Další nabídky"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Podívejte se!\u003Cbr> Další nabídky"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Víc výhodných nabídek znamená víc úspor!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Víc výhodných nabídek\u003Cbr> znamená víc úspor!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Oblíbené hotely:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Zkopírujte kód a uplatněte jej na pokladně:"
+   },
+   "spCouponApplied": {
+      "message": "Kupón byl uplatněn."
+   },
+   "spCouponsAvailableText": {
+      "message": "Dostupné"
+   },
+   "spCouponsExpiration": {
+      "message": "Platí do: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Kupóny vám ušetří"
+   },
+   "spCouponsSelected": {
+      "message": "Vybrané kupóny: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Vybráno"
+   },
+   "spCouponsTab": {
+      "message": "Kupóny"
+   },
+   "spGetCouponCode": {
+      "message": "Načíst kód"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Vyčkejte, vyplatí se vám to."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Hledání výhodných nabídek…"
+   },
+   "spNothingFoundCoupons": {
+      "message": "Jejda…\u003Cbr>Nenašli jsme žádné kupóny…"
+   },
+   "spNothingFoundOffers": {
+      "message": "Jejda…\u003Cbr>Nenašli jsme žádné nabídky…"
+   },
+   "spNothingFoundOthers": {
+      "message": "Jejda…\u003Cbr>Nenašli jsme žádné speciální nabídky…"
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Méně"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Více"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "UKÁZAT NABÍDKU"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Ušetříte %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Našli jsme vám nabídky a kupóny!"
+   },
+   "spOffersTab": {
+      "message": "Nabídky"
+   },
+   "spOthersTab": {
+      "message": "Ostatní"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Zahrnout: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Ubytování a cestování"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "Elektronické obchody"
+   },
+   "spSettingsPageCancel": {
+      "message": "Zrušit"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Vlastní seznam"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Přidat"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Přidat stránku"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Na následujících webových stránkách nezobrazovat žádná oznámení:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(nabídky a kupóny můžete kdykoli zobrazit kliknutím na ikonu na panelu nástrojů)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Nápověda"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kupóny"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Chcete-li kupón použít, stačí na něj kliknout. Zobrazí se vám kód, který je třeba při placení zadat do odpovídajícího pole. V ostatních případech se kupón uplatní automaticky."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Více se dozvíte v \u003Cspan class='asp-faqs-span'>častých dotazech\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Oznámení"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Když SafePrice najde nabídku či kupón související s vaším hledáním, zobrazí oznámení. Kliknutím na velké zelené tlačítko se můžete podívat, co jsme pro vás našli."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Nabídky"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Kliknutím na nabídku budete přesměrováni na důvěryhodný partnerský online obchod s nabídkou nižší ceny, kterou vidíte v oznámení."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Ostatní"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Kliknutím na uvedenou speciální nabídku budete přesměrováni na důvěryhodný partnerský online obchod."
+   },
+   "spSettingsPageSave": {
+      "message": "Uložit"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Nastavení programu Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Nastavení programu AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Oznámení"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Oznámení o kupónech"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Neupozorňovat na kupóny"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(kupóny můžete kdykoli zobrazit kliknutím na ikonu na panelu nástrojů)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Zobrazovat, když bude k dispozici nějaký kupón"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Na každé webové stránce zobrazovat pouze jednou"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Oznámení o nabídkách"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Zobrazovat pouze v případě, když je cena nabídky nižší než původní"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Zobrazovat pouze nabídky s úsporou alespoň 10 %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Neupozorňovat na nabídky"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(nabídky můžete kdykoli zobrazit kliknutím na ikonu na panelu nástrojů)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Zobrazovat, když bude k dispozici nějaká nabídka"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Ostatní"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Upozorňovat mě na speciální nabídky z ostatních kategorií (doprava, finance, energie atd.)"
+   },
+   "spShippingLabel": {
+      "message": "Poštovné a balné od"
+   },
+   "spShowNotificationMessage": {
+      "message": "ZOBRAZIT"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Podívejte se, co jsme našli!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Našli jsme alternativní hotely!"
+   }
+}

@@ -1,0 +1,2303 @@
+/* less variables */
+/* global variabless */
+/*maintained old color waiting for disigns decisions (new blue color: #5890FF)*/
+/*maintained old color waiting for disigns decisions (new red color: #5890FF, dark: #C41A32)*/
+/*specific colors for top bar notifications*/
+/* mixins */
+.aos-clear {
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+}
+.inner {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner-2 {
+  width: 90%;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rotate-270 {
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.rotate-0 {
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.gradient-horizontal {
+  background: -webkit-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -moz-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -ms-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: linear-gradient(to right, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+}
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -wbkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.aos {
+  /* css reset */
+  /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+  /* global settings */
+  /* icons */
+  /* icons */
+  /* text */
+  /* text */
+  /* buttons */
+  /* buttons */
+  /* accordeon */
+  /* accordeon */
+  /* sections */
+  /* header */
+  /* section */
+  /* rating action */
+  /* settings */
+  /* result */
+  /* forms elements */
+  /* form elements */
+  /* modals */
+  /* overlay */
+  /* footer */
+  /* footer */
+  /* generic */
+  /* popup width */
+  /* generic styles */
+  /* switches */
+  /* borders */
+  /* deflist */
+}
+.aos.aos,
+.aos div,
+.aos span,
+.aos applet,
+.aos object,
+.aos iframe,
+.aos h1,
+.aos h2,
+.aos h3,
+.aos h4,
+.aos h5,
+.aos h6,
+.aos p,
+.aos blockquote,
+.aos pre,
+.aos a,
+.aos abbr,
+.aos acronym,
+.aos address,
+.aos big,
+.aos cite,
+.aos code,
+.aos del,
+.aos dfn,
+.aos em,
+.aos img,
+.aos ins,
+.aos kbd,
+.aos q,
+.aos s,
+.aos samp,
+.aos small,
+.aos strike,
+.aos strong,
+.aos sub,
+.aos sup,
+.aos tt,
+.aos var,
+.aos b,
+.aos u,
+.aos i,
+.aos center,
+.aos dl,
+.aos dt,
+.aos dd,
+.aos ol,
+.aos ul,
+.aos li,
+.aos fieldset,
+.aos form,
+.aos label,
+.aos legend,
+.aos table,
+.aos caption,
+.aos tbody,
+.aos tfoot,
+.aos thead,
+.aos tr,
+.aos th,
+.aos td,
+.aos article,
+.aos aside,
+.aos canvas,
+.aos details,
+.aos embed,
+.aos figure,
+.aos figcaption,
+.aos footer,
+.aos header,
+.aos hgroup,
+.aos menu,
+.aos nav,
+.aos output,
+.aos ruby,
+.aos section,
+.aos summary,
+.aos time,
+.aos mark,
+.aos audio,
+.aos video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.aos article,
+.aos aside,
+.aos details,
+.aos figcaption,
+.aos figure,
+.aos footer,
+.aos header,
+.aos hgroup,
+.aos menu,
+.aos nav,
+.aos section {
+  display: block;
+}
+.aos body {
+  line-height: 1;
+}
+.aos ol,
+.aos ul {
+  list-style: none;
+}
+.aos blockquote,
+.aos q {
+  quotes: none;
+}
+.aos blockquote:before,
+.aos blockquote:after,
+.aos q:before,
+.aos q:after {
+  content: none;
+}
+.aos table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.aos.aos-body,
+.aos.aos-injected,
+.aos .aos-body,
+.aos .aos-injected {
+  /* global settings */
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #31323D;
+  /* box model change */
+}
+.aos.aos-body *,
+.aos.aos-injected *,
+.aos .aos-body *,
+.aos .aos-injected *,
+.aos.aos-body *:before,
+.aos.aos-injected *:before,
+.aos .aos-body *:before,
+.aos .aos-injected *:before,
+.aos.aos-body *:after,
+.aos.aos-injected *:after,
+.aos .aos-body *:after,
+.aos .aos-injected *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.aos.aos-body strong,
+.aos.aos-injected strong,
+.aos .aos-body strong,
+.aos .aos-injected strong {
+  font-weight: bold;
+}
+.aos.aos-body a,
+.aos.aos-injected a,
+.aos .aos-body a,
+.aos .aos-injected a {
+  color: #359fb9;
+}
+.aos.aos-body a:hover,
+.aos.aos-injected a:hover,
+.aos .aos-body a:hover,
+.aos .aos-injected a:hover {
+  color: #1e5b6a;
+}
+.aos.aos-body .aos-scroll,
+.aos.aos-injected .aos-scroll,
+.aos .aos-body .aos-scroll,
+.aos .aos-injected .aos-scroll {
+  overflow: auto;
+  margin: 80px 0 115px;
+}
+.aos.aos-body,
+.aos .aos-body {
+  width: 400px;
+  background-color: #F2F2F6;
+  padding: 80px 0 133px;
+}
+.aos.aos-body.aos-body-dnt,
+.aos .aos-body.aos-body-dnt {
+  padding-bottom: 90px;
+}
+.aos .aos-i {
+  position: relative;
+  padding-left: 24px;
+}
+.aos .aos-i:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  min-height: 18px;
+  width: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.aos .aos-i-right {
+  padding-left: inherit;
+  padding-right: 24px;
+}
+.aos .aos-i-right:before {
+  left: auto;
+  right: 0;
+}
+.aos .aos-i-modal {
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  margin: .5em auto;
+  position: relative;
+  display: block;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+  border: solid 2px #F2F2F6;
+}
+.aos .aos-section-attention .aos-i-modal,
+.aos .aos-i-modal-black {
+  border-color: #31323D;
+}
+.aos .aos-i-absolute {
+  position: absolute;
+}
+.aos .aos-i-thumbs-up:before {
+  background-image: url("../icons/thumbs-up.png");
+}
+.aos .aos-i-thumbs-down:before {
+  background-image: url("../icons/thumbs-down.png");
+}
+.aos .aos-i-facebook:before {
+  background-image: url("../icons/social-facebook.png");
+}
+.aos .aos-i-in:before {
+  background-image: url("../icons/social-in.png");
+}
+.aos .aos-i-pin:before {
+  background-image: url("../icons/social-pin.png");
+}
+.aos .aos-i-youtube:before {
+  background-image: url("../icons/social-youtube.png");
+}
+.aos .aos-i-instagram:before {
+  background-image: url("../icons/social-instagram.png");
+}
+.aos .aos-i-twitter:before {
+  background-image: url("../icons/social-twitter.png");
+}
+.aos .aos-i-vk:before {
+  background-image: url("../icons/social-vk.png");
+}
+.aos .aos-i-snapchat:before {
+  background-image: url("../icons/social-snapchat.png");
+}
+.aos .aos-i-gplus:before {
+  background-image: url("../icons/social-gplus.png");
+}
+.aos .aos-i-globe:before {
+  background-image: url("../icons/globe.png");
+}
+.aos .aos-i-unknown:before {
+  background-image: url("../icons/unknown.png");
+}
+.aos .aos-i-error:before {
+  background-image: url("../icons/error.png");
+}
+.aos .aos-i-attention:before {
+  background-image: url("../icons/attention.png");
+}
+.aos .aos-i-ok:before {
+  background-image: url("../icons/ok.png");
+}
+.aos .aos-i-arrow-right:before {
+  background-image: url("../icons/arrow-right.png");
+}
+.aos .aos-text > p,
+.aos .aos-text-p {
+  line-height: 1.4;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  color: inherit;
+}
+.aos .aos-text-p-large {
+  font-size: 15px;
+  line-height: 1.4;
+}
+.aos .aos-text > h1,
+.aos .aos-text-h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  color: inherit;
+}
+.aos .aos-text > h2,
+.aos .aos-text-h2 {
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.4;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  color: inherit;
+}
+.aos .aos-text > h2.aos-text-h2-grey,
+.aos .aos-text-h2-grey {
+  text-transform: uppercase;
+  color: #767683;
+  font-size: 12px;
+  padding-top: .2em;
+  padding-bottom: .4em;
+}
+.aos .aos-text > h3,
+.aos .aos-text-h3 {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding-top: .2em;
+  padding-bottom: .4em;
+  color: inherit;
+}
+.aos .aos-text > h4,
+.aos .aos-text-h4 {
+  line-height: 1.4;
+  padding-top: .2em;
+  padding-bottom: .4em;
+  color: inherit;
+}
+.aos .aos-text-bold {
+  font-weight: bold;
+}
+.aos .aos-text-nobold {
+  font-weight: normal;
+}
+.aos .aos-text-ok {
+  color: #0A9243;
+}
+.aos .aos-text-error {
+  color: #b03131;
+}
+.aos .aos-text-attention {
+  color: #C1A009;
+}
+.aos .aos-text-grey {
+  color: #767683;
+}
+.aos .aos-text-left {
+  text-align: left;
+}
+.aos .aos-text-center {
+  text-align: center;
+}
+.aos a.aos-button,
+.aos .aos-button {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #41424E;
+  border-radius: 3px;
+  border: 0;
+  font-size: 14px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #F2F2F6;
+  line-height: 20px;
+}
+.aos a.aos-button:hover,
+.aos .aos-button:hover {
+  background-color: #131316;
+  color: #F2F2F6;
+}
+.aos .aos-button-icon {
+  padding-left: 60px;
+}
+.aos .aos-button-icon-right {
+  padding-right: 60px;
+}
+.aos a.aos-button-ok,
+.aos .aos-button-ok {
+  background-color: #0CB754;
+  text-transform: uppercase;
+}
+.aos a.aos-button-ok:before,
+.aos .aos-button-ok:before,
+.aos a.aos-button-ok:hover,
+.aos .aos-button-ok:hover {
+  background-color: #0A9243;
+}
+.aos a.aos-button-error,
+.aos .aos-button-error {
+  background-color: #c93838;
+  text-transform: uppercase;
+}
+.aos a.aos-button-error:before,
+.aos .aos-button-error:before,
+.aos a.aos-button-error:hover,
+.aos .aos-button-error:hover {
+  background-color: #b03131;
+}
+.aos a.aos-button-primary,
+.aos .aos-button-primary {
+  background-color: #359fb9;
+}
+.aos a.aos-button-primary:before,
+.aos .aos-button-primary:before,
+.aos a.aos-button-primary:hover,
+.aos .aos-button-primary:hover {
+  background-color: #1e5b6a;
+}
+.aos .aos-accordeon {
+  text-align: left;
+  margin: 10px -15px 0px 10px;
+  height: 150px;
+  /* or any value */
+  overflow-y: auto;
+}
+.aos .aos-accordeon-title {
+  padding: 5px 0 5px 24px;
+  position: relative;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 13px;
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aos .aos-accordeon-title:before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../icons/accordeon.png") no-repeat center center;
+  background-size: 80%;
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.aos .aos-accordeon-title:hover {
+  background: -webkit-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -moz-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -ms-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: linear-gradient(to right, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+}
+.aos .aos-accordeon-title.aos-show:before {
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.aos .aos-accordeon-title.aos-show + .aos-accordeon-pane {
+  display: block;
+}
+.aos .aos-accordeon-pane {
+  background-color: #F2F2F6;
+  border: solid 1px #AAABB6;
+  border-style: solid none;
+  display: none;
+}
+.aos .aos-accordeon-pane-inner {
+  position: relative;
+  padding: 6px 0;
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aos .aos-accordeon-pane-inner:after,
+.aos .aos-accordeon-pane-inner:before {
+  bottom: 100%;
+  left: 10%;
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.aos .aos-accordeon-pane-inner:after {
+  border-color: transparent;
+  border-bottom-color: #F2F2F6;
+  border-width: 5px;
+}
+.aos .aos-accordeon-pane-inner:before {
+  border-color: transparent;
+  border-bottom-color: #AAABB6;
+  border-width: 6px;
+  margin-left: -1px;
+}
+.aos .aos-accordeon-list p:hover {
+  background: -webkit-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -moz-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -ms-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: linear-gradient(to right, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+}
+.aos .aos-header {
+  background-color: #AAABB6;
+  height: 80px;
+  padding-left: 0;
+  border-top: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+.aos .aos-header:before {
+  width: 80px;
+  background-color: #767683;
+  background-size: 50%;
+}
+.aos .aos-header h1 {
+  position: relative;
+  top: 50%;
+  -wbkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0 20px 0 100px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  color: #F2F2F6;
+}
+.aos .aos-body {
+  overflow: scroll;
+}
+.aos .aos-header-ok {
+  background-color: #0CB754;
+}
+.aos .aos-header-ok:before {
+  background-color: #0A9243;
+}
+.aos .aos-header-error {
+  background-color: #c93838;
+}
+.aos .aos-header-error:before {
+  background-color: #b03131;
+}
+.aos .aos-header-attention {
+  background-color: #F1C80B;
+}
+.aos .aos-header-attention:before {
+  background-color: #C1A009;
+}
+.aos .aos-header-attention h1 {
+  color: #31323D;
+}
+.aos .aos-section {
+  padding: 10px 15px;
+  border-top: solid 1px #AAABB6;
+  text-align: center;
+  background-color: #F2F2F6;
+}
+.aos .aos-section-full {
+  padding-left: 0;
+  padding-right: 0;
+}
+.aos .aos-section-grey {
+  background-color: #E7E7EF;
+}
+.aos .aos-section-error {
+  background-color: #c93838;
+  color: #F2F2F6;
+}
+.aos .aos-section-ok {
+  background-color: #0CB754;
+  color: #F2F2F6;
+}
+.aos .aos-section-attention {
+  background-color: #F1C80B;
+}
+.aos .aos-section-noborder,
+.aos .aos-section:first-child {
+  border-bottom: 0;
+  border-top: 0;
+}
+.aos .aos-rating {
+  background-color: #E7E7EF;
+  position: relative;
+  z-index: 99999;
+}
+.aos .aos-rating-buttons {
+  position: relative;
+  padding: 0;
+}
+.aos .aos-rating-buttons:after {
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+}
+.aos .aos-rating-positive {
+  float: left;
+  width: 49%;
+}
+.aos .aos-rating-negative {
+  float: right;
+  width: 49%;
+}
+.aos .aos-rating-negative:before,
+.aos .aos-rating-positive:before {
+  background-size: 50%;
+  width: 40px;
+}
+.aos .aos-rating-thanx {
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 1em;
+}
+.aos .aos-settings {
+  background-color: #E7E7EF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+.aos .aos-result {
+  position: relative;
+  z-index: 99999;
+}
+.aos .aos-result-website {
+  display: block;
+  color: #767683;
+  font-weight: normal;
+}
+.aos .aos-form {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.aos .aos-form .aos-button {
+  width: 90%;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aos .aos-form:after {
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+}
+.aos .aos-form label {
+  font-size: 13px;
+  line-height: 1.4;
+  display: block;
+}
+.aos .aos-form input[type=checkbox],
+.aos .aos-form input[type=radio] {
+  width: 18px;
+  height: 18px;
+  margin: 2px 6px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.aos .aos-form-checkbox {
+  text-align: left;
+  position: relative;
+  padding: .25em 0 .25em 24px;
+  width: 90%;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aos .aos-form-checkbox:hover {
+  background: -webkit-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -moz-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: -ms-linear-gradient(left, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+  background: linear-gradient(to right, #F2F2F6 0%, #E7E7EF 50%, #F2F2F6 100%);
+}
+.aos .aos-form-checkbox input[type=checkbox],
+.aos .aos-form-checkbox input[type=radio] {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+}
+.aos.aos-overlay,
+.aos .aos-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  z-index: 999999999999;
+  display: none !important;
+}
+.aos .aos-modal {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 650px;
+  max-width: 92%;
+  max-height: 90%;
+  margin: 0 auto;
+  overflow: auto;
+  border-radius: 4px;
+  background-color: #F2F2F6;
+  display: none !important;
+}
+.aos .aos-footer {
+  text-align: center;
+  border-bottom: 0;
+  padding-top: 8px;
+  padding-bottom: 0;
+  border-top: solid 1px #AAABB6;
+  z-index: 99999;
+}
+.aos.aos-body .aos-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+}
+.aos .aos-logo {
+  color: #2D364C !important;
+  text-decoration: none;
+}
+.aos .aos-logo:hover {
+  color: #31323D;
+}
+.aos .aos-logo-text {
+  font-weight: bold;
+  line-height: 28px;
+  vertical-align: top;
+}
+.aos .aos-logo-img {
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  background: url("../icons/logo.png") no-repeat center center;
+  background-size: contain;
+}
+.aos .aos-body {
+  width: 400px;
+}
+.aos .aos-clear:after {
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+}
+.aos .aos-right {
+  float: right;
+}
+.aos .aos-show {
+  display: block;
+}
+.aos .aos-hidden {
+  display: none;
+}
+.aos .aos-inactive,
+.aos p.aos-inactive {
+  color: #AAABB6;
+}
+.aos .aos-inactive:before,
+.aos p.aos-inactive:before {
+  opacity: .2;
+}
+.aos .aos-inactive:hover,
+.aos p.aos-inactive:hover {
+  background: transparent;
+}
+.aos .aos-border-bottom {
+  border-bottom: solid 1px #AAABB6;
+}
+.aos .aos-padding-bottom-none {
+  padding-bottom: 0 !important;
+}
+.aos .aos-padding-top-none {
+  padding-top: 0 !important;
+}
+.aos .aos-padding-none {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.aos a.aos-link-black,
+.aos .aos-link-black {
+  color: #31323D;
+}
+.aos .aos-link-inactive {
+  color: #AAABB6;
+}
+.aos .aos-link-inactive:hover {
+  color: #AAABB6;
+}
+.aos .aos-dl dd,
+.aos .aos-dl dt {
+  float: left;
+  width: 60%;
+  line-height: 1.4;
+  padding: .2em 0;
+}
+.aos .aos-dl dt {
+  width: 40%;
+  text-align: right;
+}
+.aos .aos-dl:after {
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+}
+/* modals - switch on classes */
+/* Enable modals */
+.avast-overlay-on .aos-overlay,
+.avast-overlay-on .aos-overlay .aos-modal {
+  display: block !important;
+}
+/* topbar styling */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.sizing-content-box {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+.reopen-shadow {
+  box-shadow: 0 1px 2px 1px #0cb754;
+  -moz-box-shadow: 0 1px 2px 1px #0cb754;
+}
+.reopen-shadow-pressed {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+.avast-browser-never-icon-checkbox-hover {
+  border-color: #b2b9cb !important;
+}
+.avast-browser-hide-background-actions-common-hover {
+  background-color: #1f2636;
+  border-radius: 2px;
+}
+.avast-browser-hide-background-actions-common-active {
+  background-color: #1a202f;
+  border-radius: 2px;
+}
+.avast-extension-topbar-icons-animation {
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backgroundOverPage {
+  resize: none !important;
+  overflow: hidden !important;
+  display: none;
+  z-index: 2147483646 !important;
+  float: right !important;
+  margin-top: 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  transition: all 2.35s linear !important;
+  background-color: transparent  !important;
+  top: 40px;
+}
+.topbar-icon {
+  margin: 0 8px 0 12px !important;
+  position: relative;
+  top: 10px;
+  float: left !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  cursor: default;
+}
+.topbar-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+}
+.topbar-text-principal {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-size: 13px !important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  padding: 5px !important;
+  height: 30px !important;
+  cursor: default !important;
+  text-align: left !important;
+  letter-spacing: normal;
+}
+.topbar-text-button {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+}
+.topbar-text-button-basic {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+}
+.topbar-text-button-reopen {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+}
+.topbar-text-button-info {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  cursor: default;
+  color: #ffffff !important;
+  font-weight: 100 !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 1px 0 0 0 !important;
+}
+.topbar-text-button-info-small {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  cursor: default;
+  color: #ffffff !important;
+  font-weight: 100 !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 1px 0 0 0 !important;
+  line-height: 15px !important;
+  font-size: 13px !important;
+  height: 18px !important;
+  width: 18px !important;
+  text-align: left !important;
+  padding: 1px 0 0 4px !important;
+}
+.topbar-text-button-info-big {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  cursor: default;
+  color: #ffffff !important;
+  font-weight: 100 !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 1px 0 0 0 !important;
+  max-width: 380px !important;
+  font-size: 35px !important;
+  line-height: 43px !important;
+  height: 43px !important;
+  width: 43px !important;
+}
+.topbar-button {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+}
+.topbar-button-basic {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: right !important;
+  margin: 4px 16px 4px 0;
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 1px  solid transparent !important;
+}
+.topbar-button-basic:hover {
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 1px  solid transparent !important;
+  cursor: pointer !important;
+}
+.topbar-button-basic:hover label.tb-b-b-text {
+  cursor: pointer !important;
+}
+.topbar-button-basic:active {
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 1px  solid transparent  !important;
+  cursor: pointer !important;
+}
+.topbar-button-basic:active label.tb-b-b-text {
+  cursor: pointer !important;
+}
+.topbar-button-basic label.tb-b-b-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+}
+.topbar-button-reopen {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: left !important;
+  margin: 4px 16px 4px 16px !important;
+  background-color: #0CB754 !important;
+  /* layer fill content */
+  border: 1px solid #0CB754 !important;
+  border-radius: 2px;
+}
+.topbar-button-reopen:hover {
+  background-color: #0a9746 !important;
+  /* layer fill content */
+  border: 1px solid #0a9746 !important;
+  cursor: pointer !important;
+}
+.topbar-button-reopen:hover label.tb-b-r-text {
+  cursor: pointer !important;
+}
+.topbar-button-reopen:active {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  background-color: #0CB754 !important;
+  /* layer fill content */
+  border: 1px solid #0CB754 !important;
+  cursor: pointer !important;
+}
+.topbar-button-reopen:active label.tb-b-r-text {
+  cursor: pointer !important;
+}
+.topbar-button-reopen label.tb-b-r-text {
+  cursor: pointer !important;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  padding: 0 24px 0 24px !important;
+}
+.topbar-button-info {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: left !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50px !important;
+  margin: 11px 0 !important;
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 2px  solid transparent !important;
+}
+.topbar-button-info:hover {
+  background-color: transparent !important;
+  /* layer fill content */
+  color: transparent !important;
+  border-color: transparent !important;
+  cursor: pointer !important;
+}
+.topbar-button-info:hover label.tb-b-i-text {
+  color: transparent !important;
+  cursor: pointer !important;
+}
+.topbar-button-info:active {
+  background-color: transparent !important;
+  /* layer fill content */
+  color: #2D364C !important;
+  border-color: #2D364C !important;
+  cursor: pointer !important;
+}
+.topbar-button-info:active label.tb-b-i-text {
+  color: #2D364C !important;
+  cursor: pointer !important;
+}
+.topbar-button-info label.tb-b-i-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  cursor: default;
+  color: #ffffff !important;
+  font-weight: 100 !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 1px 0 0 0 !important;
+  line-height: 15px !important;
+  font-size: 13px !important;
+  height: 18px !important;
+  width: 18px !important;
+  text-align: left !important;
+  padding: 1px 0 0 4px !important;
+}
+.topbar-button-info label.tb-b-i-text label.tb-b-i-text:hover {
+  color: #2D364C !important;
+  cursor: pointer !important;
+}
+.topbar-button-info label.tb-b-i-text label.tb-b-i-text:active {
+  color: #2D364C !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-img {
+  display: block;
+  margin: 0 auto;
+}
+.avast-extension-topbar-promo {
+  letter-spacing: 0.2px !important;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  resize: none !important;
+  overflow: hidden !important;
+  z-index: 2147483647 !important;
+  height: 40px !important;
+  top: 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  transition: all 2.35s linear !important;
+  background-color: #ffffff !important;
+  cursor: default;
+}
+.avast-extension-topbar-promo .avast-extension-topbar {
+  margin: auto;
+  width: 100% !important;
+  height: 40px !important;
+  position: relative !important;
+  transition: all 2.35s linear !important;
+  background-color: #2d364c !important;
+  border-bottom: 0 !important;
+  border-left: 1px solid #000000 !important;
+  border-right: 1px solid #000000 !important;
+  overflow: hidden !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .avast-extension-topbar-icon {
+  margin: 0 8px 0 12px !important;
+  position: relative;
+  top: 10px;
+  float: left !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  cursor: default;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .avast-extension-topbar-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .avast-extension-topbar-text-principal {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-size: 13px !important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  padding: 5px !important;
+  height: 30px !important;
+  cursor: default !important;
+  text-align: left !important;
+  letter-spacing: normal;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .avast-extension-topbar-button {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-basic {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: right !important;
+  margin: 4px 16px 4px 0;
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 1px  solid transparent !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-basic:hover {
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 1px  solid transparent !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-basic:hover label.tb-b-b-text {
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-basic:active {
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 1px  solid transparent  !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-basic:active label.tb-b-b-text {
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-basic label.tb-b-b-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-reopen {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: left !important;
+  margin: 4px 16px 4px 16px !important;
+  background-color: #0CB754 !important;
+  /* layer fill content */
+  border: 1px solid #0CB754 !important;
+  border-radius: 2px;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-reopen:hover {
+  background-color: #0a9746 !important;
+  /* layer fill content */
+  border: 1px solid #0a9746 !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-reopen:hover label.tb-b-r-text {
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-reopen:active {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  background-color: #0CB754 !important;
+  /* layer fill content */
+  border: 1px solid #0CB754 !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-reopen:active label.tb-b-r-text {
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-reopen label.tb-b-r-text {
+  cursor: pointer !important;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  padding: 0 24px 0 24px !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: left !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50px !important;
+  margin: 11px 0 !important;
+  background-color: transparent !important;
+  /* layer fill content */
+  border: 2px  solid transparent !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info:hover {
+  background-color: transparent !important;
+  /* layer fill content */
+  color: transparent !important;
+  border-color: transparent !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info:hover label.tb-b-i-text {
+  color: transparent !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info:active {
+  background-color: transparent !important;
+  /* layer fill content */
+  color: #2D364C !important;
+  border-color: #2D364C !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info:active label.tb-b-i-text {
+  color: #2D364C !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info label.tb-b-i-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  cursor: default;
+  color: #ffffff !important;
+  font-weight: 100 !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 1px 0 0 0 !important;
+  line-height: 15px !important;
+  font-size: 13px !important;
+  height: 18px !important;
+  width: 18px !important;
+  text-align: left !important;
+  padding: 1px 0 0 4px !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info label.tb-b-i-text label.tb-b-i-text:hover {
+  color: #2D364C !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info label.tb-b-i-text label.tb-b-i-text:active {
+  color: #2D364C !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info .avast-extension-topbar-button-info-image {
+  cursor: default !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info .avast-extension-topbar-button-info-image:hover {
+  cursor: default !important;
+  filter: brightness(0) invert(1);
+}
+.avast-extension-topbar-promo .avast-extension-topbar .tb-b-info .avast-extension-topbar-button-info-image:active {
+  cursor: none !important;
+  visibility: hidden !important;
+}
+.avast-extension-topbar-promo .avast-extension-topbar img {
+  display: block;
+  margin: 0 auto;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.avast-extension-topbar-promo #avast-browser-never {
+  margin-right: 0 !important;
+}
+.avast-extension-topbar-promo #avast-browser-never .avast-browser-never-content {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 0 !important;
+  height: 30px !important;
+  max-width: 400px !important;
+  color: #ffffff !important;
+  float: right !important;
+  margin-left: 5px !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.2px;
+}
+.avast-extension-topbar-promo #avast-browser-never .avast-browser-never-content:hover {
+  cursor: pointer;
+}
+.avast-extension-topbar-promo #avast-browser-never .avast-browser-never-icon {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  position: relative;
+  user-select: none;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.avast-extension-topbar-promo #avast-browser-never .avast-browser-never-icon.noDisplay {
+  display: none !important;
+}
+.avast-extension-topbar-promo #avast-browser-never .avast-browser-never-icon.avast-browser-never-icon-checkbox {
+  margin-right: 0.75em;
+  height: 8px;
+  width: 8px;
+  object-fit: contain;
+  border-radius: 2px;
+  border: solid 2px #8b93a7;
+}
+.avast-extension-topbar-promo #avast-browser-never .avast-browser-never-icon.avast-browser-never-icon-checkbox:hover {
+  border-color: #b2b9cb !important;
+}
+.avast-extension-topbar-promo #avast-browser-hide.tb-b-basic {
+  margin-right: 12px !important;
+  margin-left: 10px !important;
+}
+.avast-extension-topbar-promo #avast-browser-hide .avast-browser-hide-img {
+  position: relative;
+  top: 5px;
+  height: 10px !important;
+  width: 10px !important;
+}
+.avast-extension-topbar-promo #avast-browser-hide .avast-browser-hide-img:hover {
+  background-color: #121825;
+}
+.avast-extension-topbar-promo #avast-browser-hide .avast-browser-hide-img:active {
+  background-color: #0e131e;
+}
+.avast-extension-topbar-promo #avast-browser-hide .avast-browser-hide-background {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: 5px;
+}
+.avast-extension-topbar-promo #avast-browser-hide .avast-browser-hide-background:hover {
+  background-color: #1f2636;
+  border-radius: 2px;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.avast-extension-topbar-promo #avast-browser-hide .avast-browser-hide-background:active {
+  background-color: #1a202f;
+  border-radius: 2px;
+}
+.avast-extension-topbar-promo #infoHoverDiv {
+  resize: none !important;
+  overflow: hidden !important;
+  display: none;
+  z-index: 2147483646 !important;
+  float: right !important;
+  margin-top: 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  transition: all 2.35s linear !important;
+  background-color: transparent  !important;
+  top: 40px;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-arrow {
+  z-index: 3;
+  position: fixed !important;
+  top: 27px !important;
+  border: solid transparent !important;
+  height: 0 !important;
+  width: 0 !important;
+  border-bottom-color: #ffffff !important;
+  border-width: 7px !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  overflow: hidden !important;
+  position: fixed;
+  background-color: #ffffff !important;
+  border-radius: 4px !important;
+  max-height: 200px !important;
+  top: 38px !important;
+  max-width: 464px !important;
+  padding: 24px 24px 24px 24px !important;
+  cursor: default !important;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #7C7C7C;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-icon {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  float: left !important;
+  width: 40px !important;
+  height: 40px !important;
+  margin: 2px 10px 0 0 !important;
+  background-color: #ffffff !important;
+  border-radius: 50px !important;
+  border: 2px solid #ABADBB !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-icon:hover {
+  background-color: #ffffff !important;
+  color: #ABADBB !important;
+  border-color: #ABADBB !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-icon:active {
+  background-color: #ffffff !important;
+  color: #ABADBB !important;
+  border-color: #ABADBB !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-icon label.tb-b-i-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  cursor: default;
+  color: #ffffff !important;
+  font-weight: 100 !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 1px 0 0 0 !important;
+  max-width: 380px !important;
+  font-size: 35px !important;
+  line-height: 43px !important;
+  height: 43px !important;
+  width: 43px !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  text-align: left !important;
+  margin: 0 !important;
+  height: auto !important;
+  max-height: 140px;
+  max-width: 380px !important;
+  float: right !important;
+  position: relative !important;
+  color: #31323D !important;
+  cursor: pointer !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-text div.toolbar-text1 {
+  text-align: left !important;
+  margin: auto !important;
+  color: #FF7800 !important;
+  line-height: 20px !important;
+  cursor: pointer !important;
+  max-height: 140px !important;
+  font-weight: bold !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .topbar-info-text span.toolbar-text2 {
+  text-align: left !important;
+  margin: auto !important;
+  color: #2D364C !important;
+  line-height: 20px !important;
+  cursor: pointer !important;
+  font-weight: normal !important;
+}
+.avast-extension-topbar-promo #infoHoverDiv .topbar-info-container .toolbar-text {
+  margin: 0;
+  color: #242424 !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -0.2px;
+}
+.avast-extension-topbar-promo #neverHoverDiv {
+  resize: none !important;
+  overflow: hidden !important;
+  display: none;
+  z-index: 2147483646 !important;
+  float: right !important;
+  margin-top: 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  transition: all 2.35s linear !important;
+  background-color: transparent  !important;
+  top: 40px;
+  cursor: default !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container {
+  overflow: hidden !important;
+  position: relative;
+  margin: auto !important;
+  width: 500px !important;
+  min-height: 300px !important;
+  max-height: 400px !important;
+  top: 20% !important;
+  background-color: #ffffff !important;
+  border-radius: 1px !important;
+  text-align: center !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .separator {
+  height: 15px !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-icon {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  width: 70px !important;
+  height: 70px !important;
+  max-width: 470px !important;
+  margin: 30px auto 10px auto !important;
+  float: none !important;
+  background: no-repeat center center !important;
+  border-style: none !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-close {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  max-width: 70px !important;
+  width: 30px !important;
+  height: 30px !important;
+  float: right !important;
+  margin: 10px 10px 0 0 !important;
+  border-style: none !important;
+  background: #ffffff no-repeat center center !important;
+  font-size: 25px !important;
+  line-height: 30px !important;
+  color: #818694 !important;
+  font-family: 'arial', 'segoe ui', 'Proxima Nova', 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: lighter !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-close:hover {
+  color: #2D364C !important;
+  border-style: none !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-close:active {
+  color: #2D364C !important;
+  border-style: none !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-size: 13px !important;
+  color: #31323D !important;
+  font-weight: bold !important;
+  position: relative !important;
+  float: none !important;
+  margin: 0 15px !important;
+  line-height: 15px !important;
+  min-height: 15px !important;
+  max-height: 45px !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .never-text-title {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-size: 13px !important;
+  color: #31323D !important;
+  font-weight: bold !important;
+  position: relative !important;
+  float: none !important;
+  margin: 0 15px !important;
+  line-height: 15px !important;
+  min-height: 15px !important;
+  max-height: 45px !important;
+  max-width: 470px !important;
+  color: #FF7800 !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .never-text-msg {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  color: #31323D !important;
+  font-weight: bold !important;
+  position: relative !important;
+  float: none !important;
+  margin: 0 15px !important;
+  line-height: 15px !important;
+  min-height: 15px !important;
+  max-height: 45px !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  max-width: 470px !important;
+  color: #2D364C !important;
+  font-weight: normal !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-button {
+  box-shadow: 0 1px 2px 1px #0cb754;
+  -moz-box-shadow: 0 1px 2px 1px #0cb754;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  max-width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  /* border radius */
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden !important;
+  max-width: 380px !important;
+  float: none !important;
+  margin: 25px auto 10px auto !important;
+  background-color: #0CB754 !important;
+  /* layer fill content */
+  border: 1px solid #0CB754 !important;
+  display: inline-block !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-button:hover {
+  background-color: #0CB754 !important;
+  /* layer fill content */
+  border: 1px solid #0CB754 !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-button:hover .tb-b-r-text {
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-button:active {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  background-color: #0a9746 !important;
+  /* layer fill content */
+  border: 1px solid #0a9746 !important;
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-button:active .tb-b-r-text {
+  cursor: pointer !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-button .tb-b-r-text {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  float: none !important;
+  color: #2d364c !important;
+  font-weight: bold !important;
+  font-size: 10px !important;
+  padding: 0 10px !important;
+  height: 30px !important;
+  max-width: 380px !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-link {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+  font-size: 13px !important;
+  color: #31323D !important;
+  font-weight: bold !important;
+  position: relative !important;
+  margin: 0 15px !important;
+  line-height: 15px !important;
+  min-height: 15px !important;
+  max-height: 45px !important;
+  float: none !important;
+  color: #818694 !important;
+  text-decoration: underline;
+  max-width: 470px !important;
+  font-weight: normal !important;
+  font-size: 11px !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-link:hover {
+  color: #2D364C !important;
+}
+.avast-extension-topbar-promo #neverHoverDiv .topbar-never-container .topbar-never-link:active {
+  color: #2D364C !important;
+}
+.avast-extension-topbar-promo #avast-browser-info .noDisplay {
+  display: none !important;
+}
+.avast-sas-ripple {
+  position: absolute !important;
+  background-color: #2d364c !important;
+  border-radius: 50% !important;
+  width: 90px !important;
+  height: 90px !important;
+  opacity: 0.1 !important;
+  pointer-events: none !important;
+}
+@-moz-document url-prefix() {
+  .avast-browser-info-img:active {
+    visibility: visible !important;
+  }
+}
+/* phishing */
+.phishingImg {
+  margin: 0 0 0 15px;
+  padding: 0;
+  position: absolute;
+  width: 15px !important;
+  height: 15px !important;
+  background-size: contain !important;
+  line-height: 16px !important;
+}
+#phishHoverDiv {
+  position: relative;
+  margin: 0px;
+  display: none;
+  z-index: 9999999;
+  bottom: 160px;
+  left: 380px;
+}
+#phishHoverDiv .aos-tooltip {
+  position: relative;
+  width: 250px;
+  background-color: #41424E;
+  color: #F2F2F6;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px #6f7186;
+  bottom: 0px;
+  left: 0px;
+}
+#phishHoverDiv .aos-tooltip-arrow {
+  top: 100%;
+  left: 105px;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: transparent;
+  border-top-color: #41424E;
+  border-width: 7px;
+}
+#phishHoverDiv .aos-tooltip-text {
+  padding: 0 5px 5px 5px;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+/* wrc */
+.wrc_icon {
+  margin: 0 0 0 15px;
+  padding: 0;
+  position: absolute;
+  width: 18px !important;
+  height: 16px !important;
+  background-size: contain !important;
+  line-height: 16px !important;
+}
+#wrcHoverDiv {
+  position: absolute;
+  margin: 0 0 0 8px;
+  display: none;
+  z-index: 9999999;
+}
+#wrcHoverDiv .aos-tooltip {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  background-color: #AAABB6;
+  color: #F2F2F6;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #ffffff;
+}
+#wrcHoverDiv .aos-tooltip-arrow {
+  right: 100%;
+  top: 75px;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: #ffffff;
+  border-right-color: #AAABB6;
+  border-width: 7px;
+}
+#wrcHoverDiv .aos-tooltip-icon {
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-position: center 15px;
+  background-size: 50px;
+  margin: 0 auto;
+  padding-top: 15px;
+  height: 50px;
+  /*border-top: solid 1px lighten(@color-white,30%);*/
+}
+#wrcHoverDiv .aos-tooltip-text {
+  padding: 12px 10px 15px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+#wrcHoverDiv .aos-tooltip-text strong {
+  font-weight: 600;
+}
+#wrcHoverDiv .aos-tooltip-ok {
+  background-color: #0CB754;
+}
+#wrcHoverDiv .aos-tooltip-ok .aos-tooltip-arrow {
+  border-right-color: #0CB754;
+}
+#wrcHoverDiv .aos-tooltip-error {
+  background-color: #c93838;
+}
+#wrcHoverDiv .aos-tooltip-error .aos-tooltip-arrow {
+  border-right-color: #c93838;
+}
+#wrcHoverDiv .aos-tooltip-attention {
+  background-color: #F1C80B;
+  color: #31323D;
+}
+#wrcHoverDiv .aos-tooltip-attention .aos-tooltip-arrow {
+  border-right-color: #F1C80B;
+}
+#wrcHoverDiv .aos-tooltip-attention .aos-tooltip-logo {
+  color: #31323D;
+}
+#wrcHoverDiv .aos-tooltip-logo {
+  color: #F2F2F6;
+  text-decoration: none;
+  font-size: 12px;
+  border-bottom: solid 1px #d4d4e1;
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+#wrcHoverDiv .aos-tooltip-logo:hover {
+  color: inherit !important;
+}
+#wrcHoverDiv .aos-tooltip-logo-text {
+  vertical-align: top;
+}
+#wrcHoverDiv .aos-tooltip-logo-img {
+  width: 64px;
+  height: 25px;
+  display: inline-block;
+  margin: 10px 8px 0 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}

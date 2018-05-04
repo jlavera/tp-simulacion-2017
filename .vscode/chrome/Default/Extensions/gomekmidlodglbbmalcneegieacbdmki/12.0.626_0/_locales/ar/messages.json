@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "لا يمكنك تقيم ملفات محلية أو علامات تبويب داخلية"
+   },
+   "VoteThank": {
+      "message": "شكراً لك! تم حفظ تصويتك بنجاح."
+   },
+   "anonymousUser": {
+      "message": "مستخدم مجهول"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>عزل جلسة المعاملات المصرفية والتسوق الخاص بك لمنع القراصنة\u003C/b>من سرقة رقم بطاقة الائتمان\u003Cb> الخاص بك، وكلمات المرور\u003C/b>، و\u003Cb>البيانات الشخصية الأخرى.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "، جزء من المتصفح الآمن من Avast المثبت مع أفاست مضاد الفيروسات، \u003Cb>يقوم بعزل جلسة المعاملات المصرفية والتسوق الخاص بك لمنع القراصنة من سرقة \u003C/b>رقم بطاقة الائتمان\u003Cb> الخاص بك، وكلمات المرور\u003C/b>، و\u003Cb>البيانات الشخصية الأخرى.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>نمط الدفع الآمن\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "ليس الآن"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "فتح المنطقة الآمنة من أفاست"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "التحويل الآن"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "إعادة الفتح في متصفح أفاست"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "إعادة الفتح في أفاست المنطقة الآمنة"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "إعادة فتح هذه الصفحة بأمان"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "فتح في نمط الدفع الآمن"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "متصفح أفاست "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "يعزل جلسة المعاملات المصرفية الخاصة بك لمنع المتسللين من تسجيل ضربات المفاتيح الخاصة بك، والحصول على كلمات المرور الخاصة بك وغيرها من البيانات الشخصية الأخرى. تم تثبيته بالفعل مع أفاست مضاد الفيروسات الخاص بك، وتم إعداده بالفعل وأصبح جاهزًا للعمل."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "لمعرفة المزيد"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "نصيحة من أفاست: متصفح المنطقة الآمنة يمنع الإعلانات لحمايتك من تتبع ملفات تعريف الارتباط والإعلانات الضارة."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "قدم مدفوعاتك على شبكة الإنترنت بأمان باستخدام متصفح المنطقة الآمنة من أفاست بدلاً من ذلك."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "يتعذّر على متصفح الويب هذا تأمين المعاملات المصرفية عبر الإنترنت تمامًا."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "قد يعرض إجراء المعاملات البنكية من متصفح الويب هذا حسابك للخطر."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "نوصي بشدة بعدم إجراء المعاملات البنكية إلا من خلال متصفح أفاست فقط."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "قد تكون البيانات المالية الخاصة بك مرئيةً للآخرين."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "قم بتأمين أفضل الصفقات ودفع ثمنها بشكل آمن مع متصفح المنطقة الآمنة من أفاست."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "هل عرفت أنه بإمكانك تنزيل مقاطع الفيديو بسهولة من مواقع التدفق؟"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "لا تظهر هذا مرة أخرى"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "لا تظهر البيانات على هذا الموقع مرة أخرى"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "حسنا، أعد فتح هذا الموقع بأمان"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "لا شكرًا، يُرجى إخفاء هذه التحذيرات بشكل دائم"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "تم إدراج متصفح أفاست مع أفاست مضاد الفيروسات الخاص بك."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "ستتم إعادة فتح هذه الصفحة في متصفح أفاست بمجرد نقرة واحدة لحمايتك."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "هل ترغب بالفعل في وضع حسابك في دائرة الخطر؟"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "أمن على الإنترنت"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "السماح لكل نظم التتبع"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "على جميع المواقع"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "حظر كل نظم التتبع"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "إعدادات عمومية"
+   },
+   "baMoreSettingsAction": {
+      "message": "إعدادات أكثر"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "مسموحة"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "محظورة"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "نظم التتبع حالياً"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "على الموقع"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "نظم التتبع"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "لقد قيمت هذا الموقع على أنه"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "سلبي"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "إيجابي"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "أدلي بصوتك"
+   },
+   "checkAll": {
+      "message": "(اختر كل ما يوافقك)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "إغلاق"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "شركات"
+   },
+   "currentVote": {
+      "message": "التقييمات الكلية"
+   },
+   "detailsHeadline": {
+      "message": "أفاست قد فحص هذا الموقع"
+   },
+   "detailsMalwareNo": {
+      "message": "لم يتم اكتشاف أي برنامج خبيث"
+   },
+   "detailsMalwareYes": {
+      "message": "تم اكتشاف برنامج خبيث!"
+   },
+   "detailsPhishingNo": {
+      "message": "لم يتم اكتشاف أي محاولة تصيد"
+   },
+   "detailsPhishingYes": {
+      "message": "تم اكتشاف محاولة تصيد!"
+   },
+   "disabledTab": {
+      "message": "لا يمكنك تقيم ملفات محلية أو علامات تبويب داخلية"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "تتبع الإعلانات"
+   },
+   "dntAllowGroupAction": {
+      "message": "السماح للكل"
+   },
+   "dntAllowTrackerAction": {
+      "message": "سماح"
+   },
+   "dntAllowed": {
+      "message": "سمحت"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "الحجز التلقائي لأدوات التتبع: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "تم التعطيل"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "تم التمكين"
+   },
+   "dntBlockGroupAction": {
+      "message": "حظر الكل"
+   },
+   "dntBlockTrackerAction": {
+      "message": "حظر"
+   },
+   "dntBlocked": {
+      "message": "حظرت"
+   },
+   "dntHeadline": {
+      "message": "%s شركة تحاول تتبعك"
+   },
+   "dntNetworks": {
+      "message": "الشبكات"
+   },
+   "dntNetworksDetected": {
+      "message": "%s شبكة اكتشفت"
+   },
+   "dntOthersNetworks": {
+      "message": "الآخرين"
+   },
+   "dntSocialNetworks": {
+      "message": "الشبكات الاجتماعية"
+   },
+   "dntStatusAllAllowed": {
+      "message": "الكل سمح"
+   },
+   "dntStatusAllBlocked": {
+      "message": "الكل حظر"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "محظور"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "البعض حظر"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "تحليلات المواقع"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "كحول / مخدرات"
+   },
+   "error": {
+      "message": "خطأ"
+   },
+   "errorUnexpected": {
+      "message": "خطأ غير متوقع"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "لعب القمار"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "كيف وجدت هذا الموقع؟"
+   },
+   "illegal": {
+      "message": "ويرز / غير قانوني"
+   },
+   "it": {
+      "message": "تقنيات المعلومات / تحميل"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "كمستخدم مجهول"
+   },
+   "loginDesc": {
+      "message": "اكتب بياناتك لتسجيل الدخول لحسابك my.avast.com الخاص :"
+   },
+   "loginError": {
+      "message": "تسجيل الدخول قد فشل"
+   },
+   "loginLogin": {
+      "message": "تسجيل الدخول"
+   },
+   "loginLogout": {
+      "message": "تسجيل الخروج"
+   },
+   "loginName": {
+      "message": "الاسم:"
+   },
+   "loginPswd": {
+      "message": "كلمة المرور:"
+   },
+   "malwareNext": {
+      "message": "تحميل أفاست مضاد الفيروسات المجاني"
+   },
+   "malwareSite": {
+      "message": "هذا الموقع يمكن أن يضر بجهازك الحاسب."
+   },
+   "malwareSiteRec": {
+      "message": "ننصحك بتركيب أفاست مضاد الفيروسات لفحص جهازك الحاسب."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "أخبار / مدونة"
+   },
+   "noRating": {
+      "message": "ليس لهذا الموقع تقييم"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "أخرى"
+   },
+   "phishingBack": {
+      "message": "أخرجني من هنا"
+   },
+   "phishingClose": {
+      "message": "تجاهل التحذير"
+   },
+   "phishingCreditNumber": {
+      "message": "يبدو أنك تحاول كتابة كلمة المرور أو رقم بطاقة الائتمان الخاصة بك على موقع ذو سمعة سيئة. يرجى التحقق بشدة من أن هذا الموقع حقيقي.  إدخال المعلومات الشخصية على موقع غير موثوق به يشكل خطراً أمنياً."
+   },
+   "phishingDesc": {
+      "message": "التصيد الاحتيالي هو محاولة للحصول على معلومات حساسة مثل أسماء المستخدمين وكلمات المرور وتفاصيل بطاقات الائتمان..."
+   },
+   "phishingPhishingSite": {
+      "message": "تم وضع علامة على هذا الموقع على أنه موقع تصيد إحتيالي."
+   },
+   "phishingTrust": {
+      "message": "أثق في هذا الموقع"
+   },
+   "phishingWarning": {
+      "message": "تحذير"
+   },
+   "pornography": {
+      "message": "إباحي"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "لهذا الموقع تقييمات متوسطة"
+   },
+   "ratingBad": {
+      "message": "لهذا الموقع تقييمات سيئة"
+   },
+   "ratingCommunity": {
+      "message": "%s تصويت المجتمع"
+   },
+   "ratingDone": {
+      "message": "تم"
+   },
+   "ratingGood": {
+      "message": "لهذا الموقع تقييمات جيدة"
+   },
+   "ratingLevelAverage": {
+      "message": "متوسط"
+   },
+   "ratingLevelBad": {
+      "message": "غير جيد"
+   },
+   "ratingLevelPositive": {
+      "message": "إيجابي"
+   },
+   "ratingLevelUndefined": {
+      "message": "لا"
+   },
+   "ratingNegative": {
+      "message": "لماذا قيمت تجربتك بأنها سلبية؟"
+   },
+   "ratingNoRate": {
+      "message": "لا أرغب بالتصويت الآن"
+   },
+   "ratingPending": {
+      "message": "استرداد التقييمات"
+   },
+   "ratingPositive": {
+      "message": "لماذا قيمت تجربتك بأنها إيجابية؟"
+   },
+   "ratingRate": {
+      "message": "كيف تقيم تجربتك مع هذا الموقع؟"
+   },
+   "ratingTextAverage": {
+      "message": "هذا الموقع  سيء السمعة"
+   },
+   "ratingTextBad": {
+      "message": "هذا الموقع غير آمن"
+   },
+   "ratingTextPositive": {
+      "message": "هذا الموقع آمن"
+   },
+   "ratingTextUndefined": {
+      "message": "موقع غير معروف"
+   },
+   "ratingVeryBad": {
+      "message": "لهذا الموقع تقييمات سيئة جدًا"
+   },
+   "reasonBlocker": {
+      "message": "(تم حجز التهديد)"
+   },
+   "reasonPhishing": {
+      "message": "(تم اكتشاف موقع تصيد احتيالي)"
+   },
+   "reasonUnknownFullText": {
+      "message": "ليس لدى هذا الموقع تقييمات حتى الآن"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "العودة"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "تم العثور على فنادق مشابهة!"
+   },
+   "safeZoneDecline": {
+      "message": "لا توفر المنطقة الأمنة من أجل "
+   },
+   "safeZoneDesc": {
+      "message": "أفاست يوصي بالتحويل إلى المنطقة الآمنة"
+   },
+   "safeZoneFeedback": {
+      "message": "من أجل سلامتك، تم فتح الرابط المطلوب في المنطقة الآمنة"
+   },
+   "safeZoneNo": {
+      "message": "لا"
+   },
+   "safeZoneYes": {
+      "message": "التحويل الآن"
+   },
+   "sasSPInstalled": {
+      "message": "أصبح \u003Cb>Avast SafePrice\u003C/b> جاهزًا للعمل. تسوق سعيد!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "إعادة الضبط إلى الافتراضي"
+   },
+   "settingsSave": {
+      "message": "حفظ"
+   },
+   "settingscommunityIQ": {
+      "message": "مشاركة البيانات"
+   },
+   "settingscommunityIQDesc": {
+      "message": "عند تمكينك لهذا الخيار فإنك تعطي موافقتك على تحويل معلومات معينة بشكل مجهول لأفاست. قد نشارك هذه المعلومات المجهولة المصدر مع أطراف ثالثة."
+   },
+   "settingsdnt": {
+      "message": "لا تتبع"
+   },
+   "settingsdnt0": {
+      "message": "درع الخصوصية"
+   },
+   "settingsdnt2": {
+      "message": "لا تتبع"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "حظر تتبع الإعلانات بشكل افتراضي"
+   },
+   "settingsdntDesc": {
+      "message": "يكشف و يحجز الإعلانات غير المرغوب فيها ويمنع تحليلات المواقع من تتبعك سراً"
+   },
+   "settingsdntOthersDesc": {
+      "message": "حظر الآخرين بشكل افتراضي"
+   },
+   "settingsdntSocialDesc": {
+      "message": "حظر الشبكات الاجتماعية بشكل افتراضي"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "حظر تحليلات المواقع بشكل افتراضي"
+   },
+   "settingsphishing": {
+      "message": "مضاد التصيد"
+   },
+   "settingsphishing0": {
+      "message": "درع التصفح"
+   },
+   "settingsphishing2": {
+      "message": "مضاد التصيد"
+   },
+   "settingsphishingDesc": {
+      "message": "يقوم بفحص المواقع بحثاً عن البرامج الضارة ويمنع التصيد"
+   },
+   "settingssafeZone": {
+      "message": "المنطقة الآمنة"
+   },
+   "settingssafeZoneDesc": {
+      "message": "تحويل إلى المنطقة الآمنة للمواقع المالية الحساسة (يتطلب تركيب أفاست مضاد الفيروسات)"
+   },
+   "settingsserp": {
+      "message": "نتائج محرك البحث"
+   },
+   "settingsserpDesc": {
+      "message": "تمكين التلوين في صفحة نتائج البحث"
+   },
+   "settingsserpPopupDesc": {
+      "message": "تمكين النوافذ المنبثقة في صفحة نتائج البحث"
+   },
+   "settingssiteCorrect": {
+      "message": "تصحيح الموقع"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "تخطي فوري وإعادة توجيهها تلقائياً إلى المواقع الصحيحة"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "كشف و تصحيح عناوين روابط مكتوبة بشكل غير صحيح و توجيهها إلى مواقع صحيحة"
+   },
+   "sfzoneAlways": {
+      "message": "نعم ، دائماً"
+   },
+   "sfzoneDesc": {
+      "message": "لقد دخلت على موقع للخدمات المصرفية عبر الإنترنت. هل تريد فتحه في أفاست المنطقة الآمنة؟"
+   },
+   "sfzoneHeadline": {
+      "message": "أفاست المنطقة الآمنة"
+   },
+   "sfzoneNever": {
+      "message": "أبداً"
+   },
+   "sfzoneNo": {
+      "message": "لا"
+   },
+   "sfzoneSwitch": {
+      "message": "تحويل إلى أفاست المنطقة الآمنة"
+   },
+   "sfzoneYes": {
+      "message": "نعم"
+   },
+   "shopping": {
+      "message": "التسوق"
+   },
+   "sideDashboard": {
+      "message": "أفاست لدي"
+   },
+   "sideDetails": {
+      "message": "لمعرفة المزيد"
+   },
+   "sideRate": {
+      "message": "التصويت الآن"
+   },
+   "sideSettings": {
+      "message": "الإعدادات"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "خذني تلقائياً إلى المواقع الصحيحة المعروفة من الآن فصاعداً"
+   },
+   "sitecorrectBarButton": {
+      "message": "هذا لم يكن خطأ، أعدني"
+   },
+   "sitecorrectBarMsg": {
+      "message": "تصحيح الموقع: إعادة التوجيه تلقائياً من %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "تصحيح الموقع"
+   },
+   "sitecorrectHelp": {
+      "message": "لتكوين ميزة تصحيح الموقع بأفاست، يرجى فتح واجهة المستخدم بأفاست،  ثم انتقل إلى حماية إضافية، و من ثم إلى حماية المتصفح واستخدام زر  إعدادات."
+   },
+   "sitecorrectMean": {
+      "message": "هل تقصد %s ؟"
+   },
+   "sitecorrectNo": {
+      "message": "لا، أنا فعلاً  أقصد %s"
+   },
+   "sitecorrectText": {
+      "message": "ربما هذا ليس الموقع الذي كنت تحاول الدخول إليه."
+   },
+   "sitecorrectYes": {
+      "message": "نعم"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "ألعاب / إجتماعي"
+   },
+   "thanksHeadline": {
+      "message": "شكراً على تصويتك!"
+   },
+   "thanksMessage": {
+      "message": "تم ارسال تصويتك."
+   },
+   "title": {
+      "message": "إعدادات أفاست الأمن على الإنترنت"
+   },
+   "topBarDetails": {
+      "message": "عرض التفاصيل"
+   },
+   "topBarRatingAverage": {
+      "message": "%s تم التصويت بأنها جيدة"
+   },
+   "topBarRatingBad": {
+      "message": "%s تم التصويت بأنها خطرة"
+   },
+   "topBarRatingGood": {
+      "message": "%s تم التصويت بأنها آمنة"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "أسلحة / عنف"
+   },
+   "vote": {
+      "message": "تصويت"
+   },
+   "voteNegative": {
+      "message": "سلبي"
+   },
+   "votePositive": {
+      "message": "إيجابي"
+   },
+   "webrepDisabled": {
+      "message": "سمعة الموقع تم تعطيله"
+   },
+   "whatTypeContent": {
+      "message": "ما هو نوع المحتوى الذي يقدمه هذا الموقع؟"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Nie je možné hlasovať pre lokálne súbory alebo interné záložky"
+   },
+   "VoteThank": {
+      "message": "Ďakujeme. Váš hlas bol úspešne uložený."
+   },
+   "anonymousUser": {
+      "message": "Anonymný používateľ"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>bezpečne izoluje relácie nákupov a bankovníctva, aby zabránil hackerom\u003C/b> ukradnúť vaše \u003Cb>čísla kreditných kariet, heslá\u003C/b> a \u003Cb>iné súkromné údaje.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", súčasť Avast Secure Browser nainštalovaná spolu s vašim antivírusom Avast, \u003Cb>bezpečne izoluje relácie nákupov a bankovníctva, aby zabránil hackerom ukradnúť \u003C/b>vaše \u003Cb>čísla kreditných kariet, heslá\u003C/b> a \u003Cb>iné súkromné údaje.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bankový režim\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Teraz nie"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Otvoriť Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Prepnúť"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "OTVORIŤ V PREHLIADAČI AVASTU"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "OTVORIŤ V AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "OTVORIŤ TÚTO STRÁNKU BEZPEČNE"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "OTVORIŤ V BANKOVOM REŽIME"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avast prehliadač "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "izoluje vašu bankovnú reláciu a zabráni tak hackerom a útočníkom v snímaní stlačení kláves a zachytávaní hesiel a ďalších osobných údajov. Prehliadač bol nainštalovaný ako súčasť programu Avast, takže je hneď pripravený k použitiu."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Viac informácií"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast tip: SafeZone blokuje reklamy a chráni vás tak pred sledovaním cookies a pred podvodvnými reklamami."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Zabezpečte svoje online platby jednoducho používaním prehliadača Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Tento webový prehliadač nemôže úplne zabezpečiť vaše online bankovníctvo."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Internetové bankovníctvo z tohto prehliadača môže ohroziť váš účet."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Dôrazne odporúčame používať internetové bankovníctvo iba z Avast prehliadača."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Vaše finančné údaje môžu vidieť ostatní."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Získajte najlepšie ponuky a plaťte za ne bezpečne pomocou prehliadača Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Vedeli ste, že môžete jednoducho sťahovať videá zo streamovacích stránok?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Nezobrazovať túto výzvu opakovane"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Nezobrazovať na tejto stránke znova"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "ÁNO, OTVORIŤ TÚTO STRÁNKU BEZPEČNE"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Nie, ďakujem, toto varovanie už nikdy nezobrazovať"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Prehliadač od Avastu je súčasťou vášho antivírusu Avast."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Jedným kliknutím otvoríte túto stránku v prehliadači od Avastu a budete tak ochránený."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Naozaj chcete ohroziť svoj účet?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Povoliť všetky sledovacie systémy"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "na všetkých webových stránkach"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Blokovať všetky sledovacie systémy"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Globálne nastavenia"
+   },
+   "baMoreSettingsAction": {
+      "message": "Viac možností"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "povolené"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blokované"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Sledovacie systémy sú momentálne"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "na stránke"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "sledovacích systémov"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Hodnotíte túto stránku"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatívne"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "pozitívne"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Odošlite svoj hlas"
+   },
+   "checkAll": {
+      "message": "(Zaškrtnite všetky platné)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Zavrieť"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Firemné"
+   },
+   "currentVote": {
+      "message": "Celkové hodnotenie"
+   },
+   "detailsHeadline": {
+      "message": "Avast otestoval túto stránku"
+   },
+   "detailsMalwareNo": {
+      "message": "Nezistený žiadny škodlivý kód"
+   },
+   "detailsMalwareYes": {
+      "message": "Detegovaný škodlivý kód"
+   },
+   "detailsPhishingNo": {
+      "message": "Nebola zistená žiadna podvodná stránka"
+   },
+   "detailsPhishingYes": {
+      "message": "Detegovaná podvodná stránka!"
+   },
+   "disabledTab": {
+      "message": "Nie je možné hlasovať pre lokálne súbory alebo interné záložky"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Sledovanie reklamy"
+   },
+   "dntAllowGroupAction": {
+      "message": "Povoliť všetky"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Povoliť"
+   },
+   "dntAllowed": {
+      "message": "- povolené"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Automatické blokovanie sledovacích systémov: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "vypnuté"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "zapnuté"
+   },
+   "dntBlockGroupAction": {
+      "message": "Blokovať všetky"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokovať"
+   },
+   "dntBlocked": {
+      "message": "- blokované"
+   },
+   "dntHeadline": {
+      "message": "Počet spoločností, ktoré sa Vás pokúšali sledovať: %s"
+   },
+   "dntNetworks": {
+      "message": "Siete"
+   },
+   "dntNetworksDetected": {
+      "message": "Počet detegovaných sietí: %s"
+   },
+   "dntOthersNetworks": {
+      "message": "Ostatné"
+   },
+   "dntSocialNetworks": {
+      "message": "Sociálne siete"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Všetky povolené"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Všetky blokované"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Zablokovaný"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Niektoré blokované"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Webová analytika"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkohol / drogy"
+   },
+   "error": {
+      "message": "Chyba"
+   },
+   "errorUnexpected": {
+      "message": "Neočakávaná chyba"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Hazardné hry"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Ako sa Vám táto stránka páči?"
+   },
+   "illegal": {
+      "message": "Warez / nelegálne"
+   },
+   "it": {
+      "message": "Počítače / download"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Ako anonymný používateľ"
+   },
+   "loginDesc": {
+      "message": "Vložte prihlasovacie údaje pre Váš účet my.avast.com:"
+   },
+   "loginError": {
+      "message": "Prihlásenie zlyhalo"
+   },
+   "loginLogin": {
+      "message": "Prihlásiť"
+   },
+   "loginLogout": {
+      "message": "Odhlásiť"
+   },
+   "loginName": {
+      "message": "Meno:"
+   },
+   "loginPswd": {
+      "message": "Heslo:"
+   },
+   "malwareNext": {
+      "message": "Stiahnuť bezplatný antivírus Avast"
+   },
+   "malwareSite": {
+      "message": "Táto stránka mohla poškodiť Váš počítač."
+   },
+   "malwareSiteRec": {
+      "message": "Odporúčame Vám nainštalovať si Avast Antivirus a otestovať svoj počítač."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Správy / blog"
+   },
+   "noRating": {
+      "message": "Táto stránka nemá žiadne hodnotenie"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Ostatné"
+   },
+   "phishingBack": {
+      "message": "Chcem ísť odtiaľto preč"
+   },
+   "phishingClose": {
+      "message": "Ignorovať toto varovanie"
+   },
+   "phishingCreditNumber": {
+      "message": "Zdá sa, že sa pokúšate vložiť heslo alebo číslo platobnej karty na stránku, ktorá má zlé hodnotenie. Overte si prosím, či ste naozaj na správnej stránke. Vkladať osobné údaje na nedôveryhodnej stránke môže byť nebezpečné."
+   },
+   "phishingDesc": {
+      "message": "Phishing je pokus o získanie citlivých informácií ako sú používateľské mená, heslá, informácie o platobných kartách..."
+   },
+   "phishingPhishingSite": {
+      "message": "Tato stránka bola označená ako podvodná."
+   },
+   "phishingTrust": {
+      "message": "Dôverovať tejto doméne"
+   },
+   "phishingWarning": {
+      "message": "Varovanie"
+   },
+   "pornography": {
+      "message": "Pornografia"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Táto stránka má priemerné hodnotenie"
+   },
+   "ratingBad": {
+      "message": "Táto stránka má zlé hodnotenie"
+   },
+   "ratingCommunity": {
+      "message": "%s hodnotenie komunity"
+   },
+   "ratingDone": {
+      "message": "Hotovo"
+   },
+   "ratingGood": {
+      "message": "Táto stránka má dobré hodnotenie"
+   },
+   "ratingLevelAverage": {
+      "message": "Priemerné"
+   },
+   "ratingLevelBad": {
+      "message": "Zlé"
+   },
+   "ratingLevelPositive": {
+      "message": "Dobré"
+   },
+   "ratingLevelUndefined": {
+      "message": "Žiadne"
+   },
+   "ratingNegative": {
+      "message": "Prečo hodnotíte túto stránku ako zlú?"
+   },
+   "ratingNoRate": {
+      "message": "Nechcem teraz hodnotiť"
+   },
+   "ratingPending": {
+      "message": "Zisťujem hodnotenie"
+   },
+   "ratingPositive": {
+      "message": "Prečo hodnotíte túto stránku ako dobrú?"
+   },
+   "ratingRate": {
+      "message": "Ako hodnotíte svoju skúsenosť s touto stránkou?"
+   },
+   "ratingTextAverage": {
+      "message": "táto stránka má zlé hodnotenie"
+   },
+   "ratingTextBad": {
+      "message": "táto stránka nie je bezpečná"
+   },
+   "ratingTextPositive": {
+      "message": "táto stránka je bezpečná"
+   },
+   "ratingTextUndefined": {
+      "message": "neznáma stránka"
+   },
+   "ratingVeryBad": {
+      "message": "Táto stránka má veľmi zlé hodnotenie"
+   },
+   "reasonBlocker": {
+      "message": "(zablokovaná hrozba)"
+   },
+   "reasonPhishing": {
+      "message": "(detekovaná podvodná stránka)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Táto stránka nemá zatiaľ žiadne hodnotenie"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Vrátiť späť"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Našli sa podobné hotely!"
+   },
+   "safeZoneDecline": {
+      "message": "Neponúkať SafeZone pre "
+   },
+   "safeZoneDesc": {
+      "message": "Avast Vám odporúča prepnúť do SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "Požadovaná adresa bola pre istotu otvorená v prostredí SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Nie"
+   },
+   "safeZoneYes": {
+      "message": "Prepnúť"
+   },
+   "sasSPInstalled": {
+      "message": "Aplikácia \u003Cb>Avast SafePrice\u003C/b> je pripravená. Šťastné nakupovanie!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Obnoviť predvolené nastavenia"
+   },
+   "settingsSave": {
+      "message": "Uložiť"
+   },
+   "settingscommunityIQ": {
+      "message": "Zdieľanie údajov"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Zapnutím tejto voľby dávate súhlas s anonymným preposielaním určitých informácií firme Avast. Anonymné informácie môžu byť zdieľané s tretími stranami."
+   },
+   "settingsdnt": {
+      "message": "Ochrana proti sledovaniu"
+   },
+   "settingsdnt0": {
+      "message": "Štít súkromia"
+   },
+   "settingsdnt2": {
+      "message": "Ochrana proti sledovaniu"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Blokovať sledovanie reklamy"
+   },
+   "settingsdntDesc": {
+      "message": "Deteguje a blokuje nevyžiadanú reklamu a zabraňuje analytickým stránkam Vás sledovať"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Blokovať ostatné"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Blokovať sociálne siete"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Blokovať webovú analytiku"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Surf Shield"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Testuje webové stránky na škodlivý kód a zabraňuje phishingu (podvodom)"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Pre citlivé finančné stránky prepnúť do SafeZone (vyžaduje nainštalovaný antivírus Avast)"
+   },
+   "settingsserp": {
+      "message": "Výsledky vyhľadávačov"
+   },
+   "settingsserpDesc": {
+      "message": "Povoliť vyfarbenie stránok s výsledkami vyhľadávania"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Povoliť vyskakovacie okná na stránkach s výsledkami vyhľadávania"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Nepýtať sa a automaticky presmerovať na legitímne stránky"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Deteguje a opravuje chybne napísané adresy a presmerováva na legitímne stránky"
+   },
+   "sfzoneAlways": {
+      "message": "Áno, vždy"
+   },
+   "sfzoneDesc": {
+      "message": "Otvorili ste stránku elektronického bankovníctva. Chcete ju otvoriť v prostredí Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Nikdy"
+   },
+   "sfzoneNo": {
+      "message": "Nie"
+   },
+   "sfzoneSwitch": {
+      "message": "Prepnúť do Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Áno"
+   },
+   "shopping": {
+      "message": "Nakupovanie"
+   },
+   "sideDashboard": {
+      "message": "Môj Avast"
+   },
+   "sideDetails": {
+      "message": "Viac informácií"
+   },
+   "sideRate": {
+      "message": "Ohodnotiť"
+   },
+   "sideSettings": {
+      "message": "Nastavenia"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Nabudúce otvárať správne stránky automaticky"
+   },
+   "sitecorrectBarButton": {
+      "message": "Toto nebola chyba, chcem ísť späť"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: automatické presmerovanie z %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Ak chcete nastaviť funkcie Avast SiteCorrect, otvorte používateľské rozhranie programu Avast, vyberte Dodatková ochrana, Ochrana prehliadača a použite tlačidlo Nastavenia."
+   },
+   "sitecorrectMean": {
+      "message": "Mysleli ste %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Nie, skutočne som myslel %s"
+   },
+   "sitecorrectText": {
+      "message": "Toto pravdepodobne nie je tá stránka, ktorú ste chceli otvoriť."
+   },
+   "sitecorrectYes": {
+      "message": "Áno"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Hry / sociálne"
+   },
+   "thanksHeadline": {
+      "message": "Ďakujeme za hodnotenie!"
+   },
+   "thanksMessage": {
+      "message": "Váš hlas bol odoslaný."
+   },
+   "title": {
+      "message": "Nastavenia Avast Online Security"
+   },
+   "topBarDetails": {
+      "message": "Zobraziť podrobnosti"
+   },
+   "topBarRatingAverage": {
+      "message": "%s je hodnotená neutrálne"
+   },
+   "topBarRatingBad": {
+      "message": "%s je hodnotená ako nebezpečná"
+   },
+   "topBarRatingGood": {
+      "message": "%s je hodnotené ako bezpečná"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Zbrane / násilie"
+   },
+   "vote": {
+      "message": "Hlasovať"
+   },
+   "voteNegative": {
+      "message": "zlá"
+   },
+   "votePositive": {
+      "message": "dobrá"
+   },
+   "webrepDisabled": {
+      "message": "WebRep je vypnutý"
+   },
+   "whatTypeContent": {
+      "message": "Aký obsah ponúka táto stránka?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

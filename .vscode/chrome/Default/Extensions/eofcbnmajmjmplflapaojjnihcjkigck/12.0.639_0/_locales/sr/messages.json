@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Nađite najbolje cene, dogovore i kupone prilikom kupovine na mreži uz poređenje cena i proširenje kupona koje omogućava Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Nađite najbolje cene, dogovore i kupone prilikom kupovine na mreži uz poređenje cena i proširenje kupona koje omogućava AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Kliknite da biste kopirali"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kod kopiran u clipboard."
+   },
+   "sasHintSettings": {
+      "message": "Podešavanja"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Počinje od: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Mogu važiti dodatne naplate i porezi"
+   },
+   "spApply": {
+      "message": "Primeni kupon"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Gle! Još ponuda"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Gle!\u003Cbr> Još ponuda"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Više ponuda, više ušteda!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Više ponuda,\u003Cbr> više ušteda!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Popularni hoteli:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Kopiraj i nalepi prilikom odjave:"
+   },
+   "spCouponApplied": {
+      "message": "Kupon je primenjen."
+   },
+   "spCouponsAvailableText": {
+      "message": "Dostupno"
+   },
+   "spCouponsExpiration": {
+      "message": "Ističe: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Uštedite pomoću kupona"
+   },
+   "spCouponsSelected": {
+      "message": "Odabrano kupona: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Izabrano"
+   },
+   "spCouponsTab": {
+      "message": "Kuponi"
+   },
+   "spGetCouponCode": {
+      "message": "Preuzmi kôd"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Vredi sačekati."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Pretraživanje ponuda..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "O, ne...\u003Cbr>Nije pronađen nijedan kupon..."
+   },
+   "spNothingFoundOffers": {
+      "message": "O, ne...\u003Cbr>Nije pronađena nijedna ponuda..."
+   },
+   "spNothingFoundOthers": {
+      "message": "O, ne...\u003Cbr>Nije pronađena nijedna posebna ponuda..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Manje"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Više"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "POKAŽI POSEBNU PONUDU"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Uštedite %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Pronađene su ponude i kuponi. Blago vama!"
+   },
+   "spOffersTab": {
+      "message": "Ponude"
+   },
+   "spOthersTab": {
+      "message": "Ostalo"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Uvrsti: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Smeštaj i putovanja"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-prodavnice"
+   },
+   "spSettingsPageCancel": {
+      "message": "Odustani"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Prilagođena lista"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Dodaj"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Dodaj sajt"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Ne prikazuj nijedno obaveštenje na ovim veb-sajtovima:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(ponude i kupone možete uvek da pogledate klikom na ikonu na traci sa alatkama)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Pomoć"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kuponi"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Da biste koristili kupon, dovoljno je samo da kliknete na njega. Ako otkrije kôd, potrebno je da ga nalepite u odgovarajuće polje tokom potvrde kupovine. U suprotnom, kupon se automatski primenjuje."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Saznajte više u \u003Cspan class='asp-faqs-span'>najčešće postavljanim pitanjima\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Obaveštenja"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Kad SafePrice pronađe ponudu ili kupon u vezi s vašom pretragom, iskočiće obaveštenje. Kliknite na veliko zeleno dugme da biste videli šta smo pronašli za vas."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Ponude"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Kad kliknete na ponudu, preći ćete u pouzdanu prodavnicu na mreži našeg partnera gde ćete dobiti novu cenu navedenu u obaveštenju."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Ostalo"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Kad kliknete na navedenu posebnu ponudu, preći ćete u pouzdanu prodavnicu na mreži našeg partnera."
+   },
+   "spSettingsPageSave": {
+      "message": "Sačuvaj"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice podešavanja"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Avast SafePrice podešavanja"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Obaveštenja"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Obaveštenja o kuponima"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Nemoj me obaveštavati o kuponima"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(kupone možete uvek da pogledate klikom na ikonu na traci sa alatkama)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Prikaži kad god je dostupan neki kupon"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Prikaži samo jednom na svakom veb-sajtu"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Obaveštenja o ponudama"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Prikaži samo kad je dostupna ponuda bolja od originalne cene"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Prikaži samo za ponude sa uštedom od barem 10%"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Nemoj me obaveštavati o ponudama"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(ponude možete uvek da pogledate klikom na ikonu na traci sa alatkama)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Prikaži kad god je dostupna neka ponuda"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Ostalo"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Obaveštavaj me o posebnim ponudama za druge kategorije (prevoz, finansije, struja i drugo)"
+   },
+   "spShippingLabel": {
+      "message": "dostava od"
+   },
+   "spShowNotificationMessage": {
+      "message": "POKAŽI"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Pogledajte što smo pronašli!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Pronađeni su alternativni hoteli!"
+   }
+}

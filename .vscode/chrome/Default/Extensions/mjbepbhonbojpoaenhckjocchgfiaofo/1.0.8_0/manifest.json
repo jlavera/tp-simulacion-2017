@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon_grey.png",
+      "default_popup": "action.html",
+      "default_title": "Ace Script"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "rea/common.js", "registry.js", "convert.js", "helper.js", "xmlhttprequest.js", "environment.js", "content.js", "checknews.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "User Script Manager with the support of Ace Stream technologies",
+   "icons": {
+      "128": "images/icon128.png",
+      "32": "images/icon.png",
+      "48": "images/icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyWFKzQsLk08wBX1aQqGPT73gK/d7Nu/U+9rV3db7kFIm0OkFOGF1I8MBBoYoym1xbMaCM6jsB2MgB0DpgF9TnLpUFFWURTf19BMoBAvuphWR+G0jcZ2rgLK5n5IkxIy99gt7fUCdn18RbQsPhjMX4Azvo10aAUq7skx/kbwB871c/laUh/AcXHLmjMpkyqmSs277Hgatq7pUAHgOB/cEd5sH942t+b4yh2SqPeGFv0vDf2gv6+/1VQTHJGXSGIpGBnXFhOJX5OszXj4Ni40FcESkRX38dl7qARLUss//PyODPccWQIdZd3T++KPXqQ2Bl+J85m+xMLaFVjssD41NMwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29.0.0.0",
+   "name": "Ace Script",
+   "offline_enabled": true,
+   "optional_permissions": [ "contentSettings", "downloads" ],
+   "options_page": "options.html",
+   "permissions": [ "notifications", "unlimitedStorage", "tabs", "idle", "management", "webNavigation", "webRequest", "webRequestBlocking", "storage", "contextMenus", "chrome://favicon/", "clipboardWrite", "\u003Call_urls>", "nativeMessaging" ],
+   "short_name": "Ace Script",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.8"
+}

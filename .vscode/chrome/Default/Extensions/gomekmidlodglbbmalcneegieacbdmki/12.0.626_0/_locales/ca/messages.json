@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "No podeu avaluar els fitxers locals o pestanyes internes"
+   },
+   "VoteThank": {
+      "message": "Gràcies! La votació s'ha desat correctament."
+   },
+   "anonymousUser": {
+      "message": "Usuari anònim"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>aïlla de manera segura les sessions bancàries i de compra per evitar que els hackers\u003C/b> us robin els \u003Cb>números de les targetes de crèdit, les contrasenyes\u003C/b> i \u003Cb>altres dades privades.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", una part de l'Avast Secure Browser instal·lada amb l'antivirus de l'Avast, \u003Cb>aïlla de manera segura les sessions bancàries i de compra per evitar que els hackers\u003C/b> us robin els \u003Cb>números de les targetes de crèdit, les contrasenyes\u003C/b> i \u003Cb>altres dades privades.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Mode banc\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Ara no"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Obre l'Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Canvia ara"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "TORNA A OBRIR AL NAVEGADOR DE L'AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "TORNA A OBRIR A L'AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "TORNA A OBRIR AQUESTA PÀGINA DE MANERA SEGURA"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "OBRE EN MODE BANC"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "El navegador de l'Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "aïlla la vostra sessió bancària per evitar que els hackers registrin les vostres pulsacions i capturin les contrasenyes i altres dades personals. S'ha instal·lat juntament amb l'antivirus Avast, de manera que ja està configurat i llest per fer-lo servir."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Més informació"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Un consell d'Avast: el navegador SafeZone bloca la publicitat per protegir-vos de les galetes de seguiment i de la publicitat maliciosa."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Pagueu per Internet de manera segura mitjançant el navegador Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Aquest navegador web no pot assegurar per complet les vostres gestions bancàries en línia."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Fer gestions bancàries des d'aquest navegador podria posar en perill el vostre compte."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Us recomanem que feu gestions bancàries només del navegador de l'Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Altres podrien veure les vostres dades bancàries."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Assegureu-vos dels millors preus i pagueu-los de manera segura amb el navegador Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Sabíeu que podeu baixar vídeos fàcilment des de webs en temps real?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "No tornis a mostrar"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "No tornis a mostrar en aquest lloc"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "D'ACORD, TORNA A OBRIR AQUEST LLOC WEB DE MANERA SEGURA"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "No, gràcies. No tornis a mostrar aquests avisos"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "El navegador de l'Avast estava inclòs en l'antivirus Avast."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Amb un sol clic podeu tornar a obrir aquesta pàgina al navegador de l'Avast per estar protegit."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Segur que voleu posar en perill el vostre compte?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Seguretat en línia"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Permet tots els sistemes de seguiment"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "a tots els llocs web"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Bloca tots els sistemes de seguiment"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Configuració global"
+   },
+   "baMoreSettingsAction": {
+      "message": "Configuració addicional"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "permesos"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blocats"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Els sistemes de seguiment estan actualment"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "al web"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "Sistemes de seguiment"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Valoreu la reputació d'aquest web de forma"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negativa"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positiva"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Envieu el vostre vot"
+   },
+   "checkAll": {
+      "message": "(Marqueu tot el que correspongui)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Tanca"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Corporatiu"
+   },
+   "currentVote": {
+      "message": "Reputació global"
+   },
+   "detailsHeadline": {
+      "message": "L'Avast ha analitzat aquest web"
+   },
+   "detailsMalwareNo": {
+      "message": "No s'ha detectat cap programari maliciós"
+   },
+   "detailsMalwareYes": {
+      "message": "S'ha detectat programari maliciós!"
+   },
+   "detailsPhishingNo": {
+      "message": "No s'ha detectat cap intent de pesca electrònica"
+   },
+   "detailsPhishingYes": {
+      "message": "S'ha detectat un intent de pesca electrònica!"
+   },
+   "disabledTab": {
+      "message": "No podeu avaluar els fitxers locals o pestanyes internes"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Publicitat intrusiva"
+   },
+   "dntAllowGroupAction": {
+      "message": "Permet-ho tot"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Permet"
+   },
+   "dntAllowed": {
+      "message": "que s'han permès"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Bloqueig automàtic de seguidors: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Inhabilitat"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Habilitat"
+   },
+   "dntBlockGroupAction": {
+      "message": "Bloca-ho tot"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Bloca"
+   },
+   "dntBlocked": {
+      "message": "que s'han blocat"
+   },
+   "dntHeadline": {
+      "message": "%s empreses rastrejant el vostre contingut"
+   },
+   "dntNetworks": {
+      "message": "Xarxes"
+   },
+   "dntNetworksDetected": {
+      "message": "S'han detectat %s xarxes socials"
+   },
+   "dntOthersNetworks": {
+      "message": "Altres"
+   },
+   "dntSocialNetworks": {
+      "message": "Xarxes socials"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Tot permès"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Tot blocat"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Bloquejat"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Parcialment blocat"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Eines d'anàlisi i estadístiques"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alcohol/Drogues"
+   },
+   "error": {
+      "message": "Error"
+   },
+   "errorUnexpected": {
+      "message": "Error desconegut"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Apostes"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "En quina mesura us agrada aquest lloc web?"
+   },
+   "illegal": {
+      "message": "Descàrregues il·legals"
+   },
+   "it": {
+      "message": "Informàtica/Baixades"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Inicia la sessió com a usuari anònim"
+   },
+   "loginDesc": {
+      "message": "Inseriu les dades d'accés al vostre compte per a my.avast.com:"
+   },
+   "loginError": {
+      "message": "Ha fallat l'inici de sessió"
+   },
+   "loginLogin": {
+      "message": "Inicia la sessió"
+   },
+   "loginLogout": {
+      "message": "Tanca la sessió"
+   },
+   "loginName": {
+      "message": "Nom:"
+   },
+   "loginPswd": {
+      "message": "Contrasenya:"
+   },
+   "malwareNext": {
+      "message": "Baixa l'Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Aquest web podria fer malbé el vostre equip."
+   },
+   "malwareSiteRec": {
+      "message": "Us recomanem que instal·leu l'Avast Antivirus per analitzar l'ordinador."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Notícies/Blogs"
+   },
+   "noRating": {
+      "message": "Aquest lloc no disposa de puntuació"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Altres"
+   },
+   "phishingBack": {
+      "message": "Treu-me d'aquí!"
+   },
+   "phishingClose": {
+      "message": "Ignora l'avís"
+   },
+   "phishingCreditNumber": {
+      "message": "Esteu inserint dades confidencials en un web de poca reputació. Verifiqueu que esteu al web correcte! Inserir aquest tipus d'informació en webs de dubtosa procedència pot suposar un risc per a la vostra seguretat."
+   },
+   "phishingDesc": {
+      "message": "La pesca electrònica és l'intent d'obtenir informació sensible com ara noms d'usuari, contrasenyes i informació de les targetes de crèdit..."
+   },
+   "phishingPhishingSite": {
+      "message": "Aquest web s'ha reportat com a pesca electrònica."
+   },
+   "phishingTrust": {
+      "message": "Confio en aquest lloc web"
+   },
+   "phishingWarning": {
+      "message": "Atenció"
+   },
+   "pornography": {
+      "message": "Contingut sexual"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Aquest lloc té una reputació mitjana"
+   },
+   "ratingBad": {
+      "message": "Aquest lloc te una mala reputació"
+   },
+   "ratingCommunity": {
+      "message": "%s la comunitat"
+   },
+   "ratingDone": {
+      "message": "Fet"
+   },
+   "ratingGood": {
+      "message": "Aquest lloc té una bona reputació"
+   },
+   "ratingLevelAverage": {
+      "message": "Valoració mitja per part de"
+   },
+   "ratingLevelBad": {
+      "message": "Valoració de risc per part de"
+   },
+   "ratingLevelPositive": {
+      "message": "Valoració positiva per part de"
+   },
+   "ratingLevelUndefined": {
+      "message": "Cap valoració per part de"
+   },
+   "ratingNegative": {
+      "message": "Per què heu valorat aquest web com a negatiu?"
+   },
+   "ratingNoRate": {
+      "message": "No vull fer cap valoració"
+   },
+   "ratingPending": {
+      "message": "S'està recuperant la puntuació"
+   },
+   "ratingPositive": {
+      "message": "Per què heu valorat aquest web com a positiu?"
+   },
+   "ratingRate": {
+      "message": "Com valoreu la vostra experiència amb aquest web?"
+   },
+   "ratingTextAverage": {
+      "message": "Aquest web té poca reputació"
+   },
+   "ratingTextBad": {
+      "message": "Aquest web no és segur"
+   },
+   "ratingTextPositive": {
+      "message": "Aquest web és segur"
+   },
+   "ratingTextUndefined": {
+      "message": "Web desconegut"
+   },
+   "ratingVeryBad": {
+      "message": "Aquest lloc té molt mala reputació"
+   },
+   "reasonBlocker": {
+      "message": "(amenaça bloquejada)"
+   },
+   "reasonPhishing": {
+      "message": "(s'ha detectat un web de pesca electrònica)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Aquest web encara no disposa de puntuació"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Desfés"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "S'han trobat hotels similars!"
+   },
+   "safeZoneDecline": {
+      "message": "No ofereixis el SafeZone a "
+   },
+   "safeZoneDesc": {
+      "message": "L'Avast us recomana canviar al SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "Per a la vostra privadesa, l'enllaç s'ha obert mitjançant el SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "No canviïs"
+   },
+   "safeZoneYes": {
+      "message": "Canvia ara"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> ja està llest. Bona compra!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Restaura als valors per defecte"
+   },
+   "settingsSave": {
+      "message": "Desa"
+   },
+   "settingscommunityIQ": {
+      "message": "Compateix dades"
+   },
+   "settingscommunityIQDesc": {
+      "message": "En habilitar aquesta opció, permetreu que l'Avast enviï dades anònimes. Podem compartir informació anònima amb tercers."
+   },
+   "settingsdnt": {
+      "message": "Seguiment"
+   },
+   "settingsdnt0": {
+      "message": "Mòdul de la privadesa"
+   },
+   "settingsdnt2": {
+      "message": "Seguiment"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Bloca la publicitat intrusiva"
+   },
+   "settingsdntDesc": {
+      "message": "Detecta i bloca el contingut no desitjat i fa saber als llocs web que no voleu que us segueixin"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Bloca altre tipus de contingut"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Bloca el contingut de les xarxes socials"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Bloca les eines d'anàlisi i estadístiques"
+   },
+   "settingsphishing": {
+      "message": "Anti pesca electrònica"
+   },
+   "settingsphishing0": {
+      "message": "Mòdul de navegació web"
+   },
+   "settingsphishing2": {
+      "message": "Anti pesca electrònica"
+   },
+   "settingsphishingDesc": {
+      "message": "Analitza els webs per cercar programari maliciós i pesca electrònica"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Canvia a l'entorn «SafeZone» en visitar pàgines web d'entitats bancàries (necessari l'Avast Antivirus instal·lat)"
+   },
+   "settingsserp": {
+      "message": "Resultat dels motors de cerca"
+   },
+   "settingsserpDesc": {
+      "message": "Habilita els colors a la pàgina de resultats"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Habilita les finestres emergents a la pàgina de resultats"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Omet demanar i redirecciona automàticament al web correcte"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Detecta i corregeix adreces web errònies redireccionant al web oficial"
+   },
+   "sfzoneAlways": {
+      "message": "Sí, sempre"
+   },
+   "sfzoneDesc": {
+      "message": "Heu inserit l'adreça d'una entitat bancària. Voleu obrir-la amb l'Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Mai"
+   },
+   "sfzoneNo": {
+      "message": "No"
+   },
+   "sfzoneSwitch": {
+      "message": "Canvia a l'Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Sí"
+   },
+   "shopping": {
+      "message": "Comerç"
+   },
+   "sideDashboard": {
+      "message": "El meu Avast"
+   },
+   "sideDetails": {
+      "message": "Més informació"
+   },
+   "sideRate": {
+      "message": "Feu una valoració"
+   },
+   "sideSettings": {
+      "message": "Configuració"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Redirigeix-me sempre als llocs correctes"
+   },
+   "sitecorrectBarButton": {
+      "message": "No ha estat un error, vull anar al web indicat"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: redirecciona'm automàticament a %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Podeu configurar l'opció «SiteCorrect» des de «Protecció addicional» -> «Protecció del navegador» i prement el botó «Configuració avançada», des de la interfície de l'usuari de l'Avast."
+   },
+   "sitecorrectMean": {
+      "message": "Volíeu dir %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "No, realment vull accedir a %s"
+   },
+   "sitecorrectText": {
+      "message": "Potser aquest no és el lloc on voleu accedir."
+   },
+   "sitecorrectYes": {
+      "message": "Sí"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Social/Jocs"
+   },
+   "thanksHeadline": {
+      "message": "Gràcies per la valoració!"
+   },
+   "thanksMessage": {
+      "message": "S'ha enviat la votació."
+   },
+   "title": {
+      "message": "Configuració de l'Avast Online Security"
+   },
+   "topBarDetails": {
+      "message": "Mostra els detalls"
+   },
+   "topBarRatingAverage": {
+      "message": "%s s'ha marcat com a contingut correcte"
+   },
+   "topBarRatingBad": {
+      "message": "%s s'ha marcat com a contingut perillós"
+   },
+   "topBarRatingGood": {
+      "message": "%s s'ha marcat com a contingut segur"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Armes/Violència"
+   },
+   "vote": {
+      "message": "Envia"
+   },
+   "voteNegative": {
+      "message": "negatiu"
+   },
+   "votePositive": {
+      "message": "positiu"
+   },
+   "webrepDisabled": {
+      "message": "WebRep no està habilitat"
+   },
+   "whatTypeContent": {
+      "message": "Quin tipus de contingut proporciona aquest lloc web?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

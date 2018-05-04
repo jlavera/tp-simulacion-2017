@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "A helyi fájlokat, vagy a belső füleket nem lehet osztályozni"
+   },
+   "VoteThank": {
+      "message": "Köszönjük, az Ön értékelése sikeresen mentve."
+   },
+   "anonymousUser": {
+      "message": "Névtelen felhasználó"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>biztonságosan elkülöníti a vásárlási és banki tevékenységek munkameneteit, nehogy a hackerek\u003C/b> ellophassák \u003Cb>hitelkártyaszámait, jelszavait\u003C/b> és \u003Cb>egyéb bizalmas adatait.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "az Avast vírusvédelmi megoldással együtt telepített Avast biztonságos böngésző része. \u003Cb>Biztonságosan elkülöníti a vásárlási és banki tevékenységek munkameneteit, nehogy a hackerek ellophassák\u003C/b> \u003Cb>hitelkártyaszámait, jelszavait\u003C/b> és \u003Cb>egyéb bizalmas adatait.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bank mód:\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Most nem"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Az Avast Védett zóna megnyitása"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Átkapcsolás"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "MEGNYITÁS ÚJRA AZ AVAST BÖNGÉSZŐJÉBEN"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "MEGNYITÁS ÚJRA AZ AVAST VÉDETT ZÓNÁBAN"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "AZ OLDAL ISMÉTELT MEGNYITÁSA BIZTONSÁGOSAN"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "MEGNYITÁS BANK MÓDBAN"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Az Avast böngészője "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "elkülöníti a banki munkamenetet, hogy a hackerek ne tudják naplózni a billentyűzetleütéseket a jelszavak és egyéb személyes adatok rögzítéséhez. Az Avast vírusirtójával együtt települt, ezért már be is van állítva, és használatra kész."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "További információ"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast-tipp: A védett zóna böngésző a hirdetések blokkolásával megvédi önt a nyomkövető cookie-któl és a rosszindulatú reklámoktól."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "A biztonságos online fizetéshez használja inkább az Avast Védett zóna böngészőt."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Ez a webböngésző nem tudja teljeskörűen megvédeni az online banki ügyintézést."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Ha ebben a webböngészőben intézi banki ügyeit, az veszélyt jelenthet a fiókjára."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Nyomatékosan javasoljuk, hogy csak az Avast böngészőjét használja a banki ügyintézésre."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Előfordulhat, hogy pénzügyi adatait mások is láthatják."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Vásároljon a legkedvezőbb áron az Avast Védett zóna böngészővel."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Tudta, hogy egyszerűen letöltheti a videókat az adatfolyam-továbbítással működő webhelyekről?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Ne mutassa többet"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Ne mutassa többet ezen az oldalon"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "RENDBEN, SZERETNÉM BIZTONSÁGOSAN ÚJRA MEGNYITNI A WEBHELYET"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Köszönöm, nem, és ezek a figyelmeztetések ne jelenjenek meg többé"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Az Avast böngészője az Avast vírusirtóhoz volt mellékelve."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Egy kattintással újra megnyithatja ezt az oldalt az Avast böngészőjében a nagyobb biztonság érdekében."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Biztosan vállalja a fiók feltörésének kockázatát?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online biztonság"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Minden követési rendszer engedélyezése"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "az összes weboldalon"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Összes követési rendszer blokkolása"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Globális beállítások"
+   },
+   "baMoreSettingsAction": {
+      "message": "Több beállítás"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "engedélyezve"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blokkolva"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "A követési rendszerek jelenleg"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "ezen a weboldalon:"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "követési rendszer"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "A véleménye erről az oldalról"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatív"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "pozitív"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Az Ön szavazata"
+   },
+   "checkAll": {
+      "message": "(Többet is kijelölhet)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Bezárás"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Vállalati"
+   },
+   "currentVote": {
+      "message": "Általános minősítés"
+   },
+   "detailsHeadline": {
+      "message": "Az Avast már ellenőrizte ezt a webhelyet"
+   },
+   "detailsMalwareNo": {
+      "message": "Nem került rosszindulatú program azonosításra"
+   },
+   "detailsMalwareYes": {
+      "message": "Rosszindulatú program azonosítva!"
+   },
+   "detailsPhishingNo": {
+      "message": "Nem került adathalászati tevékenység azonosításra"
+   },
+   "detailsPhishingYes": {
+      "message": "Adathalászat azonosítva!"
+   },
+   "disabledTab": {
+      "message": "A helyi fájlokat, vagy a belső füleket nem lehet osztályozni"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Nyomkövetés"
+   },
+   "dntAllowGroupAction": {
+      "message": "Összes engedélyezése"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Engedélyez"
+   },
+   "dntAllowed": {
+      "message": "engedélyezve"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Nyomkövetők automatikus blokkolása: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Kikapcsolva"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Bekapcsolva"
+   },
+   "dntBlockGroupAction": {
+      "message": "Összes blokkolása"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokkol"
+   },
+   "dntBlocked": {
+      "message": "blokkolva"
+   },
+   "dntHeadline": {
+      "message": "%s vállalat próbálta meg nyomon követni Önt"
+   },
+   "dntNetworks": {
+      "message": "Hálózatok"
+   },
+   "dntNetworksDetected": {
+      "message": "%s hálózat azonosítva"
+   },
+   "dntOthersNetworks": {
+      "message": "Egyebek"
+   },
+   "dntSocialNetworks": {
+      "message": "Közösségi hálózatok"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Összes engedélyezve"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Összes blokkolva"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Blokkolt"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Némelyik blokkolva"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Webanalitika"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkohol / Drogok"
+   },
+   "error": {
+      "message": "Hiba"
+   },
+   "errorUnexpected": {
+      "message": "Váratlan hiba"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Szerencsejáték"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Mennyire kedveli ezt a webhelyet?"
+   },
+   "illegal": {
+      "message": "Warez / Illegális"
+   },
+   "it": {
+      "message": "IT / Letöltés"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Névtelen felhasználóként"
+   },
+   "loginDesc": {
+      "message": "Töltse ki a my.avast.com fiókjának bejelentkezési adatait:"
+   },
+   "loginError": {
+      "message": "Sikertelen bejelentkezés"
+   },
+   "loginLogin": {
+      "message": "Bejelentkezés"
+   },
+   "loginLogout": {
+      "message": "Kijelentkezés"
+   },
+   "loginName": {
+      "message": "Név:"
+   },
+   "loginPswd": {
+      "message": "Jelszó:"
+   },
+   "malwareNext": {
+      "message": "Az Avast Free Antivirus letöltése"
+   },
+   "malwareSite": {
+      "message": "Ez a webhely károkat okozhat a gépén."
+   },
+   "malwareSiteRec": {
+      "message": "Azt javasoljuk, hogy telepítse az Avast Antivirus programot a gépe átvizsgálásához."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Hírek / Blog"
+   },
+   "noRating": {
+      "message": "Ez a webhely még nincs minősítve"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Egyebek"
+   },
+   "phishingBack": {
+      "message": "Kilépek innen"
+   },
+   "phishingClose": {
+      "message": "Figyelmeztetés mellőzése"
+   },
+   "phishingCreditNumber": {
+      "message": "Úgy tűnik, hogy egy nagyon rossz megítélésű webhelyen próbálta megadni a jelszavát, vagy a bankkártyájának a számát. Kérem még egyszer ellenőrizze, hogy ez a hely valódi-e. Ha a személyes adatait egy nem megbízható webhelyen adja meg, azzal biztonsági kockázatnak teszi ki magát."
+   },
+   "phishingDesc": {
+      "message": "Az adathalászat bizalmas adatok, például felhasználónevek, jelszavak és hitelkártyaadatok megszerzésére tett kísérlet."
+   },
+   "phishingPhishingSite": {
+      "message": "Ez a webhely adathalász oldalként ismert."
+   },
+   "phishingTrust": {
+      "message": "Megbízom ebben a weboldalban"
+   },
+   "phishingWarning": {
+      "message": "Figyelmeztetés"
+   },
+   "pornography": {
+      "message": "Pornográfia"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "A webhely minősítése közepes"
+   },
+   "ratingBad": {
+      "message": "A webhely minősítése rossz"
+   },
+   "ratingCommunity": {
+      "message": "%s közösségi értékelés"
+   },
+   "ratingDone": {
+      "message": "Kész"
+   },
+   "ratingGood": {
+      "message": "A webhely minősítése jó"
+   },
+   "ratingLevelAverage": {
+      "message": "Átlagos"
+   },
+   "ratingLevelBad": {
+      "message": "Rossz"
+   },
+   "ratingLevelPositive": {
+      "message": "Pozitív"
+   },
+   "ratingLevelUndefined": {
+      "message": "Nincs"
+   },
+   "ratingNegative": {
+      "message": "Mi alapján értékelte a tapasztalatait negatívnak?"
+   },
+   "ratingNoRate": {
+      "message": "Most nem szeretném értékelni"
+   },
+   "ratingPending": {
+      "message": "Besorolás kiolvasása"
+   },
+   "ratingPositive": {
+      "message": "Mi alapján értékelte a tapasztalatait pozitívnak?"
+   },
+   "ratingRate": {
+      "message": "Hogyan értékelné ezzel az oldallal kapcsolatos tapasztalatait?"
+   },
+   "ratingTextAverage": {
+      "message": "ennek a webhelynek rossz híre van"
+   },
+   "ratingTextBad": {
+      "message": "ez a webhely nem biztonságos"
+   },
+   "ratingTextPositive": {
+      "message": "ez a webhely biztonságos"
+   },
+   "ratingTextUndefined": {
+      "message": "ismeretlen webhely"
+   },
+   "ratingVeryBad": {
+      "message": "A webhely minősítése nagyon rossz"
+   },
+   "reasonBlocker": {
+      "message": "(fenyegetés blokkolva)"
+   },
+   "reasonPhishing": {
+      "message": "(adathalász webhely észlelve)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Ez a webhely még nincs minősítve"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Visszaállítás"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Hasonló szállodákat találtunk!"
+   },
+   "safeZoneDecline": {
+      "message": "A SafeZone nem ajánlja "
+   },
+   "safeZoneDesc": {
+      "message": "Az Avast javasolja, hogy kapcsoljon át a Védett zónára"
+   },
+   "safeZoneFeedback": {
+      "message": "A biztonsága érdekében, a kért URL a SafeZone-n belül kerül megnyitásra"
+   },
+   "safeZoneNo": {
+      "message": "Nem"
+   },
+   "safeZoneYes": {
+      "message": "Átkapcsolás"
+   },
+   "sasSPInstalled": {
+      "message": "Az \u003Cb>Avast SafePrice\u003C/b> készen áll. Kellemes vásárlást!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Alapértelmezés"
+   },
+   "settingsSave": {
+      "message": "Mentés"
+   },
+   "settingscommunityIQ": {
+      "message": "Adatmegosztás"
+   },
+   "settingscommunityIQDesc": {
+      "message": "A lehetőség engedélyezésével Ön beleegyezik, hogy bizonyos információkat névtelenül továbbítson az Avastnak. A névtelen információkat megoszthatjuk harmadik felekkel is."
+   },
+   "settingsdnt": {
+      "message": "Nincs nyomkövetés"
+   },
+   "settingsdnt0": {
+      "message": "Adatvédelmi pajzs"
+   },
+   "settingsdnt2": {
+      "message": "Nincs nyomkövetés"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Alapértelmezésben blokkolja a nyomkövetési technikákat"
+   },
+   "settingsdntDesc": {
+      "message": "Nemkívánatos reklámok felismerése és blokkolása, valamint védelem a tevékenységét elemző webhelyek nyomkövetési technikái ellen"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Egyéb tevékenységek alapértelmezett blokkolása"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Alapértelmezésben blokkolja a közösségi hálózatokat"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Alapértelmezésben blokkolja a webes tevékenységet elemző technikákat"
+   },
+   "settingsphishing": {
+      "message": "Adathalászat-elleni védelem"
+   },
+   "settingsphishing0": {
+      "message": "Szörfölésvédelem"
+   },
+   "settingsphishing2": {
+      "message": "Adathalászat-elleni védelem"
+   },
+   "settingsphishingDesc": {
+      "message": "Rosszindulatú programok ellenőrzése a webhelyeken, és védelem az adathalász jellegű tevékenységek ellen"
+   },
+   "settingssafeZone": {
+      "message": "Védett zóna"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Átváltás a Védett zónára a kényes pénzügyi webhelyeken (az Avast Antivirusnak telepítve kell lennie)"
+   },
+   "settingsserp": {
+      "message": "Keresőmotor eredmények"
+   },
+   "settingsserpDesc": {
+      "message": "Színezés engedélyezése a keresési eredmények oldalon"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Felugró ablakok engedélyezése a keresési eredmények oldalon"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Azonnali kihagyás, és automatikus átirányítás a legitim webhelyekre"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Elgépelt URL-ek felismerése és korrigálása, majd átirányítás a legitim webhelyekre"
+   },
+   "sfzoneAlways": {
+      "message": "Igen mindig"
+   },
+   "sfzoneDesc": {
+      "message": "Egy online banki oldalra lépett. Szeretné, hogy azt az Avast a Védett zónában nyissa meg?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast Védett zóna"
+   },
+   "sfzoneNever": {
+      "message": "Sohasem"
+   },
+   "sfzoneNo": {
+      "message": "Nem"
+   },
+   "sfzoneSwitch": {
+      "message": "Átváltás az Avast Védett zónára"
+   },
+   "sfzoneYes": {
+      "message": "Igen"
+   },
+   "shopping": {
+      "message": "Vásárlás"
+   },
+   "sideDashboard": {
+      "message": "My Avast"
+   },
+   "sideDetails": {
+      "message": "További információ"
+   },
+   "sideRate": {
+      "message": "Értékelés"
+   },
+   "sideSettings": {
+      "message": "Beállítások"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Ezentúl automatikusan irányítson át a helyes weboldalakra"
+   },
+   "sitecorrectBarButton": {
+      "message": "Ez nem hiba, vigyél vissza az előző helyre"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: automatikus átirányítás %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Az Avast SiteCorrect lehetőség beállításához nyissa meg az Avast felhasználói felületét, lépjen a Kiegészítő védelem fülre, ott válassza a Böngészővédelmet, majd a Beállítások gombot."
+   },
+   "sitecorrectMean": {
+      "message": "Erre gondolt: %s?"
+   },
+   "sitecorrectNo": {
+      "message": "Nem, hanem erre %s"
+   },
+   "sitecorrectText": {
+      "message": "Ez valószínűleg nem az a webhely, ahova szeretne belépni."
+   },
+   "sitecorrectYes": {
+      "message": "Igen"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Közösségi / Játék"
+   },
+   "thanksHeadline": {
+      "message": "Köszönjük az értékelését!"
+   },
+   "thanksMessage": {
+      "message": "A szavazata elküldésre került."
+   },
+   "title": {
+      "message": "Avast Online Security beállításai"
+   },
+   "topBarDetails": {
+      "message": "Részletek"
+   },
+   "topBarRatingAverage": {
+      "message": "%s rendben levőnek ítélte"
+   },
+   "topBarRatingBad": {
+      "message": "%s veszélyesnek ítélte"
+   },
+   "topBarRatingGood": {
+      "message": "%s biztonságosnak ítélte"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Fegyverek / Erőszak"
+   },
+   "vote": {
+      "message": "Szavazás"
+   },
+   "voteNegative": {
+      "message": "negatív"
+   },
+   "votePositive": {
+      "message": "pozitív"
+   },
+   "webrepDisabled": {
+      "message": "A webhelyminősítő ki van kapcsolva"
+   },
+   "whatTypeContent": {
+      "message": "Milyen típusú tartalom található a webhelyen?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

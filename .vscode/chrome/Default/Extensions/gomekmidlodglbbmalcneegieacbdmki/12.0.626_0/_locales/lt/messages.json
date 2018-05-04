@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Jūs negalite vertinti vietinius failus arba vidaus skirtukus"
+   },
+   "VoteThank": {
+      "message": "Dėkojame! Jūsų vertinimas išsaugotas."
+   },
+   "anonymousUser": {
+      "message": "Anoniminis vartotojas"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>saugiai izoliuoja pirkimų ir bankines sesijas nuo įsilaužėlių\u003C/b>, kad nebūtų pavogti \u003Cb>kredito kortelių numeriai, slaptažodžiai,\u003C/b> ir \u003Cb>kiti privatūs duomenys.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", dalis „Avast Secure Browser“, kuri yra įdiegta kartu su „Avast“ antivirusine sistema, \u003Cb>saugiai izoliuoja pirkimų ir bankines sesijas nuo įsilaužėlių, kad nebūtų pavogti\u003C/b> jūsų \u003Cb>kredito kortelių numeriai, slaptažodžiai,\u003C/b> ir \u003Cb>kiti privatūs duomenys.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bankinis režimas\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Ne dabar"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Atverti „Avast SafeZone“"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Persijungti dabar"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ATVERTI „AVAST“ NARŠYKLĖJE"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "PEREITI Į „AVAST SAFEZONE“"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "NORIU ATVERTI ŠĮ PUSLAPĮ SAUGIAI"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ATIDARYTI BANKINIAME REŽIME"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "„Avast“ naršyklė "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "Izoliuoja bankininkystės sesiją, kad programišiai negalėtų užfiksuoti, kokius klavišus spaudžiate, ir nesužinotų jūsų slaptažodžių ar kitos asmeninės informacijos. Ji jau įdiegta kartu su „Avast“ antivirusine programa, taigi yra sukonfigūruota ir paruošta naudoti."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Sužinoti daugiau"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "„Avast“ patarimas: „SafeZone“ naršyklė blokuoja reklamos skelbimus, kad apsaugotų jus nuo sekimo slapukų ir kenkėjiškos reklamos."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Padarykite savo mokėjimus internete saugius, naudodami „Avast SafeZone“ naršyklę."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Ši naršyklė nesuteikia patikimos apsaugos jūsų internetinės bankininkystės duomenims."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Atliekant banko operacijas šioje naršyklėje kyla pavojus jūsų sąskaitai."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Primygtinai rekomenduojame internetine bankininkyste naudotis tik „Avast“ naršyklėje."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Jūsų finansiniai duomenys gali būti matomi kitiems."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Gaukite geriausius sandorius ir saugiai apmokėkite, naudodami „Avast SafeZone“ naršyklę."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Ar žinote, kad galite lengvai atsisiųsti vaizdo įrašų iš srautinių svetainių?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Daugiau neberodyti"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Daugiau neberodyti šioje svetainėje"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "GERAI, NORIU ATVERTI ŠIĄ SVETAINĘ SAUGIAI"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Ačiū, bet ne. Visam laikui paslėpkite šiuos įspėjimus"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "„Avast“ naršyklė įdiegta kartu su „Avast“ antivirusine programa."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Vienu spustelėjimu galite atverti šį puslapį „Avast“ naršyklėje ir taip apsisaugoti nuo pavojų."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Ar tikrai norite rizikuoti savo sąskaitos saugumu?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Leisti visas stebėjimo sistemas"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "visuose puslapiuose"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Blokuoti visas stebėjimo sistemas"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Globalūs nustatymai"
+   },
+   "baMoreSettingsAction": {
+      "message": "Daugiau nustatymų"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "leista"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blokuota"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Stebėjimo sistemos yra šiuo metu"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "puslapyje"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "stebėjimo sistemos"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Jūs įvertinote šį puslapį"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "neigiamai"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "teigiamai"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Pateikite savo vertinimą"
+   },
+   "checkAll": {
+      "message": "(Pažymėkite tinkamus variantus)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Uždaryti"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Verslas"
+   },
+   "currentVote": {
+      "message": "Bendras įvertinimas"
+   },
+   "detailsHeadline": {
+      "message": "Avast skenavo šį puslapį"
+   },
+   "detailsMalwareNo": {
+      "message": "Kenkėjiškų programų neaptikta"
+   },
+   "detailsMalwareYes": {
+      "message": "Aptikta kenkėjiška programa!"
+   },
+   "detailsPhishingNo": {
+      "message": "Sukčiavimas neaptiktas"
+   },
+   "detailsPhishingYes": {
+      "message": "Aptiktas sukčiavimas!"
+   },
+   "disabledTab": {
+      "message": "Jūs negalite vertinti vietinius failus arba vidaus skirtukus"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Pridėti sekimą"
+   },
+   "dntAllowGroupAction": {
+      "message": "Leisti viską"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Leisti"
+   },
+   "dntAllowed": {
+      "message": "leista"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Automatinis sekiklių blokavimas: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Išjungtas"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Įjungtas"
+   },
+   "dntBlockGroupAction": {
+      "message": "Blokuoti viską"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokuoti"
+   },
+   "dntBlocked": {
+      "message": "blokuota"
+   },
+   "dntHeadline": {
+      "message": "%s kompanijos bandė sekti jus"
+   },
+   "dntNetworks": {
+      "message": "Tinklai"
+   },
+   "dntNetworksDetected": {
+      "message": "%s aptinkta tinklų"
+   },
+   "dntOthersNetworks": {
+      "message": "Kiti"
+   },
+   "dntSocialNetworks": {
+      "message": "Socialiniai tinklai"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Viskas leista"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Viskas blokuota"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Užblokuota"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Kai kas blokuota"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Žiniatinklio Analytics"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkoholis / Narkotikai"
+   },
+   "error": {
+      "message": "Klaida"
+   },
+   "errorUnexpected": {
+      "message": "Nelaukta Klaida"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Azartiniai žaidimai"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Kaip vertinate šią svetainę?"
+   },
+   "illegal": {
+      "message": "Nelegalus turinys"
+   },
+   "it": {
+      "message": "IT / Parsisiuntimai"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Kaip anoniminis vartotojas"
+   },
+   "loginDesc": {
+      "message": "Įveskite savo prisijungimo duomenis į savo my.avast.com sąskaitą:"
+   },
+   "loginError": {
+      "message": "Prisijungti nepavyko"
+   },
+   "loginLogin": {
+      "message": "Prisijungti"
+   },
+   "loginLogout": {
+      "message": "Išsiregistruoti"
+   },
+   "loginName": {
+      "message": "Vardas:"
+   },
+   "loginPswd": {
+      "message": "Slaptažodis:"
+   },
+   "malwareNext": {
+      "message": "Atsisiųti Avast Nemokamą Antivirusą"
+   },
+   "malwareSite": {
+      "message": "Ši svetainė gali pakenkti jūsų kompiuteriui."
+   },
+   "malwareSiteRec": {
+      "message": "Mes rekomenduojame įdiegti Avast Antivirus ir skenuoti jūsų kompiuterį."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Naujienos / Blog'as"
+   },
+   "noRating": {
+      "message": "Ši svetainė neturi vertinimo"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Kiti"
+   },
+   "phishingBack": {
+      "message": "Ištraukite mane iš čia"
+   },
+   "phishingClose": {
+      "message": "Įgnuoruoti perspėjimą"
+   },
+   "phishingCreditNumber": {
+      "message": "Atrodo, kad jūs bandote įvesti slaptažodį arba kredito kortelės numerį į svetainę su prasta reputacija. Atidžiai patikrinkite, ar svetainė yra autentiška. Savo asmeninės informacijos įvedimas nepatikimoje svetainėje gali kelti grėsmę saugumui."
+   },
+   "phishingDesc": {
+      "message": "Sukčiavimas yra bandymas gauti svarbius duomenis, tokius kaip naudotojų vardai, slaptažodžiai ir kredito kortelių informacija..."
+   },
+   "phishingPhishingSite": {
+      "message": "Ši svetainė buvo pažymėta kaip phishing svetainė."
+   },
+   "phishingTrust": {
+      "message": "Pasitikiu šia svetaine"
+   },
+   "phishingWarning": {
+      "message": "Įspėjimas"
+   },
+   "pornography": {
+      "message": "Pornografija"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Šios svetainės įvertinimas vidutinis"
+   },
+   "ratingBad": {
+      "message": "Šios svetainės įvertinimas neigiamas"
+   },
+   "ratingCommunity": {
+      "message": "%s bendruomenės vertinimas"
+   },
+   "ratingDone": {
+      "message": "Baigta"
+   },
+   "ratingGood": {
+      "message": "Šios svetainės įvertinimas geras"
+   },
+   "ratingLevelAverage": {
+      "message": "Neigiamas"
+   },
+   "ratingLevelBad": {
+      "message": "Blogas"
+   },
+   "ratingLevelPositive": {
+      "message": "Teigiamas"
+   },
+   "ratingLevelUndefined": {
+      "message": "Ne"
+   },
+   "ratingNegative": {
+      "message": "Kodėl jūs įvertinote savo patirtį neigiamai?"
+   },
+   "ratingNoRate": {
+      "message": "Aš nenoriu vertinti dabar"
+   },
+   "ratingPending": {
+      "message": "Gaunamas įvertinimas"
+   },
+   "ratingPositive": {
+      "message": "Kodėl jūs įvertinote savo patirtį teigamai?"
+   },
+   "ratingRate": {
+      "message": "Kaip jūs vertinate savo patirtį šiame puslapyje?"
+   },
+   "ratingTextAverage": {
+      "message": "šis puslapis turi blogą reputaciją"
+   },
+   "ratingTextBad": {
+      "message": "šis puslapis nesaugus"
+   },
+   "ratingTextPositive": {
+      "message": "šis puslapis saugus"
+   },
+   "ratingTextUndefined": {
+      "message": "nežinomas puslapis"
+   },
+   "ratingVeryBad": {
+      "message": "Ši svetainė įvertinta labai neigiamai"
+   },
+   "reasonBlocker": {
+      "message": "(grėsmė užblokuota)"
+   },
+   "reasonPhishing": {
+      "message": "(aptikta sukčiavimo svetainė)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Ši svetainė dar nebuvo įvertinta"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Grįžti"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Rasta panašių viešbučių!"
+   },
+   "safeZoneDecline": {
+      "message": "Nesiūlyti SafeZone "
+   },
+   "safeZoneDesc": {
+      "message": "Avast rekomenduoja persijungti į SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "Jūsų pasitikėjimui, užprašyta nuoroda buvo atverta SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Ne"
+   },
+   "safeZoneYes": {
+      "message": "Persijungti dabar"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>„Avast SafePrice“\u003C/b> paruošta naudoti. Gerų pirkinių!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Atstatyti numatytas reikšmes"
+   },
+   "settingsSave": {
+      "message": "Saugoti"
+   },
+   "settingscommunityIQ": {
+      "message": "Duomenų bendrinimas"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Įjungdami šį nustatymą, sutinkate anonimiškai perduoti tam tikrą informaciją Avast. Anoniminę informaciją galime atskleisti trečiosioms šalims."
+   },
+   "settingsdnt": {
+      "message": "Nesekti"
+   },
+   "settingsdnt0": {
+      "message": "Privatumo Skydas"
+   },
+   "settingsdnt2": {
+      "message": "Nesekti"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Blokuoti pridėti sekimą pagal nutylėjimą"
+   },
+   "settingsdntDesc": {
+      "message": "Aptinka ir blokuoja nepageidaujamas reklamas ir apsaugo nuo analitikų slapto jūsų sekimo"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Blokuoti kitus pagal nutylėjimą"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Blokuoja socialinius tinklus pagal nutylėjimą"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Blokuoti Žiniatinklio analytics pagal nutylėjimą"
+   },
+   "settingsphishing": {
+      "message": "Antisukčiavimas"
+   },
+   "settingsphishing0": {
+      "message": "Naršymo skydas"
+   },
+   "settingsphishing2": {
+      "message": "Antisukčiavimas"
+   },
+   "settingsphishingDesc": {
+      "message": "Skenuoja tinklapius ieškant kenkėjiškų programų ir vykdo sukčiavimo prevenciją."
+   },
+   "settingssafeZone": {
+      "message": "„SafeZone“"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Persijungti į SafeZone naršant jautrius finansinius puslapius (reikia įdiegti Avast Antivirus)"
+   },
+   "settingsserp": {
+      "message": "Paieškos varikliuko rezultatai"
+   },
+   "settingsserpDesc": {
+      "message": "Įjungti paieškos rezultatų spalvinimą puslapyje"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Įjungti iškylančius langus paieškos puslapyje"
+   },
+   "settingssiteCorrect": {
+      "message": "„SiteCorrect“"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Praleidžia užklausimą ir automatiškai nukreipia į teisingas svetaines"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Aptinka ir pataiso praleistas nuorodas ir nukreipia į teisngas svetaines"
+   },
+   "sfzoneAlways": {
+      "message": "Taip, visada"
+   },
+   "sfzoneDesc": {
+      "message": "Jūs įėjote į internetinės bankininkystės svetainę. Ar norite ją atidaryti Avast! SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Niekada"
+   },
+   "sfzoneNo": {
+      "message": "Ne"
+   },
+   "sfzoneSwitch": {
+      "message": "Persijungti į Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Taip"
+   },
+   "shopping": {
+      "message": "Apsipirkimas"
+   },
+   "sideDashboard": {
+      "message": "Mano Avast"
+   },
+   "sideDetails": {
+      "message": "Sužinoti daugiau"
+   },
+   "sideRate": {
+      "message": "Vertinti dabar"
+   },
+   "sideSettings": {
+      "message": "Nustatymai"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Automatiškai mane perkelti į žinomas teisingas svetaines nuo dabar"
+   },
+   "sitecorrectBarButton": {
+      "message": "Tai nebuvo klaida, grąžinkite mane atgal"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: automatiškai nukreipia iš %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Norėdami konfigūruoti Avast SiteCorrect funkciją, prašome atidaryti Avast vartotojo sąsaja, eikite į Papildoma apsauga, Naršyklės apsauga ir naudokite mygtuką &quot;Parametrai&quot;."
+   },
+   "sitecorrectMean": {
+      "message": "Jūs turėjote omeny %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Ne, aš turėjau omeny %s"
+   },
+   "sitecorrectText": {
+      "message": "Tai ko gero nėra ta svetainė, į kurią mėginate įeiti."
+   },
+   "sitecorrectYes": {
+      "message": "Taip"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Socialinis tinklapis / Žaidimai"
+   },
+   "thanksHeadline": {
+      "message": "Dėkojame už jūsų įvertinimą!"
+   },
+   "thanksMessage": {
+      "message": "Jūsų vertinimas priimtas."
+   },
+   "title": {
+      "message": "Avast Online Security"
+   },
+   "topBarDetails": {
+      "message": "Rodyti detales"
+   },
+   "topBarRatingAverage": {
+      "message": "%s įvertinta kaip gerai"
+   },
+   "topBarRatingBad": {
+      "message": "%s įvertinta kaip pavojinga"
+   },
+   "topBarRatingGood": {
+      "message": "%s įvertinta kaip saugus"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Ginklai / Žiaurumas"
+   },
+   "vote": {
+      "message": "Įvertinti"
+   },
+   "voteNegative": {
+      "message": "neigiama"
+   },
+   "votePositive": {
+      "message": "teigiama"
+   },
+   "webrepDisabled": {
+      "message": "WebRep išjungtas"
+   },
+   "whatTypeContent": {
+      "message": "Kokio tipo turinys šioje svetainėje?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

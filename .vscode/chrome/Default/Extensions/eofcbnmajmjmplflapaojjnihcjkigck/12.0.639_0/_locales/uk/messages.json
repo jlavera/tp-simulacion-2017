@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Купуючи в інтернет-магазинах, знаходьте найкращі пропозиції й купони за допомогою розширення Avast для порівняння цін і купонів."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Купуючи в інтернет-магазинах, знаходьте найкращі пропозиції й купони за допомогою розширення AVG для порівняння цін і купонів."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Клацніть, щоб зкопіювати"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Код скопійовано до буферу обміну."
+   },
+   "sasHintSettings": {
+      "message": "Налаштування"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Від: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Можуть застосовуватися додаткові збори та податки"
+   },
+   "spApply": {
+      "message": "Використати купон"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Дивіться! Ще більше пропозицій"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Дивіться!\u003Cbr> Ще більше пропозицій"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Більше пропозицій — більша економія!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Більше пропозицій —\u003Cbr> більша економія!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Популярні готелі:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Скопіюйте та вставте під час оформлення замовлення:"
+   },
+   "spCouponApplied": {
+      "message": "Купон використано."
+   },
+   "spCouponsAvailableText": {
+      "message": "Доступно"
+   },
+   "spCouponsExpiration": {
+      "message": "Діє до: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Заощаджуйте за допомогою купонів!"
+   },
+   "spCouponsSelected": {
+      "message": "Вибрані купони: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Вибрано"
+   },
+   "spCouponsTab": {
+      "message": "Купони"
+   },
+   "spGetCouponCode": {
+      "message": "Отримати код"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Обіцяємо, очікування того варте."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Пошук пропозицій..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "На жаль,\u003Cbr>купонів не знайдено..."
+   },
+   "spNothingFoundOffers": {
+      "message": "На жаль,\u003Cbr>пропозицій не знайдено..."
+   },
+   "spNothingFoundOthers": {
+      "message": "На жаль,\u003Cbr>спеціальних пропозицій не знайдено..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Менше"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Більше"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "ПОКАЗАТИ ПРОПОЗИЦІЮ"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Заощадьте %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Знайдено пропозиції та купони. Вам щастить!"
+   },
+   "spOffersTab": {
+      "message": "Пропозиції"
+   },
+   "spOthersTab": {
+      "message": "Інші"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Діє на: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Житло й подорожі"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "Ел. покупки"
+   },
+   "spSettingsPageCancel": {
+      "message": "Скасувати"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Свій список"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Додати"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Додати сайт"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Сайти, на яких не потрібно показувати сповіщення:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(пропозиції й купони можна завжди переглянути, клацнувши значок на панелі інструментів)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Довідка"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Купони"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Просто клацніть купон, щоб його використати. Якщо відобразиться код, його необхідно вставити у відповідне поле під час оформлення покупки. В іншому випадку купон застосовується автоматично."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Дізнатися більше можна в розділі \u003Cspan class='asp-faqs-span'>Запитання та відповіді\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Сповіщення"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Щойно SafePrice знайде пропозицію або купон, що стосуються вашого запиту, з’явиться сповіщення. Щоб подивитися, що ми для вас знайшли, натисніть велику зелену кнопку."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Пропозиції"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Клацнувши пропозицію, ви перейдете в надійний інтернет-магазин партнерів із новою ціною, що зазначена в сповіщенні."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Інше"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Клацнувши спеціальну пропозицію в списку, ви перейдете в надійний інтернет-магазин партнерів."
+   },
+   "spSettingsPageSave": {
+      "message": "Зберегти"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Налаштування Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Налаштування AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Сповіщення"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Сповіщення про купони"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Не сповіщати мене про купони"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(купони можна завжди переглянути, клацнувши значок на панелі інструментів)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Показувати за появи доступного купона"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Показувати тільки раз на кожному сайті"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Сповіщення про пропозиції"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Показувати тільки пропозиції, ціна яких менша за початкову"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Показувати тільки пропозиції, вигідніші принаймні на 10 %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Не сповіщати мене про пропозиції"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(пропозиції можна завжди переглянути, клацнувши значок на панелі інструментів)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Показувати за появи будь-якої доступної пропозиції"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Інше"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Сповіщати мене про спеціальні пропозиції в інших категоріях (транспортування, фінанси, енергопостачання тощо)"
+   },
+   "spShippingLabel": {
+      "message": "Доставка від"
+   },
+   "spShowNotificationMessage": {
+      "message": "ПОКАЗАТИ"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Подивіться, що ми знайшли!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Знайдено інші готелі!"
+   }
+}

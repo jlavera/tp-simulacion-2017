@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Avast destekli fiyat karşılaştırma ve kupon eklentisiyle çevrim içi alışverişte en iyi fiyatları, fırsatları ve kuponları bulun."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "AVG destekli fiyat karşılaştırma ve kupon eklentisiyle çevrim içi alışverişte en iyi fiyatları, fırsatları ve kuponları bulun."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Kopyalamak için tıklayın"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kod panoya kopyalandı."
+   },
+   "sasHintSettings": {
+      "message": "Ayarlar"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Başlangıç fiyatı: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Ek ücretler ve vergiler uygulanabilir"
+   },
+   "spApply": {
+      "message": "Kupon uygula"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Bakın! Daha çok kampanya"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Bakın!\u003Cbr> Daha çok kampanya"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Daha çok fırsat, daha çok tasarruf!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Daha çok fırsat,\u003Cbr>daha çok tasarruf!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Popüler oteller:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Kopyalayıp ödeme sayfasında yapıştırın:"
+   },
+   "spCouponApplied": {
+      "message": "Kupon uygulandı."
+   },
+   "spCouponsAvailableText": {
+      "message": "Kullanılabilir"
+   },
+   "spCouponsExpiration": {
+      "message": "Son kullanma tarihi: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Kuponları kullanarak tasarruf edin"
+   },
+   "spCouponsSelected": {
+      "message": "Seçilen kuponlar: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Seçili"
+   },
+   "spCouponsTab": {
+      "message": "Kuponlar"
+   },
+   "spGetCouponCode": {
+      "message": "Kod Edinin"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Beklemeye değer, söz veriyoruz."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Fırsatlar aranıyor..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Hay aksi...\u003Cbr>Kupon bulunamadı..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Hay aksi...\u003Cbr>Kampanya bulunamadı..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Hay aksi...\u003Cbr>Özel fırsat bulunamadı..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Daha az"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Daha fazla"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "FIRSATI GÖSTER"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "%s indirim"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Kampanyalar ve kuponlar bulundu. Şanslısınız!"
+   },
+   "spOffersTab": {
+      "message": "Kampanyalar"
+   },
+   "spOthersTab": {
+      "message": "Diğerleri"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Dâhil et: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Konaklama ve seyahat"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-mağazalar"
+   },
+   "spSettingsPageCancel": {
+      "message": "İptal"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Özel liste"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Ekle"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Site ekle"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Aşağıdaki web sitelerinden bildirim gösterme:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(araç çubuğu simgesine tıklayarak kampanyaları ve kuponları istediğiniz zaman görebilirsiniz)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Yardım"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kuponlar"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Kupon kullanmak için kupona tıklamanız yeterlidir. Bir kod görüntülenirse bu kodu ödeme aşamasında uygun alana yapıştırmanız gerekir. Kod yoksa kupon otomatik olarak uygulanır."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "\u003Cspan class='asp-faqs-span'>SSS\u003C/span> bölümünden daha fazla bilgi edinebilirsiniz."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Bildirimler"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "SafePrice aramanızla ilgili bir kampanya veya kupon bulduğunda bir bildirim göreceksiniz. Sizin için bulduklarımıza göz atmak için büyük yeşil düğmeye tıklayın."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Kampanyalar"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Bir kampanyaya tıkladığınızda bildirimde listelenen yeni fiyattan yararlanacağınız iş ortağının güvenilir çevrim içi mağazasına yönlendirilirsiniz."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Diğerleri"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Listelenen özel kampanyaya tıkladığınızda bir iş ortağının güvenilir çevrim içi mağazasına yönlendirilirsiniz."
+   },
+   "spSettingsPageSave": {
+      "message": "Kaydet"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice Ayarları"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice Ayarları"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Bildirimler"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Kupon bildirimleri"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Kuponları bildirme"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(araç çubuğu simgesine tıklayarak kuponları istediğiniz zaman görebilirsiniz)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Kullanılabilir kuponları her zaman göster"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Her web sitesinde yalnızca bir kez göster"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Kampanya bildirimleri"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Yalnızca asıl fiyattan daha iyi bir kampanya olduğunda göster"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "En az %10 tasarruf sağlayan kampanyaları göster"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Kampanyaları bildirme"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(araç çubuğu simgesine tıklayarak kampanyaları istediğiniz zaman görebilirsiniz)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Kullanılabilir kampanyaları her zaman göster"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Diğerleri"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Diğer kategoriler için özel fırsatlar olduğunda bildir (ulaşım, finans, elektronik ve diğerleri)"
+   },
+   "spShippingLabel": {
+      "message": "Kargo ücreti"
+   },
+   "spShowNotificationMessage": {
+      "message": "GÖSTER"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Bakın ne bulduk!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Alternatif oteller bulundu!"
+   }
+}

@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Find de bedste priser, tilbud og kuponer, når du shopper online, med prissammenligning og kuponforlængelse fra Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Find de bedste priser, tilbud og kuponer, når du shopper online, med prissammenligning og kuponforlængelse fra AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Klik for at kopiere"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kode kopieret til udklipsholder."
+   },
+   "sasHintSettings": {
+      "message": "Indstillinger"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Priser fra: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Yderligere takster og skatter kan gælde"
+   },
+   "spApply": {
+      "message": "Anvend kupon"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Se bare her! Flere tilbud"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Se bare her!\u003Cbr> Flere tilbud"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Flere tilbud, mere besparelse!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Flere tilbud,\u003Cbr> mere besparelse!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Populære hoteller:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Kopiér og indsæt ved kassen:"
+   },
+   "spCouponApplied": {
+      "message": "Kupon anvendt."
+   },
+   "spCouponsAvailableText": {
+      "message": "Tilgængelige"
+   },
+   "spCouponsExpiration": {
+      "message": "Udløber: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Spar penge med kuponer"
+   },
+   "spCouponsSelected": {
+      "message": "Kuponer valgt: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Valgte"
+   },
+   "spCouponsTab": {
+      "message": "Kuponer"
+   },
+   "spGetCouponCode": {
+      "message": "Hent kode"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Vi lover, at det er ventetiden værd."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Søger efter tilbud..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Åh nej...\u003Cbr>Ingen kuponer fundet..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Åh nej...\u003Cbr>Ingen tilbud fundet..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Åh nej...\u003Cbr>Ingen særtilbud fundet..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Mindre"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Mere"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "VIS TILBUD"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Spar %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Tilbud og kuponer fundet. Heldige dig!"
+   },
+   "spOffersTab": {
+      "message": "Tilbud"
+   },
+   "spOthersTab": {
+      "message": "Andre"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Inkluder: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Hoteller og rejse"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-butikker"
+   },
+   "spSettingsPageCancel": {
+      "message": "Annuller"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Brugerdefineret liste"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Tilføj"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Tilføj websted"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Vis ikke notifikationer på disse websteder:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(du kan altid se tilbud og kuponer ved at klikke på værktøjslinjens ikon)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Hjælp"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kuponer"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Du bruger en kupon ved blot at klikke på den. Hvis den viser en kode, skal du indsætte den i det relevante felt under købet. Ellers anvendes kuponen automatisk."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Se mere i \u003Cspan class='asp-faqs-span'>FAQs\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Notifikationer"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Når SafePrice finder et tilbud eller en kupon, der er relateret til din søgning, vises der en notifikation. Klik på den store grønne knap for at se, hvad vi har fundet til dig."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Tilbud"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Klik på et tilbud for at gå til en partners sikre onlinebutik, hvor du får den nye pris, der fremgår af notifikationen."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Andet"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Klik på et vist særtilbud for at gå til en partners sikre onlinebutik."
+   },
+   "spSettingsPageSave": {
+      "message": "Gem"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice-indstillinger"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice-indstillinger"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Notifikationer"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Notifikationer om kuponer"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Send mig ikke beskeder om kuponer"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(du kan altid se kuponer ved at klikke på værktøjslinjens ikon)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Vis, når der er en kupon tilgængelig"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Vis kun én gang per websted"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Notifikationer om tilbud"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Vis kun, når der er et bedre tilbud end normalprisen"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Vis kun tilbud med mindst 10% rabat"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Send mig ikke beskeder om tilbud"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(du kan altid se tilbud ved at klikke på værktøjslinjens ikon)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Vis, når der er et tilbud"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Andet"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Giv mig besked om særtilbud for andre kategorier (transport, finans, strømforsyning og mere)"
+   },
+   "spShippingLabel": {
+      "message": "Transport-/ekspeditionsgebyr fra"
+   },
+   "spShowNotificationMessage": {
+      "message": "VIS"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Se, hvad vi har fundet!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Alternative hoteller fundet!"
+   }
+}

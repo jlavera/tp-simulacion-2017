@@ -1,0 +1,4729 @@
+/* SafeShop */
+.transition-common {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+.avast-sas-ripple {
+  position: absolute;
+  background-color: #087e3a;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  animation: ripple 0.6s linear;
+  transform: scale(0);
+}
+.asp-sas-left {
+  float: left;
+}
+.asp-sas-right {
+  float: right;
+}
+.asp-sas-display-grid {
+  display: grid !important;
+}
+.asp-sas-display-block {
+  display: block !important;
+}
+.asp-sas-display-none {
+  display: none !important;
+}
+.asp-sas-fit-content {
+  width: fit-content;
+  width: -moz-fit-content;
+}
+.asp-sas * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-rendering: auto;
+  text-shadow: none;
+  right: 0;
+  left: 0;
+  width: 100%;
+  top: 10px;
+  z-index: 2147483644;
+  height: 0px;
+  position: fixed;
+  cursor: default;
+}
+/* texts */
+/* buttons */
+.asp-sas-ripple {
+  position: absolute;
+  background-color: #087e3a;
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+}
+.animate {
+  animation: ripple 0.35s linear;
+  z-index: -9999;
+  transition: width 2s;
+  transition: height 2s;
+}
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+}
+.separator-common {
+  background-color: #cbd0db;
+  border-top: 10px solid #ffffff;
+  border-bottom: 17px solid #ffffff;
+}
+.bottom-col-common {
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+}
+.bottom-col-default {
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ffffff;
+  color: #2d364c;
+}
+.bottom-col-selected {
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ff7800;
+  color: #ff7800;
+}
+.oval-to-be-seen {
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-color: #0cb754;
+}
+span.a-sp-to-be-shown {
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-color: #0cb754;
+}
+span.a-sp-shown {
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-color: #0cb754;
+  background-color: transparent;
+}
+span.asp-active-coupons-badge,
+span.asp-active-coupons-badge-big {
+  position: relative;
+  padding: 2px 6px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #ff7800;
+  transition: all 0.2s ease-in-out;
+  margin: 4px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.36;
+  height: 18px;
+  font-size: 11px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+}
+span.asp-active-coupons-badge-big {
+  padding: 2px 4px;
+}
+.asp-panel-minimized {
+  display: block;
+  position: fixed;
+  z-index: 2147483644;
+  top: 16px;
+  right: 16px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.5);
+  cursor: pointer;
+}
+.asp-panel-minimized * {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.asp-panel-minimized:hover {
+  background-color: #f2f2f6;
+  box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.5);
+}
+.asp-panel-minimized .asp-panel-minimized-logo {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 20px auto;
+  object-fit: contain;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+.asp-panel-minimized .asp-panel-badge {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #0cb754;
+  transition: all 0.2s ease-in-out;
+}
+.asp-panel-minimized .asp-panel-badge .asp-badge-text {
+  margin: 2px auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+.asp-panel-minimized .asp-panel-badge:hover {
+  transform: scale(1.4);
+}
+.asp-panel-minimized .asp-panel-badge .asp-panel-badge-text {
+  margin: 2px auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  margin-top: 3px;
+}
+.asp-copied-to-clipboard {
+  position: fixed;
+  z-index: 2147483644;
+  padding: 3px 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  border-radius: 2px;
+  width: auto;
+  z-index: 2147483645;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 11px;
+  height: 20px;
+  font-size: 9px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: 1.4;
+  -moz-transform: 1.4;
+  transform: 1.4;
+  border: 1px solid #0cb754;
+}
+.a-sp-panel {
+  position: fixed;
+  z-index: 2147483644;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 328px;
+  -ms-grid-columns: 328px;
+  grid-template-rows: 96px 353px 40px;
+  -ms-grid-rows: 96px 353px 40px;
+  height: 489px;
+  width: 328px;
+  display: none;
+  overflow: hidden;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  background-color: #f1f1f8;
+  -moz-box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.4), rgba(45, 54, 76, 0.4) 0px -1px 12px 0px;
+  -webkit-box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.4), rgba(45, 54, 76, 0.4) 0px -1px 12px 0px;
+  box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.4), rgba(45, 54, 76, 0.4) 0px -1px 12px 0px;
+}
+.a-sp-panel * {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.a-sp-panel .a-sp-panel-header {
+  z-index: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 108px 1px 108px 1px 108px;
+  -ms-grid-columns: 108px 1px 108px 1px 108px;
+  grid-template-rows: 19px 24px 13px 40px;
+  -ms-grid-rows: 19px 24px 13px 40px;
+  height: 100%;
+  width: 100%;
+  cursor: move;
+  border-radius: 2px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0 4px 12px 0 rgba(45, 54, 76, 0.2), 0 2px 5px 0 rgba(45, 54, 76, 0.05);
+  -webkit-box-shadow: 0 4px 12px 0 rgba(45, 54, 76, 0.2), 0 2px 5px 0 rgba(45, 54, 76, 0.05);
+  box-shadow: 0 4px 12px 0 rgba(45, 54, 76, 0.2), 0 2px 5px 0 rgba(45, 54, 76, 0.05);
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-left {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  margin-left: 22px;
+  margin-top: 2px;
+  height: 20px;
+  width: 20px;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-left:hover {
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  -ms-grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 118px 24px 6px 24px 6px 24px 16px;
+  -ms-grid-columns: 118px 24px 6px 24px 6px 24px 16px;
+  grid-template-rows: 24px;
+  -ms-grid-rows: 24px;
+  height: 24px;
+  width: 218px;
+  background-color: transparent;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right .sp-header-top-close {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  -ms-grid-column: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  padding: 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right .sp-header-top-close:hover {
+  background-color: #f2f2f6;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right .sp-header-top-min {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  -ms-grid-column: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  padding: 11px 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right .sp-header-top-min:hover {
+  background-color: #f2f2f6;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right .sp-header-top-settings {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  padding: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-top-right .sp-header-top-settings:hover {
+  background-color: #f2f2f6;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ffffff;
+  color: #2d364c;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col1:hover {
+  color: #ff7800;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col1-selected {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ff7800;
+  color: #ff7800;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col2 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ffffff;
+  color: #2d364c;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col2:hover {
+  color: #ff7800;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col2-selected {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ff7800;
+  color: #ff7800;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col3 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  -ms-grid-column: 5;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ffffff;
+  color: #2d364c;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col3:hover {
+  color: #ff7800;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-col3-selected {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  -ms-grid-column: 5;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  padding: 9px 0px 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid #ff7800;
+  color: #ff7800;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-separator-1-2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  background-color: #cbd0db;
+  border-top: 10px solid #ffffff;
+  border-bottom: 17px solid #ffffff;
+}
+.a-sp-panel .a-sp-panel-header .a-sp-header-bottom-separator-2-3 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  -ms-grid-column: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  background-color: #cbd0db;
+  border-top: 10px solid #ffffff;
+  border-bottom: 17px solid #ffffff;
+}
+.a-sp-panel .a-sp-items-wrapper {
+  padding: 0 22px;
+  margin: 0;
+  height: 391px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 99%;
+  position: relative;
+  left: 0;
+  top: 1px;
+  padding-top: 11px;
+  box-sizing: border-box;
+}
+.a-sp-panel .a-sp-items-wrapper::-webkit-scrollbar {
+  width: 6px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.a-sp-panel .a-sp-items-wrapper::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 162px;
+  border-radius: 4px;
+  background-color: #b0b6c5;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper {
+  display: none;
+  position: relative;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-blank-div,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-blank-div,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-blank-div {
+  animation: none;
+  animation-delay: 0;
+  animation-direction: normal;
+  animation-duration: 0;
+  animation-fill-mode: none;
+  animation-iteration-count: 1;
+  animation-name: none;
+  animation-play-state: running;
+  animation-timing-function: ease;
+  backface-visibility: visible;
+  background: 0;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border: 0;
+  border-style: none;
+  border-width: medium;
+  border-color: inherit;
+  border-bottom: 0;
+  border-bottom-color: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-collapse: separate;
+  border-image: none;
+  border-left: 0;
+  border-left-color: inherit;
+  border-left-style: none;
+  border-left-width: medium;
+  border-radius: 0;
+  border-right: 0;
+  border-right-color: inherit;
+  border-right-style: none;
+  border-right-width: medium;
+  border-spacing: 0;
+  border-top: 0;
+  border-top-color: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-style: none;
+  border-top-width: medium;
+  bottom: auto;
+  box-shadow: none;
+  box-sizing: content-box;
+  caption-side: top;
+  clear: none;
+  clip: auto;
+  color: inherit;
+  columns: auto;
+  column-count: auto;
+  column-fill: balance;
+  column-gap: normal;
+  column-rule: medium none currentColor;
+  column-rule-color: currentColor;
+  column-rule-style: none;
+  column-rule-width: none;
+  column-span: 1;
+  column-width: auto;
+  content: normal;
+  counter-increment: none;
+  counter-reset: none;
+  cursor: auto;
+  direction: ltr;
+  display: inline;
+  empty-cells: show;
+  float: none;
+  font: normal;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  hyphens: none;
+  left: auto;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  orphans: 0;
+  outline: 0;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: medium;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  page-break-after: auto;
+  page-break-before: auto;
+  page-break-inside: auto;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  position: static;
+  /* May need to alter quotes for different locales (e.g fr) */
+  quotes: '\201C' '\201D' '\2018' '\2019';
+  right: auto;
+  tab-size: 8;
+  table-layout: auto;
+  text-align: inherit;
+  text-align-last: auto;
+  text-decoration: none;
+  text-decoration-color: inherit;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  transform-style: flat;
+  transition: none;
+  transition-delay: 0s;
+  transition-duration: 0s;
+  transition-property: none;
+  transition-timing-function: ease;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: visible;
+  white-space: normal;
+  widows: 0;
+  word-spacing: normal;
+  z-index: auto;
+  all: initial;
+  all: unset;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase {
+  position: relative;
+  padding: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  border-radius: 2px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase:hover,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase:hover,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase:hover {
+  box-shadow: 0 2px 8px 0 rgba(45, 54, 76, 0.45);
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase:hover .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase:hover .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase:hover .asp-offer-item-price {
+  color: #0a9746;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase:hover .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase:hover .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase:hover .asp-offer-item-arrow {
+  border-color: #0a9746;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase *,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase *,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase * {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-header-meta,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-header-meta,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-header-meta {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto;
+  -ms-grid-columns: auto auto;
+  grid-template-rows: minmax(0px, 23px);
+  -ms-grid-rows: minmax(0px, 23px);
+  height: min-content;
+  width: 198px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-image,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-image,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-image {
+  width: 54px;
+  height: 42px;
+  object-fit: contain;
+  border: solid 1px #cbd0db;
+  padding: 10px 4px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-hotel-image,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-hotel-image,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-hotel-image {
+  width: 54px;
+  height: 42px;
+  object-fit: fill;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-title,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-title,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-title {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #06070a;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  height: 45px;
+  font-size: 12px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  letter-spacing: -0.2px;
+  max-height: 31px;
+  width: 100%;
+  height: fit-content;
+  word-break: break-word;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-shipping,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-shipping,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-shipping {
+  width: 100%;
+  height: 14px;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #535d74;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-discount-banner,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-discount-banner,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-discount-banner {
+  position: relative;
+  width: 74px;
+  height: 18px;
+  object-fit: contain;
+  border-radius: 2px;
+  background-color: #8050ff;
+  text-align: center;
+  line-height: 15px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-discount-banner:after,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-discount-banner:after,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-discount-banner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 4px solid #ffffff;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-discount-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-discount-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-discount-text {
+  width: 100%;
+  height: 13px;
+  font-size: 9px;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0.1px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-price {
+  line-height: 0.9em;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.2px;
+  text-align: right;
+  color: #0cb754;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-price-stroke,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-price-stroke,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-price-stroke {
+  width: 100%;
+  height: 100%;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  color: #65708a;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: line-through;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  margin-left: -12px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-price-stroke.above,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-price-stroke.above,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-price-stroke.above {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  margin-left: 0px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-price-stroke.hotel-inline,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-price-stroke.hotel-inline,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-price-stroke.hotel-inline {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-arrow {
+  width: 14px;
+  display: inline-block;
+  border-style: solid;
+  border-color: #0cb754;
+  border-image: initial;
+  border-width: 0 3px 3px 0;
+  transform: rotate(-45deg) scale(0.8);
+  height: 14px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-offer-item-hotel-fee,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-offer-item-hotel-fee,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-offer-item-hotel-fee {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  clear: both;
+  width: 197px;
+  height: min-content;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #535d74;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-rating-stars-wrapper,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-rating-stars-wrapper,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-rating-stars-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  float: left;
+  clear: both;
+  margin-top: 3px;
+  display: inline-flex;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .offerItemBase .asp-rating-stars-wrapper .asp-rating-star,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .offerItemBase .asp-rating-stars-wrapper .asp-rating-star,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .offerItemBase .asp-rating-stars-wrapper .asp-rating-star {
+  margin-right: 4px;
+  width: 8px;
+  height: 8px;
+  object-fit: contain;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 62px 198px;
+  -ms-grid-columns: 62px 198px;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: minmax(66px, 102px);
+  width: 284px;
+  position: relative;
+  padding: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  border-radius: 2px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-left {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 62px;
+  -ms-grid-columns: 62px;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: min-content;
+  width: 62px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-right {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 198px;
+  -ms-grid-columns: 198px;
+  grid-template-rows: min-content min-content min-content min-content;
+  -ms-grid-rows: min-content min-content min-content min-content;
+  height: minmax(66px, 102px);
+  width: 198px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-first-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-first-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-first-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 198px;
+  -ms-grid-columns: 198px;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: minmax(min-content, 31px);
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-second-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-second-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-second-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto 14px;
+  -ms-grid-columns: auto auto 14px;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: min-content;
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-third-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-third-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-third-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 198px;
+  -ms-grid-columns: 198px;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: min-content;
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  -ms-grid-row: 3;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-fourth-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-fourth-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-fourth-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 198px;
+  -ms-grid-columns: 198px;
+  grid-template-rows: minmax(10px, min-content);
+  -ms-grid-rows: minmax(10px, min-content);
+  height: auto;
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-fifth-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-fifth-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-fifth-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: minmax(0px, 92px) auto auto;
+  -ms-grid-columns: minmax(0px, 92px) auto auto;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: minmax(0px, 18px);
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  -ms-grid-row: 5;
+  align-items: baseline;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-fifth-row.top-space,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-fifth-row.top-space,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-fifth-row.top-space {
+  margin-top: 10px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-top-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-top-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-top-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 62px 198px;
+  -ms-grid-columns: 62px 198px;
+  grid-template-rows: 42px;
+  -ms-grid-rows: 42px;
+  height: minmax(0px, 42px);
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-top-row .asp-offer-item-subheader,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-top-row .asp-offer-item-subheader,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-top-row .asp-offer-item-subheader {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto 14px;
+  -ms-grid-columns: auto 14px;
+  grid-template-rows: 8px;
+  -ms-grid-rows: 8px;
+  height: minmax(0px, 8px);
+  width: 198px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-middle-row,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-middle-row,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-middle-row {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 62px auto;
+  -ms-grid-columns: 62px auto;
+  grid-template-rows: min-content;
+  -ms-grid-rows: min-content;
+  height: minmax(0px, 15px);
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  text-align: right;
+  margin-right: 5px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-bottom-row-long,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-bottom-row-long,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-bottom-row-long {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 92px auto auto 14px;
+  -ms-grid-columns: 92px auto auto 14px;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: minmax(0px, 18px);
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  -ms-grid-row: 3;
+  align-items: baseline;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-bottom-row-short,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-bottom-row-short,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-bottom-row-short {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 92px auto 14px;
+  -ms-grid-columns: 92px auto 14px;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: minmax(0px, 18px);
+  width: 198px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  -ms-grid-row: 3;
+  align-items: baseline;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item:hover,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item:hover,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item:hover {
+  box-shadow: 0 2px 8px 0 rgba(45, 54, 76, 0.45);
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item:hover .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item:hover .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item:hover .asp-offer-item-price {
+  color: #0a9746;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item:hover .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item:hover .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item:hover .asp-offer-item-arrow {
+  border-color: #0a9746;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item *,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item *,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item * {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-header-meta,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-header-meta,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-header-meta {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto;
+  -ms-grid-columns: auto auto;
+  grid-template-rows: minmax(0px, 23px);
+  -ms-grid-rows: minmax(0px, 23px);
+  height: min-content;
+  width: 198px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-image,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-image,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-image {
+  width: 54px;
+  height: 42px;
+  object-fit: contain;
+  border: solid 1px #cbd0db;
+  padding: 10px 4px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-hotel-image,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-hotel-image,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-hotel-image {
+  width: 54px;
+  height: 42px;
+  object-fit: fill;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-title,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-title,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-title {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #06070a;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  height: 45px;
+  font-size: 12px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  letter-spacing: -0.2px;
+  max-height: 31px;
+  width: 100%;
+  height: fit-content;
+  word-break: break-word;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-shipping,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-shipping,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-shipping {
+  width: 100%;
+  height: 14px;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #535d74;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-discount-banner,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-discount-banner,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-discount-banner {
+  position: relative;
+  width: 74px;
+  height: 18px;
+  object-fit: contain;
+  border-radius: 2px;
+  background-color: #8050ff;
+  text-align: center;
+  line-height: 15px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-discount-banner:after,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-discount-banner:after,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-discount-banner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 4px solid #ffffff;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-discount-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-discount-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-discount-text {
+  width: 100%;
+  height: 13px;
+  font-size: 9px;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0.1px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-price,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-price {
+  line-height: 0.9em;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.2px;
+  text-align: right;
+  color: #0cb754;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-price-stroke,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-price-stroke,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-price-stroke {
+  width: 100%;
+  height: 100%;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  color: #65708a;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: line-through;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  margin-left: -12px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-price-stroke.above,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-price-stroke.above,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-price-stroke.above {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  margin-left: 0px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-price-stroke.hotel-inline,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-price-stroke.hotel-inline,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-price-stroke.hotel-inline {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-arrow,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-arrow {
+  width: 14px;
+  display: inline-block;
+  border-style: solid;
+  border-color: #0cb754;
+  border-image: initial;
+  border-width: 0 3px 3px 0;
+  transform: rotate(-45deg) scale(0.8);
+  height: 14px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-offer-item-hotel-fee,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-offer-item-hotel-fee,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-offer-item-hotel-fee {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  clear: both;
+  width: 197px;
+  height: min-content;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #535d74;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-rating-stars-wrapper,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-rating-stars-wrapper,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-rating-stars-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  float: left;
+  clear: both;
+  margin-top: 3px;
+  display: inline-flex;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-offer-item .asp-rating-stars-wrapper .asp-rating-star,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-offer-item .asp-rating-stars-wrapper .asp-rating-star,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-offer-item .asp-rating-stars-wrapper .asp-rating-star {
+  margin-right: 4px;
+  width: 8px;
+  height: 8px;
+  object-fit: contain;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-separator-text-first,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-separator-text-first,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-separator-text-first {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #5b657c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  height: 18px;
+  font-size: 12px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  padding-top: 0px;
+  margin-bottom: 6px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-separator-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-separator-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-separator-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #5b657c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  height: 18px;
+  font-size: 12px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code {
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 0px;
+  margin-bottom: 6px;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 284px;
+  -ms-grid-columns: 284px;
+  grid-template-rows: max-content 18px 26px;
+  -ms-grid-rows: max-content 18px 26px;
+  height: max-content;
+  width: 284px;
+  min-height: 104px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top {
+  -moz-box-shadow: 0 2px 8px 0 rgba(45, 54, 76, 0.45);
+  -webkit-box-shadow: 0 2px 8px 0 rgba(45, 54, 76, 0.45);
+  box-shadow: 0 2px 8px 0 rgba(45, 54, 76, 0.45);
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-value {
+  color: #0a9746;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration-full-size {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom {
+  -moz-box-shadow: 0 3px 8px 0 rgba(45, 54, 76, 0.35);
+  -webkit-box-shadow: 0 3px 8px 0 rgba(45, 54, 76, 0.35);
+  box-shadow: 0 3px 8px 0 rgba(45, 54, 76, 0.35);
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom .asp-coupon-item-get-coupon {
+  color: #0a9746;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-without-code {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code {
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code {
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator {
+  cursor: default;
+  z-index: 1;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-middle {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-left {
+  -moz-box-shadow: inset rgba(45, 54, 76, 0.22) -1px 2px 3px 0px;
+  -webkit-box-shadow: inset rgba(45, 54, 76, 0.22) -1px 2px 3px 0px;
+  box-shadow: inset rgba(45, 54, 76, 0.22) -1px 2px 3px 0px;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-right {
+  -moz-box-shadow: inset rgba(45, 54, 76, 0.22) 1px 2.5px 4px 0px;
+  -webkit-box-shadow: inset rgba(45, 54, 76, 0.22) 1px 2.5px 4px 0px;
+  box-shadow: inset rgba(45, 54, 76, 0.22) 1px 2.5px 4px 0px;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 60px 8px 215px;
+  -ms-grid-columns: 60px 8px 215px;
+  grid-template-rows: repeat(auto-fill, max-content);
+  -ms-grid-rows: repeat(auto-fill, max-content);
+  height: max-content;
+  width: 284px;
+  min-height: 60px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-value {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  padding: 10px 0px 3px 12px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: normal;
+  height: 23px;
+  font-size: 17px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-label {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  margin: 12px 12px 3px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #06070a;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  height: max-content;
+  font-size: 12px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  max-height: 45px;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-item-label-full-size {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #06070a;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  height: max-content;
+  font-size: 12px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  max-height: 45px;
+  width: 260px;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin: 12px 12px 3px 12px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  height: 39px;
+  min-height: 13px;
+  margin: 2px 12px 3px 0px;
+  overflow: hidden;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description .asp-coupon-description-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description .asp-coupon-description-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  height: max;
+  font-size: 10px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-full-size {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  height: 24px;
+  font-size: 10px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  margin: 2px 12px 3px 12px;
+  width: 260px;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  min-height: 13px;
+  height: 39px;
+  overflow: hidden;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-full-size .asp-coupon-description-full-size-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  height: auto;
+  font-size: 10px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-more-info,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-less-info,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-description-less-info {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  -ms-grid-row: 3;
+  margin: 0px 12px;
+  width: 260px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: normal;
+  height: 15px;
+  font-size: 10px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 23;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-expiration {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  height: 24px;
+  font-size: 10px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  margin-right: 12px;
+  margin-top: 3px;
+  margin: 2px 12px 3px 0px;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top .asp-coupon-expiration-full-size {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  -ms-grid-row: 4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  height: 24px;
+  font-size: 10px;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  margin: 2px 12px 3px 12px;
+  width: 260px;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 10px 266px 10px;
+  -ms-grid-columns: 10px 266px 10px;
+  grid-template-rows: 18px;
+  -ms-grid-rows: 18px;
+  height: 18px;
+  width: 284px;
+  background-color: #ffffff;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: default;
+  z-index: 23;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-left {
+  background-color: #f2f2f6;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 1px solid #f2f2f6;
+  border-left: 0;
+  cursor: default;
+  z-index: 23;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: rgba(45, 54, 76, 0.22) -1px 1px 2px 0px inset;
+  -webkit-box-shadow: rgba(45, 54, 76, 0.22) -1px 1px 2px 0px inset;
+  box-shadow: rgba(45, 54, 76, 0.22) -1px 1px 2px 0px inset;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-middle {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 1px;
+  margin-top: 8px;
+  cursor: default;
+  z-index: 23;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-right {
+  background-color: #f2f2f6;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border: 1px solid #f2f2f6;
+  border-right: 0;
+  cursor: default;
+  z-index: 23;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: rgba(45, 54, 76, 0.22) 1px 0.5px 2px 0px inset;
+  -webkit-box-shadow: rgba(45, 54, 76, 0.22) 1px 0.5px 2px 0px inset;
+  box-shadow: rgba(45, 54, 76, 0.22) 1px 0.5px 2px 0px inset;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  -ms-grid-row: 3;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: 26px;
+  width: 284px;
+  max-height: 44px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-get-coupon {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: normal;
+  height: 15px;
+  font-size: 11px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
+  text-transform: uppercase;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  height: 15px;
+  font-size: 11px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
+  padding-left: 13px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code .asp-coupon-item-coupon-applied:before {
+  content: "\2713\00a0";
+  color: #0cb754;
+  font-weight: 600;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  -ms-grid-row: 3;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 284px;
+  -ms-grid-columns: 284px;
+  grid-template-rows: 18px 20px;
+  -ms-grid-rows: 18px 20px;
+  height: 44px;
+  width: 284px;
+  max-height: 44px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code .asp-coupon-item-copy-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code .asp-coupon-item-copy-code {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  height: 18px;
+  font-size: 11px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code .asp-coupon-item-coupon-code {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #0cb754;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: normal;
+  height: 20px;
+  font-size: 15px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top {
+  cursor: default;
+  -moz-box-shadow: rgba(45, 54, 76, 0.22) 0px 2px 3px 0px;
+  -webkit-box-shadow: rgba(45, 54, 76, 0.22) 0px 2px 3px 0px;
+  box-shadow: rgba(45, 54, 76, 0.22) 0px 2px 3px 0px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-value,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-value {
+  color: #0cb754;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-item-label-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-description-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration-full-size,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-top .asp-coupon-expiration-full-size {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom {
+  -moz-box-shadow: rgba(45, 54, 76, 0.22) 0px 2px 3px 0px;
+  -webkit-box-shadow: rgba(45, 54, 76, 0.22) 0px 2px 3px 0px;
+  box-shadow: rgba(45, 54, 76, 0.22) 0px 2px 3px 0px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom .asp-coupon-item-get-coupon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-bottom .asp-coupon-item-get-coupon {
+  color: #0cb754;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-middle,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-middle {
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-left {
+  -moz-box-shadow: rgba(45, 54, 76, 0.22) -1px 2px 3px 0px inset;
+  -webkit-box-shadow: rgba(45, 54, 76, 0.22) -1px 2px 3px 0px inset;
+  box-shadow: rgba(45, 54, 76, 0.22) -1px 2px 3px 0px inset;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code:hover .asp-coupon-separator .asp-coupon-separator-right {
+  -moz-box-shadow: rgba(45, 54, 76, 0.22) 1px 2px 3px 0px inset;
+  -webkit-box-shadow: rgba(45, 54, 76, 0.22) 1px 2px 3px 0px inset;
+  box-shadow: rgba(45, 54, 76, 0.22) 1px 2px 3px 0px inset;
+  cursor: default;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-top,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-top {
+  border-top: solid 1px #0cb754;
+  border-left: solid 1px #0cb754;
+  border-right: solid 1px #0cb754;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-left,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-left {
+  border: 1px solid #0cb754;
+  border-left: 0;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-right,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-separator .asp-coupon-separator-right {
+  border: 1px solid #0cb754;
+  border-right: 0;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-without-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code .asp-coupon-bottom-with-code {
+  border-bottom: solid 1px #0cb754;
+  border-left: solid 1px #0cb754;
+  border-right: solid 1px #0cb754;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-coupon-item-active-with-code,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-coupon-item-active-with-code,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-coupon-item-active-with-code {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 284px;
+  -ms-grid-columns: 284px;
+  grid-template-rows: max-content 18px 44px;
+  -ms-grid-rows: max-content 18px 44px;
+  height: max-content;
+  width: 284px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-redirect-item,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-redirect-item,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-redirect-item {
+  position: relative;
+  display: grid;
+  background-color: #ffffff;
+  cursor: default;
+  border-radius: 0px;
+  margin-bottom: 6px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-nothing-found,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-nothing-found,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-nothing-found {
+  position: relative;
+  display: grid;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 0px;
+  margin-top: 100px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-nothing-found .nothing-found-icon,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-nothing-found .nothing-found-icon,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-nothing-found .nothing-found-icon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  left: 112px;
+}
+.a-sp-panel .a-sp-items-wrapper #offersWrapper .asp-nothing-found .nothing-found-text,
+.a-sp-panel .a-sp-items-wrapper #couponsWrapper .asp-nothing-found .nothing-found-text,
+.a-sp-panel .a-sp-items-wrapper #othersWrapper .asp-nothing-found .nothing-found-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #5b657c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 1.29;
+  height: 36px;
+  font-size: 14px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  margin-top: 19px;
+}
+.a-sp-panel .a-sp-items-wrapper-resized {
+  height: 351px;
+}
+.a-sp-panel .a-sp-active-coupons-message {
+  padding: 9px 0px 0px 0px;
+  margin: 0;
+  width: 328px;
+  height: 40px;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  box-shadow: 0 -2px 12px 0 rgba(45, 54, 76, 0.2);
+  border-radius: 2px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.a-sp-panel .a-sp-active-coupons-message .a-sp-active-coupons-info {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #ff7800;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 1.15;
+  height: 24px;
+  font-size: 13px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 4px 0px;
+}
+.asp-items-scrollbar-wrapper {
+  position: fixed;
+  height: 384px;
+  background-color: #f1f1f8;
+  margin-right: 14px;
+  right: 3px;
+  z-index: 9999;
+  width: 19px;
+  margin-top: 105px;
+}
+.asp-items-scrollbar-wrapper .asp-items-scrollbar {
+  position: relative;
+  width: 6px;
+  height: 162px;
+  border-radius: 4px;
+  background-color: #bec0c6;
+  margin-left: 10px;
+}
+.a-sp-notifications,
+.asp-similar-coupon-item {
+  width: 196px;
+  min-height: 248px;
+  top: 16px;
+  right: 16px;
+  position: fixed;
+  z-index: 2147483644;
+  border-radius: 2px;
+  box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.4);
+  box-sizing: content-box;
+  background-color: #ffffff;
+}
+.a-sp-notifications .a-sp-notification-img-hidden,
+.asp-similar-coupon-item .a-sp-notification-img-hidden {
+  display: none !important;
+}
+.a-sp-notifications *,
+.asp-similar-coupon-item * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-notifications #a-sp-notifications-header-drag:hover,
+.asp-similar-coupon-item #a-sp-notifications-header-drag:hover {
+  cursor: move;
+}
+.a-sp-notifications .a-sp-notifications-header,
+.asp-similar-coupon-item .a-sp-notifications-header {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0;
+  grid-column-gap: 2px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 25px 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 25px 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: 24px;
+  width: auto;
+  padding: 14px 22px 0 22px;
+  align-items: center;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-logo-icon,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-logo-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-gear-icon,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-gear-icon,
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-close-icon,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-close-icon {
+  margin: 0 auto;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-logo-icon:hover,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-logo-icon:hover {
+  cursor: pointer;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-gear-icon:hover,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-gear-icon:hover,
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-close-icon:hover,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-close-icon:hover,
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-gear-icon:active,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-gear-icon:active,
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-close-icon:active,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-close-icon:active {
+  cursor: pointer;
+  padding: 4px;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-gear-icon:hover,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-gear-icon:hover,
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-close-icon:hover,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-close-icon:hover {
+  background-color: #f2f2f6;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-gear-icon:active,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-gear-icon:active,
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-close-icon:active,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-close-icon:active {
+  background-color: #eaeaee;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-logo-icon,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-logo-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-gear-icon,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-gear-icon {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  -ms-grid-column: 5;
+}
+.a-sp-notifications .a-sp-notifications-header .a-sp-notifications-header-close-icon,
+.asp-similar-coupon-item .a-sp-notifications-header .a-sp-notifications-header-close-icon {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  -ms-grid-column: 6;
+}
+.a-sp-notifications .a-sp-loading-notification .a-sp-loading-notification-img,
+.asp-similar-coupon-item .a-sp-loading-notification .a-sp-loading-notification-img {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-loading-notification .a-sp-loading-notification-text,
+.asp-similar-coupon-item .a-sp-loading-notification .a-sp-loading-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.33;
+  max-width: 125px;
+}
+.a-sp-notifications .a-sp-loading-notification .a-sp-loading-notification-description,
+.asp-similar-coupon-item .a-sp-loading-notification .a-sp-loading-notification-description {
+  text-align: center;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 16px 22px auto 22px;
+  font-size: 11px;
+  max-width: 152px;
+  line-height: 1.18;
+  color: #5b657c;
+}
+.a-sp-notifications .a-sp-coupons-notification .a-sp-coupons-notification-img,
+.asp-similar-coupon-item .a-sp-coupons-notification .a-sp-coupons-notification-img,
+.a-sp-notifications .a-sp-coupons-notification .a-sp-coupons-notification-img-animated,
+.asp-similar-coupon-item .a-sp-coupons-notification .a-sp-coupons-notification-img-animated {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-coupons-notification .a-sp-coupons-notification-text,
+.asp-similar-coupon-item .a-sp-coupons-notification .a-sp-coupons-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications .a-sp-offers-notification .a-sp-offers-notification-img,
+.asp-similar-coupon-item .a-sp-offers-notification .a-sp-offers-notification-img,
+.a-sp-notifications .a-sp-offers-notification .a-sp-offers-notification-img-animated,
+.asp-similar-coupon-item .a-sp-offers-notification .a-sp-offers-notification-img-animated {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-offers-notification .a-sp-offers-notification-text,
+.asp-similar-coupon-item .a-sp-offers-notification .a-sp-offers-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications .a-sp-city-hotels-notification .a-sp-city-hotels-notification-img,
+.asp-similar-coupon-item .a-sp-city-hotels-notification .a-sp-city-hotels-notification-img,
+.a-sp-notifications .a-sp-city-hotels-notification .a-sp-city-hotels-notification-img-animated,
+.asp-similar-coupon-item .a-sp-city-hotels-notification .a-sp-city-hotels-notification-img-animated {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-city-hotels-notification .a-sp-city-hotels-notification-text,
+.asp-similar-coupon-item .a-sp-city-hotels-notification .a-sp-city-hotels-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications .a-sp-city-hotels-notification .a-sp-city-hotels-notification-text .a-sp-city-hotels-notification-text-city,
+.asp-similar-coupon-item .a-sp-city-hotels-notification .a-sp-city-hotels-notification-text .a-sp-city-hotels-notification-text-city {
+  color: #5b657c;
+}
+.a-sp-notifications .a-sp-similar-hotels-notification .a-sp-similar-hotels-notification-img,
+.asp-similar-coupon-item .a-sp-similar-hotels-notification .a-sp-similar-hotels-notification-img,
+.a-sp-notifications .a-sp-similar-hotels-notification .a-sp-similar-hotels-notification-img-animated,
+.asp-similar-coupon-item .a-sp-similar-hotels-notification .a-sp-similar-hotels-notification-img-animated {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-similar-hotels-notification .a-sp-similar-hotels-notification-text,
+.asp-similar-coupon-item .a-sp-similar-hotels-notification .a-sp-similar-hotels-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications .a-sp-offers-coupons-notification .a-sp-offers-coupons-notification-img,
+.asp-similar-coupon-item .a-sp-offers-coupons-notification .a-sp-offers-coupons-notification-img,
+.a-sp-notifications .a-sp-offers-coupons-notification .a-sp-offers-coupons-notification-img-animated,
+.asp-similar-coupon-item .a-sp-offers-coupons-notification .a-sp-offers-coupons-notification-img-animated {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-offers-coupons-notification .a-sp-offers-coupons-notification-text,
+.asp-similar-coupon-item .a-sp-offers-coupons-notification .a-sp-offers-coupons-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications .a-sp-deals-notification .a-sp-deals-notification-img,
+.asp-similar-coupon-item .a-sp-deals-notification .a-sp-deals-notification-img,
+.a-sp-notifications .a-sp-deals-notification .a-sp-deals-notification-img-animated,
+.asp-similar-coupon-item .a-sp-deals-notification .a-sp-deals-notification-img-animated {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications .a-sp-deals-notification .a-sp-deals-notification-text,
+.asp-similar-coupon-item .a-sp-deals-notification .a-sp-deals-notification-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications .a-sp-notifications-button,
+.asp-similar-coupon-item .a-sp-notifications-button {
+  width: 152px;
+  margin: 14px 22px 22px 22px;
+  z-index: calc(-2147483644);
+  position: relative;
+  height: 34px;
+  background-color: #0cb754;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+.a-sp-notifications .a-sp-notifications-button:hover,
+.asp-similar-coupon-item .a-sp-notifications-button:hover,
+.a-sp-notifications .a-sp-notifications-button:active,
+.asp-similar-coupon-item .a-sp-notifications-button:active {
+  background-color: #0a9746;
+  cursor: pointer;
+}
+.a-sp-notifications .a-sp-notifications-button .space-down,
+.asp-similar-coupon-item .a-sp-notifications-button .space-down {
+  margin-bottom: 10px;
+}
+.a-sp-notifications .a-sp-notifications-button .a-sp-notifications-button-show,
+.asp-similar-coupon-item .a-sp-notifications-button .a-sp-notifications-button-show {
+  position: relative;
+  overflow: hidden;
+  line-height: 34px;
+  max-height: 15px;
+  font-weight: 800;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+}
+.a-sp-notifications .a-sp-notifications-button .a-sp-notifications-button-show-amount,
+.asp-similar-coupon-item .a-sp-notifications-button .a-sp-notifications-button-show-amount {
+  position: relative;
+  overflow: hidden;
+  letter-spacing: normal;
+  font-weight: bold;
+  background-color: #087e3a;
+  padding: 4px 6px;
+  border-radius: 50%;
+  margin-left: 4px;
+  color: #ffffff;
+}
+.a-sp-notifications .a-sp-notifications-button:hover,
+.asp-similar-coupon-item .a-sp-notifications-button:hover {
+  cursor: pointer;
+}
+.a-sp-notifications .a-sp-notifications-button:hover .a-sp-notifications-button-show-amount,
+.asp-similar-coupon-item .a-sp-notifications-button:hover .a-sp-notifications-button-show-amount {
+  background-color: #087e3a;
+}
+.a-sp-notifications-redirect,
+.asp-redirect-item {
+  top: 16px;
+  right: 16px;
+  position: fixed;
+  z-index: 2147483644;
+  border-radius: 2px;
+  box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.4);
+  box-sizing: content-box;
+  background-color: #ffffff;
+  width: 242px;
+  min-height: 269px;
+}
+.a-sp-notifications-redirect *,
+.asp-redirect-item * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header,
+.asp-redirect-item .a-sp-notifications-redirect-header {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0;
+  grid-column-gap: 2px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: 24px;
+  width: auto;
+  padding: 14px 22px 0 22px;
+  align-items: center;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-logo-icon,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-logo-icon,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon {
+  margin: 0 auto;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:hover,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:hover,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:hover,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:hover,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:active,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:active,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:active,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:active {
+  cursor: pointer;
+  padding: 4px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:hover,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:hover,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:hover,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:hover {
+  background-color: #f2f2f6;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:active,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon:active,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:active,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon:active {
+  background-color: #eaeaee;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-logo-icon,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-logo-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  width: 20px;
+  height: 20px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-logo-icon:hover,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-logo-icon:hover {
+  cursor: pointer;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-gear-icon {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  -ms-grid-column: 5;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon,
+.asp-redirect-item .a-sp-notifications-redirect-header .a-sp-notifications-redirect-header-close-icon {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  -ms-grid-column: 6;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-header:hover,
+.asp-redirect-item .a-sp-notifications-redirect-header:hover {
+  cursor: move;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-default-image-container .a-sp-notifications-redirect-default-img,
+.asp-redirect-item .a-sp-notifications-redirect-default-image-container .a-sp-notifications-redirect-default-img,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-default-image-container .a-sp-notifications-redirect-img,
+.asp-redirect-item .a-sp-notifications-redirect-default-image-container .a-sp-notifications-redirect-img {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-default-image-container .a-sp-notifications-redirect-default-img-text,
+.asp-redirect-item .a-sp-notifications-redirect-default-image-container .a-sp-notifications-redirect-default-img-text {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+  margin: 26px auto 26px;
+  max-width: 198px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-image-container .a-sp-notifications-redirect-image-title,
+.asp-redirect-item .a-sp-notifications-redirect-image-container .a-sp-notifications-redirect-image-title {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+  margin: 16px auto 10px auto;
+  max-width: 198px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-image-container .a-sp-notifications-redirect-image-frame,
+.asp-redirect-item .a-sp-notifications-redirect-image-container .a-sp-notifications-redirect-image-frame {
+  width: 198px;
+  height: 70px;
+  border: solid 1px #cbd0db;
+  margin: 10px auto;
+  margin-top: 0px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-image-container .a-sp-notifications-redirect-image-frame .a-sp-notifications-redirect-img,
+.asp-redirect-item .a-sp-notifications-redirect-image-container .a-sp-notifications-redirect-image-frame .a-sp-notifications-redirect-img {
+  margin: 0 auto;
+  margin: 20px auto;
+  width: 90px;
+  height: 30px;
+  position: relative;
+  top: 4.5px;
+  display: block;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-title,
+.asp-redirect-item .a-sp-notifications-redirect-title {
+  margin: 0 auto 2px auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #06070a;
+  max-width: 198px;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-price,
+.asp-redirect-item .a-sp-notifications-redirect-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  text-align: left;
+  color: #535d74;
+  font-size: 10px;
+  letter-spacing: -0.2px;
+  margin-left: 22px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-button-show,
+.asp-redirect-item .a-sp-notifications-redirect-button-show {
+  z-index: calc(-2147483644);
+  position: relative;
+  height: 34px;
+  background-color: #0cb754;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  overflow: hidden;
+  width: 198px;
+  margin: 14px auto 6px auto;
+  font-weight: 800;
+  line-height: 34px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-button-show:hover,
+.asp-redirect-item .a-sp-notifications-redirect-button-show:hover,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-button-show:active,
+.asp-redirect-item .a-sp-notifications-redirect-button-show:active {
+  background-color: #0a9746;
+  cursor: pointer;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info,
+.asp-redirect-item .a-sp-notifications-redirect-info {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-more,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-more,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-less,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-less {
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: #65708a;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-more:active,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-more:active,
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-less:active,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-less:active {
+  color: #535d76;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-icon,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-icon {
+  margin-bottom: 0.6px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-text,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-text {
+  max-width: 198px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: -0.2px;
+  color: #242424;
+  margin: 10px 24px 18px 24px;
+}
+.a-sp-notifications-redirect .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-toggle-text-padding,
+.asp-redirect-item .a-sp-notifications-redirect-info .a-sp-notifications-redirect-info-toggle-text-padding {
+  margin: 0;
+}
+.asp-redirect-item {
+  top: 22px;
+  z-index: 2147483644;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  box-sizing: content-box;
+  background-color: #ffffff;
+  position: relative;
+  right: 0px;
+  left: 22px;
+}
+.asp-similar-coupon-item {
+  top: 22px;
+  z-index: 2147483644;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px 0 rgba(45, 54, 76, 0.22);
+  box-sizing: content-box;
+  background-color: #ffffff;
+  position: relative;
+  right: 0px;
+  left: 22px;
+  width: 242px;
+  min-height: 269px;
+}
+.asp-similar-coupon-item .a-sp-deals-notification {
+  padding-top: 35px;
+}
+.asp-similar-coupon-item .a-sp-notifications-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.a-sp-notifications-common {
+  top: 16px;
+  right: 16px;
+  position: fixed;
+  z-index: 2147483644;
+  border-radius: 2px;
+  box-shadow: 0 6px 12px 0 rgba(45, 54, 76, 0.4);
+  box-sizing: content-box;
+  background-color: #ffffff;
+}
+.a-sp-notifications-header-icons-actions-common:hover,
+.a-sp-notifications-header-icons-actions-common:active {
+  cursor: pointer;
+  padding: 4px;
+}
+.a-sp-notifications-header-icons-actions-common:hover {
+  background-color: #f2f2f6;
+}
+.a-sp-notifications-header-icons-actions-common:active {
+  background-color: #eaeaee;
+}
+.a-sp-notifications-img-common {
+  display: block;
+  margin: 0 auto 7px;
+}
+.a-sp-notifications-text-common {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #2d364c;
+  text-align: center;
+  margin: 0 auto;
+}
+.a-sp-notifications-button-common {
+  z-index: calc(-2147483644);
+  position: relative;
+  height: 34px;
+  background-color: #0cb754;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+.a-sp-notifications-button-common:hover,
+.a-sp-notifications-button-common:active {
+  background-color: #0a9746;
+  cursor: pointer;
+}
+.a-sp-coupons-offers-deals-notification-common {
+  font-size: 15px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+.a-sp-notifications-hidden {
+  display: none !important;
+}
+.a-sp-notifications-rotate {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+}
+.a-sp-notifications-animation {
+  opacity: 0;
+  animation-name: bounceIn;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.asp-notifications-bar-common {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.22);
+  z-index: 2147483644;
+}
+.asp-notifications-bar-common * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.asp-notifications-bar-common .asp-notification-bar-image-hidden {
+  display: none;
+}
+.asp-notifications-bar-common .asp-notifications-bar-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-left: 22px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.asp-notifications-bar-common .asp-notifications-bar-logo:hover {
+  cursor: pointer;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions {
+  background-color: transparent;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 24px 6px 24px;
+  -ms-grid-columns: 24px 6px 24px;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: 24px;
+  width: 68px;
+  grid-column-start: -1;
+  grid-column-end: -1;
+  -ms-grid-column: -1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-actions-icons {
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-actions-icons:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-actions-icons:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-gear-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-gear-icon:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-gear-icon:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-close-icon {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-close-icon:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-bar-common .asp-notifications-bar-actions .asp-notifications-bar-close-icon:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-bar-wrapper {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 42px 1fr 68px;
+  -ms-grid-columns: 42px 1fr 68px;
+  grid-template-rows: 50px;
+  -ms-grid-rows: 50px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.22);
+  z-index: 2147483644;
+}
+.asp-notifications-bar-wrapper * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.asp-notifications-bar-wrapper .asp-notification-bar-image-hidden {
+  display: none;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-left: 22px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-logo:hover {
+  cursor: pointer;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions {
+  background-color: transparent;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 24px 6px 24px;
+  -ms-grid-columns: 24px 6px 24px;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: 24px;
+  width: 68px;
+  grid-column-start: -1;
+  grid-column-end: -1;
+  -ms-grid-column: -1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-actions-icons {
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-actions-icons:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-actions-icons:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-gear-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-gear-icon:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-gear-icon:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-close-icon {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-close-icon:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-close-icon:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto 136px;
+  -ms-grid-columns: auto 136px;
+  grid-template-rows: 50px;
+  -ms-grid-rows: 50px;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-alt-hotels,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-popular-hotels,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-coupons,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers-and-coupons,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-deals,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-searching-deals {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 100px auto;
+  -ms-grid-columns: 100px auto;
+  grid-template-rows: 50px;
+  -ms-grid-rows: 50px;
+  height: 50px;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  justify-content: center;
+  align-items: center;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-alt-hotels .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-popular-hotels .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-coupons .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers-and-coupons .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-deals .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-searching-deals .asp-notifications-bar-image,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers .asp-notifications-bar-image-animated,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-alt-hotels .asp-notifications-bar-image-animated,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-popular-hotels .asp-notifications-bar-image-animated,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-coupons .asp-notifications-bar-image-animated,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers-and-coupons .asp-notifications-bar-image-animated,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-deals .asp-notifications-bar-image-animated,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-searching-deals .asp-notifications-bar-image-animated {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers .asp-notifications-bar-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-alt-hotels .asp-notifications-bar-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-popular-hotels .asp-notifications-bar-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-coupons .asp-notifications-bar-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers-and-coupons .asp-notifications-bar-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-deals .asp-notifications-bar-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-searching-deals .asp-notifications-bar-text {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  width: 100%;
+  height: 19px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 8px;
+  color: #2d364c;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers .asp-notifications-bar-text .asp-notifications-bar-city-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-alt-hotels .asp-notifications-bar-text .asp-notifications-bar-city-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-popular-hotels .asp-notifications-bar-text .asp-notifications-bar-city-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-coupons .asp-notifications-bar-text .asp-notifications-bar-city-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-offers-and-coupons .asp-notifications-bar-text .asp-notifications-bar-city-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-deals .asp-notifications-bar-text .asp-notifications-bar-city-text,
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-searching-deals .asp-notifications-bar-text .asp-notifications-bar-city-text {
+  color: #5b657c;
+  margin-left: 5px;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  overflow: hidden;
+  position: relative;
+  vertical-align: center;
+  text-align: center;
+  width: 136px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #0cb754;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  cursor: pointer;
+  z-index: 1;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button:hover {
+  background-color: #0a9746;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button:hover .asp-notifications-bar-button-badge {
+  background-color: #087e3a;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button .asp-notifications-bar-button-text {
+  width: fit-content;
+  height: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button .asp-notifications-bar-button-badge {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #119749;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  margin-left: 4px;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button .asp-notifications-bar-button-badge .asp-badge-text {
+  margin: 2px auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button .asp-notifications-bar-button-badge .asp-notifications-bar-button-badge-text {
+  margin: 2px auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  line-height: 1.58;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-content-two-rows {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto;
+  -ms-grid-columns: auto;
+  grid-template-rows: 19px 14px;
+  -ms-grid-rows: 19px 14px;
+  height: 50px;
+  width: 100%;
+  margin-top: 9px;
+}
+.asp-notifications-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-content-two-rows .asp-notifications-bar-searching-subtext {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  width: 149px;
+  height: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #535d74;
+}
+.asp-notifications-redirect-bar-wrapper {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 42px 1fr 438px 1fr 64px;
+  -ms-grid-columns: 42px 1fr 438px 1fr 64px;
+  grid-template-rows: 50px;
+  -ms-grid-rows: 50px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.22);
+  z-index: 2147483644;
+}
+.asp-notifications-redirect-bar-wrapper * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notification-bar-image-hidden {
+  display: none;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-left: 22px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-logo:hover {
+  cursor: pointer;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions {
+  background-color: transparent;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 24px 6px 24px;
+  -ms-grid-columns: 24px 6px 24px;
+  grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+  height: 24px;
+  width: 68px;
+  grid-column-start: -1;
+  grid-column-end: -1;
+  -ms-grid-column: -1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-actions-icons {
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-actions-icons:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-actions-icons:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-gear-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-gear-icon:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-gear-icon:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-close-icon {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  object-fit: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-close-icon:hover {
+  background-color: #f2f2f6;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-actions .asp-notifications-bar-close-icon:active {
+  background-color: #eaeaee;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notification-bar-title {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #2d364c;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 1.27;
+  height: 19px;
+  font-size: 15px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  margin-left: 22px;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: minmax(360px, auto) 121px;
+  -ms-grid-columns: minmax(360px, auto) 121px;
+  grid-template-rows: 42px;
+  -ms-grid-rows: 42px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  border-radius: 2px;
+  border: 1px solid #0cb754;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal {
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 90px auto 30px;
+  -ms-grid-columns: 90px auto 30px;
+  grid-template-rows: 38px;
+  -ms-grid-rows: 38px;
+  height: 38px;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  padding: 4px;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notifications-bar-redirect-deal-img {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  width: 90px;
+  height: 30px;
+  background-color: #f2f2f6;
+  object-fit: fill;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notifications-bar-redirect-deal-description {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  display: grid;
+  display: -ms-grid;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: auto;
+  -ms-grid-columns: auto;
+  grid-template-rows: 17px 14px;
+  -ms-grid-rows: 17px 14px;
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notifications-bar-redirect-deal-description .asp-notifications-bar-redirect-deal-title {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  height: 17px;
+  font-size: 12px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notifications-bar-redirect-deal-description .asp-notifications-bar-redirect-deal-subtitle {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  -ms-grid-row: 2;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #535d74;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  height: 14px;
+  font-size: 10px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notifications-bar-redirect-deal-info-img {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notification-bar-redirect-deal-info-box {
+  display: none;
+  position: relative;
+  width: 457px;
+  height: 82px;
+  top: 12px;
+  right: 270px;
+  border-radius: 4px;
+  box-shadow: 0 4px 7px 0 rgba(79, 79, 79, 0.24);
+  background-color: #ffffff;
+  border: solid 1px #727b93;
+  padding: 25px 20px 20px 20px;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notification-bar-redirect-deal-info-box:before {
+  content: "";
+  position: absolute;
+  right: 168px;
+  bottom: 100%;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 8px solid #727b93;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notification-bar-redirect-deal-info-box:after {
+  content: "";
+  position: absolute;
+  right: 169px;
+  bottom: 100%;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 7px solid white;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-redirect-deal .asp-notification-bar-redirect-deal-info-box .asp-notifications-bar-redirect-deal-info-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #242424;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  line-height: 1.5;
+  font-size: 12px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  letter-spacing: -0.2px;
+  white-space: pre-line;
+  width: 100%;
+  height: 100%;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  -ms-grid-row: 1;
+  overflow: hidden;
+  position: relative;
+  vertical-align: center;
+  text-align: center;
+  width: 121px;
+  height: 42px;
+  border-radius: 2px;
+  background-color: #0cb754;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  cursor: pointer;
+  z-index: 1;
+  margin-bottom: 2px;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button:hover {
+  background-color: #0a9746;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button:hover .asp-notifications-bar-button-badge {
+  background-color: #087e3a;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button .asp-notifications-bar-button-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: normal;
+  height: 15px;
+  font-size: 11px;
+  border: 0;
+  cursor: default;
+  text-decoration: none;
+  margin-left: 10px;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+}
+.asp-notifications-redirect-bar-wrapper .asp-notifications-bar-content .asp-notifications-bar-button .asp-notifications-bar-button-arrow {
+  width: 6px;
+  height: 11px;
+  object-fit: contain;
+  position: relative;
+  margin-left: 4px;
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.2) translate3d(0, 0, 0);
+  }
+  30% {
+    opacity: 0.9;
+    transform: scale(1.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Anda tidak boleh menilai fail tempatan atau tab dalaman"
+   },
+   "VoteThank": {
+      "message": "Terima kasih! Undian anda telah berjaya disimpan."
+   },
+   "anonymousUser": {
+      "message": "Pengguna tanpa nama"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>mengasingkan sesi beli-belah dan perbankan dengan selamat untuk menghalang penggodam\u003C/b> daripada mencuri \u003Cb>nombor kad kredit, kata laluan\u003C/b> dan \u003Cb>data peribadi anda yang lain.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", sebahagian daripada Avast Secure Browser yang dipasang dengan antivirus Avast anda, \u003Cb>mengasingkan sesi beli-belah dan perbankan dengan selamat untuk menghalang penggodam daripada mencuri\u003C/b> \u003Cb>nombor kad kredit, kata laluan\u003C/b> dan \u003Cb>data peribadi anda yang lain.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Mod Bank\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Bukan sekarang"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Buka Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Beralih sekarang"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "BUKA SEMULA DALAM PELAYAR AVAST"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "BUKA SEMULA DALAM ZONSELAMAT AVAST"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "BUKA SEMULA LAMAN INI DENGAN SELAMAT"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "BUKA DALAM MOD BANK"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Pelayar Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "mengasingkan sesi perbankan anda untuk menghalang penggodam daripada mengelog tekanan kekunci anda dan merakam kata laluan anda serta data peribadi lain. Ia sudah dipasang dengan Avast antivirus anda, oleh itu, ia sudah disediakan dan boleh terus digunakan."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Ketahui lebih lanjut"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Petua Avast: Pelayar ZonSelamat menyekat iklan untuk melindungi anda daripada kuki penjejakan dan iklan berniat jahat."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Buat bayaran dalam talian dengan selamat menggunakan pelayar Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Pelayar web ini tidak dapat melindungi sepenuhnya aktiviti perbankan dalam talian anda."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Melakukan aktiviti perbankan daripada pelayar web ini boleh merisikokan akaun anda."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Kami amat mengesyorkan supaya anda melakukan aktiviti perbankan hanya daripada pelayar Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Data kewangan anda mungkin dapat dilihat oleh orang lain."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Lindungi tawaran terbaik dan bayar dengan selamat menggunakan pelayar Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Adakah anda tahu anda boleh memuat turun video daripada tapak penstriman dengan mudah?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Jangan tunjukkan ini lagi"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Jangan tunjukkan pada tapak ini lagi"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "OK, BUKA SEMULA TAPAK INI DENGAN SELAMAT"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Tidak, terima kasih, sila sembunyikan amaran ini selama-lamanya"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Pelayar Avast telah disertakan dengan Avast antivirus anda."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Hanya dengan satu klik akan membuka semula laman ini dalam pelayar Avast untuk melindungi anda."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Adakah anda benar-benar ingin merisikokan akaun anda?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Keselamatan Dalam Talian"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Benarkan semua sistem penjejakan"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "pada semua tapak web"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Sekat semua sistem penjejakan"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Tetapan Global"
+   },
+   "baMoreSettingsAction": {
+      "message": "Lagi tetapan"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "dibenarkan"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "disekat"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Sistem penjejakan pada masa ini"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "pada tapak web"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "sistem penjejakan"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Anda menilai tapak ini sebagai"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatif"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positif"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "Membuat undian"
+   },
+   "checkAll": {
+      "message": "(Tandakan semua yang berkenaan)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "Tutup"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "Korporat"
+   },
+   "currentVote": {
+      "message": "Penarafan keseluruhan"
+   },
+   "detailsHeadline": {
+      "message": "Avast telah mengimbas tapak ini"
+   },
+   "detailsMalwareNo": {
+      "message": "Tiada perisian merbahaya dikesan"
+   },
+   "detailsMalwareYes": {
+      "message": "Perisian merbahaya dikesan!"
+   },
+   "detailsPhishingNo": {
+      "message": "Tiada phishing dikesan"
+   },
+   "detailsPhishingYes": {
+      "message": "Phishing dikesan!"
+   },
+   "disabledTab": {
+      "message": "Anda tidak boleh menilai fail tempatan atau tab dalaman"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Pengesanan Iklan (Ad Tracking)"
+   },
+   "dntAllowGroupAction": {
+      "message": "Benarkan semua"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Benarkan"
+   },
+   "dntAllowed": {
+      "message": "dibenarkan"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Menyekat penjejak secara automatik: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Dinyahdayakan"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Didayakan"
+   },
+   "dntBlockGroupAction": {
+      "message": "Sekat semua"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Sekat"
+   },
+   "dntBlocked": {
+      "message": "disekat"
+   },
+   "dntHeadline": {
+      "message": "%s syarikat cuba menjejaki anda"
+   },
+   "dntNetworks": {
+      "message": "Rangkaian"
+   },
+   "dntNetworksDetected": {
+      "message": "%s rangkaian dikesan"
+   },
+   "dntOthersNetworks": {
+      "message": "Lain-lain"
+   },
+   "dntSocialNetworks": {
+      "message": "Rangkaian sosial"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Semua dibenarkan"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Semua disekat"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Disekat"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Beberapa disekat"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Analitik Web (Web Analytics)"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "Alkohol / Dadah"
+   },
+   "error": {
+      "message": "Ralat"
+   },
+   "errorUnexpected": {
+      "message": "Ralat tidak dijangka"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "Perjudian"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "Sebanyak mana anda menyukai tapak ini?"
+   },
+   "illegal": {
+      "message": "Cetak rompak / Menyalahi undang-undang"
+   },
+   "it": {
+      "message": "IT / Muat turun"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "Sebagai pengguna tanpa nama"
+   },
+   "loginDesc": {
+      "message": "Isikan data log masuk akaun my.avast.com anda:"
+   },
+   "loginError": {
+      "message": "Log masuk gagal"
+   },
+   "loginLogin": {
+      "message": "Log masuk"
+   },
+   "loginLogout": {
+      "message": "Log keluar"
+   },
+   "loginName": {
+      "message": "Nama:"
+   },
+   "loginPswd": {
+      "message": "Kata laluan:"
+   },
+   "malwareNext": {
+      "message": "Muat turun Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Tapak ini mampu merosakkan komputer anda."
+   },
+   "malwareSiteRec": {
+      "message": "Kami menyarankan anda memasang Avast Antivirus untuk mengimbas komputer anda."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "Berita / Blog"
+   },
+   "noRating": {
+      "message": "Tapak ini tiada penarafan"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "Lain-lain"
+   },
+   "phishingBack": {
+      "message": "Keluarkan saya daripada sini"
+   },
+   "phishingClose": {
+      "message": "Abaikan amaran"
+   },
+   "phishingCreditNumber": {
+      "message": "Nampaknya anda cuba menaip kata laluan atau nombor kad kredit di tapak yang mempunyai penarafan yang buruk. Sila periksa sekali lagi bahawa tapak ini sahih. Memasukkan maklumat peribadi anda ke tapak yang tidak dipercayai boleh menyebabkan risiko keselamatan."
+   },
+   "phishingDesc": {
+      "message": "Phishing adalah cubaan untuk mendapatkan maklumat sensitif seperti nama pengguna, kata laluan dan butiran kad kredit..."
+   },
+   "phishingPhishingSite": {
+      "message": "Tapak ini ditanda sebagai tapak phishing."
+   },
+   "phishingTrust": {
+      "message": "Saya percaya laman web ini"
+   },
+   "phishingWarning": {
+      "message": "Amaran"
+   },
+   "pornography": {
+      "message": "Pornografi"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "Tapak ini mempunyai penarafan sederhana"
+   },
+   "ratingBad": {
+      "message": "Tapak ini mempunyai penarafan yang buruk"
+   },
+   "ratingCommunity": {
+      "message": "%s penarafan komuniti"
+   },
+   "ratingDone": {
+      "message": "Selesai"
+   },
+   "ratingGood": {
+      "message": "Tapak ini mempunyai penarafan yang baik"
+   },
+   "ratingLevelAverage": {
+      "message": "Sederhana"
+   },
+   "ratingLevelBad": {
+      "message": "Tidak baik"
+   },
+   "ratingLevelPositive": {
+      "message": "Positif"
+   },
+   "ratingLevelUndefined": {
+      "message": "Tiada"
+   },
+   "ratingNegative": {
+      "message": "Mengapa anda menilai pengalaman anda sebagai negatif?"
+   },
+   "ratingNoRate": {
+      "message": "Saya tidak mahu membuat penilaian sekarang"
+   },
+   "ratingPending": {
+      "message": "Mendapatkan semula penarafan"
+   },
+   "ratingPositive": {
+      "message": "Mengapa anda menilai pengalaman anda sebagai positif?"
+   },
+   "ratingRate": {
+      "message": "Bagaimana anda menilai pengalaman anda dengan tapak ini?"
+   },
+   "ratingTextAverage": {
+      "message": "tapak ini mempunyai reputasi yang tidak baik"
+   },
+   "ratingTextBad": {
+      "message": "tapak ini tidak selamat"
+   },
+   "ratingTextPositive": {
+      "message": "tapak ini selamat"
+   },
+   "ratingTextUndefined": {
+      "message": "tapak tidak dikenali"
+   },
+   "ratingVeryBad": {
+      "message": "Tapak ini mempunyai penarafan yang amat buruk"
+   },
+   "reasonBlocker": {
+      "message": "(ancaman disekat)"
+   },
+   "reasonPhishing": {
+      "message": "(tapak phishing dikesan)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Tapak ini belum ada penarafan lagi"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Kembalikan"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Hotel serupa ditemui!"
+   },
+   "safeZoneDecline": {
+      "message": "Jangan tawarkan ZonSelamat untuk "
+   },
+   "safeZoneDesc": {
+      "message": "Avast mencadangkan anda untuk beralih ke ZonSelamat"
+   },
+   "safeZoneFeedback": {
+      "message": "Untuk keyakinan anda, URL yang diminta akan dibuka dalam ZonSelamat"
+   },
+   "safeZoneNo": {
+      "message": "Tidak"
+   },
+   "safeZoneYes": {
+      "message": "Beralih sekarang"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> sedia untuk digunakan. Selamat membeli-belah!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "Tetapkan semula ke lalai"
+   },
+   "settingsSave": {
+      "message": "Simpan"
+   },
+   "settingscommunityIQ": {
+      "message": "Perkongsian Data"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Dengan mendayakan pilihan ini, anda memberikan persetujuan untuk menghantar maklumat tertentu kepada Avast secara tanpa nama. Kami mungkin berkongsi maklumat tanpa nama dengan pihak ketiga."
+   },
+   "settingsdnt": {
+      "message": "Jangan menjejak"
+   },
+   "settingsdnt0": {
+      "message": "Perisai Privasi"
+   },
+   "settingsdnt2": {
+      "message": "Jangan menjejak"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Sekat pengesanan iklan secara lalai"
+   },
+   "settingsdntDesc": {
+      "message": "Kesan dan sekat iklan yang tidak diingini dan elakkan tapak analitik daripada mengesan anda secara rahsia"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Sekat yang lain ikut lalai"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Sekat rangkaian sosial secara automatik"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Sekat analitik web ikut lalai"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Surf Shield"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Imbas laman web untuk mengesan perisian merbahaya dan menghalang pemancingan data"
+   },
+   "settingssafeZone": {
+      "message": "ZonSelamat"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Beralih ke ZonSelamat untuk mengakses tapak kewangan yang sensitif (memerlukan pemasangan Avast Antivirus)"
+   },
+   "settingsserp": {
+      "message": "Hasil enjin carian"
+   },
+   "settingsserpDesc": {
+      "message": "Dayakan pewarnaan halaman hasil carian"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Dayakan pop timbul pada halaman hasil carian"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Abaikan notifikasi dan terus ke tapak yang sah secara automatik"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Mengesan dan membetulkan kesilapan URL dan teruskan ke tapak yang sah"
+   },
+   "sfzoneAlways": {
+      "message": "Ya, selalu"
+   },
+   "sfzoneDesc": {
+      "message": "Anda telah memasuki tapak perbankan dalam talian. Adakah anda ingin membukanya di Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Tidak pernah"
+   },
+   "sfzoneNo": {
+      "message": "Tidak"
+   },
+   "sfzoneSwitch": {
+      "message": "Beralih ke Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Ya"
+   },
+   "shopping": {
+      "message": "Membeli - belah"
+   },
+   "sideDashboard": {
+      "message": "Avast saya"
+   },
+   "sideDetails": {
+      "message": "Ketahui lebih lanjut"
+   },
+   "sideRate": {
+      "message": "Nilaikan sekarang"
+   },
+   "sideSettings": {
+      "message": "Tetapan"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "Bawa saya ke tapak yang betul dikenali secara automatik mulai dari sekarang"
+   },
+   "sitecorrectBarButton": {
+      "message": "Ini bukanlah kesilapan, bawa saya balik"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: ubah hala daripada %s secara automatik"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Untuk mengkonfigurasi ciri Avast SiteCorrect, sila buka antara muka Avast, pergi ke Perlindungan Tambahan, Perlindungan Pelayar dan gunakan butang Tetapan."
+   },
+   "sitecorrectMean": {
+      "message": "Maksud anda %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Tidak, saya sememangnya maksudkan %s"
+   },
+   "sitecorrectText": {
+      "message": "Ini mungkin bukan tapak yang anda cuba masuk."
+   },
+   "sitecorrectYes": {
+      "message": "Ya"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "Sosial / Permainan"
+   },
+   "thanksHeadline": {
+      "message": "Terima kasih kerana membuat penarafan!"
+   },
+   "thanksMessage": {
+      "message": "Undian anda telah dihantar."
+   },
+   "title": {
+      "message": "Tetapan Avast Online Security"
+   },
+   "topBarDetails": {
+      "message": "Lihat butiran"
+   },
+   "topBarRatingAverage": {
+      "message": "%s dinilai sederhana"
+   },
+   "topBarRatingBad": {
+      "message": "%s dinilai sebagai berbahaya"
+   },
+   "topBarRatingGood": {
+      "message": "%s dinilai sebagai selamat"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "Senjata / Keganasan"
+   },
+   "vote": {
+      "message": "Undi"
+   },
+   "voteNegative": {
+      "message": "negatif"
+   },
+   "votePositive": {
+      "message": "positif"
+   },
+   "webrepDisabled": {
+      "message": "WebRep telah dinyahdayakan"
+   },
+   "whatTypeContent": {
+      "message": "Apakah jenis kandungan tapak ini?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

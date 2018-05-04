@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "আপনি স্থানীয় ফাইল এবং অভ্যান্তরীণ ট্যাবে রেটিং দিতে পারবেন না"
+   },
+   "VoteThank": {
+      "message": "ধন্যবাদ! সফলভাবে আপনার নির্বাচন সংরক্ষণ হয়েছে."
+   },
+   "anonymousUser": {
+      "message": "বেনামী ব্যবহারকারী"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " আপনার \u003Cb>ক্রেডিট কার্ড নম্বর, পাসওয়ার্ড,\u003C/b> চুরি থেকে \u003Cb>নিরাপদে কেনাকাটা এবং ব্যাংকিং সেশন হ্যাকারদের থামানোর ফেলে তা পৃথকীকরন\u003C/b> ও \u003Cb>অন্যান্য ব্যক্তিগত তথ্য।\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", অংশ Avast নিরাপদ ব্রাউজার ইনস্টল করা আপনার Avast এন্টিভাইরাস, \u003Cb>নিরাপদে কেনাকাটা এবং ব্যাংকিং সেশন হ্যাকাররা চুরি করা থেকে বিরত করতে ফেলে তা আলাদা করা\u003C/b> সহ আপনার \u003Cb>ক্রেডিট কার্ড নম্বর, পাসওয়ার্ড,\u003C/b> এবং \u003Cb>অন্যান্য ব্যক্তিগত তথ্য।\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>ব্যাঙ্ক মোড\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "এখন না"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Avast SafeZone খুলুন"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "এখনই পাল্টান"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "AVAST এর ব্রাউজারে আবার-খুলুন"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "Avast SafeZone এ আবার-খুলুন"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "সুরক্ষিতভাবে এই পৃষ্ঠাটিকে আবার খুলুন"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ব্যাংক মোডে খুলুন"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avast এর ব্রাউজার "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "হ্যাকারদের আপনার কীস্ট্রোক গুলি লগ করা এবং আপনার পাসওয়ার্ড এবং অন্য ব্যক্তিগত তথ্য ক্যাপচার করা প্রতিরোধ করতে আপনার ব্যাঙ্কিং সেশনকে বিভক্ত করুন। এটি আগে থেকেই আপনার Avast অ্যান্টিভাইরাসের সাথে ইনস্টল করা হয়েছে, তাই এটি ইতিমধ্যেই সেট আপ করা হয়েছে এবং ব্যবহারের জন্য তৈরি।"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "আরও জানুন"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast টিপ: SafeZone ব্রাউজার বিজ্ঞাপনকে আটকে দেয় এবং তার ফলে ট্র্যাকিং কুকি ও ম্যালভার্টাইজিং থেকে আপনি সুরক্ষিত থাকতে পারবেন।"
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Avast SafeZone ব্রাউজার দিয়ে নিরাপদে অনলাইনে পেমেন্ট করুন।"
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "এই ওয়েব ব্রাউজার আপনার অনলাইন ব্যাঙ্কিং পুরোপুরি নিরাপদ করতে পারে না।"
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "এই ওয়েব ব্রাউজার থেকে ব্যাঙ্কিং করা আপনার অ্যাকাউন্টকে ঝুঁকির সম্মুখীন করতে পারে।"
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "আমরা শুধুমাত্র Avast এর ব্রাউজারের মাধ্যমে ব্যাঙ্কিং করা দৃঢ়ভাবে সুপারিশ করি।"
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "আপনার আর্থিক ডেটা অন্যদের কাছে দৃশ্যমান হতে পারে।"
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "বেস্ট ডিল হাতছাড়া করবেন না এবং Avast SafeZone ব্রাউজার দিয়ে নিরাপদে পেমেন্ট করুন।"
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "আপনি কি জানেন যে স্ট্রিমিং সাইট থেকে সহজেই ভিডিও ডাউনলোড করে নিতে পারবেন?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "এটি যাতে পুনরায় প্রদর্শিত না হয়"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "এই সাইটটি আবার দেখাবেন না"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "ঠিক আছে, সুরক্ষিতভাবে এই সাইটটিকে আবার খুলুন"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "না ধন্যবাদ, অনুগ্রহ করে স্থায়ীভাবে এই সতর্কতাগুলিকে লুকান"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Avast ব্রাউজার আপনার Avast অ্যান্টিভাইরাসের সাথে সংযুক্ত করা আছে।"
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "আপনাকে সুরক্ষিত করতে একটি একক ক্লিক এই পৃষ্ঠাটিকে Avast এর ব্রাউজারে আবার খুলবে।"
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "আপনি কি সত্যিই আপনার অ্যাকাউন্টকে ঝুঁকির সম্মুখীন করতে চান?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "অনলাইন সুরক্ষা"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "সব গতিবিধি অনুসরণের অনুমতি দিন"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "সব ওয়েবসাইটের জন্য"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "সব গতিবিধি অনুসরণ অবরুদ্ধ করুন"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "সর্বব্যাপী সেটিং সমূহ"
+   },
+   "baMoreSettingsAction": {
+      "message": "আরো সেটিং"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "অনুমদিত"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "অবরুদ্ধ"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "গতিবিধি অনুসরণ সিস্টেম বর্তমানে"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "এই ওয়েবসাইটে"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "টি গতিবিধি অনুসরণ সিস্টেম"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "আপনি এই সাইটের মূল্যায়ন করেছেন"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "নেতিবাচক"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "ইতিবাচক"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "ব্রাউজার সাফাইকারী"
+   },
+   "cache_contains": {
+      "message": "আপনার ক্যাশেতে আছে:"
+   },
+   "cache_empty": {
+      "message": "আপনার ক্যাশে খালি।"
+   },
+   "castYourVote": {
+      "message": "আপনার ভোট"
+   },
+   "checkAll": {
+      "message": "(যেটা প্রযোজ্য সেটা চেক করুন)"
+   },
+   "clean_now": {
+      "message": "এখনই পরিষ্কার করুন"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "আপনার ব্রাউজারকে বিশৃঙ্খলা মুক্ত রাখতে সাহায্য করার জন্য এটি চালু করুন।"
+   },
+   "cleanerOffScreenTitle": {
+      "message": "ব্রাউজার ক্লিনার বর্তমানে বন্ধ আছে।"
+   },
+   "close": {
+      "message": "বন্ধ"
+   },
+   "cookies": {
+      "message": "কুকিজ"
+   },
+   "copyrights": {
+      "message": "ক্পিরাইট &copy; 1992-2013 AVG Technologies। সর্বস্বত্ব সংরক্ষিত।"
+   },
+   "corporate": {
+      "message": "কর্পোরেট"
+   },
+   "currentVote": {
+      "message": "সামগ্রিক রেটিং"
+   },
+   "detailsHeadline": {
+      "message": "Avast এই সাইটটি পরীক্ষা করেছে"
+   },
+   "detailsMalwareNo": {
+      "message": "ম্যালওয়ার সনাক্ত হয়নি"
+   },
+   "detailsMalwareYes": {
+      "message": "ম্যালওয়ার সনাক্ত হয়েছে!"
+   },
+   "detailsPhishingNo": {
+      "message": "ফিশিং সনাক্ত হয়নি"
+   },
+   "detailsPhishingYes": {
+      "message": "ফিশিং সনাক্ত হয়েছে!"
+   },
+   "disabledTab": {
+      "message": "আপনি স্থানীয় ফাইল এবং অভ্যান্তরীণ ট্যাবে রেটিং দিতে পারবেন না"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "বিজ্ঞাপন অনুসরণ"
+   },
+   "dntAllowGroupAction": {
+      "message": "সব অনুমতি দিন"
+   },
+   "dntAllowTrackerAction": {
+      "message": "অনুমতি দিন"
+   },
+   "dntAllowed": {
+      "message": "অনুমোদিত"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "ট্র্যাকার স্বতঃ অবরোধ: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "অক্ষমিত"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "সক্ষমিত"
+   },
+   "dntBlockGroupAction": {
+      "message": "সব প্রতিরোধ করুন"
+   },
+   "dntBlockTrackerAction": {
+      "message": "প্রতিরোধ করুন"
+   },
+   "dntBlocked": {
+      "message": "অবরুদ্ধ"
+   },
+   "dntHeadline": {
+      "message": "%s টি কোম্পানি আপনাকে অনুসরণ করার চেষ্টা করছে"
+   },
+   "dntNetworks": {
+      "message": "নেটওয়ার্ক সমূহ"
+   },
+   "dntNetworksDetected": {
+      "message": "%s টি নেটওয়ার্ক সনাক্ত করা হয়েছে"
+   },
+   "dntOthersNetworks": {
+      "message": "অন্যান্য"
+   },
+   "dntSocialNetworks": {
+      "message": "সামাজিক নেটওয়ার্ক"
+   },
+   "dntStatusAllAllowed": {
+      "message": "সব অনুমতি দেয়া"
+   },
+   "dntStatusAllBlocked": {
+      "message": "সব বাধা দেয়া"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "ব্লক করা হয়েছে"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "কিছু বাধা দেয়া"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "ওয়েব পরিসংখ্যান"
+   },
+   "downloads": {
+      "message": "ডাউনলোডের ইতিহাসে আইটেমগুলি"
+   },
+   "drugs": {
+      "message": "অ্যালকোহল / ড্রাগস্"
+   },
+   "error": {
+      "message": "ত্রুটি"
+   },
+   "errorUnexpected": {
+      "message": "অপ্রত্যাশিত ত্রুটি"
+   },
+   "forms": {
+      "message": "সংরক্ষিত ফর্মগুলি"
+   },
+   "gambling": {
+      "message": "জুয়া খেলা"
+   },
+   "general_back": {
+      "message": "ফেরত"
+   },
+   "general_close": {
+      "message": "বন্ধ করুন"
+   },
+   "general_more": {
+      "message": "আরও"
+   },
+   "general_next": {
+      "message": "পরবর্তী"
+   },
+   "general_off": {
+      "message": "বন্ধ"
+   },
+   "general_on": {
+      "message": "চালু"
+   },
+   "history": {
+      "message": "ব্রাউজিং ইতিহাসে ওয়েবসাইটগুলি"
+   },
+   "homepage": {
+      "message": "হোম পৃষ্ঠা"
+   },
+   "howLike": {
+      "message": "আপনি এই সাইট কেমন পছন্দ করেন?"
+   },
+   "illegal": {
+      "message": "Warez / অবৈধ"
+   },
+   "it": {
+      "message": "আইটি / ডাউনলোড"
+   },
+   "items": {
+      "message": "আইটেমগুলি"
+   },
+   "loginAnonymous": {
+      "message": "বেনামী ব্যবহারকারী হিসেবে"
+   },
+   "loginDesc": {
+      "message": "আপনার my.avast.com অ্যাকাউন্টের জন্য আপনার লগ ইন তথ্য পূরণ করুনঃ"
+   },
+   "loginError": {
+      "message": "লগইন ব্যর্থ হয়েছে"
+   },
+   "loginLogin": {
+      "message": "লগ ইন"
+   },
+   "loginLogout": {
+      "message": "লগ আউট"
+   },
+   "loginName": {
+      "message": "নামঃ"
+   },
+   "loginPswd": {
+      "message": "পাসওয়ার্ডঃ"
+   },
+   "malwareNext": {
+      "message": "Avast ফ্রি অ্যান্টিভাইরাস ডাউনলোড করুন"
+   },
+   "malwareSite": {
+      "message": "এই সাইটটি আপনার কম্পিউটারের ক্ষতি করতে পারে."
+   },
+   "malwareSiteRec": {
+      "message": "আমরা পরামর্শ দিচ্ছি যে আপনি আপনার কম্পিউটারে Avast অ্যান্টিভাইরাস সংস্থাপন করুন."
+   },
+   "mb_freed": {
+      "message": "ব্রাউজিং ইতিহাস \u003Cspan>পরিষ্কার করা হচ্ছে\u003C/span>"
+   },
+   "news": {
+      "message": "সংবাদ / ব্লগ"
+   },
+   "noRating": {
+      "message": "এই সাইটের কোন রেটিং নেই"
+   },
+   "notifications": {
+      "message": "বিজ্ঞপ্তিগুলি"
+   },
+   "others": {
+      "message": "অন্যান্য"
+   },
+   "phishingBack": {
+      "message": "আমাকে এখান থেকে বের কর"
+   },
+   "phishingClose": {
+      "message": "সতর্কবাণী উপেক্ষা করুন"
+   },
+   "phishingCreditNumber": {
+      "message": "মনে হচ্ছে যে আপনি একটি খারাপ সুনাম যুক্ত সাইটে পাসওয়ার্ড অথবা ক্রেডিট কার্ড নাম্বার প্রবেশ করাচ্ছেন। অনুগ্রহপূর্বক ভাল করে পরীক্ষা করুন যে এই সাইটটি আসল। অনির্ভরযোগ্য সাইটে ব্যক্তিগত তথ্য প্রবেশ করা নিরাপত্তা ঝুঁকিপূর্ন।"
+   },
+   "phishingDesc": {
+      "message": "ফিশিংয়ের মাধ্যমে ইউজারনেম, পাসওয়ার্ড এবং ক্রেডিট কার্ডের তথ্যের মতো সংবেদনশীল তথ্য হাতিয়ে নেওয়ার চেষ্টা করা হয়..."
+   },
+   "phishingPhishingSite": {
+      "message": "এই সাইটটি একটি ফিশিং সাইট হিসাবে চিহ্নিত করা হয়েছে।"
+   },
+   "phishingTrust": {
+      "message": "আমি এই ওয়েবসাইটকে বিশ্বাস করি"
+   },
+   "phishingWarning": {
+      "message": "সতর্কবার্তা"
+   },
+   "pornography": {
+      "message": "অশ্লীল সাহিত্যাদি"
+   },
+   "privacyOffScreenDesc": {
+      "message": "অনলাইনে আপনার গোপনীয়তার পুনরায় নিয়ন্ত্রণ আনতে এটি চালু করুন।"
+   },
+   "privacyOffScreenTitle": {
+      "message": "বর্তমানে বন্ধ আছে কিনা ট্র্যাক করবেন না।"
+   },
+   "privacy_at_risk": {
+      "message": "ঝুঁকিতে আছে"
+   },
+   "privacy_fix_now": {
+      "message": "এখন সমাধান করুন"
+   },
+   "privacy_protected": {
+      "message": "সুরক্ষিত"
+   },
+   "privacy_protected_description": {
+      "message": "আপনার অনলাইন ক্রিয়াকলাপগুলির সম্বন্ধে তথ্য সংগ্রহ ভেদনকারী ওয়েব ট্রাকার বন্ধ হয়ে গেছে।"
+   },
+   "privacy_risky_description": {
+      "message": "অনাবদ্ধ ভেদনকারী ট্রাকার যা আপনার অনলাইন ক্রিয়াকলাপগুলির সম্বন্ধে তথ্য সংগ্রহ করা হয়।"
+   },
+   "privacy_secondary_title": {
+      "message": "ট্রাকার"
+   },
+   "privacy_your_privacy_is": {
+      "message": "আপনার গোপনীয়তা"
+   },
+   "ratingAverage": {
+      "message": "এই সাইটের মাঝামাঝি রেটিং রয়েছে"
+   },
+   "ratingBad": {
+      "message": "এই সাইটের খারাপ রেটিং রয়েছে"
+   },
+   "ratingCommunity": {
+      "message": "জনসাধারণের মূল্যায়ন %s"
+   },
+   "ratingDone": {
+      "message": "সম্পন্ন"
+   },
+   "ratingGood": {
+      "message": "এই সাইটের ভাল রেটিং আছে"
+   },
+   "ratingLevelAverage": {
+      "message": "মাঝারি"
+   },
+   "ratingLevelBad": {
+      "message": "খারাপ"
+   },
+   "ratingLevelPositive": {
+      "message": "ইতিবাচক"
+   },
+   "ratingLevelUndefined": {
+      "message": "নেই"
+   },
+   "ratingNegative": {
+      "message": "কেন আপনি আপনার অভিজ্ঞতা নেতিবাচক হিসেবে মূল্যায়ন করেছেন?"
+   },
+   "ratingNoRate": {
+      "message": "আমি এখন মূল্যায়ন করতে চাই না"
+   },
+   "ratingPending": {
+      "message": "রেটিং উদ্ধার করা হচ্ছে"
+   },
+   "ratingPositive": {
+      "message": "কেন আপনি আপনার অভিজ্ঞতা ইতিবাচক হিসেবে মূল্যায়ন করেছেন?"
+   },
+   "ratingRate": {
+      "message": "আপনি এই সাইট সম্পর্কে আপনার অভিজ্ঞতা কিভাবে মুল্যায়ন করবেন?"
+   },
+   "ratingTextAverage": {
+      "message": "এই সাইটের একটি খারাপ খ্যাতি আছে"
+   },
+   "ratingTextBad": {
+      "message": "এই সাইটটি অনিরাপদ"
+   },
+   "ratingTextPositive": {
+      "message": "এই সাইটটি নিরাপদ"
+   },
+   "ratingTextUndefined": {
+      "message": "অজানা সাইট"
+   },
+   "ratingVeryBad": {
+      "message": "এই সাইটের রেটিং খুব খারাপ"
+   },
+   "reasonBlocker": {
+      "message": "(বিপদ ব্লক করা হয়েছে)"
+   },
+   "reasonPhishing": {
+      "message": "(ফিশিং সাইট সনাক্ত হয়েছে)"
+   },
+   "reasonUnknownFullText": {
+      "message": "এই সাইটটিকে এখনো কোনো রেটিং দেওয়া হয় নি"
+   },
+   "restart_notification": {
+      "message": "আপনি আপনার ব্রাউজার পূনর্সূচনা করার পরে এই পরিবর্তনগুলি কার্যকর হবে।"
+   },
+   "restore_defaults": {
+      "message": "ডিফল্টগুলি পুনরুদ্ধার করুন"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "ফিরে যান"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "অনুরূপ হোটেল পাওয়া গেছে!"
+   },
+   "safeZoneDecline": {
+      "message": "SafeZone প্রস্তাব করবেনা এর জন্য "
+   },
+   "safeZoneDesc": {
+      "message": "Avast বিশেষ পরামর্শ দিচ্ছে যে আপনি SafeZone এ পরিবর্তন হোন"
+   },
+   "safeZoneFeedback": {
+      "message": "আপনার আস্থার জন্য, অনুরোধ করা URL SafeZone এ খোলা হয়েছে"
+   },
+   "safeZoneNo": {
+      "message": "না"
+   },
+   "safeZoneYes": {
+      "message": "এখনি পরিবর্তন করুন"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> প্রস্তুত। আপনার কেনাকাটা শুভ হোক!"
+   },
+   "search": {
+      "message": "অনুসন্ধান করুন"
+   },
+   "settingsReset": {
+      "message": "ডিফল্ট এ পুন-সেট"
+   },
+   "settingsSave": {
+      "message": "সংরক্ষণ"
+   },
+   "settingscommunityIQ": {
+      "message": "পরিসংখ্যান"
+   },
+   "settingscommunityIQDesc": {
+      "message": "এই বিকল্পটি সক্ষম করে আপনি Avast কে নির্দিষ্ট কিছু তথ্য বেনামে ফরোয়ার্ড করার বিষয়ে আপনার সম্মতি দিচ্ছেন। আমরা বেনামী তথ্য তৃতীয় পক্ষের সঙ্গে শেয়ার করতে পারি।"
+   },
+   "settingsdnt": {
+      "message": "ডু-নট-ট্র্যাক"
+   },
+   "settingsdnt0": {
+      "message": "গোপনীয়তা শিল্ড"
+   },
+   "settingsdnt2": {
+      "message": "ডু-নট-ট্র্যাক"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "ডিফল্ট-অনুসারে বিজ্ঞাপন অনুসরণ করা অবরুদ্ধ করবে"
+   },
+   "settingsdntDesc": {
+      "message": "অবাঞ্ছিত বিজ্ঞাপন সনাক্ত এবং অবরুদ্ধ করবে এবং বিশ্লেষণ সাইটসমূহকে গোপনে আপনাকে অনুসরণ করাকে প্রতিরোধ করবে."
+   },
+   "settingsdntOthersDesc": {
+      "message": "ডিফল্ট-অনুসারে অন্যান্যগুলো অবরুদ্ধ করবে"
+   },
+   "settingsdntSocialDesc": {
+      "message": "ডিফল্ট-অনুসারে সামাজিক নেটওয়ার্কসমূহ অবরুদ্ধ করবে"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "ডিফল্ট-অনুসারে ওয়েব পরিসংখ্যান অবরুদ্ধ করবে"
+   },
+   "settingsphishing": {
+      "message": "অ্যান্টি-ফিশিং"
+   },
+   "settingsphishing0": {
+      "message": "সার্ফ শিল্ড"
+   },
+   "settingsphishing2": {
+      "message": "অ্যান্টি-ফিশিং"
+   },
+   "settingsphishingDesc": {
+      "message": "ম্যালওয়্যার এবং ফিশিং প্রতিরোধ করার জন্য ওয়েবসাইট-সমূহ পরীক্ষা করে"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "সংবেদনশীল অর্থনৈতিক সাইট এর জন্য SafeZone এ পরিবর্তন করুন (Avast অ্যান্টিভাইরাস সংস্থাপিত হওয়া আবশ্যক)"
+   },
+   "settingsserp": {
+      "message": "অনুসন্ধান ইঞ্জিন ফলাফল"
+   },
+   "settingsserpDesc": {
+      "message": "অনুসন্ধান ফলাফল পাতার রং সক্ষম করুন"
+   },
+   "settingsserpPopupDesc": {
+      "message": "অনুসন্ধান ফলাফল পাতার পপআপসমূহ সক্ষম করুন"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "অনুরোধ-করণ এড়িয়ে যাবে এবং স্বয়ংক্রিয় বৈধ সাইটে পুনর্নির্দেশ করবে"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "ভুল-টাইপ করা ইউআরএল-সমূহ সনাক্ত এবং সংশোধন করবে এবং বৈধ সাইটে নির্দেশ দিবে"
+   },
+   "sfzoneAlways": {
+      "message": "হ্যাঁ, সর্বদা"
+   },
+   "sfzoneDesc": {
+      "message": "আপনি একটি অনলাইন ব্যাংকিং সাইটে প্রবেশ করেছেন। আনি কি এটি Avast SafeZone এ খুলতে চান?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "কখনই না"
+   },
+   "sfzoneNo": {
+      "message": "না"
+   },
+   "sfzoneSwitch": {
+      "message": "Avast SafeZone এ পরিবর্তন করুন"
+   },
+   "sfzoneYes": {
+      "message": "হ্যাঁ"
+   },
+   "shopping": {
+      "message": "কেনাকাটা"
+   },
+   "sideDashboard": {
+      "message": "আমার Avast"
+   },
+   "sideDetails": {
+      "message": "আরও জানুন"
+   },
+   "sideRate": {
+      "message": "এখন মূল্যায়ন করুন"
+   },
+   "sideSettings": {
+      "message": "সেটিংস"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "আপনি সার্ফ ও সন্ধান করার সময় বিপজ্জনক ওয়েবসাইটগুলি থেকে সতর্ক থাকতে এটি চালু করুন।"
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "সাইটের নিরাপত্তা বর্তমানে বন্ধ আছে।"
+   },
+   "site_safety_site_info_cookies": {
+      "message": "কুকিজ"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "পুরো প্রতিবেদন দর্শন করুন"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP ঠিকানা"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "সর্বশেষ আপডেট করা হয়েছে"
+   },
+   "site_safety_site_info_location": {
+      "message": "সার্ভারের অবস্থান"
+   },
+   "site_safety_site_info_na": {
+      "message": "প্রযোজ্য নয়"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "সাইটের জনপ্রিয়তা"
+   },
+   "site_safety_site_info_size": {
+      "message": "আকার"
+   },
+   "site_safety_site_info_speed": {
+      "message": "গতি"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL নিরাপত্তা"
+   },
+   "site_safety_site_info_website": {
+      "message": "ওয়েবসাইট"
+   },
+   "site_safety_title": {
+      "message": "সাইটের নিরাপত্তা"
+   },
+   "sitecorrectAuto": {
+      "message": "এখন থেকে আমাকে সয়ংক্রিয় জানা সঠিক সাইটে নিয়ে যাবে"
+   },
+   "sitecorrectBarButton": {
+      "message": "এটি কোন ভুল ছিল না, আমাকে পূর্বে নিয়ে যাও"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: সয়ংক্রিয় পুনঃনির্দেশিত হয়েছে %s থেকে"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Avast SiteCorrect বৈশিষ্ট্যটি কনফিগার করার জন্য, Avast ইউজার ইন্টারফেস চালু করুন, অতিরিক্ত সুরক্ষা তে যান, ব্রাউজার সুরক্ষা এবং সেটিংস বাটনটি ব্যবহার করুন."
+   },
+   "sitecorrectMean": {
+      "message": "আপনি কি বোঝাতে চেয়েছেন %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "না, আমি আসলেই বোঝাতে চেয়েছি %s"
+   },
+   "sitecorrectText": {
+      "message": "এটি সম্ভবত সেই সাইট নয় যাতে আপনি ঢুকতে চাচ্ছেন."
+   },
+   "sitecorrectYes": {
+      "message": "হ্যাঁ"
+   },
+   "sites_protected": {
+      "message": "সাইটগুলিতে ম্যালওয়্যার \u003Cspan>স্ক্যান করা হচ্ছে\u003C/span>"
+   },
+   "social": {
+      "message": "সামাজিক / গেমিং"
+   },
+   "thanksHeadline": {
+      "message": "আপনার মূল্যায়নের জন্য ধন্যবাদ!"
+   },
+   "thanksMessage": {
+      "message": "আপনার ভোট জমা দেওয়া হয়েছে."
+   },
+   "title": {
+      "message": "Avast অনলাইন সুরক্ষা সেটিংস"
+   },
+   "topBarDetails": {
+      "message": "বিস্তারিত দেখুন"
+   },
+   "topBarRatingAverage": {
+      "message": "%s ঠিক আছে হিসেবে মূল্যায়ন করা হয়েছে"
+   },
+   "topBarRatingBad": {
+      "message": "%s বিপদজনক হিসেবে মূল্যায়ন করা হয়েছে"
+   },
+   "topBarRatingGood": {
+      "message": "%s নিরাপদ হিসেবে মূল্যায়ন করা হয়েছে"
+   },
+   "trackers_blocked": {
+      "message": "অনধিকারপ্রবেশমূলক ট্র্যাকারগুলি \u003Cspan>অবরোধ করা হচ্ছে\u003C/span>"
+   },
+   "uninstall": {
+      "message": "আনইনস্টল করুন"
+   },
+   "verdict_dangerous": {
+      "message": "বিপজ্জনক"
+   },
+   "verdict_info_dangerous": {
+      "message": "এই পৃষ্ঠাটি এড়িয়ে যান! এই পৃষ্ঠাটিতে সক্রিয় হুমকি আছে এবং এতে ব্রাউজ করার পরামর্শ দেওয়া হয় না।"
+   },
+   "verdict_info_risky": {
+      "message": "সতর্কতার সাথে সার্ফ করুন। এই পৃষ্ঠাটিতে হুমকি থাকতে পারে এবং এতে ব্রাউজ করার পরামর্শ দেওয়া হয় না।"
+   },
+   "verdict_info_safe": {
+      "message": "এই পৃষ্ঠায় কোনো সক্রিয় হুমকি নেই এবং নিরাপদে ব্রাউজ করা যাবে।"
+   },
+   "verdict_risky": {
+      "message": "ঝুঁকিপূর্ণ"
+   },
+   "verdict_safe": {
+      "message": "নিরাপদ"
+   },
+   "verdict_this_site_is": {
+      "message": "এই সাইটটি"
+   },
+   "version": {
+      "message": "AVG Web TuneUp সংস্করণ"
+   },
+   "violence": {
+      "message": "অস্ত্র / সহিংসতা"
+   },
+   "vote": {
+      "message": "ভোট"
+   },
+   "voteNegative": {
+      "message": "নেতিবাচক"
+   },
+   "votePositive": {
+      "message": "ইতিবাচক"
+   },
+   "webrepDisabled": {
+      "message": "WebRep নিষ্ক্রিয়"
+   },
+   "whatTypeContent": {
+      "message": "কি প্রকারের বিষয়বস্তু এই সাইটে প্রদান করে?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp আপনার ইন্টারনেট অভিজ্ঞতা অনুকূল করে আপনার জন্য কাজ করছে"
+   }
+}

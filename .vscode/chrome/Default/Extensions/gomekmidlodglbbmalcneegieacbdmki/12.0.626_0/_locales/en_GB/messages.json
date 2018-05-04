@@ -1,0 +1,538 @@
+{
+   "InternalTabs": {
+      "message": "You cannot rate local files or internal tabs"
+   },
+   "VoteThank": {
+      "message": "Thank you! Your vote was successfully saved."
+   },
+   "anonymousUser": {
+      "message": "Anonymous user"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Open Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Switch now"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Learn more"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast tip: SafeZone browser blocks ads to protect you from tracking cookies and malvertising."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Make your online payments safely by using Avast SafeZone browser instead."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Secure the best deals and pay for them safely with Avast SafeZone browser."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Did you know you can easily download videos from streaming sites?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Don't show this again"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online Security"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Allow all tracking systems"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "on all websites"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Block all tracking systems"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Global Settings"
+   },
+   "baMoreSettingsAction": {
+      "message": "More settings"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "allowed"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "blocked"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Tracking systems are currently"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "on website"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "tracking systems"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "You rate this site as"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negative"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positive"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "castYourVote": {
+      "message": "Cast your vote"
+   },
+   "checkAll": {
+      "message": "(Check all that apply)"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "corporate": {
+      "message": "Corporate"
+   },
+   "currentVote": {
+      "message": "Overall rating"
+   },
+   "detailsHeadline": {
+      "message": "Avast has scanned this site"
+   },
+   "detailsMalwareNo": {
+      "message": "No malware detected"
+   },
+   "detailsMalwareYes": {
+      "message": "Malware detected!"
+   },
+   "detailsPhishingNo": {
+      "message": "No phishing detected"
+   },
+   "detailsPhishingYes": {
+      "message": "Phishing detected!"
+   },
+   "disabledTab": {
+      "message": "You cannot rate local files or internal tabs"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Ad Tracking"
+   },
+   "dntAllowGroupAction": {
+      "message": "Allow all"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Allow"
+   },
+   "dntAllowed": {
+      "message": "allowed"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Automatic blocking of trackers: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Disabled"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Enabled"
+   },
+   "dntBlockGroupAction": {
+      "message": "Block all"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Block"
+   },
+   "dntBlocked": {
+      "message": "blocked"
+   },
+   "dntHeadline": {
+      "message": "%s companies tried to track you"
+   },
+   "dntNetworks": {
+      "message": "Networks"
+   },
+   "dntNetworksDetected": {
+      "message": "%s networks detected"
+   },
+   "dntOthersNetworks": {
+      "message": "Others"
+   },
+   "dntSocialNetworks": {
+      "message": "Social networks"
+   },
+   "dntStatusAllAllowed": {
+      "message": "All allowed"
+   },
+   "dntStatusAllBlocked": {
+      "message": "All blocked"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Blocked"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Some blocked"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Web Analytics"
+   },
+   "drugs": {
+      "message": "Alcohol / Drugs"
+   },
+   "error": {
+      "message": "Error"
+   },
+   "errorUnexpected": {
+      "message": "Unexpected Error"
+   },
+   "gambling": {
+      "message": "Gambling"
+   },
+   "howLike": {
+      "message": "How do you like this site?"
+   },
+   "illegal": {
+      "message": "Warez / Illegal"
+   },
+   "it": {
+      "message": "IT / Download"
+   },
+   "loginAnonymous": {
+      "message": "As anonymous user"
+   },
+   "loginDesc": {
+      "message": "Fill in your login data for your my.avast.com account:"
+   },
+   "loginError": {
+      "message": "Login has failed"
+   },
+   "loginLogin": {
+      "message": "Log in"
+   },
+   "loginLogout": {
+      "message": "Log out"
+   },
+   "loginName": {
+      "message": "Name:"
+   },
+   "loginPswd": {
+      "message": "Password:"
+   },
+   "malwareNext": {
+      "message": "Download Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "This site could have harmed your computer."
+   },
+   "malwareSiteRec": {
+      "message": "We recommend that you install Avast Antivirus to scan your computer."
+   },
+   "news": {
+      "message": "News / Blog"
+   },
+   "noRating": {
+      "message": "This site has no rating"
+   },
+   "noWeight": {
+      "message": "(not enough votes)"
+   },
+   "others": {
+      "message": "Others"
+   },
+   "phishingBack": {
+      "message": "Get me out of here"
+   },
+   "phishingClose": {
+      "message": "Ignore the warning"
+   },
+   "phishingCreditNumber": {
+      "message": "It seems that you are trying to type a password or credit card number on a site with a poor reputation. Please double-check that the site is genuine. Entering your personal information on an untrusted site may pose a security risk."
+   },
+   "phishingDesc": {
+      "message": "Phishing is the attempt to acquire sensitive information such as usernames, passwords and credit cards details..."
+   },
+   "phishingPhishingSite": {
+      "message": "This site has been marked as a phishing site."
+   },
+   "phishingTrust": {
+      "message": "I trust this website"
+   },
+   "phishingWarning": {
+      "message": "Warning"
+   },
+   "pornography": {
+      "message": "Pornography"
+   },
+   "ratingAverage": {
+      "message": "This site has an average rating"
+   },
+   "ratingBad": {
+      "message": "This site has a bad rating"
+   },
+   "ratingCommunity": {
+      "message": "%s community rating"
+   },
+   "ratingDone": {
+      "message": "Done"
+   },
+   "ratingGood": {
+      "message": "This site has a good rating"
+   },
+   "ratingLevelAverage": {
+      "message": "Average"
+   },
+   "ratingLevelBad": {
+      "message": "Bad"
+   },
+   "ratingLevelPositive": {
+      "message": "Positive"
+   },
+   "ratingLevelUndefined": {
+      "message": "No"
+   },
+   "ratingNegative": {
+      "message": "Why did you rate your experience as negative?"
+   },
+   "ratingNoRate": {
+      "message": "I don't want to rate now"
+   },
+   "ratingPending": {
+      "message": "Retrieving rating"
+   },
+   "ratingPositive": {
+      "message": "Why did you rate your experience as positive?"
+   },
+   "ratingRate": {
+      "message": "How do you rate your experience with this site?"
+   },
+   "ratingTextAverage": {
+      "message": "this site has a bad reputation"
+   },
+   "ratingTextBad": {
+      "message": "this site is not safe"
+   },
+   "ratingTextPositive": {
+      "message": "this site is safe"
+   },
+   "ratingTextUndefined": {
+      "message": "unknown site"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Revert"
+   },
+   "safeZoneDecline": {
+      "message": "Do not offer SafeZone for "
+   },
+   "safeZoneDesc": {
+      "message": "Avast recommends that you switch to SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "For your confidence, the requested URL has been opened in SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "No"
+   },
+   "safeZoneYes": {
+      "message": "Switch now"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice finds the best deals for your wanted product. Check prices, compare shops, read customer reviews, verify retailer reputation, watch product videos, and get coupons right in your web browser."
+   },
+   "settingsReset": {
+      "message": "Reset to default"
+   },
+   "settingsSave": {
+      "message": "Save"
+   },
+   "settingscommunityIQ": {
+      "message": "Data Sharing"
+   },
+   "settingscommunityIQDesc": {
+      "message": "By enabling this option you are giving your consent to anonymously forward certain information to Avast. We may share anonymised information with third parties."
+   },
+   "settingsdnt": {
+      "message": "Do not track"
+   },
+   "settingsdnt0": {
+      "message": "Privacy Shield"
+   },
+   "settingsdnt2": {
+      "message": "Do not track"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Block ad tracking by default"
+   },
+   "settingsdntDesc": {
+      "message": "Detects and blocks unwanted advertising and prevents analytics sites from secretly tracking you"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Block others by default"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Block social networks by default"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Block web analytics by default"
+   },
+   "settingsphishing": {
+      "message": "Antiphishing"
+   },
+   "settingsphishing0": {
+      "message": "Surf Shield"
+   },
+   "settingsphishing2": {
+      "message": "Antiphishing"
+   },
+   "settingsphishingDesc": {
+      "message": "Scans websites for malware and prevents phishing"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Switch to SafeZone for sensitive financial sites (requires Avast Antivirus installed)"
+   },
+   "settingsserp": {
+      "message": "Search engine results"
+   },
+   "settingsserpDesc": {
+      "message": "Enable colouring of search results page"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Enable popups on search results page"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Skip prompt and automatically redirect to legitimate sites"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Detects and corrects mistyped URLs and directs to legitimate sites"
+   },
+   "sfzoneAlways": {
+      "message": "Yes, always"
+   },
+   "sfzoneDesc": {
+      "message": "You have entered an online banking site. Do you want to open it in Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Never"
+   },
+   "sfzoneNo": {
+      "message": "No"
+   },
+   "sfzoneSwitch": {
+      "message": "Switch to Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Yes"
+   },
+   "shopping": {
+      "message": "Shopping"
+   },
+   "sideDashboard": {
+      "message": "My Avast"
+   },
+   "sideDetails": {
+      "message": "Learn more"
+   },
+   "sideRate": {
+      "message": "Rate now"
+   },
+   "sideSettings": {
+      "message": "Settings"
+   },
+   "sitecorrectAuto": {
+      "message": "Automatically take me to known correct sites from now on"
+   },
+   "sitecorrectBarButton": {
+      "message": "This was not a mistake, take me back"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: automatically redirecting from %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "To configure the Avast SiteCorrect feature, please open the Avast user interface, go to Additional Protection, Browser Protection and use the Settings button."
+   },
+   "sitecorrectMean": {
+      "message": "Did you mean %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "No, I really did mean %s"
+   },
+   "sitecorrectText": {
+      "message": "This is probably not the site you were trying to enter."
+   },
+   "sitecorrectYes": {
+      "message": "Yes"
+   },
+   "social": {
+      "message": "Social / Gaming"
+   },
+   "thanksHeadline": {
+      "message": "Thanks for your rating!"
+   },
+   "thanksMessage": {
+      "message": "Your vote has been submitted."
+   },
+   "title": {
+      "message": "Avast Online Security Settings"
+   },
+   "topBarDetails": {
+      "message": "View details"
+   },
+   "topBarRatingAverage": {
+      "message": "%s is rated as okay"
+   },
+   "topBarRatingBad": {
+      "message": "%s is rated as dangerous"
+   },
+   "topBarRatingGood": {
+      "message": "%s is rated as safe"
+   },
+   "violence": {
+      "message": "Weapons / Violence"
+   },
+   "vote": {
+      "message": "Vote"
+   },
+   "voteNegative": {
+      "message": "negative"
+   },
+   "votePositive": {
+      "message": "positive"
+   },
+   "webrepDisabled": {
+      "message": "WebRep is disabled"
+   },
+   "weight1": {
+      "message": "(based on a small number of votes)"
+   },
+   "weight2": {
+      "message": "(based on a limited number of votes)"
+   },
+   "weight3": {
+      "message": "(based on many votes)"
+   },
+   "whatTypeContent": {
+      "message": "What type of content does this site provide?"
+   }
+}

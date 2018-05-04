@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Raskite geriausias kainas, pasiūlymus ir kuponus pirkdami internete, naudodami „Avast“ kainų lyginimo ir kuponų pratęsimo paslaugas."
+   },
+   "avastAppName": {
+      "message": "„Avast SafePrice“"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Raskite geriausias kainas, pasiūlymus ir kuponus pirkdami internete, naudodami AVG kainų lyginimo ir kuponų pratęsimo paslaugas."
+   },
+   "avgAppName": {
+      "message": "„AVG SafePrice“"
+   },
+   "sasClickToCopy": {
+      "message": "Spragtelėkite nukopijuoti"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kodas nukopijuotas į iškarpinę"
+   },
+   "sasHintSettings": {
+      "message": "Nustatymai"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Nuo: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Gali būti taikomi papildomi mokesčiai"
+   },
+   "spApply": {
+      "message": "Taikyti kuponą"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Tik pažvelkite! Daugiau pasiūlymų"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Tik pažvelkite!\u003Cbr> Daugiau pasiūlymų"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Daugiau pasiūlymų, daugiau sutaupytų pinigų!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Daugiau pasiūlymų,\u003Cbr> daugiau sutaupytų pinigų!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Populiarūs viešbučiai:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Perkopijuoti baigiant apsipirkimą:"
+   },
+   "spCouponApplied": {
+      "message": "Kuponas pritaikytas."
+   },
+   "spCouponsAvailableText": {
+      "message": "Prieinama"
+   },
+   "spCouponsExpiration": {
+      "message": "Galioja iki: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Taupykite pinigus naudodami kuponus"
+   },
+   "spCouponsSelected": {
+      "message": "Pasirinkti kuponai: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Pasirinkta"
+   },
+   "spCouponsTab": {
+      "message": "Kuponai"
+   },
+   "spGetCouponCode": {
+      "message": "Gauti kodą"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Laukti verta, prižadame."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Ieškoma pasiūlymų..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Oi...\u003Cbr>Kuponų nerasta..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Oi...\u003Cbr>Pasiūlymų nerasta..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Oi...\u003Cbr>Specialių pasiūlymų nerasta..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Mažiau"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Daugiau"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "RODYTI PASIŪLYMĄ"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Įrašyti %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Rasta pasiūlymų ir kuponų. Jums pasisekė!"
+   },
+   "spOffersTab": {
+      "message": "Pasiūlymai"
+   },
+   "spOthersTab": {
+      "message": "Kiti"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Įtraukti: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "apgyvendinimą ir keliones"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "el. parduotuves"
+   },
+   "spSettingsPageCancel": {
+      "message": "Atšaukti"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Individualizuotas sąrašas"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Pridėti"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Pridėti svetainę"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Nerodyti pranešimų šiose interneto svetainėse:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(pasiūlymus ir kuponus pamatysite spragtelėję piktogramą mygtukų juostoje)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Žinynas"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kuponai"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Norėdami panaudoti kuponą, tiesiog jį spragtelėkite. Jei atsiras kodas, jį reikės įdėti į atitinkamą laukelį apmokant pirkinius. Jei kodo nėra, kuponas automatiškai pritaikomas."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Sužinokite daugiau skiltyje \u003Cspan class='asp-faqs-span'>DUK\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Pranešimai"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Kai „SafePrice“ rande pasiūlymą ar kuponą, susijusį su jūsų paieška, iškylančiajame lange pasirodys pranešimas. Spauskite didelį žalią mygtuką, kad pamatytumėte, ką radome."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Pasiūlymai"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Paspaudę pasiūlymą, būsite nukreipti į patikimą partnerio el. parduotuvę, kur galėsite įsigyti prekę pranešime nurodyta kaina."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Kiti"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Paspaudę nurodytą specialų pasiūlymą, būsite nukreipti į patikimą partnerio el. parduotuvę."
+   },
+   "spSettingsPageSave": {
+      "message": "Įrašyti"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "„Avast SafePrice“ nuostatos"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "„AVG SafePrice“ nuostatos"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Pranešimai"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Pranešimai apie kuponus"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Nepranešti apie kuponus"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(kuponus pamatysite spragtelėję piktogramą mygtukų juostoje)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Rodyti, kai yra kuponas"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Kiekvienoje interneto svetainėje rodyti tik kartą"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Pranešimai apie pasiūlymus"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Rodyti tik kai yra geresnis pasiūlymas, palyginti su pradine kaina"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Rodyti tik pasiūlymus, leidžiančius sutaupyti bent 10 %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Nepranešti apie pasiūlymus"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(pasiūlymus pamatysite spragtelėję piktogramą mygtukų juostoje)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Rodyti, kai yra pasiūlymas"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Kiti"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Pranešti apie kitų kategorijų specialius pasiūlymus (gabenimas, finansai, energijos tiekimas ir kt.)"
+   },
+   "spShippingLabel": {
+      "message": "S/T iš"
+   },
+   "spShowNotificationMessage": {
+      "message": "RODYTI"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Tik pažiūrėkite, ką radome!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Rasta alternatyvių viešbučių!"
+   }
+}

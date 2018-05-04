@@ -1,0 +1,134 @@
+<!-- header / status -->
+<header class="aos-header aos-header-{{security.status}} aos-i aos-i-{{security.status}}">
+  <h1>{{{security.description}}}</h1>
+</header>
+
+<!-- rating section -->
+<section class="aos-section aos-rating">
+  {{#webrep}}
+  {{#rate}}
+  <!-- user rating part -->
+  <h3 class="aos-text-h3">[[string:ratingRate]]</h3>
+  <div class="aos-rating-buttons clear">
+    <button class="aos-button aos-button-icon aos-button-ok aos-rating-positive aos-i aos-i-thumbs-up" on-click="action.ratedPositive">[[string:votePositive]]</button>
+    <button class="aos-button aos-button-icon-right aos-button-error aos-rating-negative aos-i aos-i-right aos-i-thumbs-down" on-click="action.ratedNegative">[[string:voteNegative]]</button>
+  </div>
+  {{/rate}}
+
+  <!-- rating survey -->
+  {{#reason}}
+  <h3 class="aos-text-h3">[[string:ratingNegative]]</h3>
+  <div class="aos-form">
+    <label class="aos-form-checkbox"><input type="checkbox" checked="{{reason.pornography}}">[[string:pornography]]</label>
+    <label class="aos-form-checkbox"><input type="checkbox" checked="{{reason.violence}}">[[string:violence]]</label>
+    <label class="aos-form-checkbox"><input type="checkbox" checked="{{reason.gambling}}">[[string:gambling]]</label>
+    <label class="aos-form-checkbox"><input type="checkbox" checked="{{reason.drugs}}">[[string:drugs]]</label>
+    <label class="aos-form-checkbox"><input type="checkbox" checked="{{reason.illegal}}">[[string:illegal]]</label>
+    <label class="aos-form-checkbox"><input type="checkbox" checked="{{reason.others}}">[[string:others]]</label>
+    <button class="aos-button" style="width: auto;" on-click="action.ratingDetails">[[string:ratingDone]]</button>
+  </div>
+  {{/reason}}
+
+
+  <!-- already rated info -->
+  {{#rated}}
+  <p class="aos-text-p aos-padding-none">[[string:baYouHaveRateSite1]] {{#positive}}<span class="aos-text-ok aos-text-bold">[[string:baYouHaveRateSite2positive]]</span>{{else}}<span class="aos-text-error aos-text-bold">[[string:baYouHaveRateSite2negative]]</span>{{/positive}} 
+  <span class="aos-text-bold">[[string:baYouHaveRateSite3]]</span><span style="float: right;"><a href="" on-click="action.revertVote">[[string:revert]]</a></span></p>
+  {{/rated}}
+
+  <!-- rating thankyou -->
+  {{#thanks}}
+  <p class="aos-rating-thanx">[[string:thanksHeadline]]</p>
+  {{/thanks}}
+  {{/webrep}}
+</section>
+
+<!-- site results (tracking list) -->
+<section class="aos-section aos-result aos-text">
+
+  <!-- results title -->
+  <h2 class="aos-padding-bottom-none"><strong>{{dnt.stat.total}}</strong> [[string:baTrackingSystems]]</h2>
+  <h3 class="aos-padding-top-none">
+    <span class="aos-result-website">[[string:baOnWebsite]]</span>
+    {{dnt.host}}
+  </h3>
+
+  <!-- accordeon -->
+  <div class="aos-accordeon">
+
+    <!-- accordeon title -->
+    <!-- add class "aos-show" to display next container -->
+    {{#each dnt.groups}}
+    <h4 class="aos-accordeon-title {{#show}}aos-show{{/}}" on-click="action.showGroup:{{type}}">
+      {{desc}}
+      <span class="aos-text-grey">({{totalTrackers}}) </span>
+      {{#show}}
+		{{#dnt.active}}
+			<p class="aos-right">[[string:dntStatusAllBlocked]]</p>
+		{{else}} 
+			{{#active}}
+			  <a href="" class="aos-right" on-click="action.blockGroup:{{type}},false">[[string:dntAllowGroupAction]]</a>
+			{{else}}
+			  <a href="" class="aos-right" on-click="action.blockGroup:{{type}},true">[[string:dntBlockGroupAction]]</a>
+			{{/active}}
+		{{/#dnt.active}}
+      {{else}}
+        <span class="aos-right">
+		{{#dnt.active}}
+		  [[string:dntStatusAllBlocked]]
+		{{else}} 
+          {{#allAllowed}}[[string:dntStatusAllAllowed]]{{/}}
+          {{#allBlocked}}[[string:dntStatusAllBlocked]]{{/}}
+          {{#someBlocked}}[[string:dntStatusSomeBlocked]]{{/}}
+		{{/#dnt.active}}		  
+        </span>
+      {{/show}}
+    </h4>
+    <div class="aos-accordeon-pane aos-accordeon-list">
+      <div class="aos-accordeon-pane-inner aos-text">
+        {{#trackers:i}}
+        <p class="aos-i {{#active}}aos-inactive{{/active}} aos-i-{{icon}}">{{name}}
+		{{#dnt.active}}
+			<p class="aos-right" >[[string:dntStatusAutoBlocked]]</p>
+		{{else}}	
+			{{#active}}
+			<a href="" class="aos-right" on-click="action.blockTracker:{{id}},false">[[string:dntAllowTrackerAction]]</a>
+			{{else}}
+			<a href="" class="aos-right" on-click="action.blockTracker:{{id}},true">[[string:dntBlockTrackerAction]]</a>
+			{{/active}}
+		{{/#dnt.active}}
+        </p>
+        {{/trackers}}
+      </div>
+    </div>
+    {{/each}}
+
+  </div>
+</section>
+
+<!-- settings -->
+<section class="aos-section aos-settings aos-text">
+  <h2 class="aos-text-h2 aos-text-h2-grey">[[string:baGlobalSettingsHeader]]</h2>
+  {{#dnt.active}}
+  <p class="aos-padding-top-none">
+    [[string:dntAutomaticBlocking]]
+    <a href="" on-click="action.blockDnt">[[string:dntAutomaticBlockingEnabled]]</a>
+  </p>
+  {{else}}
+  <p class="aos-padding-top-none">
+    [[string:dntAutomaticBlocking]]
+    <a href="" on-click="action.activateDnt">[[string:dntAutomaticBlockingDisabled]]</a>
+  </p>
+  {{/dnt.active}}
+  <h4><a href="" class="aos-link-black" on-click="action.openSettings">[[string:baMoreSettingsAction]]</a></h4>
+</section>
+
+<!-- footer -->
+<footer class="aos-section aos-section-grey aos-footer">
+  <h3>
+    <a href="" class="aos-logo" on-click="action.openHome">
+      <span class="aos-logo-img"></span>
+      <span class="aos-logo-text">[[string:avastLogoOnlineSecuritySuffix]]</span>
+    </a>
+  </h3>
+</footer>

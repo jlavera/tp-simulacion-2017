@@ -1,0 +1,234 @@
+{
+	"avastAppName": {
+		"message": "Avast SafePrice"
+	},
+	"avastAppDesc": {
+		"message": "Avast کے ذریعے جاری کردہ قیمت کا موازنہ اور کوپنز کی توسیع کے ساتھ آن لائن خریداری کرنے وقت بہترین قیمتیں، ڈیلز اور کوپنز تلاش کریں۔",
+		"description": "max 132 chars are allowed for this message"
+	},
+	"avgAppName": {
+		"message": "AVG SafePrice"
+	},
+	"avgAppDesc": {
+		"message": "AVG کے ذریعے جاری کردہ قیمت کا موازنہ اور کوپنز کی توسیع کے ساتھ آن لائن خریداری کرنے وقت بہترین قیمتیں، ڈیلز اور کوپنز تلاش کریں۔",
+		"description": "max 132 chars are allowed for this message"
+	},
+	"sasStartingPrice": {
+		"message": "آغاز در: %s",
+		"description": "%s is the minimum value off the price. Example: Starting at: $124.00"
+	},
+	"sasHintSettings": {
+		"message": "سيٹنگز"
+	},
+	"sasClickToCopy": {
+		"message": "کاپی کرنے کے لئے کلک کریں"
+	},
+	"spSettingsPageTitleAvast": {
+		"message": "Avast SafePrice سیٹنگز"
+	},
+	"spSettingsPageTitleAvg": {
+		"message": "AVG SafePrice سیٹنگز"
+	},
+	"spOffersTab": {
+		"message": "پیش کشیں"
+	},
+	"spCouponsTab": {
+		"message": "کوپنس"
+	},
+	"spOthersTab": {
+		"message": "دیگر"
+	},
+	"spOfferSaving": {
+		"message": "%s محفوظ کریں",
+		"description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%"
+	},
+	"spAdditionalFees": {
+		"message": "اضافی فیس اور ٹیکسز عائد ہو سکتے ہیں"
+	},
+	"spShippingLabel": {
+		"message": "کی طرف سے شپنگ اور ہینڈلنگ"
+	},
+	"spGetCouponCode": {
+		"message": "کوڈ حاصل کریں"
+	},
+	"spApply": {
+		"message": "کوپن کا اطلاق کریں"
+	},
+	"spCopyAtCheckOut": {
+		"message": "چیک آؤٹ پر کاپی اور پیسٹ کریں:"
+	},
+	"spCouponApplied": {
+		"message": "کوپن کا اطلاق کیا گیا۔"
+	},
+	"spLoadingNotificationMessage": {
+		"message": "ڈیلز کی تلاش کر رہا ہے..."
+	},
+	"spLoadingNotificationDescriptionMessage": {
+		"message": "انتظار قابل قدر ہے، ہمارا وعدہ ہے۔"
+	},
+	"spCouponsNotificationMessage": {
+		"message": "کوپنز کا استعمال کرکے پیسے بچائيں"
+	},
+	"spBetterOffersNotificationMessage": {
+		"message": "اوہ دیکھیں! مزید پیش کشیں"
+	},
+	"spBetterOffersNotificationBarMessage": {
+		"message": "اوہ دیکھیں! مزید پیش کشیں"
+	},
+	"spOffersAndCouponsNotificationMessage": {
+		"message": "پیش کشین اور کوپنز ملے۔ آپ خوش قسمت ہیں!"
+	},
+	"spBetterSpecialDealsNotificationMessage": {
+		"message": "مزید ڈیلز، مزید بچت!"
+	},
+	"spBetterSpecialDealsNotificationBarMessage": {
+		"message": "مزید ڈیلز، مزید بچت!"
+	},
+	"spCityHotelNotificationMessage": {
+		"message": "%s کی مشہور ہوٹلیں"
+	},
+	"spSimilarHotelsNotificationMessage": {
+		"message": "متبادل<br> ہوٹلیں ملی!"
+	},
+	"spShowNotificationMessage": {
+		"message": "دکھائيں"
+	},
+	"spShowNotificationRedirectMessage": {
+		"message": "دیکھیں ہمیں کیا ملا!"
+	},
+	"spNotificationRedirectShowRedirectMessage": {
+		"message": "ڈیل دکھائیں"
+	},
+	"spNotificationRedirectShowMoreMessage": {
+		"message": "مزید"
+	},
+	"spNotificationRedirectShowLessMessage": {
+		"message": "کم"
+	},
+	"spNothingFoundCoupons": {
+		"message": "اہ اوہ...<br>کوئی کوپننز نہیں ملے..."
+	},
+	"spNothingFoundOffers": {
+		"message": "اہ اوہ...<br>کوئی پیش کشیں نہیں ملیں..."
+	},
+	"spNothingFoundOthers": {
+		"message": "اہ اوہ...<br>کوئی خاص ڈیلز نہیں ملیں..."
+	},
+	"spCouponsSelected": {
+		"message": "کوپن منتخب: "
+	},
+	"spCouponsSelectedText": {
+		"message": "منتخب شدہ"
+	},
+	"spCouponsAvailableText": {
+		"message": "دستیاب"
+	},
+	"spCouponsExpiration": {
+		"message": "میعاد ختم ہوتی ہے: "
+	},
+	"spSettingsTabNotifications": {
+		"message": "اطلاعات"
+	},
+	"spSettingsTabNotificationsOffers": {
+		"message": "پیش کشوں کی اطلاعات"
+	},
+	"spSettingsTabNotificationsOffersShowAll": {
+		"message": "کسی بھی وقت پیش کش دستیاب ہونے پر دکھائیں"
+	},
+	"spSettingsTabNotificationsOffersBetter": {
+		"message": "صرف اس وقت دکھائیں جب اصل قیمت سے بہتر پیش کش دستیاب ہو"
+	},
+	"spSettingsTabNotificationsOffersBetterThanLimit": {
+		"message": "صرف ان پیش کشوں کو دکھائيں جن میں کم از کم 10  % بچت ہو"
+	},
+	"spSettingsTabNotificationsOffersHideAll": {
+		"message": "مجھے پیشکشوں کے بارے میں اطلاع نہ دیں"
+	},
+	"spSettingsTabNotificationsOffersHideAllDesc": {
+		"message": "(آپ ہمیشہ ٹول بار کے آئیکن پر کلک کرکے پیش کشیں دیکھ سکتے ہیں)"
+	},
+	"spSettingsPageAdvancedItemInclude": {
+		"message": "بشمول: "
+	},
+	"spSettingsPageAdvancedItemIncludeEShop": {
+		"message": "ای-شاپس"
+	},
+	"spSettingsPageAdvancedItemIncludeAccomm": {
+		"message": "رہائش ا ور سفر"
+	},
+	"spSettingsTabNotificationsCoupons": {
+		"message": "کوپنز کی اطلاعات"
+	},
+	"spSettingsTabNotificationsCouponsShowAll": {
+		"message": "کسی بھی وقت کوپن دستیاب ہونے پر دکھائیں"
+	},
+	"spSettingsTabNotificationsCouponsShowOnce": {
+		"message": "ہر ایک ویب سائٹ پر ایک مرتبہ ہی دکھائیں"
+	},
+	"spSettingsTabNotificationsCouponsHide": {
+		"message": "مجھے کوپنز کے بارے میں اطلاع نہ دیں"
+	},
+	"spSettingsTabNotificationsCouponsHideDesc": {
+		"message": "(آپ ہمیشہ ٹول بار کے آئیکن پر کلک کرکے کوپنز دیکھ سکتے ہیں)"
+	},
+	"spSettingsTabNotificationsOthers": {
+		"message": "دیگر"
+	},
+	"spSettingsTabNotificationsOthersDesc": {
+		"message": "دیگر زمروں (نقل و حمل، مالیات، بجلی کی فراہمی اور مزید) کی خاص ڈیلز کے متعلق اطلاع  مجھے دیں"
+	},
+	"spSettingsPageCustomList": {
+		"message": "حسب ضرورت فہرست"
+	},
+	"spSettingsPageCustomListTitle": {
+		"message": "ان ویب سائٹس پر کوئی اطلاعات نہ دکھائیں:"
+	},
+	"spSettingsPageCustomListTitleDesc": {
+		"message": "(آپ ہمیشہ ٹول بار کے آئیکن پر کلک کرکے پیش کشیں اور کوپنز دیکھ سکتے ہیں)"
+	},
+	"spSettingsPageHelp": {
+		"message": "مدد"
+	},
+	"spSettingsPageHelpNotificationsTitle": {
+		"message": "1. اطلاعات"
+	},
+	"spSettingsPageHelpNotificationsTitleDesc": {
+		"message": "SafePrice کو آپ کی تلاش سے متعلقہ پیش کش یا کوپنز ملنے پر، ایک اطلاع پاپ اپ ہوگی۔ ہمیں آپ کیلئے کیا ملا ہے دیکھنے کیلئے بڑے سبز بٹن پر دبائیں۔"
+	},
+	"spSettingsPageHelpOffersTitle": {
+		"message": "2. پیش کشیں"
+	},
+	"spSettingsPageHelpOffersTitleDesc": {
+		"message": "کسی پیش کش پر کلک کرنا آپ کو شراکت دار کی قابل اعتماد آن لائن اسٹور پر لے جائے گا، جہاں آپ کو اطلاع پر فہرست زدہ نئی قیمت حاصل ہوگی۔"
+	},
+	"spSettingsPageHelpCouponsTitle": {
+		"message": "3. کوپنز"
+	},
+	"spSettingsPageHelpCouponsTitleDesc": {
+		"message": "کوپن استعمال کرنے کیلئے، آپ کو بس اس پر کلک کرنا ہے۔ اگر وہ ایک کوڈ ظاہر کرتا ہے، تو آپ کو چیکٹ آؤٹ کے وقت اسے مناسب جگہ پر پیسٹ کرنا ہوگا۔ بصورت دیگر، کوپن کا اطلاق خود کار طور پر ہو جاتا ہے۔"
+	},
+	"spSettingsPageHelpOthersTitle": {
+		"message": "4. دیگر"
+	},
+	"spSettingsPageHelpOthersTitleDesc": {
+		"message": "فہرست زدہ خاص ڈیل پر کلک کرنا آپ کو شراکت دار کی قابل اعتماد آن لائن اسٹور پر لے جائے گا۔"
+	},
+	"spSettingsPageHelpFAQsTitle": {
+		"message": "<span class='asp-faqs-span'>FAQs</span> میں مزید جانکاری حاصل کریں۔"
+	},
+	"spSettingsPageCustomListItemAddSite": {
+		"message": "سائٹ شامل کریں"
+	},
+	"spSettingsPageCustomListItemAdd": {
+		"message": "شامل کریں"
+	},
+	"spSettingsPageCancel": {
+		"message": "منسوخ کریں"
+	},
+	"spSettingsPageSave": {
+		"message": "محفوظ کریں"
+	},
+	"sasCouponCodeCopied": {
+		"message": "کوڈ کلپ بورڈ پر کاپی کیا گیا ہے."
+	}
+}

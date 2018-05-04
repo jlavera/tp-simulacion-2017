@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "आप स्थानीय फ़ाइलों या आंतरिक टैब को रेट नहीं कर सकते"
+   },
+   "VoteThank": {
+      "message": "धन्यवाद! आपका वोट सफलतापूर्वक सेव हो गया."
+   },
+   "anonymousUser": {
+      "message": "अनाम यूज़र"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003C/b> आपके \u003Cb>क्रेडिट कार्ड नंबर, पासवर्ड\u003C/b> और \u003Cb>अन्य निजी डेटा को चोरी करने से हैकर्स को रोकने के लिए\u003C/b>शॉपिंग और बैंकिंग सत्रों को सुरक्षित रूप से अलग कर देता है।\u003Cb>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", आपके Avast एंटीवायरस के साथ इंस्टॉल किया गया Avast सुरक्षित ब्राउज़र का हिस्सा, \u003Cb> सुरक्षित रूप से शॉपिंग और बैंकिंग सत्रों को अलग कर देता है ताकि हैकर्स को आपके \u003Cb> क्रेडिट कार्ड नंबर, पासवर्ड, \u003C/b> और \u003Cb> अन्य निजी डेटा \u003C/b> चोरी करने से रोका जा सके. \u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb> बैंक मोड \u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "अभी नहीं"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Avast SafeZone खोलें"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "अभी स्विच करें"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "AVAST के ब्राउज़र में खोलें"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "AVAST SAFEZONE में खोलें"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "इस पेज को सुरक्षित रूप से खोलें"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "बैंक मोड में खोलें"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Avast का ब्राउज़र "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "अपने बैंकिंग सत्र को बिल्कुल अलग करके हैकरों को आपके कीस्ट्रोक लॉग करने और आपके पासवर्ड व अन्य निजी डेटा को कैप्चर करने से रोकें. इसके पहले ही आपके Avast एंटीवायरस के साथ इंस्टॉल किया जा चुका है, तो यह पहले से सेट है और उपयोग के लिए तैयार है."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "अधिक जानें"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast युक्ति: SafeZone ब्राउज़र आपको ट्रैकिंग कुकीज़ और मैलवेयर-विज्ञापनों से बचाने के लिए, विज्ञापनों को अवरोधित कर देता है."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "इसके बजाय Avast SafeZone ब्राउज़र का उपयोग करके सुरक्षित रूप से अपने ऑनलाइन भुगतान करें."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "यह वेब ब्राउज़र आपकी ऑनलाइन बैंकिंग को पूरी तरह सुरक्षित नहीं कर सकता."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "इस वेब ब्राउज़र से बैंकिंग करने से आपके खाते को जोखिम हो सकता है."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "आपको बैंकिग के लिए केवल Avast के ब्राउज़र का उपयोग करना चाहिए."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "आपका वित्तीय डेटा अन्य लोगों को दृश्यमान हो सकता है।"
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Avast SafeZone ब्राउज़र से सर्वश्रेष्ठ सौदे सुरक्षित करें और उनका भुगतान सुरक्षित रूप से करें."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "क्या आपको पता था कि आप स्ट्रीमिंग साइटों से आसानी से वीडियो डाउनलोड कर सकते हैं?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "यह फिर न दिखाएँ"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "यह साइट फिर न दिखाएँ"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "ठीक है, इस साइट को सुरक्षित रूप से खोलें"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "नहीं, कृपया इस चेतावनी को हमेशा के लिए छिपा दें"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Avast का ब्राउज़र आपके Avast एंटीवायरस में शामिल था."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "आपको सुरक्षित रखने के लिए बस एक क्लिक में यह पेज Avast के ब्राउज़र में खुल जाएगा."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "क्या आप वाकई अपने खाते को जोखिम में डालना चाहते हैं?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "ऑनलाइन सुरक्षा"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "सभी ट्रैकिंग सिस्टम की अनुमति दें"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "सभी वेबसाइट पर"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "सभी ट्रैकिंग सिस्टम अवरोधित करें"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "वैश्विक सेटिंग"
+   },
+   "baMoreSettingsAction": {
+      "message": "अधिक सेटिंग"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "अनुमत है"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "अवरोधित है"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "वर्तमान में सिस्टम ट्रैक करना"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "ट्रैकिंग सिस्टम"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "वेबसाइट पर"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "आप इस साइट निम्न के रूप में रेट करते हैं"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "नकारात्मक"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "सकारात्मक"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "ब्राउज़र क्लीनर"
+   },
+   "cache_contains": {
+      "message": "आपके कैश में शामिल हैं:"
+   },
+   "cache_empty": {
+      "message": "आपका कैश खाली है।"
+   },
+   "castYourVote": {
+      "message": "अपना वोट दें"
+   },
+   "checkAll": {
+      "message": "(लागू होने वाले सभी चेक करें)"
+   },
+   "clean_now": {
+      "message": "अब साफ़ करें"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "अपने ब्राउज़र को क्लटर से मुक्त रखने में मदद के लिए इसे चालू करें।"
+   },
+   "cleanerOffScreenTitle": {
+      "message": "ब्राउज़र क्लीनर वर्तमान में बंद है।"
+   },
+   "close": {
+      "message": "बंद करें"
+   },
+   "cookies": {
+      "message": "कुकी"
+   },
+   "copyrights": {
+      "message": "कॉपीराइट &copy; 1992-2013 AVG Technologies. सर्वाधिकार सुरक्षित।"
+   },
+   "corporate": {
+      "message": "कॉर्पोरेट"
+   },
+   "currentVote": {
+      "message": "समग्र रेटिंग"
+   },
+   "detailsHeadline": {
+      "message": "Avast ने इस साइट को स्कैन किया है"
+   },
+   "detailsMalwareNo": {
+      "message": "कोई मालवेयर नहीं मिला"
+   },
+   "detailsMalwareYes": {
+      "message": "मालवेयर मिला!"
+   },
+   "detailsPhishingNo": {
+      "message": "कोई फ़िशिंग नहीं मिली"
+   },
+   "detailsPhishingYes": {
+      "message": "फ़िशिंग मिली!"
+   },
+   "disabledTab": {
+      "message": "आप स्थानीय फ़ाइलों या आंतरिक टैब को रेट नहीं कर सकते"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "विज्ञापन ट्रैकिंग"
+   },
+   "dntAllowGroupAction": {
+      "message": "सभी की अनुमति दें"
+   },
+   "dntAllowTrackerAction": {
+      "message": "अनुमति दें"
+   },
+   "dntAllowed": {
+      "message": "अनुमत"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "ट्रैकर को स्वचालित ब्लॉक करना: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "अक्षम"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "सक्षम"
+   },
+   "dntBlockGroupAction": {
+      "message": "सभी को अवरोधित करें"
+   },
+   "dntBlockTrackerAction": {
+      "message": "अवरोधित करें"
+   },
+   "dntBlocked": {
+      "message": "ब्लॉक किए गए"
+   },
+   "dntHeadline": {
+      "message": "%s कंपनियों ने आपको ट्रैक करने का प्रयास किया"
+   },
+   "dntNetworks": {
+      "message": "नेटवर्क"
+   },
+   "dntNetworksDetected": {
+      "message": "%s नेटवर्क मिले"
+   },
+   "dntOthersNetworks": {
+      "message": "अन्य"
+   },
+   "dntSocialNetworks": {
+      "message": "सामाजिक नेटवर्क"
+   },
+   "dntStatusAllAllowed": {
+      "message": "सभी की अनुमति दी गई"
+   },
+   "dntStatusAllBlocked": {
+      "message": "सभी को अवरोधित किया गया"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "ब्लॉक की गई"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "कुछ को अवरोधित किया गया"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "वेब विश्लेषण"
+   },
+   "downloads": {
+      "message": "डाउनलोड इतिहास में आइटम"
+   },
+   "drugs": {
+      "message": "अल्कोहल / ड्रग"
+   },
+   "error": {
+      "message": "त्रुटि"
+   },
+   "errorUnexpected": {
+      "message": "अनपेक्षित त्रुटि"
+   },
+   "forms": {
+      "message": "सहेजे गए प्रपत्र"
+   },
+   "gambling": {
+      "message": "जुआ"
+   },
+   "general_back": {
+      "message": "वापस"
+   },
+   "general_close": {
+      "message": "बंद करें"
+   },
+   "general_more": {
+      "message": "अधिक"
+   },
+   "general_next": {
+      "message": "अगला"
+   },
+   "general_off": {
+      "message": "बंद"
+   },
+   "general_on": {
+      "message": "चालू"
+   },
+   "history": {
+      "message": "ब्राउज़िंग इतिहास में वेबसाइट"
+   },
+   "homepage": {
+      "message": "मुख पृष्ठ"
+   },
+   "howLike": {
+      "message": "आप इस साइट को किस तरह पसंद करते हैं?"
+   },
+   "illegal": {
+      "message": "वारेज़ / अवैध"
+   },
+   "it": {
+      "message": "आईटी / डाउनलोड"
+   },
+   "items": {
+      "message": "आइटम"
+   },
+   "loginAnonymous": {
+      "message": "अनाम यूज़र के रूप में"
+   },
+   "loginDesc": {
+      "message": "अपने my.avast.com खाते के लिए अपना लॉगिन डेटा भरें:"
+   },
+   "loginError": {
+      "message": "लॉगिन विफल हो गया है"
+   },
+   "loginLogin": {
+      "message": "लॉग इन करें"
+   },
+   "loginLogout": {
+      "message": "लॉग आउट करें"
+   },
+   "loginName": {
+      "message": "नाम:"
+   },
+   "loginPswd": {
+      "message": "पासवर्ड:"
+   },
+   "malwareNext": {
+      "message": "Avast निशुल्क एंटीवायरस डाउनलोड करें"
+   },
+   "malwareSite": {
+      "message": "यह साइट आपके कंप्यूटर को क्षति पहुँचा सकती थी."
+   },
+   "malwareSiteRec": {
+      "message": "हम अनुशंसा करते हैं कि आप अपने कंप्यूटर को स्कैन करने के लिए Avast एंटीवायरस का उपयोग करें."
+   },
+   "mb_freed": {
+      "message": "ब्राउज़िंग इतिहास \u003Cspan>साफ़ करना\u003C/span>"
+   },
+   "news": {
+      "message": "समाचार / ब्लॉग"
+   },
+   "noRating": {
+      "message": "इस साइट की कोई रेटिंग नही है"
+   },
+   "notifications": {
+      "message": "सूचनाएं"
+   },
+   "others": {
+      "message": "अन्य"
+   },
+   "phishingBack": {
+      "message": "मुझे यहाँ से बाहर ले जाएँ"
+   },
+   "phishingClose": {
+      "message": "चेतावनी पर ध्यान न दें"
+   },
+   "phishingCreditNumber": {
+      "message": "ऐसा लगता है कि आप कम प्रतिष्ठा वाला पासवर्ड या क्रेडिट कार्ड नंबर लिखने का प्रयास कर रहे हैं. कृपया फिर से जाँच लें कि साइट विश्वस्त है. अविश्वसनीय साइट पर अपनी निजी जानकारी दर्ज करने से आप सुरक्षा जोख़िम में पड़ सकते हैं."
+   },
+   "phishingDesc": {
+      "message": "फ़िशिंग उपयोगकर्ता नाम, पासवर्ड और क्रेडिट कार्ड के विवरण जैसी संवेदनशील जानकारी प्राप्त करने का प्रयास है..."
+   },
+   "phishingPhishingSite": {
+      "message": "इस साइट को फ़िशिंग साइट के रूप में चिह्नित किया गया है."
+   },
+   "phishingTrust": {
+      "message": "मुझे इस वेबसाइट पर विश्वास है"
+   },
+   "phishingWarning": {
+      "message": "चेतावनी"
+   },
+   "pornography": {
+      "message": "पोर्नोग्राफ़ी"
+   },
+   "privacyOffScreenDesc": {
+      "message": "अपनी ऑनलाइन गोपनीयता का नियंत्रण वापस लेने के लिए इसे चालू करें।"
+   },
+   "privacyOffScreenTitle": {
+      "message": "ट्रैक न करें वर्तमान में बंद है।"
+   },
+   "privacy_at_risk": {
+      "message": "खतरे में"
+   },
+   "privacy_fix_now": {
+      "message": "अब ठीक करें"
+   },
+   "privacy_protected": {
+      "message": "सुरक्षित"
+   },
+   "privacy_protected_description": {
+      "message": "घुसपैठिए वेब ट्रैकर जो आपकी ऑनलाइन गतिविधियों के बारे में डेटा एकत्र करते हैं, वे अवरोधित हैं।"
+   },
+   "privacy_risky_description": {
+      "message": "ऐसे अनवरोधित घुसपैठिए ट्रैकर हैं जो आपकी ऑनलाइन गतिविधियों के बारे में डेटा एकत्र करते हैं।"
+   },
+   "privacy_secondary_title": {
+      "message": "ट्रैकर"
+   },
+   "privacy_your_privacy_is": {
+      "message": "आपकी गोपनीयता है"
+   },
+   "ratingAverage": {
+      "message": "इस साइट की रेटिंग औसत है"
+   },
+   "ratingBad": {
+      "message": "इस साइट की रेटिंग खराब है"
+   },
+   "ratingCommunity": {
+      "message": "%s समुदाय रेटिंग"
+   },
+   "ratingDone": {
+      "message": "संपन्न"
+   },
+   "ratingGood": {
+      "message": "इस साइट की रेटिंग अच्छी है"
+   },
+   "ratingLevelAverage": {
+      "message": "औसत"
+   },
+   "ratingLevelBad": {
+      "message": "खराब"
+   },
+   "ratingLevelPositive": {
+      "message": "सकारात्मक"
+   },
+   "ratingLevelUndefined": {
+      "message": "नहीं"
+   },
+   "ratingNegative": {
+      "message": "आपने अपने अनुभव को नकारात्मक के रूप में कैसे रेट किया?"
+   },
+   "ratingNoRate": {
+      "message": "मैं अभी रेट नहीं करना चाहता/चाहती"
+   },
+   "ratingPending": {
+      "message": "रेटिंग पुनर्प्राप्त कर रहा है"
+   },
+   "ratingPositive": {
+      "message": "आपने अपने अनुभव को सकारात्मक के रूप में कैसे रेट किया?"
+   },
+   "ratingRate": {
+      "message": "आप इस साइट के अपने अनुभव को किस प्रकार रेट करते हैं?"
+   },
+   "ratingTextAverage": {
+      "message": "इस साइट की प्रतिष्ठा खराब है"
+   },
+   "ratingTextBad": {
+      "message": "यह साइट असुरक्षित है"
+   },
+   "ratingTextPositive": {
+      "message": "यह साइट सुरक्षित है"
+   },
+   "ratingTextUndefined": {
+      "message": "अज्ञात साइट"
+   },
+   "ratingVeryBad": {
+      "message": "इस साइट की रेटिंग बहुत अच्छी है"
+   },
+   "reasonBlocker": {
+      "message": "(खतरे को अवरोधित कर दिया गया)"
+   },
+   "reasonPhishing": {
+      "message": "(फ़िशिंग साइट का पता चला)"
+   },
+   "reasonUnknownFullText": {
+      "message": "इस साइट की अभी कोई रेटिंग नही है"
+   },
+   "restart_notification": {
+      "message": "आपके द्वारा अपने ब्राउज़र को पुनरारंभ करने के बाद ये परिवर्तन प्रभावी होंगे।"
+   },
+   "restore_defaults": {
+      "message": "डिफ़ॉल्ट पुनर्स्थापित करें"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "वापस लाएँ"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "ऐसे ही होटल मिले!"
+   },
+   "safeZoneDecline": {
+      "message": "SafeZone को कम कीमत पर "
+   },
+   "safeZoneDesc": {
+      "message": "Avast अनुशंसा करता है कि आप SafeZone पर स्विच करें"
+   },
+   "safeZoneFeedback": {
+      "message": "अपने विश्वास के लिए, अनुरोधित URL को SafeZone में खोला गया है"
+   },
+   "safeZoneNo": {
+      "message": "नहीं"
+   },
+   "safeZoneYes": {
+      "message": "अभी स्विच करें"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> आगे बढ़ने के लिए तैयार है. खरीदारी के लिए शुभकामनाएं!"
+   },
+   "search": {
+      "message": "खोजें"
+   },
+   "settingsReset": {
+      "message": "डिफ़ॉल्ट पर रीसेट करें"
+   },
+   "settingsSave": {
+      "message": "सेव करें"
+   },
+   "settingscommunityIQ": {
+      "message": "डेटा साझा करना"
+   },
+   "settingscommunityIQDesc": {
+      "message": "इस विकल्प को सक्षम करके आप Avast को निश्चित जानकारी अज्ञात रूप से अग्रेषित करने के लिए सहमति देते हैं. हम अज्ञात जानकारी को तृतीय पक्षों के साथ साझा कर सकते हैं."
+   },
+   "settingsdnt": {
+      "message": "ट्रैक न करें"
+   },
+   "settingsdnt0": {
+      "message": "निजता शील्ड"
+   },
+   "settingsdnt2": {
+      "message": "ट्रैक न करें"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "विज्ञापन ट्रैकिंग को डिफ़ॉल्ट रूप से ब्लॉक करें"
+   },
+   "settingsdntDesc": {
+      "message": "अवांछित विज्ञापनों को पहचानता और ब्लॉक करता है और आपको गुप्त रूप से ट्रैक करने वाली विश्लेषण साइटों से बचाता है"
+   },
+   "settingsdntOthersDesc": {
+      "message": "अन्य को डिफ़ॉल्ट रूप से ब्लॉक करें"
+   },
+   "settingsdntSocialDesc": {
+      "message": "सामाजिक नेटवर्क को डिफ़ॉल्ट रूप से ब्लॉक करें"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "वेब विश्लेषण को डिफ़ॉल्ट रूप से ब्लॉक करें"
+   },
+   "settingsphishing": {
+      "message": "एंटीफ़िशिंग"
+   },
+   "settingsphishing0": {
+      "message": "सर्फ़ शील्ड"
+   },
+   "settingsphishing2": {
+      "message": "एंटीफ़िशिंग"
+   },
+   "settingsphishingDesc": {
+      "message": "मालवेयर के लिए वेबसाइटें स्कैन करता है और फ़िशिंग रोकता है"
+   },
+   "settingssafeZone": {
+      "message": "सुरक्षित क्षेत्र"
+   },
+   "settingssafeZoneDesc": {
+      "message": "संवेदनशील वित्तीय साइटों के लिए SafeZone पर स्विच करें (Avast एंटीवायरस इंस्टॉल किया गया होना चाहिए)"
+   },
+   "settingsserp": {
+      "message": "खोज इंजन परिणाम"
+   },
+   "settingsserpDesc": {
+      "message": "खोज इंजन पृष्ठ के रंगों को सक्षम करें"
+   },
+   "settingsserpPopupDesc": {
+      "message": "खोज परिणाम पृष्ठ पर पॉपअप सक्षम करें"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "संकेत छोड़ें और वैध साइटों पर अपने आप रीडाइरेक्ट करें"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "गलत लिखे गए URL को पहचानता है और उन्हें वैध साइटों पर भेजता है"
+   },
+   "sfzoneAlways": {
+      "message": "हाँ, हमेशा"
+   },
+   "sfzoneDesc": {
+      "message": "आपने ऑनलाइन बैंकिंग साइट में प्रवेश किया है. क्या आप इसे Avast SafeZone में खोलना चाहते हैं?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "कभी नहीं"
+   },
+   "sfzoneNo": {
+      "message": "नहीं"
+   },
+   "sfzoneSwitch": {
+      "message": "Avast SafeZone पर स्विच करें"
+   },
+   "sfzoneYes": {
+      "message": "हाँ"
+   },
+   "shopping": {
+      "message": "खरीदी"
+   },
+   "sideDashboard": {
+      "message": "मेरा Avast"
+   },
+   "sideDetails": {
+      "message": "अधिक जानें"
+   },
+   "sideRate": {
+      "message": "अभी रेट करें"
+   },
+   "sideSettings": {
+      "message": "सेटिंग"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "सर्फ़ करने और खोजने के दौरान खतरनाक वेबसाइटों से सचेत रहने के लिए इसे चालू करें।"
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "साइट सुरक्षा अभी बंद है।"
+   },
+   "site_safety_site_info_cookies": {
+      "message": "कुकी"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "पूरी रिपोर्ट देखें"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP पता"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "अंतिम अद्यतन"
+   },
+   "site_safety_site_info_location": {
+      "message": "संदर्भ जोड़ें"
+   },
+   "site_safety_site_info_na": {
+      "message": "लागू नहीं"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "साइट लोकप्रियता"
+   },
+   "site_safety_site_info_size": {
+      "message": "आकार"
+   },
+   "site_safety_site_info_speed": {
+      "message": "गति"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL सुरक्षा"
+   },
+   "site_safety_site_info_website": {
+      "message": "वेबसाइट"
+   },
+   "site_safety_title": {
+      "message": "साइट सुरक्षा"
+   },
+   "sitecorrectAuto": {
+      "message": "आगे से मुझे ज्ञात सही साइटों पर अपने आप ले जाएँ"
+   },
+   "sitecorrectBarButton": {
+      "message": "यह कोई गलती नहीं है, मुझे वापस ले जाएँ"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: %s से अपने आप रीडाइरेक्ट हो रहा है"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Avast SiteCorrect सुविधा को कॉन्फ़िगर करने के लिए, कृपया Avast यूज़र इंटरफ़ेस खोलें, अतिरिक्त सुरक्षा पर जाएँ, ब्राउज़र सुरक्षा पर जाएँ, और सेटिंग बटन का उपयोग करें."
+   },
+   "sitecorrectMean": {
+      "message": "क्या आपका मतलब %s है?"
+   },
+   "sitecorrectNo": {
+      "message": "नहीं, मेरा वास्तव में मतलब %s था"
+   },
+   "sitecorrectText": {
+      "message": "शायद यह वह साइट नहीं है जिसमें आप जाना चाहते हैं."
+   },
+   "sitecorrectYes": {
+      "message": "हाँ"
+   },
+   "sites_protected": {
+      "message": "मैलवेयर के लिए साइटें \u003Cspan> स्कैन करना\u003C/span>"
+   },
+   "social": {
+      "message": "सामाजिक / गेमिंग"
+   },
+   "thanksHeadline": {
+      "message": "रेटिंग के लिए धन्यवाद!"
+   },
+   "thanksMessage": {
+      "message": "आपका वोट सबमिट कर दिया गया है."
+   },
+   "title": {
+      "message": "Avast ऑनलाइन सुरक्षा सेटिंग"
+   },
+   "topBarDetails": {
+      "message": "विवरण देखें"
+   },
+   "topBarRatingAverage": {
+      "message": "%s को ठीक के रूप में रेट किया गया है"
+   },
+   "topBarRatingBad": {
+      "message": "%s को खतरनाक के रूप में रेट किया गया है"
+   },
+   "topBarRatingGood": {
+      "message": "%s को सुरक्षित के रूप में रेट किया गया है"
+   },
+   "trackers_blocked": {
+      "message": "घुसपैठ करने वाले ट्रैकर को\u003Cspan>अवरोधित करना\u003C/span>"
+   },
+   "uninstall": {
+      "message": "अनइंस्टॉल करें"
+   },
+   "verdict_dangerous": {
+      "message": "खतरनाक"
+   },
+   "verdict_info_dangerous": {
+      "message": "इस पृष्ठ से बचें! इस पृष्ठ में सक्रिय ख़तरे है और यह ब्राउज़िंग के लिए अनुशंसित नहीं है।"
+   },
+   "verdict_info_risky": {
+      "message": "सावधानी के साथ सर्फ़ करें। इस पृष्ठ में ख़तरे हो सकते है और यह ब्राउज़िंग के लिए अनुशंसित नहीं है।"
+   },
+   "verdict_info_safe": {
+      "message": "इस पृष्ठ में कोई सक्रिय ख़तरे नहीं है और इसे सुरक्षित रूप से ब्राउज़ किया जा सकता है।"
+   },
+   "verdict_risky": {
+      "message": "जोखिमभरा"
+   },
+   "verdict_safe": {
+      "message": "सुरक्षित"
+   },
+   "verdict_this_site_is": {
+      "message": "यह साइट है"
+   },
+   "version": {
+      "message": "AVG Web TuneUp संस्करण"
+   },
+   "violence": {
+      "message": "हथियार / हिंसा"
+   },
+   "vote": {
+      "message": "वोट"
+   },
+   "voteNegative": {
+      "message": "नकारात्मक"
+   },
+   "votePositive": {
+      "message": "सकारात्मक"
+   },
+   "webrepDisabled": {
+      "message": "WebRep अक्षम है"
+   },
+   "whatTypeContent": {
+      "message": "यह साइट किस तरह की सामग्री प्रदान करती है?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp आपके लिए काम कर रहा है, आपके इंटरनेट अनुभव को ऑप्टिमाइज़ कर रहा है"
+   }
+}

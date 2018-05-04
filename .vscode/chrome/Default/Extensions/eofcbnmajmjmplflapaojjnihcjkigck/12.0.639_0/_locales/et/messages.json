@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Leia Avasti abil veebis oste sooritades parimad hinnad, pakkumised ja kupongid ning hinnavõrdlused ja kupongide laiendused."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Leia AVGAvasti abil veebis oste sooritades parimad hinnad, pakkumised ja kupongid ning hinnavõrdlused ja kupongide laiendused."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Kliki, et kopeerida"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kood on lõikelauda kopeeritud."
+   },
+   "sasHintSettings": {
+      "message": "Seaded"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Alates: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Võivad kohalduda lisatasud ja maksud"
+   },
+   "spApply": {
+      "message": "Kasuta kupongi"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Oi vaata! Rohkem pakkumisi"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Oi vaata!\u003Cbr> Rohkem pakkumisi"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Rohkem tehinguid, suurem sääst!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Rohkem tehinguid,\u003Cbr> suurem sääst!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Populaarsed hotellid:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Kopeeri ja kleebi tehingu lõpetamisel:"
+   },
+   "spCouponApplied": {
+      "message": "Kupong on kohaldatud."
+   },
+   "spCouponsAvailableText": {
+      "message": "Saadaval"
+   },
+   "spCouponsExpiration": {
+      "message": "Aegub: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Säästa raha kupongidega"
+   },
+   "spCouponsSelected": {
+      "message": "Valitud kupongid: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Valitud"
+   },
+   "spCouponsTab": {
+      "message": "Kupongid"
+   },
+   "spGetCouponCode": {
+      "message": "Hangi kood"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Lubame, et see on ootamist väärt."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Pakkumiste otsimine..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Oih...\u003Cbr>Ühtegi kupongi ei leitud..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Oih...\u003Cbr>Ühtegi pakkumist ei leitud..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Oih...\u003Cbr>Ühtegi eripakkumist ei leitud..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Vähem"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Rohkem"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "NÄITA PAKKUMIST"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Salvesta %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Leidsime pakkumisi ja kuponge. Sul vedas!"
+   },
+   "spOffersTab": {
+      "message": "Pakkumised"
+   },
+   "spOthersTab": {
+      "message": "Muud"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "K.a: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Majutus ja reisimine"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-poed"
+   },
+   "spSettingsPageCancel": {
+      "message": "Katkesta"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Kohandatud loend"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Lisa"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Lisa leht"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Ära kuva teavitusi nendel veebilehtedel:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(sa saad pakkumisi ja kuponge alati vaadata, kui klõpsad tööriistariba ikoonile)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Abi"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kupongid"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Kupongi kasutamiseks tuleb sellel ainult klõpsata. Kui selles on kood, pead selle kopeerima vastavale väljale tehingu lõpetamisel. Teistel juhtudel kohaldub kupong automaatselt."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Lisateavet vt osast \u003Cspan class='asp-faqs-span'>KKK\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Teavitused"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Kui SafePrice leiab sinu otsinguga seotud pakkumise või kupongi, kuvatakse teavitus. Klõpsa suurele rohelisele nupule, et näha, mis me sinu jaoks leidsime."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Pakkumised"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Pakkumisele klõpsamine viib sind partneri usaldusväärsesse veebipoodi, kus kehtib teavituses nimetatud uus hind."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Muu"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Loetelus olevale eripakkumisele klõpsamine viib sind partneri usaldusväärsesse veebipoodi."
+   },
+   "spSettingsPageSave": {
+      "message": "Salvesta"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice'i sätted"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice'i sätted"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Teavitused"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Kupongide teavitused"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Ära teavita mind kupongidest"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(sa saad kuponge alati vaadata, kui klõpsad tööriistariba ikoonile)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Näita alati, kui kupong on saadaval"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Näita igal veebilehel ainult üks kord"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Pakkumiste teavitused"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Näita ainult siis, kui pakkumine on alghinnast parem"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Näita ainult pakkumisi, mille puhul on sääst vähemalt 10%"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Ära teavita mind pakkumistest"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(sa saad pakkumisi alati vaadata, kui klõpsad tööriistariba ikoonile)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Näita alati, kui pakkumine on saadaval"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Muud"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Teavita mind eripakkumistest teistest kategooriatest (transport, finants, elekter ja muu)"
+   },
+   "spShippingLabel": {
+      "message": "K/K alates"
+   },
+   "spShowNotificationMessage": {
+      "message": "NÄITA"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Vaata, mis me leidsime!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Leiti alternatiivsed hotellid!"
+   }
+}

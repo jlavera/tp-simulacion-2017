@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Temukan harga, penawaran, dan kupon terbaik saat belanja online dengan perbandingan harga dan ekstensi kupon yang didukung Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Temukan harga, penawaran, dan kupon terbaik saat belanja online dengan perbandingan harga dan ekstensi kupon yang didukung AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Klik untuk menyalin"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kode disalin ke clipboard."
+   },
+   "sasHintSettings": {
+      "message": "Pengaturan"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Mulai dari: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Biaya & Pajak Tambahan mungkin berlaku"
+   },
+   "spApply": {
+      "message": "Gunakan kupon"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Lihat! Ada penawaran lainnya"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Oh lihat!\u003Cbr>Ada penawaran lainnya"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Lebih banyak tawaran, lebih hemat!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Lebih banyak tawaran,\u003Cbr>lebih hemat!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Hotel terkenal:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Salin dan tempel pada saat checkout:"
+   },
+   "spCouponApplied": {
+      "message": "Kupon digunakan."
+   },
+   "spCouponsAvailableText": {
+      "message": "Tersedia"
+   },
+   "spCouponsExpiration": {
+      "message": "Kedaluwarsa: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Hemat dengan kupon"
+   },
+   "spCouponsSelected": {
+      "message": "Kupon dipilih: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Dipilih"
+   },
+   "spCouponsTab": {
+      "message": "Kupon"
+   },
+   "spGetCouponCode": {
+      "message": "Dapatkan Kode"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Tunggu hasilnya, percayalah."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Mencari penawaran..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Oh tidak...\u003Cbr>Kupon tidak ditemukan..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Oh tidak...\u003Cbr>Tidak ada penawaran..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Oh tidak...\u003Cbr>Tidak ada penawaran khusus..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Sembunyikan"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Selengkapnya"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "LIHAT PENAWARAN"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Hemat %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Penawaran & kupon ditemukan. Anda beruntung!"
+   },
+   "spOffersTab": {
+      "message": "Penawaran"
+   },
+   "spOthersTab": {
+      "message": "Lainnya"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Termasuk: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Akomodasi & perjalanan"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-shop"
+   },
+   "spSettingsPageCancel": {
+      "message": "Batal"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Daftar khusus"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Tambahkan"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Tambahkan situs"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Jangan tampilkan pemberitahuan apa pun di situs web ini:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(penawaran dan kupon selalu dapat dilihat dengan mengeklik ikon toolbar)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Bantuan"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kupon"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Untuk menggunakan kupon, Anda hanya perlu mengeklik kupon tersebut. Jika kode muncul, tempelkan kode tersebut ke bidang yang sesuai saat checkout. Jika tidak, kupon tersebut akan diterapkan secara otomatis."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Pelajari selengkapnya di \u003Cspan class='asp-faqs-span'>FAQ\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Pemberitahuan"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Pemberitahuan akan muncul saat SafePrice menemukan penawaran atau kupon yang terkait dengan pencarian Anda. Klik tombol hijau besar untuk melihat yang telah kami temukan untuk Anda."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Penawaran"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Dengan mengeklik penawaran, Anda akan masuk ke toko online tepercaya mitra, yang telah mencantumkan harga baru di pemberitahuan."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Lainnya"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Dengan mengeklik penawaran khusus yang tercantum, Anda akan masuk ke toko online tepercaya mitra."
+   },
+   "spSettingsPageSave": {
+      "message": "Simpan"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Pengaturan Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Pengaturan AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Pemberitahuan"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Pemberitahuan kupon"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Jangan beri tahu saya tentang kupon"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(kupon selalu dapat dilihat dengan mengeklik ikon toolbar)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Tampilkan kapan pun kupon tersedia"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Tampilkan hanya sekali di setiap situs web"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Pemberitahuan penawaran"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Hanya tampilkan jika penawaran dengan harga lebih baik dari harga aslinya tersedia"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Hanya tampilkan penawaran dengan potongan harga setidaknya 10%"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Jangan beri tahu saya tentang penawaran"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(penawaran selalu dapat dilihat dengan mengeklik ikon toolbar)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Tampilkan kapan pun penawaran tersedia"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Lainnya"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Beri tahu saya tentang penawaran khusus untuk kategori lain (transportasi, keuangan, catu daya, dan lainnya)"
+   },
+   "spShippingLabel": {
+      "message": "S/H dari"
+   },
+   "spShowNotificationMessage": {
+      "message": "LIHAT"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Lihat yang kami temukan!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Pilihan hotel lain ditemukan!"
+   }
+}

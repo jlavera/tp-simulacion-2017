@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "بهترین قیمت‌ها، تخفیف‌ها و کوپن‌های خرید اینترنتی را از طریق مقایسه قیمت‌ها و افزونه کوپن تحت پشتیبانی Avast پیدا کنید."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "بهترین قیمت‌ها، تخفیف‌ها و کوپن‌های خرید اینترنتی را از طریق مقایسه قیمت‌ها و افزونه کوپن تحت پشتیبانی AVG پیدا کنید."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "کلیک برای کپی کردن"
+   },
+   "sasCouponCodeCopied": {
+      "message": "کد در کلیپ بورد کپی شد."
+   },
+   "sasHintSettings": {
+      "message": "تنظیمات"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "شروع از: %s"
+   },
+   "spAdditionalFees": {
+      "message": "کارمزدها و عوارض اضافی اعمال می‌گردند"
+   },
+   "spApply": {
+      "message": "اعمال کوپن"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "اینجا را ببینید! پیشنهادات بیشتر"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "اوه ببینید!\u003Cbr> پیشنهادات بیشتر"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "هر چه تخفیف بیشتر، صرفه‌جویی بیشتر!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "فروش‌های ویژه بیشتر،\u003Cbr> صرفه‌جویی بیشتر!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "هتل‌های پرطرفدار:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "کپی و چسباندن در حین بررسی:"
+   },
+   "spCouponApplied": {
+      "message": "کوپن اعمال شد."
+   },
+   "spCouponsAvailableText": {
+      "message": "موجود"
+   },
+   "spCouponsExpiration": {
+      "message": "تاریخ انقضاء: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "با استفاده از کوپن‌ها، صرفه‌جویی کنید"
+   },
+   "spCouponsSelected": {
+      "message": "کوپن‌های انتخاب‌شده: "
+   },
+   "spCouponsSelectedText": {
+      "message": "انتخاب‌شده"
+   },
+   "spCouponsTab": {
+      "message": "کوپن‌ها"
+   },
+   "spGetCouponCode": {
+      "message": "دریافت کد"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "ارزش صبر کردن دارد، قول می‌دهیم."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "در حال جستجوی فروش‌های ویژه..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "با عرض تأسف...\u003Cbr>هیچ کوپنی یافت نشد..."
+   },
+   "spNothingFoundOffers": {
+      "message": "با عرض تأسف...\u003Cbr>هیچ پیشنهادی یافت نشد..."
+   },
+   "spNothingFoundOthers": {
+      "message": "با عرض تأسف...\u003Cbr>هیچ تخفیف خاصی یافت نشد..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "موارد کمتر"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "موارد بیشتر"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "نمایش فروش ویژه"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "%s صرفه‌جویی"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "پیشنهادات و کوپن‌ها یافت شدند. خوش بحال‌تان!"
+   },
+   "spOffersTab": {
+      "message": "پیشنهادات"
+   },
+   "spOthersTab": {
+      "message": "سایرین"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "شامل: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "اسکان و مسافرت"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "خریدهای اینترنتی"
+   },
+   "spSettingsPageCancel": {
+      "message": "لغو"
+   },
+   "spSettingsPageCustomList": {
+      "message": "لیست سفارشی"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "افزودن"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "افزودن سایت"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "هیچ اعلانی در این وب‌سایت‌ها نمایش داده نشود:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(همیشه می‌توانید با کلیک روی نماد نوار ابزار، پیشنهادات و کوپن‌ها را مشاهده کنید)"
+   },
+   "spSettingsPageHelp": {
+      "message": "راهنما"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. کوپن‌ها"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "برای استفاده از یک کوپن، کافی است روی آن کلیک کنید. چنانچه یک کد نمایش یافت، آن را کپی کرده و حین ثبت سفارش، در کادر مربوطه جاگذاری کنید. در غیر این صورت، کوپن به طور خودکار اعمال می‌شود."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "اطلاعات بیشتر را در \u003Cspan class='asp-faqs-span'>پرسش‌های متداول\u003C/span> کسب کنید."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. اعلان‌ها"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "وقتی SafePrice یک پیشنهاد یا کوپن مرتبط با جستجوی شما پیدا می‌کند، یک اعلان در صفحه بالا خواهد آمد. برای مشاهده آنچه برایتان پیدا کرده‌ایم، روی دکمه سبزرنگ بزرگ کلیک کنید."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. پیشنهادات"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "با کلیک روی یک پیشنهاد، به یکی از فروشگاه‌های آنلاین مورد اعتماد طرف قرارداد برده می‌شوید که در آنجا قیمت جدید فهرست شده در اعلان را مشاهده خواهید کرد."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. سایر موارد"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "با کلیک روی یک مورد در لیست فروش‌های ویژه به فروشگاه آنلاین مورد اعتماد طرف قرارداد انتقال داده می‌شوید."
+   },
+   "spSettingsPageSave": {
+      "message": "ذخیره"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "تنظیمات Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "تنظیمات AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "اعلان‌ها"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "اعلان‌های کوپن‌ها"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "درباره کوپن‌ها برای من اعلان نمایش داده نشود"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(همیشه می‌توانید با کلیک روی نماد نوار ابزار، کوپن‌ها را مشاهده کنید)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "هر وقت کوپنی وجود دارد نمایش داده شود"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "تنها یک بار در هر وب‌سایت نمایش داده شود"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "اعلان‌های پیشنهادات"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "تنها زمانی نمایش یابد که پیشنهادی بهتر از قیمت اولیه وجود دارد"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "تنها برای پیشنهاداتی که دست‌کم 10% صرفه‌جویی به همراه دارند نمایش یابد"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "درباره پیشنهادات برای من اعلان نمایش داده نشود"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(همیشه می‌توانید با کلیک روی نماد نوار ابزار، پیشنهادات را مشاهده کنید)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "هر وقت پیشنهادی وجود دارد نمایش داده شود"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "سایر موارد"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "درباره فروش‌های ویژه مربوط به سایر دسته‌ها (حمل‌ونقل، مالی، تأمین برق و موارد دیگر) برای من اعلان ارسال شود"
+   },
+   "spShippingLabel": {
+      "message": "هزینه ی ارسال/رسیدگی از"
+   },
+   "spShowNotificationMessage": {
+      "message": "نمایش"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "ببینید چی پیدا کردیم!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "هتل‌های جایگزین یافت شدند!"
+   }
+}

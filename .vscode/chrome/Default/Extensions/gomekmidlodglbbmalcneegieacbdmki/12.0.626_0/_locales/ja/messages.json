@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "ローカルのファイルや内部タブを評価することはできません"
+   },
+   "VoteThank": {
+      "message": "投票ありがとうございます！正常に投票されました。"
+   },
+   "anonymousUser": {
+      "message": "匿名ユーザー"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "\u003Cb>ショッピングとバンキングのセッションを安全に分離し\u003C/b>、\u003Cb>クレジットカード番号、パスワード\u003C/b>や\u003Cb>その他の個人データを盗もうとするハッカーから保護します\u003C/b>。"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": "は、アバスト アンチウイルスと共にインストールされるアバスト セキュア ブラウザの一部で、\u003Cb>ショッピングとバンキングのセッションを安全に分離し\u003C/b>、\u003Cb>クレジットカード番号、パスワード\u003C/b>や\u003Cb>その他の個人データを盗もうとするハッカーから保護します\u003C/b>。"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>バンク モード\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "後で"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "アバスト セーフゾーンを開く"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "すぐに切り替える"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "アバストのブラウザで開きなおす"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "アバスト セーフゾーンで開きなおす"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "このページを安全な方法で開きなおす"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "バンク モードで開く"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "アバストのブラウザ "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "はハッカーがユーザーのキー入力操作を記録してパスワードやその他の個人データを入手することができないように、銀行取引のセッションを隔離します。この機能はお使いのアバスト アンチウイルスと共にインストールされているため、すでにセットアップ済みで利用可能です。"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "詳細"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "アバストのヒント: セーフゾーン ブラウザは広告をブロックして、トラッキング クッキーや悪質な広告からユーザーを保護します。"
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "代わりにアバスト セーフゾーン ブラウザを使用して、オンライン決済を安全に行うことができます。"
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "このウェブ ブラウザはオンライン バンキングの安全性を十分に確保できません。"
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "このウェブ ブラウザで銀行取引を行うと、口座がリスクにさらされる恐れがあります。"
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "銀行取引はアバストのブラウザのみから行うことを強くお勧めします。"
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "ユーザーの金融取引データを他のユーザーに見れらる可能性があります。"
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "アバスト セーフゾーン ブラウザを使用すると、最良の取引条件で安全に支払いを行うことができます。"
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "ストリーミング サイトからビデオを簡単にダウンロードできます。"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "以後表示しない"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "今後このサイトでは表示しない"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "了解してこのページを安全な方法で開きなおす"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "いいえ、結構です。これらの警告は今後一切非表示にしてください"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "アバストのブラウザは、お使いのアバスト アンチウイルスに含まれています。"
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "1 回クリックするだけで、このページをアバストのブラウザで開きなおし、ユーザーを保護することができます。"
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "本当にご自分の銀行口座をリスクにさらしても構いませんか?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "オンライン セキュリティ"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "すべてのウェブサイトですべての追跡システムを許可"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "。"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "すべてのウェブサイトですべての追跡システムをブロック"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "グローバル設定"
+   },
+   "baMoreSettingsAction": {
+      "message": "詳細設定"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "許可されています"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "ブロックされています"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "追跡システムは現在"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "次のウェブサイトにあります:"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "個の追跡システムが"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "このサイトを"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "低評価"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "高評価"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "する。"
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "投票する"
+   },
+   "checkAll": {
+      "message": "( 該当するもの全てにチェックを入れて下さい )"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "閉じる"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "企業"
+   },
+   "currentVote": {
+      "message": "全体の評価"
+   },
+   "detailsHeadline": {
+      "message": "アバスト がサイトをスキャンしました"
+   },
+   "detailsMalwareNo": {
+      "message": "マルウェアは見つかりませんでした"
+   },
+   "detailsMalwareYes": {
+      "message": "マルウェア発見！"
+   },
+   "detailsPhishingNo": {
+      "message": "フィッシング詐欺は見つかりませんでした"
+   },
+   "detailsPhishingYes": {
+      "message": "フィッシング詐欺を検知！"
+   },
+   "disabledTab": {
+      "message": "ローカルのファイルや内部タブを評価することはできません"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "広告による追跡"
+   },
+   "dntAllowGroupAction": {
+      "message": "すべて許可"
+   },
+   "dntAllowTrackerAction": {
+      "message": "許可"
+   },
+   "dntAllowed": {
+      "message": "許可"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "追跡の自動ブロック: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "無効"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "有効"
+   },
+   "dntBlockGroupAction": {
+      "message": "すべてブロック"
+   },
+   "dntBlockTrackerAction": {
+      "message": "ブロック"
+   },
+   "dntBlocked": {
+      "message": "ブロック"
+   },
+   "dntHeadline": {
+      "message": "%s つの企業がトラッキングを実施中"
+   },
+   "dntNetworks": {
+      "message": "ネットワーク"
+   },
+   "dntNetworksDetected": {
+      "message": "%s つのSNSを検知"
+   },
+   "dntOthersNetworks": {
+      "message": "その他"
+   },
+   "dntSocialNetworks": {
+      "message": "ソーシャルネットワーク"
+   },
+   "dntStatusAllAllowed": {
+      "message": "すべて許可済み"
+   },
+   "dntStatusAllBlocked": {
+      "message": "すべてブロック済み"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "ブロックしました"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "一部ブロック済み"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "ウェブサイト解析"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "酒 / 薬物"
+   },
+   "error": {
+      "message": "エラー"
+   },
+   "errorUnexpected": {
+      "message": "予期しないエラー"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "ギャンブル"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "このサイトをどう思いますか？"
+   },
+   "illegal": {
+      "message": "海賊版 / 違法"
+   },
+   "it": {
+      "message": "IT / ダウンロード"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "匿名ユーザーとして"
+   },
+   "loginDesc": {
+      "message": "あなたの my.avast.com アカウントのログイン情報を入力してください:"
+   },
+   "loginError": {
+      "message": "ログインに失敗"
+   },
+   "loginLogin": {
+      "message": "ログイン"
+   },
+   "loginLogout": {
+      "message": "ログアウト"
+   },
+   "loginName": {
+      "message": "ユーザー名:"
+   },
+   "loginPswd": {
+      "message": "パスワード:"
+   },
+   "malwareNext": {
+      "message": "アバスト 無料 アンチウイルスをダウンロード"
+   },
+   "malwareSite": {
+      "message": "このウェブサイトはコンピュータに有害な可能性があります。"
+   },
+   "malwareSiteRec": {
+      "message": "コンピュータをスキャンするために、アバスト アンチウイルスをインストールすることをお勧めします。"
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "ニュース / ブログ"
+   },
+   "noRating": {
+      "message": "このサイトはまだ評価されていません"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "その他"
+   },
+   "phishingBack": {
+      "message": "このサイトから出る"
+   },
+   "phishingClose": {
+      "message": "警告を無視する"
+   },
+   "phishingCreditNumber": {
+      "message": "パスワードやクレジットカード番号を入力しようとしているようですが、このサイトは「悪い」と評価されています。このウェブサイトが正規のものであるか、再度確認してください。個人情報を信頼できないサイトに入力することは、セキュリティ上のリスクを引き起こす可能性があります。"
+   },
+   "phishingDesc": {
+      "message": "フィッシングとは、ユーザー名、パスワード、クレジットカードの情報など、機密情報を取得しようとする行為です。"
+   },
+   "phishingPhishingSite": {
+      "message": "このウェブサイトはフィッシング(詐欺)サイトであると識別されています。"
+   },
+   "phishingTrust": {
+      "message": "I trust this website"
+   },
+   "phishingWarning": {
+      "message": "警告"
+   },
+   "pornography": {
+      "message": "アダルト"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "このサイトは「普通」と評価されています"
+   },
+   "ratingBad": {
+      "message": "このサイトは「悪い」と評価されています"
+   },
+   "ratingCommunity": {
+      "message": "コミュニティの評価：%s"
+   },
+   "ratingDone": {
+      "message": "完了"
+   },
+   "ratingGood": {
+      "message": "このサイトは「良い」と評価されています"
+   },
+   "ratingLevelAverage": {
+      "message": "普通"
+   },
+   "ratingLevelBad": {
+      "message": "悪い"
+   },
+   "ratingLevelPositive": {
+      "message": "良い"
+   },
+   "ratingLevelUndefined": {
+      "message": "なし"
+   },
+   "ratingNegative": {
+      "message": "このサイトを「悪い」と評価した理由は何ですか？"
+   },
+   "ratingNoRate": {
+      "message": "今は評価しない"
+   },
+   "ratingPending": {
+      "message": "評価を取得中"
+   },
+   "ratingPositive": {
+      "message": "このサイトを「良い」と評価した理由は何ですか？"
+   },
+   "ratingRate": {
+      "message": "このサイトをどう評価しますか？"
+   },
+   "ratingTextAverage": {
+      "message": "このサイトは悪い評価を受けています"
+   },
+   "ratingTextBad": {
+      "message": "このサイトは危険です"
+   },
+   "ratingTextPositive": {
+      "message": "このサイトは安全です"
+   },
+   "ratingTextUndefined": {
+      "message": "不明なサイト"
+   },
+   "ratingVeryBad": {
+      "message": "このサイトは「非常に悪い」と評価されています"
+   },
+   "reasonBlocker": {
+      "message": "(ブロックした脅威)"
+   },
+   "reasonPhishing": {
+      "message": "(フィッシング サイトとして検出)"
+   },
+   "reasonUnknownFullText": {
+      "message": "このサイトはまだ評価されていません"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "元に戻す"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "同様のホテルが見つかりました!"
+   },
+   "safeZoneDecline": {
+      "message": "以下ではセーフゾーンを利用しない： "
+   },
+   "safeZoneDesc": {
+      "message": "アバスト はセーフゾーンへの切り替えを推奨します"
+   },
+   "safeZoneFeedback": {
+      "message": "安全のため、要求されたURLをセーフゾーンで開きました"
+   },
+   "safeZoneNo": {
+      "message": "いいえ"
+   },
+   "safeZoneYes": {
+      "message": "すぐに切り替える"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>アバスト セーフプライス\u003C/b>の利用準備が整いました。ショッピングをお楽しみください!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "初期設定に戻す"
+   },
+   "settingsSave": {
+      "message": "保存"
+   },
+   "settingscommunityIQ": {
+      "message": "データ共有"
+   },
+   "settingscommunityIQDesc": {
+      "message": "このオプションを有効にすることにより､お客様はアバストに特定の情報を匿名で送信することに同意したことになります｡アバストは匿名化された情報を第三者と共有する場合があります｡"
+   },
+   "settingsdnt": {
+      "message": "トラッキング拒否"
+   },
+   "settingsdnt0": {
+      "message": "プライバシー シールド"
+   },
+   "settingsdnt2": {
+      "message": "トラッキング拒否"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "広告によるトラッキングをデフォルトでブロックする"
+   },
+   "settingsdntDesc": {
+      "message": "不要な広告や解析サービスによる内密なトラッキングを検出してブロックする"
+   },
+   "settingsdntOthersDesc": {
+      "message": "それ以外をデフォルトでブロックする"
+   },
+   "settingsdntSocialDesc": {
+      "message": "ソーシャルネットワークをデフォルトでブロックする"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "ウェブ解析をデフォルトでブロックする"
+   },
+   "settingsphishing": {
+      "message": "フィッシング詐欺対策"
+   },
+   "settingsphishing0": {
+      "message": "サーフシールド"
+   },
+   "settingsphishing2": {
+      "message": "フィッシング詐欺対策"
+   },
+   "settingsphishingDesc": {
+      "message": "ウェブサイトにマルウェアがいないかをスキャンし、フィッシング詐欺を防止します。"
+   },
+   "settingssafeZone": {
+      "message": "セーフゾーン"
+   },
+   "settingssafeZoneDesc": {
+      "message": "銀行取引の際にセーフゾーンに切り替える (アバスト アンチウイルスのインストールが必要です)"
+   },
+   "settingsserp": {
+      "message": "検索エンジンの結果"
+   },
+   "settingsserpDesc": {
+      "message": "検索結果ページのカラーリングを有効にする"
+   },
+   "settingsserpPopupDesc": {
+      "message": "検索結果ページのポップアップを有効にする"
+   },
+   "settingssiteCorrect": {
+      "message": "サイト訂正"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "確認を表示せずに、自動的に正しいサイトへ転送する"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "誤入力されたURLを検出して訂正し、正しいウェブサイトへ誘導します。"
+   },
+   "sfzoneAlways": {
+      "message": "常に開く"
+   },
+   "sfzoneDesc": {
+      "message": "オンラインバンキングサイトに入りました。このサイトを アバスト セーフゾーンで開きますか？"
+   },
+   "sfzoneHeadline": {
+      "message": "アバスト セーフゾーン"
+   },
+   "sfzoneNever": {
+      "message": "常に開かない"
+   },
+   "sfzoneNo": {
+      "message": "今回は開かない"
+   },
+   "sfzoneSwitch": {
+      "message": "アバスト セーフゾーンに切り替える"
+   },
+   "sfzoneYes": {
+      "message": "今回だけ開く"
+   },
+   "shopping": {
+      "message": "ショッピング"
+   },
+   "sideDashboard": {
+      "message": "マイページ"
+   },
+   "sideDetails": {
+      "message": "詳細"
+   },
+   "sideRate": {
+      "message": "評価する"
+   },
+   "sideSettings": {
+      "message": "設定"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "今後は、既知の正しい行き先へ自動的に移動する"
+   },
+   "sitecorrectBarButton": {
+      "message": "間違いではありません、元の場所に戻ります"
+   },
+   "sitecorrectBarMsg": {
+      "message": "サイト訂正： %s から自動的に移動しました"
+   },
+   "sitecorrectHeadline": {
+      "message": "サイト訂正"
+   },
+   "sitecorrectHelp": {
+      "message": "アバスト サイト訂正の設定を変更するには、アバスト のユーザーインターフェースを開き、「追加の保護」から「ブラウザ保護」を選び、「設定」ボタンを押してください。"
+   },
+   "sitecorrectMean": {
+      "message": "行き先は %s ではありませんか？"
+   },
+   "sitecorrectNo": {
+      "message": "いいえ、%s は正しい行き先です"
+   },
+   "sitecorrectText": {
+      "message": "このウェブサイトはあなたの意図したものではないかもしれません。"
+   },
+   "sitecorrectYes": {
+      "message": "はい"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "暮らし / ゲーム"
+   },
+   "thanksHeadline": {
+      "message": "評価ありがとうございます！"
+   },
+   "thanksMessage": {
+      "message": "投票は送信されました。"
+   },
+   "title": {
+      "message": "アバスト オンラインセキュリティ の設定"
+   },
+   "topBarDetails": {
+      "message": "詳細を表示"
+   },
+   "topBarRatingAverage": {
+      "message": "%s が問題なしと評価"
+   },
+   "topBarRatingBad": {
+      "message": "%s が危険と評価"
+   },
+   "topBarRatingGood": {
+      "message": "%s が安全と評価"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "武器 / 暴力"
+   },
+   "vote": {
+      "message": "投票する"
+   },
+   "voteNegative": {
+      "message": "悪い"
+   },
+   "votePositive": {
+      "message": "良い"
+   },
+   "webrepDisabled": {
+      "message": "ウェブ評価機能は無効です"
+   },
+   "whatTypeContent": {
+      "message": "このサイトはどんな内容を提供していますか？"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

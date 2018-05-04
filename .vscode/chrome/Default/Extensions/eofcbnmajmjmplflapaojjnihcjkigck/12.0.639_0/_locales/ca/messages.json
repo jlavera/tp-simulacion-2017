@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Trobeu els millors preus, ofertes i cupons mentre compreu per Internet amb la comparació de preus i l'extensió de cupó de l'Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Trobeu els millors preus, ofertes i cupons mentre compreu per Internet amb la comparació de preus i l'extensió de cupó de l'AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Clic per copiar"
+   },
+   "sasCouponCodeCopied": {
+      "message": "S'ha copiat el codi al porta-retalls."
+   },
+   "sasHintSettings": {
+      "message": "Configuració"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "A partir de: %s"
+   },
+   "spAdditionalFees": {
+      "message": "S'hi poden aplicar taxes i impostos addicionals"
+   },
+   "spApply": {
+      "message": "Aplica el cupó"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Mireu! Més ofertes"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Mireu!\u003Cbr> Més ofertes"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Com més ofertes, més estalvi!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Com més ofertes,\u003Cbr> més estalvi!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Hotels populars:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Copieu i enganxeu per fer el pagament:"
+   },
+   "spCouponApplied": {
+      "message": "Cupó aplicat."
+   },
+   "spCouponsAvailableText": {
+      "message": "Disponible"
+   },
+   "spCouponsExpiration": {
+      "message": "Caduca: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Estalvieu diners fent servir els cupons"
+   },
+   "spCouponsSelected": {
+      "message": "Cupons seleccionats: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Seleccionat"
+   },
+   "spCouponsTab": {
+      "message": "Cupons"
+   },
+   "spGetCouponCode": {
+      "message": "Aconsegueix el codi"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Val la pena esperar, de debò."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "S'estan cercant ofertes..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Ostres...\u003Cbr>No hem trobat cap cupó..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Ostres...\u003Cbr>No hem trobat cap oferta..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Ostres...\u003Cbr>No hem trobat cap oferta especial..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Menys"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Més"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "MOSTRA L'OFERTA"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Estalvia %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "S'han trobat ofertes i cupons. Quina sort!"
+   },
+   "spOffersTab": {
+      "message": "Ofertes"
+   },
+   "spOthersTab": {
+      "message": "Altres"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Inclou: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Allotjament i viatges"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "Botigues electròniques"
+   },
+   "spSettingsPageCancel": {
+      "message": "Cancel·la"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Llista personalitzada"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Afegeix"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Afegiu-hi un lloc"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "No mostris cap notificació en aquests llocs web:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(podreu veure les ofertes i els cupons a tota hora clicant la icona de la barra d'eines)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Ajuda"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Cupons"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Per fer servir un cupó, només cal que cliqueu a sobre. Si us mostra un codi, l'haureu d'enganxar al camp corresponent a l'hora de fer el pagament. Si no apareix cap codi, el cupó s'aplicarà de manera automàtica."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Més informació a \u003Cspan class='asp-faqs-span'>PMF\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Notificacions"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Quan SafePrice trobi una oferta o un cupó relacionat amb la vostra cerca, us apareixerà un avís. Cliqueu el botó verd gran per veure què us hem trobat."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Ofertes"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Si cliqueu sobre una oferta se us redirigirà a la botiga en línia de confiança d'un soci, on obtindreu el preu nou que apareix a la notificació."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Altres"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Si cliqueu sobre una oferta especial se us redirigirà a la botiga en línia de confiança d'un soci."
+   },
+   "spSettingsPageSave": {
+      "message": "Desa"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Configuració de l'Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Configuració de l'AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Notificacions"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Notificacions de cupons"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "No m'avisis sobre cupons"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(podreu veure els cupons a tota hora clicant la icona de la barra d'eines)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Mostra quan hi hagi un cupó disponible"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Mostra només una vegada a cada pàgina web"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Notificacions d'ofertes"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Mostra només quan hi hagi una oferta que millori el preu original"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Mostra només les ofertes amb un estalvi d'almenys un 10 %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "No m'avisis sobre ofertes"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(podreu veure les ofertes a tota hora clicant la icona de la barra d'eines)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Mostra quan hi hagi una oferta disponible"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Altres"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Avisa'm sobre ofertes especials d'altres categories (transport, finances i fonts d'alimentació, entre d'altres)"
+   },
+   "spShippingLabel": {
+      "message": "Enviament des de"
+   },
+   "spShowNotificationMessage": {
+      "message": "MOSTRA"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Mireu què hem trobat!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "S'han trobat hotels alternatius!"
+   }
+}

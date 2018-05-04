@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "Nevarat vērtēt lokālos failus vai iekšējās cilnes"
+   },
+   "VoteThank": {
+      "message": "Paldies! Jūsu balsojums tika sekmīgi saglabāts."
+   },
+   "anonymousUser": {
+      "message": "Anonīmais lietotājs"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>droši izolē iepirkšanās un banku darbības sesijas, lai neļautu urķiem\u003C/b>nozagt jūsu \u003Cb>kredītkaršu numurus, paroles\u003C/b> un \u003Cb>citus personas datus.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", kas ir daļa no Avast Secure Browser un instalēts kopā ar jūsu Avast \u003Cb>pretvīrusu programmu, pretvīrusu programmu, droši izolē iepirkšanās un banku darbības sesijas, lai neļautu urķiem nozagt\u003C/b> jūsu \u003Cb>kredītkaršu numurus, paroles\u003C/b> un \u003Cb>citus personas datus.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>Bankas režīms\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "Ne tagad"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Atvērt Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Pārslēgties tūlīt"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "ATKĀRTOTI ATVERIET AVAST PĀRLŪKPROGRAMMĀ"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "ATKĀRTOTI ATVERIET AVAST SAFEZONE"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "VĒLREIZ DROŠI ATVERIET ŠO LAPU"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "ATVĒRT BANKU REŽĪMĀ"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "Pārlūkprogramma no Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "izolē jūsu bankas darbību sesiju, lai novērstu to, ka hakeri reģistrē jūsu nospiestos taustiņus un tver jūsu paroles, kā arī citus personiskus datus. Tai jau iepriekš bija instalēts Avast antivīruss, tātad tagad tas ir iestatīts un gatavs darbībai."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Uzzināt vairāk"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast padoms: SafeZone pārlūkprogramma bloķē reklāmas, lai aizsargātu jūs no izsekošanas sīkfailiem un ļaunreklāmām."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Gādājiet par savu tiešsaistes maksājumu drošību, tā vietā izmantojot Avast SafeZone pārlūku."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "Šī tīmekļa pārlūkprogramma nevar pilnībā nodrošināt jūsu tiešsaistes bankas darbības."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "Veicot bankas darbības no šī tīmekļa pārlūka, jūs varat apdraudēt savu kontu."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "Mēs stingri iesakām veikt bankas darbības no Avast pārlūkprogrammas."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "Jūsu finanšu dati var būt redzami citiem"
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Nodrošiniet labākos darījumus un maksājiet par tiem droši, izmantojot Avast SafeZone pārlūku."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Vai zināt, kā var viegli lejupielādēt video no straumēšanas vietnēm?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Nerādīt šo vēlreiz"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "Vairs neradīt šo vietni"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "LABI, VĒLREIZ DROŠI ATVERIET ŠO VIETNI"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "Paldies, nē. Lūdzu neatgriezeniski paslēpiet šos brīdinājumus"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "Pārlūkprogramma tika iekļauta komplektā ar Avast antivīrusu."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "Ar vienu klikšķi tas atvērs šo lapu Avast pārlūkprogrammā, lai jūs aizsargātu."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "Vai tiešām vēlaties apdraudēt savu kontu?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Drošība tiešsaistē"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Atļaut visas izsekošanas sistēmas"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "visās tīmekļa vietnēs"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Bloķēt visas izsekošanas sistēmas"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Globālie iestatījumi"
+   },
+   "baMoreSettingsAction": {
+      "message": "Vairāk iestatījumu"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "atļautas"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "bloķētas"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Izsekošanas sistēmas pašlaik ir"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "tīmekļa vietnē"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "izsekošanas sistēmas"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Vērtējums, ko piešķīrāt šai vietnei, ir"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatīvs"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "pozitīvs"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Pārlūka tīrīšana"
+   },
+   "cache_contains": {
+      "message": "Jūsu kešatmiņa satur:"
+   },
+   "cache_empty": {
+      "message": "Jūsu kešatmiņa ir tukša."
+   },
+   "castYourVote": {
+      "message": "Nodot savu balsojumu"
+   },
+   "checkAll": {
+      "message": "(Atzīmēt visus atbilstošos variantus)"
+   },
+   "clean_now": {
+      "message": "NOTĪRĪT TŪLĪT"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Ieslēdziet to, lai pārlūkprogrammu atbrīvotu no liekā."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Pārlūka tīrīšana pašlaik ir izslēgta."
+   },
+   "close": {
+      "message": "Aizvērt"
+   },
+   "cookies": {
+      "message": "Sīkfaili"
+   },
+   "copyrights": {
+      "message": "Autortiesības &copy; 1992-2013 AVG Technologies. Visas tiesības paturētas."
+   },
+   "corporate": {
+      "message": "Korporatīvā"
+   },
+   "currentVote": {
+      "message": "Vispārējais reitings"
+   },
+   "detailsHeadline": {
+      "message": "Avast pārbaudīja šo vietni"
+   },
+   "detailsMalwareNo": {
+      "message": "Ļaunprogrammatūra nav konstatēta"
+   },
+   "detailsMalwareYes": {
+      "message": "Konstatēta ļaunprogrammatūra!"
+   },
+   "detailsPhishingNo": {
+      "message": "Pikšķerēšana nav konstatēta"
+   },
+   "detailsPhishingYes": {
+      "message": "Konstatēta pikšķerēšana!"
+   },
+   "disabledTab": {
+      "message": "Nevarat vērtēt lokālos failus vai iekšējās cilnes"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Reklāmu izsekošana"
+   },
+   "dntAllowGroupAction": {
+      "message": "Atļaut visu"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Atļaut"
+   },
+   "dntAllowed": {
+      "message": "atļauta"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Automātiska izsekotāju bloķēšana: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Atspējota"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Iespējota"
+   },
+   "dntBlockGroupAction": {
+      "message": "Bloķēt visu"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Bloķēt"
+   },
+   "dntBlocked": {
+      "message": "bloķēta"
+   },
+   "dntHeadline": {
+      "message": "%s uzņēmumi mēģināja jūs izsekot"
+   },
+   "dntNetworks": {
+      "message": "Tīkli"
+   },
+   "dntNetworksDetected": {
+      "message": "Konstatēti %s tīkli"
+   },
+   "dntOthersNetworks": {
+      "message": "Citi"
+   },
+   "dntSocialNetworks": {
+      "message": "Sociālie tīkli"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Viss atļauts"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Viss bloķēts"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Bloķēts"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Daži vienumi bloķēti"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Tīmekļa analīze"
+   },
+   "downloads": {
+      "message": "Vienumi lejupielāžu vēsturē"
+   },
+   "drugs": {
+      "message": "Alkohols/narkotikas"
+   },
+   "error": {
+      "message": "Kļūda"
+   },
+   "errorUnexpected": {
+      "message": "Neparedzēta kļūda"
+   },
+   "forms": {
+      "message": "Saglabātās veidlapas"
+   },
+   "gambling": {
+      "message": "Azartspēles"
+   },
+   "general_back": {
+      "message": "ATPAKAĻ"
+   },
+   "general_close": {
+      "message": "AIZVĒRT"
+   },
+   "general_more": {
+      "message": "VAIRĀK"
+   },
+   "general_next": {
+      "message": "NĀKAMAIS"
+   },
+   "general_off": {
+      "message": "Izsl."
+   },
+   "general_on": {
+      "message": "Iesl."
+   },
+   "history": {
+      "message": "Tīmekļa vietnes pārlūkošanas vēsturē"
+   },
+   "homepage": {
+      "message": "Sākumlapa"
+   },
+   "howLike": {
+      "message": "Kā jums patīk šī vietne?"
+   },
+   "illegal": {
+      "message": "Programmas/pirātisms"
+   },
+   "it": {
+      "message": "IT/lejupielādes"
+   },
+   "items": {
+      "message": "Vienumi"
+   },
+   "loginAnonymous": {
+      "message": "Kā anonīmais lietotājs"
+   },
+   "loginDesc": {
+      "message": "Aizpildiet jūsu pieteikšanas datus my.avast.com kontam:"
+   },
+   "loginError": {
+      "message": "Pieteikšanās neizdevās"
+   },
+   "loginLogin": {
+      "message": "Pieteikties"
+   },
+   "loginLogout": {
+      "message": "Atteikties"
+   },
+   "loginName": {
+      "message": "Vārds:"
+   },
+   "loginPswd": {
+      "message": "Parole:"
+   },
+   "malwareNext": {
+      "message": "Lejupielādēt Avast bezmaksas antivīrusu"
+   },
+   "malwareSite": {
+      "message": "Šī vietne var kaitēt jūsu datoram."
+   },
+   "malwareSiteRec": {
+      "message": "Ir ieteicams instalēt Avast antivīrusu, lai pārbaudītu jūsu datoru."
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Tīra\u003C/span> pārlūkošanas vēsturi"
+   },
+   "news": {
+      "message": "Jaunumi/emuārs"
+   },
+   "noRating": {
+      "message": "Šai vietnei nav reitinga"
+   },
+   "notifications": {
+      "message": "Paziņojumi"
+   },
+   "others": {
+      "message": "Citi"
+   },
+   "phishingBack": {
+      "message": "Vēlos tikt prom no šejienes"
+   },
+   "phishingClose": {
+      "message": "Ignorēt šo brīdinājumu"
+   },
+   "phishingCreditNumber": {
+      "message": "Izskatās, ka jūs vēlaties ievadīt paroli vai kredītkartes numuru vietnē ar sliktu reputāciju. Lūdzu, vēlreiz rūpīgi pārbaudiet šīs vietnes īstumu. Jūsu personīgās informācijas ievadīšana nedrošā vietnē ir saistīta ar drošības risku."
+   },
+   "phishingDesc": {
+      "message": "Pikšķerēšana ir mēģinājums iegūt sensitīvu informāciju, piemēram, lietotājvārdus, paroles un kredītkaršu informāciju..."
+   },
+   "phishingPhishingSite": {
+      "message": "Šī vietne ir marķēta kā pikšķerēšanas vietne."
+   },
+   "phishingTrust": {
+      "message": "Uzticēties šim domēnam"
+   },
+   "phishingWarning": {
+      "message": "Brīdinājums"
+   },
+   "pornography": {
+      "message": "Pornogrāfiska"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Ieslēdziet to, lai atkal pārņemtu kontroli par savu privātumu tiešsaistē."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Neatsekošana pašlaik ir izslēgta."
+   },
+   "privacy_at_risk": {
+      "message": "Pakļauts riskam"
+   },
+   "privacy_fix_now": {
+      "message": "LABOT TŪLĪT"
+   },
+   "privacy_protected": {
+      "message": "Aizsargāts"
+   },
+   "privacy_protected_description": {
+      "message": "Uzmācīgie tīmekļa izsekotāji, kuri ievāc datu par jūsu darbībām tiešsaistē, ir bloķēti."
+   },
+   "privacy_risky_description": {
+      "message": "Ir neatbloķēti uzmācīgi izsekotāji, kas ievāc datus par jūsu tiešsaistes darbībām."
+   },
+   "privacy_secondary_title": {
+      "message": "Izsekotāji"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Jūsu privātums ir"
+   },
+   "ratingAverage": {
+      "message": "Šai vietnei ir vidējs reitings"
+   },
+   "ratingBad": {
+      "message": "Šai vietnei ir slikts reitings"
+   },
+   "ratingCommunity": {
+      "message": "%s kopienas vērtējums"
+   },
+   "ratingDone": {
+      "message": "Gatavs"
+   },
+   "ratingGood": {
+      "message": "Šai vietnei ir labs reitings"
+   },
+   "ratingLevelAverage": {
+      "message": "Viduvēja"
+   },
+   "ratingLevelBad": {
+      "message": "Slikta"
+   },
+   "ratingLevelPositive": {
+      "message": "Pozitīva"
+   },
+   "ratingLevelUndefined": {
+      "message": "Nav"
+   },
+   "ratingNegative": {
+      "message": "Kāpēc jūs vērtējat savu pieredzi kā negatīvu?"
+   },
+   "ratingNoRate": {
+      "message": "Es tagad nevēlos vērtēt"
+   },
+   "ratingPending": {
+      "message": "Atjaunot reitingu"
+   },
+   "ratingPositive": {
+      "message": "Kāpēc jūs vērtējat savu pieredzi kā pozitīvu?"
+   },
+   "ratingRate": {
+      "message": "Kā vērtējat savu pieredzi šajā vietnē?"
+   },
+   "ratingTextAverage": {
+      "message": "šai vietnei ir slikta reputācija"
+   },
+   "ratingTextBad": {
+      "message": "šī vietne ir nedroša"
+   },
+   "ratingTextPositive": {
+      "message": "šī vietne ir droša"
+   },
+   "ratingTextUndefined": {
+      "message": "nezināma vietne"
+   },
+   "ratingVeryBad": {
+      "message": "Šai vietnei ir ļoti slikts reitings"
+   },
+   "reasonBlocker": {
+      "message": "(draudi bloķēti)"
+   },
+   "reasonPhishing": {
+      "message": "(atklāta pikšķerēšanas vietne)"
+   },
+   "reasonUnknownFullText": {
+      "message": "Šai vietnei vēl nav reitinga"
+   },
+   "restart_notification": {
+      "message": "Šīs izmaiņas stāsies spēkā pēc pārlūka restartēšanas."
+   },
+   "restore_defaults": {
+      "message": "ATJAUNOT NOKLUSĒJUMUS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Atjaunot iepriekšējo"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "Atrastas līdzīgas viesnīcas!"
+   },
+   "safeZoneDecline": {
+      "message": "Nepiedāvāt SafeZone vietnei "
+   },
+   "safeZoneDesc": {
+      "message": "Avast iesaka pārslēgties uz SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "Lai jūs justos drošāk, pieprasītais URL tika atvērts SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "Nē"
+   },
+   "safeZoneYes": {
+      "message": "Pārslēgties tūlīt"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> ir gatavs darbam. Veiksmīgu iepirkšanos!"
+   },
+   "search": {
+      "message": "Meklēt"
+   },
+   "settingsReset": {
+      "message": "Atiestatīt noklusējumu"
+   },
+   "settingsSave": {
+      "message": "Saglabāt"
+   },
+   "settingscommunityIQ": {
+      "message": "Statistika"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Iespējojot šo opciju, jūs piekrītat anonīmi nosūtīt noteiktu informāciju Avast. Mēs drīkstam kopīgot anonimizēto informāciju ar trešajām pusēm."
+   },
+   "settingsdnt": {
+      "message": "Neizsekot"
+   },
+   "settingsdnt0": {
+      "message": "Privātuma vairogs"
+   },
+   "settingsdnt2": {
+      "message": "Neizsekot"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Bloķēt reklāmu izsekošanu pēc noklusējuma"
+   },
+   "settingsdntDesc": {
+      "message": "Konstatē un bloķē nevēlamu reklāmu un liedz analīzes vietnēm jūs slepeni izsekot"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Bloķēt citus pēc noklusējuma"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Bloķēt sociālos tīklus pēc noklusējuma"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Bloķēt tīkla analīzi pēc noklusējuma"
+   },
+   "settingsphishing": {
+      "message": "Pretpikšķerēšana"
+   },
+   "settingsphishing0": {
+      "message": "Sērfošanas vairogs"
+   },
+   "settingsphishing2": {
+      "message": "Pretpikšķerēšana"
+   },
+   "settingsphishingDesc": {
+      "message": "Pārbauda tīmekļa vietnes, vai nav ļaunprogrammatūras, un pasargā no pikšķerēšanas"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Sensitīvu finanšu vietņu gadījumā pārslēgties uz SafeZone (jāinstalē Avast antivīruss)"
+   },
+   "settingsserp": {
+      "message": "Meklēšanas programmas rezultāti"
+   },
+   "settingsserpDesc": {
+      "message": "Ieslēgt meklēšanas rezultātu lapas iekrāsošanu"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Ieslēgt uznirstošos paziņojumus meklēšanas rezultātu lapā"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Izlaist vaicājumu un automātiski pārvirzīt uz legālām vietnēm"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Konstatē un izlabo nepareizi uzrakstītus URL un novirza uz legālām vietnēm"
+   },
+   "sfzoneAlways": {
+      "message": "Jā, vienmēr"
+   },
+   "sfzoneDesc": {
+      "message": "Jūs esat iegājis internetbankas vietnē. Vai vēlaties atvērt to Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Nekad"
+   },
+   "sfzoneNo": {
+      "message": "Nē"
+   },
+   "sfzoneSwitch": {
+      "message": "Pārslēgties uz Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "Jā"
+   },
+   "shopping": {
+      "message": "Iepirkšanās"
+   },
+   "sideDashboard": {
+      "message": "Mans Avast"
+   },
+   "sideDetails": {
+      "message": "Uzzināt vairāk"
+   },
+   "sideRate": {
+      "message": "Vērtēt tūlīt"
+   },
+   "sideSettings": {
+      "message": "Uzstādījumi"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Ieslēdziet to, lai sērfošanas un meklēšanas laikā saņemtu brīdinājumu par bīstamām tīmekļa vietnēm."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Vietnes drošība pašlaik ir izslēgta."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Sīkfaili"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "SKATĪT PILNU ZIŅOJUMU"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP adrese"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Pēdējais atjauninājums"
+   },
+   "site_safety_site_info_location": {
+      "message": "Servera atrašanās vieta"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Vietnes popularitāte"
+   },
+   "site_safety_site_info_size": {
+      "message": "Izmērs"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Ātrums"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL drošība"
+   },
+   "site_safety_site_info_website": {
+      "message": "Tīmekļa vietne"
+   },
+   "site_safety_title": {
+      "message": "Vietnes drošība"
+   },
+   "sitecorrectAuto": {
+      "message": "Turpmāk automātiski atvērt zināmas pareizās vietnes"
+   },
+   "sitecorrectBarButton": {
+      "message": "Tā nebija kļūda. Vēlos atgriezties."
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: automātiski pārvirzīts no %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Lai konfigurētu Avast SiteCorrect funkcijas, lūdzu, atveriet lietotāja saskarni, dodieties uz Papildu aizsardzība, Pārlūka aizsardzība un nospiediet pogu Iestatījumi."
+   },
+   "sitecorrectMean": {
+      "message": "Vai jūs domājāt %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Nē, es tiešām domāju %s"
+   },
+   "sitecorrectText": {
+      "message": "Iespējams, šī nav vietne, kuru mēģinājāt ievadīt."
+   },
+   "sitecorrectYes": {
+      "message": "Jā"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Skenē\u003C/span> vietnes, meklējot ļaunprogrammatūru"
+   },
+   "social": {
+      "message": "Sociālā/spēļu"
+   },
+   "thanksHeadline": {
+      "message": "Paldies par jūsu vērtējumu!"
+   },
+   "thanksMessage": {
+      "message": "Jūsu balsojums ir iesniegts."
+   },
+   "title": {
+      "message": "Avast tiešsaistes drošības iestatījumi"
+   },
+   "topBarDetails": {
+      "message": "Skatīt detalizētu informāciju"
+   },
+   "topBarRatingAverage": {
+      "message": "%s vērtēta kā normāla"
+   },
+   "topBarRatingBad": {
+      "message": "%s vērtēta kā bīstama"
+   },
+   "topBarRatingGood": {
+      "message": "%s vērtēta kā droša"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Bloķē\u003C/span> uzmācīgus izsekotājus"
+   },
+   "uninstall": {
+      "message": "ATINSTALĒT"
+   },
+   "verdict_dangerous": {
+      "message": "Bīstams"
+   },
+   "verdict_info_dangerous": {
+      "message": "Izvairieties no šīs lapas! Šī lapa satur aktīvus draudus un nav ieteicama pārlūkošanai."
+   },
+   "verdict_info_risky": {
+      "message": "Sērfojiet piesardzīgi. Šī lapa var saturēt draudus un nav ieteicama pārlūkošanai."
+   },
+   "verdict_info_safe": {
+      "message": "Šī lapa nesatur aktīvus draudus, un to var droši pārlūkot."
+   },
+   "verdict_risky": {
+      "message": "Riskants"
+   },
+   "verdict_safe": {
+      "message": "Drošs"
+   },
+   "verdict_this_site_is": {
+      "message": "Šī vietne ir"
+   },
+   "version": {
+      "message": "AVG Web TuneUp versija"
+   },
+   "violence": {
+      "message": "Ieroči/vardarbība"
+   },
+   "vote": {
+      "message": "Balsot"
+   },
+   "voteNegative": {
+      "message": "negatīva"
+   },
+   "votePositive": {
+      "message": "pozitīva"
+   },
+   "webrepDisabled": {
+      "message": "WebRep ir izslēgts"
+   },
+   "whatTypeContent": {
+      "message": "Kādu saturu piedāvā šī vietne?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp darbojas jūsu labā, optimizējot jūsu interneta pieredzi"
+   }
+}

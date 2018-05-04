@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "オンライン ショッピングの際にアバストが開発した価格比較とクーポンの拡張機能を利用して最もお得な価格、プロモーションやクーポンを見つけることができます。"
+   },
+   "avastAppName": {
+      "message": "アバスト セーフプライス"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "オンライン ショッピングの際に AVG が開発した価格比較とクーポンの拡張機能を利用して最もお得な価格、プロモーションやクーポンを見つけることができます。"
+   },
+   "avgAppName": {
+      "message": "AVG セーフプライス"
+   },
+   "sasClickToCopy": {
+      "message": "クリックしてコピー"
+   },
+   "sasCouponCodeCopied": {
+      "message": "割引クーポンをクリップボードにコピーしました。"
+   },
+   "sasHintSettings": {
+      "message": "設定"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "最低料金: %s"
+   },
+   "spAdditionalFees": {
+      "message": "この他に手数料・税金がかかることがあります"
+   },
+   "spApply": {
+      "message": "クーポンを適用"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "その他のおすすめ"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "その他の\u003Cbr>お得な情報"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "組み合わせてさらにお得に！"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "組み合わせて\u003Cbr>さらにお得に！"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "人気のホテル："
+   },
+   "spCopyAtCheckOut": {
+      "message": "チェックアウト時にコピー / 貼り付け："
+   },
+   "spCouponApplied": {
+      "message": "クーポンを適用しました。"
+   },
+   "spCouponsAvailableText": {
+      "message": "利用可能"
+   },
+   "spCouponsExpiration": {
+      "message": "有効期限："
+   },
+   "spCouponsNotificationMessage": {
+      "message": "お得なクーポンを使って購入"
+   },
+   "spCouponsSelected": {
+      "message": "選択されたクーポン："
+   },
+   "spCouponsSelectedText": {
+      "message": "選択済み"
+   },
+   "spCouponsTab": {
+      "message": "クーポン"
+   },
+   "spGetCouponCode": {
+      "message": "コードを取得"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "とてもお得な情報が待っています。もうしばらくお待ちください。"
+   },
+   "spLoadingNotificationMessage": {
+      "message": "お得な情報を探しています。"
+   },
+   "spNothingFoundCoupons": {
+      "message": "残念ながら...\u003Cbr>クーポンはありませんでした..."
+   },
+   "spNothingFoundOffers": {
+      "message": "残念ながら...\u003Cbr>おすすめはありませんでした..."
+   },
+   "spNothingFoundOthers": {
+      "message": "残念ながら...\u003Cbr>特別なプロモーションはありませんでした..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "簡易"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "詳細"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "お得な情報を表示"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "%s お得"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "お得な情報とクーポンが見つかりました！"
+   },
+   "spOffersTab": {
+      "message": "おすすめ"
+   },
+   "spOthersTab": {
+      "message": "その他"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "次を含める: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "ホテル＆トラベル"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E ショップ"
+   },
+   "spSettingsPageCancel": {
+      "message": "キャンセル"
+   },
+   "spSettingsPageCustomList": {
+      "message": "カスタム リスト"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "追加"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "サイトを追加"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "以下のウェブサイトでは通知を表示しない："
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "（随時、ツールバーのアイコンをクリックしておすすめやクーポンを表示できます）"
+   },
+   "spSettingsPageHelp": {
+      "message": "ヘルプ"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. クーポン"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "クーポンを使用するには、該当するクーポンをクリックする必要があります。コードが表示された場合、チェック アウト時に適切なフィールドに貼り付ける必要があります。表示されない場合、クーポンは自動的に適用されます。"
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "詳しくは、\u003Cspan class='asp-faqs-span'>よくある質問\u003C/span> をご覧ください。"
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. 通知"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "セーフプライスでは、検索内容に関連するおすすめやクーポンが見つかるたび、通知がポップアップ表示されます。大きい緑色のボタンをクリックすると、見つかった情報を表示できます。"
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. おすすめ"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "おすすめをクリックすると、パートナーの信頼できるオンライン ストアに誘導され、通知どおりの新しい価格が適用されます。"
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. その他"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "表示された特別なプロモーションをクリックすると、パートナーの信頼できるオンライン ストアに誘導されます。"
+   },
+   "spSettingsPageSave": {
+      "message": "保存"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "アバスト セーフプライスの設定"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG セーフプライスの設定"
+   },
+   "spSettingsTabNotifications": {
+      "message": "通知"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "クーポンの通知"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "クーポンの通知は受け取らない"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "（随時、ツールバーのアイコンをクリックしてクーポンを表示できます）"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "クーポンがあるときは常に表示"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "各ウェブサイトで 1 回のみ表示"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "おすすめの通知"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "値引きがある場合のみおすすめを表示"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "10% 以上の値引きがあるおすすめのみ表示"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "おすすめの通知は受け取らない"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "（随時、ツールバーのアイコンをクリックしておすすめを表示できます）"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "おすすめがあるときは常に表示"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "その他"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "その他のカテゴリ（運輸、金融、電源装置など）の特別なプロモーションの通知を受け取る"
+   },
+   "spShippingLabel": {
+      "message": "送料："
+   },
+   "spShowNotificationMessage": {
+      "message": "表示"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "検索結果は次のとおりです。"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "近い条件のホテルが見つかりました！"
+   }
+}

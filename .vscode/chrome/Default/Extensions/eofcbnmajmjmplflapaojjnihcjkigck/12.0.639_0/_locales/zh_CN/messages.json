@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "找到最好的价格、交易和优惠券，同时通过 Avast 提供的价格比较和优惠券延期价格进行在线购物。"
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "找到最好的价格、交易和优惠券，同时通过 AVG 提供的价格比较和优惠券延期价格进行在线购物。"
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "单击复制"
+   },
+   "sasCouponCodeCopied": {
+      "message": "已将代码复制到剪贴板。"
+   },
+   "sasHintSettings": {
+      "message": "设置"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "价格低至：%s"
+   },
+   "spAdditionalFees": {
+      "message": "可能收取附加费用和税费"
+   },
+   "spApply": {
+      "message": "使用优惠券"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "哦，您看！这里有更多优惠"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "哦，您看！\u003Cbr>这里有更多优惠"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "更多优惠，省钱更多！"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "更多优惠，\u003Cbr>省钱更多！"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "受欢迎的酒店："
+   },
+   "spCopyAtCheckOut": {
+      "message": "结账时复制粘贴："
+   },
+   "spCouponApplied": {
+      "message": "优惠券已使用。"
+   },
+   "spCouponsAvailableText": {
+      "message": "可用"
+   },
+   "spCouponsExpiration": {
+      "message": "到期时间： "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "用优惠券省钱"
+   },
+   "spCouponsSelected": {
+      "message": "选择的优惠券： "
+   },
+   "spCouponsSelectedText": {
+      "message": "已选择"
+   },
+   "spCouponsTab": {
+      "message": "优惠券"
+   },
+   "spGetCouponCode": {
+      "message": "获取验证码"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "绝对不会让您白等，我们保证。"
+   },
+   "spLoadingNotificationMessage": {
+      "message": "正在搜索优惠..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "啊哦...\u003Cbr>未找到优惠券..."
+   },
+   "spNothingFoundOffers": {
+      "message": "啊哦...\u003Cbr>未找到优惠..."
+   },
+   "spNothingFoundOthers": {
+      "message": "啊哦...\u003Cbr>未找到特殊优惠..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "更少"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "更多"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "显示优惠"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "节省 %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "已找到的折扣和优惠券。您运气真不错！"
+   },
+   "spOffersTab": {
+      "message": "报价"
+   },
+   "spOthersTab": {
+      "message": "其他"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "包括： "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "住宿与旅行"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "网上商城"
+   },
+   "spSettingsPageCancel": {
+      "message": "取消"
+   },
+   "spSettingsPageCustomList": {
+      "message": "自定义列表"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "添加"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "添加站点"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "不要在这些网站显示任何通知："
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "（单击工具栏图标随时可以查看优惠及优惠券信息）"
+   },
+   "spSettingsPageHelp": {
+      "message": "帮助"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. 优惠券"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "要使用优惠券，点击它即可。如果显示一个代码，则需要在付款时将它粘贴到相应区域，而优惠券将自动应用。"
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "查看\u003Cspan class='asp-faqs-span'>常见问题\u003C/span>，了解更多信息。"
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. 通知"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "当 SafePrice 找到与您的搜索相关的优惠或优惠券时将弹出一个通知。点击绿色大按钮，看看我们为您找到了什么。"
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. 优惠"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "点击一个优惠，将带您进入合作伙伴受信任的在线商店，在那里您将在通知区域看到列出的新价格。"
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. 其他"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "点击所列的特殊优惠后将带您进入合作伙伴受信任的在线商店。"
+   },
+   "spSettingsPageSave": {
+      "message": "保存"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice 设置"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice 设置"
+   },
+   "spSettingsTabNotifications": {
+      "message": "通知"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "优惠券通知"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "不要通知我优惠券信息"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "（单击工具栏图标随时可以查看优惠券信息）"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "有优惠券可用时显示"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "每个网站仅显示一次"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "优惠通知"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "仅当优惠价格低于原始价格时显示"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "仅显示能节省至少 10% 的优惠"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "不要通知我优惠信息"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "（单击工具栏图标随时可以查看优惠信息）"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "有优惠可用时显示"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "其他"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "通知我其他类别的特殊优惠（交通、金融、电力等）"
+   },
+   "spShippingLabel": {
+      "message": "S/H 来自"
+   },
+   "spShowNotificationMessage": {
+      "message": "显示"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "看看我们找到了什么！"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "找到的同类型酒店！"
+   }
+}

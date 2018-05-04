@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Löydät parhaat hinnat, tarjoukset ja alennuskoodit, kun ostat verkossa Avastin hintavertailulaajennuksen avulla."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Löydät parhaat hinnat, tarjoukset ja alennuskoodit, kun ostat verkossa AVG:n hintavertailulaajennuksen avulla."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Napsauta kopioidaksesi"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Koodi kopioitu leikepöydälle."
+   },
+   "sasHintSettings": {
+      "message": "Asetukset"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Alkaen: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Muita maksuja & veroja voidaan soveltaa"
+   },
+   "spApply": {
+      "message": "Käytä kuponkia"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Oho, katso! Lisää tarjouksia"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Oho, katso!\u003Cbr> Lisää tarjouksia"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Lisää tarjouksia, enemmän säästöjä!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Lisää tarjouksia,\u003Cbr> enemmän säästöjä!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Suositut hotellit:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Kopioi ja liitä kassalla:"
+   },
+   "spCouponApplied": {
+      "message": "Kuponki otettu käyttöön."
+   },
+   "spCouponsAvailableText": {
+      "message": "Käytettävissä"
+   },
+   "spCouponsExpiration": {
+      "message": "Umpeutuu: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Säästä käyttämällä kuponkeja"
+   },
+   "spCouponsSelected": {
+      "message": "Valitut kupongit: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Valittu"
+   },
+   "spCouponsTab": {
+      "message": "Kupongit"
+   },
+   "spGetCouponCode": {
+      "message": "Hae koodi"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Lupaamme, että odottaminen on vaivan arvoista."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Haetaan tarjouksia..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Ohoh...\u003Cbr>Kuponkeja ei löytynyt..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Ohoh...\u003Cbr>Tarjouksia ei löytynyt..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Ohoh...\u003Cbr>Erikoistarjouksia ei löytynyt..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Vähemmän"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Lisää"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "NÄYTÄ TARJOUS"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Säästä %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Tarjouksia & kuponkeja löydetty. Onnea!"
+   },
+   "spOffersTab": {
+      "message": "Tarjoukset"
+   },
+   "spOthersTab": {
+      "message": "Muut"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Sisällytä:"
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Majoitus & matkailu"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "Verkkokaupat"
+   },
+   "spSettingsPageCancel": {
+      "message": "Peruuta"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Mukautettu luettelo"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Lisää"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Lisää sivusto"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Älä näytä ilmoituksia näillä verkkosivustoilla:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(voit aina nähdä tarjoukset ja kupongit napsauttamalla työkalurivin kuvaketta)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Ohje"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kupongit"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Jos haluat käyttää kuponkia, sitä on vain napsautettava. Jos paljastuu koodi, se on liitettävä asianmukaiseen kenttään kassalla. Muuten kuponkia käytetään automaattisesti."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Lue lisätietoja \u003Cspan class='asp-faqs-span'>usein kysytyistä kysymyksistä\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Ilmoitukset"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Kun SafePrice löytää hakuusi liittyvän tarjouksen tai kupongin, ilmoitus tulee näkyviin. Napsauttamalla isoa vihreää painiketta näet, mitä löysimme sinulle."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Tarjoukset"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Tarjousta napsauttamalla pääset kumppanimme luotettuun verkkokauppaan, jossa saat ilmoituksessa mainitun uuden hinnan."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Muut"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Napsauttamalla luettelossa olevaa erikoistarjousta pääset kumppanin luotettuun verkkokauppaan."
+   },
+   "spSettingsPageSave": {
+      "message": "Tallenna"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice -asetukset"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice -asetukset"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Ilmoitukset"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Kuponki-ilmoitukset"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Älä ilmoita minulle kupongeista"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(voit aina nähdä kupongit napsauttamalla työkalurivin kuvaketta)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Näytä, kun kuponki on saatavana"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Näytä vain kerran kullakin verkkosivustolla"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Tarjousilmoitukset"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Näytä vain, kun on saatavana tarjous, joka on parempi kuin alkuperäinen hinta"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Näytä vain tarjoukset, joissa säästöt on vähintään 10  %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Älä ilmoita minulle tarjouksista"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(voit aina nähdä tarjoukset napsauttamalla työkalurivin kuvaketta)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Näytä, kun tarjous on saatavana"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Muut"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Ilmoita minulle muiden kategorioiden erikoistarjouksista (kuljetus, rahoitus, energiatuotanto ja muut)"
+   },
+   "spShippingLabel": {
+      "message": "Postitus- ja käsittelykulut"
+   },
+   "spShowNotificationMessage": {
+      "message": "NÄYTÄ"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Katso, mitä löysimme!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Vaihtoehtoisia hotelleja löytynyt!"
+   }
+}

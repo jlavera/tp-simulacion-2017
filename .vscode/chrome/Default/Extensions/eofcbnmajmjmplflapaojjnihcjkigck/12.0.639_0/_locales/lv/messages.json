@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Atrodiet labākās cenas, iepērkoties tiešsaistē ar cenu salīdzināšanu un kupona paplašinājumu, ko nodrošina Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Atrodiet labākās cenas, iepērkoties tiešsaistē ar cenu salīdzināšanu un kupona paplašinājumu, ko nodrošina AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Noklikšķiniet, lai nokopētu"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kods nokopēts uz starpliktuvi."
+   },
+   "sasHintSettings": {
+      "message": "Iestatījumi"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Sākot no: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Var tikt piemērotas papildu nodevas un nodokļi"
+   },
+   "spApply": {
+      "message": "Lietot kuponu"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Skatieties! Vairāk piedāvājumu"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Skatieties!\u003Cbr> Vairāk piedāvājumu"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Vairāk darījumu, lielāki ietaupījumi!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Vairāk darījumu,\u003Cbr> lielāki ietaupījumi!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Populāras viesnīcas:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Nokopējiet un ielīmējiet norēķinoties:"
+   },
+   "spCouponApplied": {
+      "message": "Kupons izmantots."
+   },
+   "spCouponsAvailableText": {
+      "message": "Pieejamie"
+   },
+   "spCouponsExpiration": {
+      "message": "Termiņa beigas: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Taupiet naudu, izmantojot kuponus"
+   },
+   "spCouponsSelected": {
+      "message": "Atlasītie kuponi: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Atlasītie"
+   },
+   "spCouponsTab": {
+      "message": "Kuponi"
+   },
+   "spGetCouponCode": {
+      "message": "Saņemt kodu"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Apsolām, ka ir vērts pagaidīt."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Meklē darījumus..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Ak, nē...\u003Cbr>Kuponi nav atrasti..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Ak, nē...\u003Cbr>Piedāvājumi nav atrasti..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Ak, nē...\u003Cbr>Īpašie darījumi nav atrasti..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Mazāk"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Vairāk"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "RĀDĪT DARĪJUMU"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Saglabāt %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Atrasti piedāvājumi un kuponi. Jums veicas!"
+   },
+   "spOffersTab": {
+      "message": "Piedāvājumi"
+   },
+   "spOthersTab": {
+      "message": "Citi"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Iekļauts: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Apmešanās un ceļojumi"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-veikali"
+   },
+   "spSettingsPageCancel": {
+      "message": "Atcelt"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Pielāgot sarakstu"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Pievienot"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Pievienot vietni"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Nerādīt paziņojumus šajās tīmekļa vietnēs:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(piedāvājumus un kuponus vienmēr var skatīt, noklikšķinot uz rīkjoslas ikonas)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Palīdzība"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Kuponi"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Lai izmantotu kuponu, vienkārši noklikšķiniet uz tā. Ja tas atsedz kodu, šis kods norēķināšanās brīdī būs jāielīmē attiecīgajā laukā. Pretējā gadījumā kupons tiks lietots automātiski."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Vairāk uzziniet sadaļā \u003Cspan class='asp-faqs-span'>BUJ\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Paziņojumi"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Kad SafePrice atrod ar jūsu meklēšanu saistītu piedāvājumu vai kuponu, tiek parādīts uznirstošs paziņojums. Noklikšķiniet uz lielās zaļās pogas, lai skatītu, ko esam jums atraduši."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Piedāvājumi"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Noklikšķinot uz piedāvājuma, nonāksit uzticamā partnera tiešsaistes veikalā, kur saņemsit paziņojumā norādīto jauno cenu."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Citi"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Noklikšķinot uz norādītā speciālā darījuma, nonāksit uzticamā partnera tiešsaistes veikalā."
+   },
+   "spSettingsPageSave": {
+      "message": "Saglabāt"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice iestatījumi"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice iestatījumi"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Paziņojumi"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Kuponu paziņojumi"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Neinformēt par kuponiem"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(kuponus vienmēr var skatīt, noklikšķinot uz rīkjoslas ikonas)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Rādīt, kad kupons ir pieejams"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Rādīt tikai vienreiz katrai tīmekļa vietnei"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Piedāvājumu paziņojumi"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Rādīt tikai, ja ir pieejams piedāvājums, kas ir labāks par sākotnējo cenu"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Rādīt tikai piedāvājumus ar vismaz 10% ietaupījumu"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Neinformēt par piedāvājumiem"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(piedāvājumus vienmēr var skatīt, noklikšķinot uz rīkjoslas ikonas)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Rādīt, kad piedāvājums ir pieejams"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Citi"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Informēt mani par speciālajiem piedāvājumiem citās kategorijās (piemēram, transporta, finanšu, elektroapgādes un citiem)"
+   },
+   "spShippingLabel": {
+      "message": "Sūtīšanas maksa no"
+   },
+   "spShowNotificationMessage": {
+      "message": "RĀDĪT"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Skatiet šo atradumu!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Atrastas alternatīvas viesnīcas!"
+   }
+}

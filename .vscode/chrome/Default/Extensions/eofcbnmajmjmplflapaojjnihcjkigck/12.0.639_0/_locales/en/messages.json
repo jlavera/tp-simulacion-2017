@@ -1,0 +1,237 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Find the best prices, deals and coupons while shopping online with the price comparison and coupon extension powered by Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Find the best prices, deals and coupons while shopping online with the price comparison and coupon extension powered by AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Click to copy"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Code copied to clipboard."
+   },
+   "sasHintSettings": {
+      "message": "Settings"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Starting at: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Additional Fees & Taxes may apply"
+   },
+   "spApply": {
+      "message": "Apply coupon"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Oh look! More offers"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Oh look!\u003Cbr> More offers"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "More deals, more savings!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "More deals,\u003Cbr> more savings!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Popular hotels:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Copy and paste at checkout:"
+   },
+   "spCouponApplied": {
+      "message": "Coupon applied."
+   },
+   "spCouponsAvailableText": {
+      "message": "Available"
+   },
+   "spCouponsExpiration": {
+      "message": "Expires: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Save money using coupons"
+   },
+   "spCouponsSelected": {
+      "message": "Coupons selected: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Selected"
+   },
+   "spCouponsTab": {
+      "message": "Coupons"
+   },
+   "spGetCouponCode": {
+      "message": "Get Code"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "It's worth the wait, we promise."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Searching for deals..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Uh oh...\u003Cbr>No coupons found..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Uh oh...\u003Cbr>No offers found..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Uh oh...\u003Cbr>No special deals found..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Less"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "More"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "SHOW DEAL"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Save %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Offers & coupons found. Lucky you!"
+   },
+   "spOffersTab": {
+      "message": "Offers"
+   },
+   "spOthersTab": {
+      "message": "Others"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Include: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Accommodation & travel"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-shops"
+   },
+   "spSettingsPageCancel": {
+      "message": "Cancel"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Custom list"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Add"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Add site"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Don’t show any notification on these websites:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(you can always see offers and coupons by clicking on the toolbar icon)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Help"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Coupons"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "To use a coupon, all you have to do is click it. If it reveals a code, you’ll need to paste it into the appropriate field during checkout. Otherwise, the coupon is automatically applied."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Learn more in \u003Cspan class='asp-faqs-span'>FAQs\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Notifications"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "When SafePrice finds an offer or coupon related to your search, a notification will pop up. Click the big green button to see what we found for you."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Offers"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Clicking on an offer will take you to a partner’s trusted online store, where you’ll get the new price listed on the notification."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Others"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Clicking on a listed special deal will take you to a partner’s trusted online store."
+   },
+   "spSettingsPageSave": {
+      "message": "Save"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice Settings"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice Settings"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Notifications"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Coupons notifications"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Do not notify me about coupons"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(you can always see coupons by clicking on the toolbar icon)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Show whenever a coupon is available"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Show once on each website only"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Offers notifications"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Only show when an offer better than the original price is available"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Only show for offers with savings of at least  10  %"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Do not notify me about offers"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(you can always see offers by clicking on the toolbar icon)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Show whenever an offer is available"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Others"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Notify me about special deals for other categories (transportation, finance, power supply and more)"
+   },
+   "spShippingLabel": {
+      "message": "S/H from"
+   },
+   "spShowNotificationMessage": {
+      "message": "SHOW"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Look what we found!"
+   },
+   "spSimilarHotelsMessage": {
+      "message": "Alternative hotels"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Alternative hotels found!"
+   }
+}

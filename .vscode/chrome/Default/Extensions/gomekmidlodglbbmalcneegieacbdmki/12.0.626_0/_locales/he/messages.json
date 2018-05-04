@@ -1,0 +1,784 @@
+{
+   "InternalTabs": {
+      "message": "אינך יכול לדרג קבצים מקומיים וטאבים פנימיים"
+   },
+   "VoteThank": {
+      "message": "תודה לך! ההצבעה שלך נשמרה בהצלחה"
+   },
+   "anonymousUser": {
+      "message": "משתמש אנונימי"
+   },
+   "aosBankModeInfoMessageAvastBrowser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": " \u003Cb>מבודד סשנים של קניות וסשנים בנקאיים בצורה בטוחה כדי לעצור האקרים\u003C/b> שמנסים לגנוב את \u003Cb>מספרי כרטיסי האשראי, הסיסמאות\u003C/b> ועוד \u003Cb>נתונים פרטיים שלך.\u003C/b>"
+   },
+   "aosBankModeInfoMsgNonAvastBrowserUser": {
+      "description": "It is showed to explain the user the goal of Bank Mode",
+      "message": ", חלק בדפדפן המאובטח של Avast המותקן עם האנטי-וירוס של Avast, \u003Cb>מבודד סשנים של קניות וסשנים בנקאיים באופן בטוח כדי לעצור האקרים שמנסים לגנוב\u003C/b> את \u003Cb>מספרי כרטיסי האשראי, הסיסמאות\u003C/b> ועוד \u003Cb>נתונים פרטיים שלך.\u003C/b>"
+   },
+   "aosBankModeName": {
+      "description": "Name of the tool",
+      "message": "\u003Cb>מצב בנק\u003C/b>"
+   },
+   "aosSafeZoneButtonMsgNotNow": {
+      "message": "לא עכשיו"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "פתח את Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "עבור עכשיו"
+   },
+   "aosSafeZoneButtonMsgYes1": {
+      "message": "פתח מחדש בדפדפן של Avast"
+   },
+   "aosSafeZoneButtonMsgYes2": {
+      "message": "פתח מחדש ב-Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes3": {
+      "message": "פתח את הדף הזה שוב בצורה מאובטחת"
+   },
+   "aosSafeZoneButtonMsgYes4": {
+      "description": "Offer to the user to open the current page in Bank Mode",
+      "message": "פתח ב'מצב בנק'"
+   },
+   "aosSafeZoneInfoMsgPar1": {
+      "message": "הדפדפן של Avast "
+   },
+   "aosSafeZoneInfoMsgPar2": {
+      "message": "מבודד את הסשן הבנקאי ומונע מהאקרים לרשום את לחיצות המקשים וליירט את הסיסמאות או כל מידע אישי אחר. הוא כבר הותקן עם האנטי-וירוס של Avast ולכן הוא מוכן וערוך לעבודה."
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "למד עוד"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "הטיפ של Avast: דפדפן SafeZone חוסם פרסומות ומגן עליך מפני מעקב באמצעות עוגיות ומפני פרסום זדוני."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "במקום זאת, שלם באינטרנט בביטחון בדפדפן Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescBank1": {
+      "message": "דפדפן זה לא מסוגל לאבטח לחלוטין את הפעולות הבנקאיות שלך באינטרנט."
+   },
+   "aosSafeZoneMsgDescBank2": {
+      "message": "ביצוע פעולות בנקאיות בדפדפן הזה עלול לסכן את חשבונך."
+   },
+   "aosSafeZoneMsgDescBank3": {
+      "message": "אנחנו ממליצים מאוד לבצע פעולות בנקאיות רק בדפדפן של Avast."
+   },
+   "aosSafeZoneMsgDescBank4": {
+      "description": "Message showed when AOS wants to offer the user the chance of open bank mode",
+      "message": "ייתכן שאנשים אחרים יכולים לראות את הנתונים הכספיים שלך."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "הבטח לעצמך את העסקאות הטובות ביותר ושלם תמורתן בצורה בטוחה בדפדפן Avast SafeZone."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "הידעת שאפשר להוריד סרטים בקלות מאתרי סטרימינג?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "אל תראה זאת שנית"
+   },
+   "aosSafeZoneMsgDontShow2": {
+      "description": "It allows the user to unable SafeZone for a specific Host",
+      "message": "אל תציג את ההודעה באתר הזה שוב"
+   },
+   "aosSafeZoneNeverButton": {
+      "message": "בסדר, פתח את האתר הזה שוב בצורה מאובטחת"
+   },
+   "aosSafeZoneNeverLink": {
+      "message": "לא, תודה, בבקשה אל תציג את האזהרות האלה יותר"
+   },
+   "aosSafeZoneNeverMsg1": {
+      "message": "הדפדפן של Avast הגיע עם האנטי-וירוס של Avast."
+   },
+   "aosSafeZoneNeverMsg2": {
+      "message": "לחיצה אחת תפתח את הדף שוב בדפדפן של Avast כדי להגן עליך."
+   },
+   "aosSafeZoneNeverTitle": {
+      "message": "אתה באמת רוצה לסכן את החשבון?"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "אבטחה מקוונת"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "אפשר את כל מערכות העקיבה"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "בכל האתרים"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "חסום את כל מערכות העקיבה"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "הגדרות גלובליות"
+   },
+   "baMoreSettingsAction": {
+      "message": "עוד הגדרות"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "מאופשרות"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "חסומות"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "כעת, מערכות העקיבה"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "באתר"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "מערכות עקיבה"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "אתה מדרג אתר זה"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "כשלילי"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "כחיובי"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "browser_cleaner_title": {
+      "message": "Browser Cleaner"
+   },
+   "cache_contains": {
+      "message": "Your cache contains:"
+   },
+   "cache_empty": {
+      "message": "Your cache is empty."
+   },
+   "castYourVote": {
+      "message": "גבש את ההצבעות שלך"
+   },
+   "checkAll": {
+      "message": "(סמן את כל שניתן להחיל)"
+   },
+   "clean_now": {
+      "message": "CLEAN NOW"
+   },
+   "cleanerOffScreenDesc": {
+      "message": "Turn it on to help keep your browser free of clutter."
+   },
+   "cleanerOffScreenTitle": {
+      "message": "Browser Cleaner is currently off."
+   },
+   "close": {
+      "message": "סגירה"
+   },
+   "cookies": {
+      "message": "Cookies"
+   },
+   "copyrights": {
+      "message": "Copyright &copy; 1992-2013 AVG Technologies. All rights reserved."
+   },
+   "corporate": {
+      "message": "התאגדות"
+   },
+   "currentVote": {
+      "message": "סך כל הרייטינג"
+   },
+   "detailsHeadline": {
+      "message": "Avast סרק את האתר הזה"
+   },
+   "detailsMalwareNo": {
+      "message": "לא זוהתה תוכנה זדונית"
+   },
+   "detailsMalwareYes": {
+      "message": "זוהתה תוכנה זדונית!"
+   },
+   "detailsPhishingNo": {
+      "message": "לא זוהה דיוג"
+   },
+   "detailsPhishingYes": {
+      "message": "זוהה דיוג!"
+   },
+   "disabledTab": {
+      "message": "אינך יכול לדרג קבצים מקומיים וטאבים פנימיים"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "עוקב פרסומת"
+   },
+   "dntAllowGroupAction": {
+      "message": "אפשר הכול"
+   },
+   "dntAllowTrackerAction": {
+      "message": "אפשר"
+   },
+   "dntAllowed": {
+      "message": "אופשר"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "חסימה אוטומטית של עוקבים: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "מנוטרלת"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "מופעלת"
+   },
+   "dntBlockGroupAction": {
+      "message": "חסום הכול"
+   },
+   "dntBlockTrackerAction": {
+      "message": "חסום"
+   },
+   "dntBlocked": {
+      "message": "נחסם"
+   },
+   "dntHeadline": {
+      "message": "%s  חברות ניסו לעקוב אחריך"
+   },
+   "dntNetworks": {
+      "message": "רשתות"
+   },
+   "dntNetworksDetected": {
+      "message": "%s רשתות שזוהו"
+   },
+   "dntOthersNetworks": {
+      "message": "אחרים"
+   },
+   "dntSocialNetworks": {
+      "message": "רשתות חברתיות"
+   },
+   "dntStatusAllAllowed": {
+      "message": "הכול מאופשר"
+   },
+   "dntStatusAllBlocked": {
+      "message": "הכול חסום"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "חסום"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "חלק חסום"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "מעקב רשת לוגי (ניתוח עסקי)"
+   },
+   "downloads": {
+      "message": "Items in Download History"
+   },
+   "drugs": {
+      "message": "אלכוהול / סמים"
+   },
+   "error": {
+      "message": "שגיאה"
+   },
+   "errorUnexpected": {
+      "message": "שגיאה לא צפויה"
+   },
+   "forms": {
+      "message": "Saved Forms"
+   },
+   "gambling": {
+      "message": "הימורים"
+   },
+   "general_back": {
+      "message": "BACK"
+   },
+   "general_close": {
+      "message": "CLOSE"
+   },
+   "general_more": {
+      "message": "MORE"
+   },
+   "general_next": {
+      "message": "NEXT"
+   },
+   "general_off": {
+      "message": "OFF"
+   },
+   "general_on": {
+      "message": "ON"
+   },
+   "history": {
+      "message": "Websites in Browsing History"
+   },
+   "homepage": {
+      "message": "Home Page"
+   },
+   "howLike": {
+      "message": "האם אתה מרוצה מהאתר הזה?"
+   },
+   "illegal": {
+      "message": "תוכניות פירטיות / לא חוקי"
+   },
+   "it": {
+      "message": "טכנולוגיית מידע/הטענות"
+   },
+   "items": {
+      "message": "Items"
+   },
+   "loginAnonymous": {
+      "message": "כמשתמש אנונימי"
+   },
+   "loginDesc": {
+      "message": "מלא את נתוני ההתחברות שלך עבור חשבון my.avast.com"
+   },
+   "loginError": {
+      "message": "התחברות נכשלה"
+   },
+   "loginLogin": {
+      "message": "התחבר"
+   },
+   "loginLogout": {
+      "message": "התנתק"
+   },
+   "loginName": {
+      "message": "שם:"
+   },
+   "loginPswd": {
+      "message": "סיסמה:"
+   },
+   "malwareNext": {
+      "message": "הורד את Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "האתר הזה יכול היה לפגוע במחשב שלך"
+   },
+   "malwareSiteRec": {
+      "message": "אנו ממליצים בפניך להתקין את Avast Antivirus‎ לסריקת המחשב שלך"
+   },
+   "mb_freed": {
+      "message": "\u003Cspan>Cleaning\u003C/span> browsing history"
+   },
+   "news": {
+      "message": "חדשות/בלוג"
+   },
+   "noRating": {
+      "message": "לאתר זה אין ריטטינג"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "others": {
+      "message": "אחרים"
+   },
+   "phishingBack": {
+      "message": "תוציא אותי מכאן"
+   },
+   "phishingClose": {
+      "message": "התעלמות מאזהרה"
+   },
+   "phishingCreditNumber": {
+      "message": "נראה כי אתה מנסה להקליד סיסמה או מספר כרטיס אשראי באתר שהמוניטין שלו גרוע. בדוק שנית אם האתר הוא אמיתי. הכנסת פרטיך האישיים לאתר לא בטוח עלולה לגרום לסיכון אבטחה."
+   },
+   "phishingDesc": {
+      "message": "דיוג הוא ניסיון להשיג מידע רגיש כגון שמות משתמש, סיסמאות ופרטים של כרטיסי אשראי..."
+   },
+   "phishingPhishingSite": {
+      "message": "אתר זה סומן כאתר דיוג."
+   },
+   "phishingTrust": {
+      "message": "אני מכיר את האתר הזה ובוטח בו"
+   },
+   "phishingWarning": {
+      "message": "אזהרה"
+   },
+   "pornography": {
+      "message": "פורנוגרפיה"
+   },
+   "privacyOffScreenDesc": {
+      "message": "Turn it on to take back control of your privacy online."
+   },
+   "privacyOffScreenTitle": {
+      "message": "Do Not Track is currently off."
+   },
+   "privacy_at_risk": {
+      "message": "At Risk"
+   },
+   "privacy_fix_now": {
+      "message": "FIX NOW"
+   },
+   "privacy_protected": {
+      "message": "Protected"
+   },
+   "privacy_protected_description": {
+      "message": "Intrusive web trackers that collect data about your online activities are blocked."
+   },
+   "privacy_risky_description": {
+      "message": "There are unblocked intrusive trackers that collect data about your online activities."
+   },
+   "privacy_secondary_title": {
+      "message": "Trackers"
+   },
+   "privacy_your_privacy_is": {
+      "message": "Your privacy is"
+   },
+   "ratingAverage": {
+      "message": "לאתר זה יש רייטינג ממוצע"
+   },
+   "ratingBad": {
+      "message": "לאתר זה יש רייטינג גרוע"
+   },
+   "ratingCommunity": {
+      "message": "דירוג קהילתי %s"
+   },
+   "ratingDone": {
+      "message": "הסתיים"
+   },
+   "ratingGood": {
+      "message": "לאתר זה יש רייטינג טוב"
+   },
+   "ratingLevelAverage": {
+      "message": "ממוצע"
+   },
+   "ratingLevelBad": {
+      "message": "גרוע"
+   },
+   "ratingLevelPositive": {
+      "message": "חיובי"
+   },
+   "ratingLevelUndefined": {
+      "message": "לא"
+   },
+   "ratingNegative": {
+      "message": "מדוע דירגת את ניסיונך כשלילי?"
+   },
+   "ratingNoRate": {
+      "message": "איני רוצה לדרג עכשיו"
+   },
+   "ratingPending": {
+      "message": "איחזור רייטינג"
+   },
+   "ratingPositive": {
+      "message": "מדוע דירגת את ניסיונך כחיובי?"
+   },
+   "ratingRate": {
+      "message": "איך היית מדרג את ההתנסות שלך באתר זה?"
+   },
+   "ratingTextAverage": {
+      "message": "האתר הזה ידוע כבעייתי"
+   },
+   "ratingTextBad": {
+      "message": "האתר הזה אינו בטוח"
+   },
+   "ratingTextPositive": {
+      "message": "האתר הזה בטוח"
+   },
+   "ratingTextUndefined": {
+      "message": "אתר לא ידוע"
+   },
+   "ratingVeryBad": {
+      "message": "לאתר זה יש רייטינג גרוע מאוד"
+   },
+   "reasonBlocker": {
+      "message": "(נחסם איום)"
+   },
+   "reasonPhishing": {
+      "message": "(זוהה אתר דיוג)"
+   },
+   "reasonUnknownFullText": {
+      "message": "לאתר זה עדיין אין רייטינג"
+   },
+   "restart_notification": {
+      "message": "These changes will take effect after you restart your browser."
+   },
+   "restore_defaults": {
+      "message": "RESTORE DEFAULTS"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "החזר למצב הקודם"
+   },
+   "safeShopBestTitleSimilarFound": {
+      "message": "נמצאו מלונות דומים!"
+   },
+   "safeZoneDecline": {
+      "message": "אל תציע את SafeZone עבור "
+   },
+   "safeZoneDesc": {
+      "message": "המלצת Avast היא שתעבור ל-SafeZone"
+   },
+   "safeZoneFeedback": {
+      "message": "למען בטחונך, כתובת האינטרנט נפתחה ב- SafeZone"
+   },
+   "safeZoneNo": {
+      "message": "לא"
+   },
+   "safeZoneYes": {
+      "message": "עבור עכשיו"
+   },
+   "sasSPInstalled": {
+      "message": "\u003Cb>Avast SafePrice\u003C/b> ערוך ומוכן. קניות נעימות!"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "settingsReset": {
+      "message": "אפס לברירת מחדל"
+   },
+   "settingsSave": {
+      "message": "שמירה"
+   },
+   "settingscommunityIQ": {
+      "message": "שיתוף נתונים"
+   },
+   "settingscommunityIQDesc": {
+      "message": "בהפעלת אפשרות זו, הנך מסכים להעביר ל-Avast באופן אנונימי מידע מסוים. אנו עשויים לשתף מידע אנונימי מסוים עם גורמי צד-שלישי."
+   },
+   "settingsdnt": {
+      "message": "אל תעקוב"
+   },
+   "settingsdnt0": {
+      "message": "מגן הפרטיות"
+   },
+   "settingsdnt2": {
+      "message": "אל תעקוב"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "מונע מעקב כברירת מחדל"
+   },
+   "settingsdntDesc": {
+      "message": "מזהה וחוסם פרסומות לא רצויות ומונע מאתרי ניתוח עסקי לעקוב אחריך"
+   },
+   "settingsdntOthersDesc": {
+      "message": "חוסם אחרים כברירת מחדל"
+   },
+   "settingsdntSocialDesc": {
+      "message": "חוסם רשתות חברתיות כברירת מחדל"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "מונע ניתוח רשתי כברירת מחדל"
+   },
+   "settingsphishing": {
+      "message": "אנטי-דיוג"
+   },
+   "settingsphishing0": {
+      "message": "מגן הגלישה"
+   },
+   "settingsphishing2": {
+      "message": "אנטי-דיוג"
+   },
+   "settingsphishingDesc": {
+      "message": "סורק אתרים לתוכנות זדוניות ומונע דיוג"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "עבור ל-SafeZone לצורך גלישה רגישה באתרים פיננסיים (מחייב התקנת Avast Antivirus‎)"
+   },
+   "settingsserp": {
+      "message": "חיפוש תוצאות מנוע"
+   },
+   "settingsserpDesc": {
+      "message": "אפשר צבע לדף תוצאות חיפוש"
+   },
+   "settingsserpPopupDesc": {
+      "message": "אפשר חלון-צץ על דף תוצאות חיפוש"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "דילוג זריז והכוונה אוטומטית לאתר הלגיטימי"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "מזהה ומתקן שגיאות הדפסה בכתובות אינטרנט ומכוון לאתרים הנכונים"
+   },
+   "sfzoneAlways": {
+      "message": "כן, תמיד"
+   },
+   "sfzoneDesc": {
+      "message": "נכנסת לאתר מקוון של בנק. האם תרצה לפתוח אותו באמצעות ה-Avast SafeZone?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "אף פעם"
+   },
+   "sfzoneNo": {
+      "message": "לא"
+   },
+   "sfzoneSwitch": {
+      "message": "החלף ל-Avast SafeZone"
+   },
+   "sfzoneYes": {
+      "message": "כן"
+   },
+   "shopping": {
+      "message": "קניות"
+   },
+   "sideDashboard": {
+      "message": "Avast שלי"
+   },
+   "sideDetails": {
+      "message": "למד עוד"
+   },
+   "sideRate": {
+      "message": "דרג עכשיו"
+   },
+   "sideSettings": {
+      "message": "הגדרות"
+   },
+   "siteSafetyOffScreenDesc": {
+      "message": "Turn it on to be warned of dangerous websites while you surf and search."
+   },
+   "siteSafetyOffScreenTitle": {
+      "message": "Site Safety is currently off."
+   },
+   "site_safety_site_info_cookies": {
+      "message": "Cookies"
+   },
+   "site_safety_site_info_fullreport": {
+      "message": "VIEW FULL REPORT"
+   },
+   "site_safety_site_info_ip": {
+      "message": "IP address"
+   },
+   "site_safety_site_info_lastupdate": {
+      "message": "Last update"
+   },
+   "site_safety_site_info_location": {
+      "message": "Server location"
+   },
+   "site_safety_site_info_na": {
+      "message": "N/A"
+   },
+   "site_safety_site_info_popularity": {
+      "message": "Site popularity"
+   },
+   "site_safety_site_info_size": {
+      "message": "Size"
+   },
+   "site_safety_site_info_speed": {
+      "message": "Speed"
+   },
+   "site_safety_site_info_ssl": {
+      "message": "SSL Security"
+   },
+   "site_safety_site_info_website": {
+      "message": "Website"
+   },
+   "site_safety_title": {
+      "message": "Site Safety"
+   },
+   "sitecorrectAuto": {
+      "message": "מעתה ואילך קח אותי לאתר הידוע והנכון"
+   },
+   "sitecorrectBarButton": {
+      "message": "זו לא הייתה טעות, קח אותי בחזרה"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: באופן אוטומטי מכוון ל-%s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "כדי להגדיר את תכונות Avast SiteCorrect פתח את ממשק המשתמש של Avast, לך ל'הגנות נוספות', 'הגנת דפדפן' והשתמש בלחצן ההגדרות"
+   },
+   "sitecorrectMean": {
+      "message": "האם התכוונת %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "לא, באמת התכוונתי %s"
+   },
+   "sitecorrectText": {
+      "message": "קרוב לודאי שזה לא האתר שניסית להיכנס אליו"
+   },
+   "sitecorrectYes": {
+      "message": "כן"
+   },
+   "sites_protected": {
+      "message": "\u003Cspan>Scanning\u003C/span> sites for malware"
+   },
+   "social": {
+      "message": "חברתי/משחקים"
+   },
+   "thanksHeadline": {
+      "message": "תודה שדירגת"
+   },
+   "thanksMessage": {
+      "message": "ההצבעה שלך נמסרה"
+   },
+   "title": {
+      "message": "הגדרות אבטחה של Avast online"
+   },
+   "topBarDetails": {
+      "message": "צפה בפרטים"
+   },
+   "topBarRatingAverage": {
+      "message": "%s דורג כתקין"
+   },
+   "topBarRatingBad": {
+      "message": "%s דורג כמסוכן"
+   },
+   "topBarRatingGood": {
+      "message": "%s דורג כבטוח"
+   },
+   "trackers_blocked": {
+      "message": "\u003Cspan>Blocking\u003C/span> intrusive trackers"
+   },
+   "uninstall": {
+      "message": "UNINSTALL"
+   },
+   "verdict_dangerous": {
+      "message": "Dangerous"
+   },
+   "verdict_info_dangerous": {
+      "message": "Avoid this page! This page contains active threats and is not recommended for browsing."
+   },
+   "verdict_info_risky": {
+      "message": "Surf with caution. This page may contain threats and is not recommended for browsing."
+   },
+   "verdict_info_safe": {
+      "message": "This page contains no active threats and can be browsed safely."
+   },
+   "verdict_risky": {
+      "message": "Risky"
+   },
+   "verdict_safe": {
+      "message": "Safe"
+   },
+   "verdict_this_site_is": {
+      "message": "This site is"
+   },
+   "version": {
+      "message": "AVG Web TuneUp Version"
+   },
+   "violence": {
+      "message": "נשק / אלימות"
+   },
+   "vote": {
+      "message": "הצבעה"
+   },
+   "voteNegative": {
+      "message": "שלילי"
+   },
+   "votePositive": {
+      "message": "חיובי"
+   },
+   "webrepDisabled": {
+      "message": "WebRep מנוטרל"
+   },
+   "whatTypeContent": {
+      "message": "איזה סוג תוכן מספק אתר זה?"
+   },
+   "working": {
+      "message": "AVG Web TuneUp is working for you, optimizing your internet experience"
+   }
+}

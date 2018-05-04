@@ -16,6 +16,10 @@
     <script src="js/chart.bundle.min.js"></script>
     <script src="js/angular-chart.min.js"></script>
 
+    <script src="js/random.min.js" type="text/javascript" ></script>
+    <script src="js/prob-min.js" type="text/javascript" ></script>
+
+
     <title>Trabajo Práctico de simulación</title>
   </head>
   <body>
@@ -30,39 +34,25 @@
     <div ng-controller="simulationController as ctrl" class="container">
       <form class="form-horizontal">
         <div class="form-group">
-          <label class="col-sm-3 control-label" for="cantidadFermentadores">Cantidad de Fermentadores</label>
+          <label class="col-sm-3 control-label" for="cantidadInstancias">Cantidad de instancias</label>
           <div class="col-sm-2">
-            <input ng-model="ctrl.CF" ng-change="initState" type="number" class="form-control" id="cantidadFermentadores" placeholder="Cantidad de fermentadores">
+            <input ng-model="ctrl.CI" ng-change="initState" type="number" class="form-control" id="cantidadInstancias" placeholder="Cantidad de instancias">
           </div>
 
-          <label class="col-sm-3 control-label" for="capacidadFermentadores">Capacidad de Fermentadores</label>
-          <div class="col-sm-2">
-            <input disabled ng-model="ctrl.CDF" ng-max-length="2" ng-change="initState" type="number" class="form-control" id="capacidadFermentadores" placeholder="Capacidad de fermentadores">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="col-sm-3 control-label" for="stockMaximo">Stock Máximo</label>
-          <div class="col-sm-2">
-            <input ng-model="ctrl.stockMaximo" type="number" class="form-control" id="stockMaximo" placeholder="Stock Máximo">
-          </div>
-
-          <label class="col-sm-3 control-label" for="capacidadCocina">Capacidad de Cocina</label>
-          <div class="col-sm-2">
-            <input disabled ng-model="ctrl.CDC" ng-change="initState" type="number" class="form-control" id="capacidadCocina" placeholder="Capacidad de cocina">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="col-sm-3 control-label" for="tiempoFinal">Tiempo Final</label>
+          <label class="col-sm-3 control-label" for="tiempoFinal">Tiempo final</label>
           <div class="col-sm-2">
             <input ng-model="ctrl.TF" type="number" class="form-control" id="tiempoFinal" placeholder="Tiempo Final">
           </div>
         </div>
 
         <div class="form-group">
-          <div class="col-sm-offset-3 col-sm-3">
-            <button ng-disabled="!ctrl.stockMaximo && !ctrl.simulating" ng-click="ctrl.startSimulation()" class="btn btn-default">Comenzar Simulación!</button>
+          <label class="col-sm-3 control-label" for="maximoSistema">Maximo de elementos en sistema</label>
+          <div class="col-sm-2">
+            <input ng-model="ctrl.MS" ng-change="initState" type="number" class="form-control" id="maximoSistema" placeholder="Maximo de elementos en el sistema">
+          </div>
+
+          <div class="col-sm-offset-5 col-sm-3">
+            <button ng-disabled="!ctrl.CI || !ctrl.MS || ctrl.simulating" ng-click="ctrl.startSimulation()" class="btn btn-default">Comenzar Simulación!</button>
           </div>
         </div>
       </form>
@@ -74,7 +64,7 @@
                 <div class="panel-heading resultado-heading" role="tab" id="heading{{$index}}">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$index}}" aria-expanded="true" aria-controls="collapse{{$index}}">
-                      <div class="col-sm-3 resultado-heading-content">Fermentadores: {{resultado.cantidadFermentadores}}</div>
+                      <div class="col-sm-3 resultado-heading-content">Fermentadores: {{resultado.cantidadInstancias}}</div>
                       <div class="col-sm-3 resultado-heading-content">Stock Máximo: {{resultado.stockMaximo}}</div>
                       <div class="col-sm-3 resultado-heading-content">Duración: {{resultado.duracion}}</div>
                     </a>

@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Βρείτε τις καλύτερες τιμές, προσφορές και κουπόνια στις online αγορές σας, με σύγκριση τιμών και επέκταση κουπονιών από την Avast."
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "Βρείτε τις καλύτερες τιμές, προσφορές και κουπόνια στις online αγορές σας, με σύγκριση τιμών και επέκταση κουπονιών από την AVG."
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "Κάντε κλικ για αντιγραφή"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Ο κωδικός έκπτωσης έχει αντιγραφεί στο Πρόχειρο."
+   },
+   "sasHintSettings": {
+      "message": "Ρυθμίσεις"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "Ξεκινάει από: %s"
+   },
+   "spAdditionalFees": {
+      "message": "Ενδέχεται να ισχύουν πρόσθετες χρεώσεις & φόροι"
+   },
+   "spApply": {
+      "message": "Εφαρμογή κουπονιού"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "Δείτε! Κι άλλες προσφορές"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "Δείτε!\u003Cbr>Κι άλλες προσφορές"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "Περισσότερες προσφορές, μεγαλύτερη εξοικονόμηση!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "Περισσότερες προσφορές,\u003Cbr> μεγαλύτερη εξοικονόμηση!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "Δημοφιλή ξενοδοχεία:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "Αντιγραφή και επικόλληση στο ταμείο:"
+   },
+   "spCouponApplied": {
+      "message": "Έγινε εφαρμογή του κουπονιού."
+   },
+   "spCouponsAvailableText": {
+      "message": "Διαθέσιμο"
+   },
+   "spCouponsExpiration": {
+      "message": "Λήγει: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "Εξοικονομήστε χρήματα μέσω κουπονιών"
+   },
+   "spCouponsSelected": {
+      "message": "Επιλεγμένα κουπόνια: "
+   },
+   "spCouponsSelectedText": {
+      "message": "Επιλεγμένο"
+   },
+   "spCouponsTab": {
+      "message": "Κουπόνια"
+   },
+   "spGetCouponCode": {
+      "message": "Λήψη Κωδικού"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "Η αναμονή αξίζει τον κόπο."
+   },
+   "spLoadingNotificationMessage": {
+      "message": "Αναζήτηση προσφορών..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "Ωχ όχι...\u003Cbr>Δεν βρέθηκαν κουπόνια..."
+   },
+   "spNothingFoundOffers": {
+      "message": "Ωχ όχι...\u003Cbr>Δεν βρέθηκαν προσφορές..."
+   },
+   "spNothingFoundOthers": {
+      "message": "Ωχ όχι...\u003Cbr>Δεν βρέθηκαν ειδικές προσφορές..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "Λιγότερα"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "Κι άλλα"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "ΕΜΦΑΝΙΣΗ ΠΡΟΣΦΟΡΑΣ"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "Κερδίστε %s"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "Βρέθηκαν προσφορές & κουπόνια. Αυτό θα πει τύχη!"
+   },
+   "spOffersTab": {
+      "message": "Προσφορές"
+   },
+   "spOthersTab": {
+      "message": "Άλλα"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "Περιλαμβάνονται: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "Διαμονή & ταξίδια"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "E-shop"
+   },
+   "spSettingsPageCancel": {
+      "message": "Άκυρο"
+   },
+   "spSettingsPageCustomList": {
+      "message": "Προσαρμοσμένη λίστα"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "Προσθ."
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "Προσθ. ιστότοπου"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "Να μην εμφανίζεται καμία ειδοποίηση στις παρακάτω ιστοσελίδες:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(μπορείτε να δείτε προσφορές οποιαδήποτε στιγμή από το εικονίδιο της γραμμής εργαλείων)"
+   },
+   "spSettingsPageHelp": {
+      "message": "Βοήθεια"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. Κουπόνια"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "Για να χρησιμοποιήσετε ένα κουπόνι, δεν έχετε παρά να κάνετε κλικ σε αυτό. Αν αποκαλύψει κάποιον κώδικα, θα πρέπει να τον επικολλήσετε στο κατάλληλο πεδίο μόλις φτάσετε στο ταμείο. Διαφορετικά, το κουπόνι θα εφαρμοστεί αυτόματα."
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "Μάθετε περισσότερα στις \u003Cspan class='asp-faqs-span'>Συχνές Ερωτήσεις\u003C/span>."
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. Ειδοποιήσεις"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "Μόλις το SafePrice βρει προσφορά ή κουπόνι σχετικό με την αναζήτησή σας, θα εμφανιστεί μια ειδοποίηση. Κάντε κλικ στο μεγάλο πράσινο κουμπί και δείτε τι βρήκαμε για εσάς."
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. Προσφορές"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "Αν κάνετε κλικ σε μια προσφορά, θα μεταφερθείτε στο ηλεκτρονικό κατάστημα κάποιου αξιόπιστου συνεργάτη, όπου θα πάρετε τη νέα τιμή που αναγράφεται στην ειδοποίηση."
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. Άλλα"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "Αν κάνετε κλικ σε μια ειδική συμφωνία θα μεταφερθείτε στο αξιόπιστο ηλεκτρονικό κατάστημα κάποιου συνεργάτη."
+   },
+   "spSettingsPageSave": {
+      "message": "Αποθήκ."
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Ρυθμίσεις του Avast SafePrice"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "Ρυθμίσεις του AVG SafePrice"
+   },
+   "spSettingsTabNotifications": {
+      "message": "Ειδοποιήσεις"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "Ειδοποιήσεις κουπονιών"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "Να μην ειδοποιούμαι σχετικά με κουπόνια"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(μπορείτε να δείτε κουπόνια οποιαδήποτε στιγμή από το εικονίδιο της γραμμής εργαλείων)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "Εμφάνιση κάθε φορά που υπάρχει διαθέσιμο κουπόνι"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "Εμφάνιση μόνο μία φορά σε κάθε ιστοσελίδα"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "Ειδοποιήσεις προσφορών"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "Εμφάνιση μόνο όταν η προσφορά είναι καλύτερη από την αρχική τιμή"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "Εμφάνιση μόνο για προσφορές με έκπτωση τουλάχιστον 10%"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "Να μην ειδοποιούμαι σχετικά με προσφορές"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(μπορείτε να δείτε προσφορές οποιαδήποτε στιγμή από το εικονίδιο της γραμμής εργαλείων)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "Εμφάνιση κάθε φορά που υπάρχει κάποια προσφορά"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "Άλλα"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "Να ειδοποιούμαι σχετικά με ειδικές προσφορές για τις άλλες κατηγορίες (συγκοινωνίες, χρηματοδoτήσεις, παροχή ηλεκτρικού ρεύματος και άλλα)"
+   },
+   "spShippingLabel": {
+      "message": "Ε/Α από"
+   },
+   "spShowNotificationMessage": {
+      "message": "ΕΜΦΑΝΙΣΗ"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "Δείτε τι βρήκαμε!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "Βρέθηκαν εναλλακτικά ξενοδοχεία!"
+   }
+}

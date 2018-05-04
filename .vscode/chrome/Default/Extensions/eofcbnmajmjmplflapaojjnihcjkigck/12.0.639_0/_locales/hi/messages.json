@@ -1,0 +1,234 @@
+{
+   "avastAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "ऑनलाइन शॉपिंग करते समय Avast द्वारा संचालित मूल्य तुलना और कूपन एक्सटेंशन के साथ सर्वोत्तम मूल्य, सौदों और कूपन का पता लगाएं।"
+   },
+   "avastAppName": {
+      "message": "Avast SafePrice"
+   },
+   "avgAppDesc": {
+      "description": "max 132 chars are allowed for this message",
+      "message": "ऑनलाइन शॉपिंग करते समय AVG द्वारा संचालित मूल्य तुलना और कूपन एक्सटेंशन के साथ सर्वोत्तम मूल्य, सौदों और कूपन का पता लगाएं।"
+   },
+   "avgAppName": {
+      "message": "AVG SafePrice"
+   },
+   "sasClickToCopy": {
+      "message": "प्रतिलिपि बनाने के लिए क्लिक करें"
+   },
+   "sasCouponCodeCopied": {
+      "message": "क्लिपबोर्ड पर कोड की प्रतिलिपि की गई."
+   },
+   "sasHintSettings": {
+      "message": "सेटिंग"
+   },
+   "sasStartingPrice": {
+      "description": "%s is the minimum value off the price. Example: Starting at: $124.00",
+      "message": "%s से शुरू"
+   },
+   "spAdditionalFees": {
+      "message": "अतिरिक्त शुल्क और कर लागू हो सकते हैं"
+   },
+   "spApply": {
+      "message": "कूपन लागू करें"
+   },
+   "spBetterOffersNotificationBarMessage": {
+      "message": "ओह देखो! अधिक ऑफ़र"
+   },
+   "spBetterOffersNotificationMessage": {
+      "message": "ओह देखो!\u003Cbr> अधिक ऑफर"
+   },
+   "spBetterSpecialDealsNotificationBarMessage": {
+      "message": "अधिक डील, अधिक बचत!"
+   },
+   "spBetterSpecialDealsNotificationMessage": {
+      "message": "अधिक डील,\u003Cbr> अधिक बचत!"
+   },
+   "spCityHotelNotificationMessage": {
+      "message": "लोकप्रिय होटल:"
+   },
+   "spCopyAtCheckOut": {
+      "message": "कॉपी करें और चेकआउट पर चिपकाएँ:"
+   },
+   "spCouponApplied": {
+      "message": "कूपन लागू किया गया।"
+   },
+   "spCouponsAvailableText": {
+      "message": "उपलब्ध"
+   },
+   "spCouponsExpiration": {
+      "message": "समय सीमा समाप्त होती है: "
+   },
+   "spCouponsNotificationMessage": {
+      "message": "कूपन का उपयोग कर पैसे बचाएँ"
+   },
+   "spCouponsSelected": {
+      "message": "चयनित कूपन: "
+   },
+   "spCouponsSelectedText": {
+      "message": "चयनित"
+   },
+   "spCouponsTab": {
+      "message": "कूपन"
+   },
+   "spGetCouponCode": {
+      "message": "कोड प्राप्त करें"
+   },
+   "spLoadingNotificationDescriptionMessage": {
+      "message": "यह इंतजार के योग्य है, हम वादा करते हैं।"
+   },
+   "spLoadingNotificationMessage": {
+      "message": "डील खोज रहा है..."
+   },
+   "spNothingFoundCoupons": {
+      "message": "उह ओह...\u003Cbr>कोई कूपन नहीं मिला..."
+   },
+   "spNothingFoundOffers": {
+      "message": "उह ओह...\u003Cbr>कोई ऑफर नहीं मिला..."
+   },
+   "spNothingFoundOthers": {
+      "message": "उह ओह...\u003Cbr>कोई खास डील्स नहीं मिली..."
+   },
+   "spNotificationRedirectShowLessMessage": {
+      "message": "कम"
+   },
+   "spNotificationRedirectShowMoreMessage": {
+      "message": "अधिक"
+   },
+   "spNotificationRedirectShowRedirectMessage": {
+      "message": "डील दिखाएँ"
+   },
+   "spOfferSaving": {
+      "description": "%s will be the saving percentage of the best offer. Ex: SAVE 25%",
+      "message": "%s सहेजें"
+   },
+   "spOffersAndCouponsNotificationMessage": {
+      "message": "ऑफर औंर कूपन मिले। आप भाग्यशाली हैं!"
+   },
+   "spOffersTab": {
+      "message": "ऑफ़र"
+   },
+   "spOthersTab": {
+      "message": "अन्य"
+   },
+   "spSettingsPageAdvancedItemInclude": {
+      "message": "शामिल: "
+   },
+   "spSettingsPageAdvancedItemIncludeAccomm": {
+      "message": "आवास और यात्रा"
+   },
+   "spSettingsPageAdvancedItemIncludeEShop": {
+      "message": "ई-दुकानें"
+   },
+   "spSettingsPageCancel": {
+      "message": "रद्द करें"
+   },
+   "spSettingsPageCustomList": {
+      "message": "कस्टम सूची"
+   },
+   "spSettingsPageCustomListItemAdd": {
+      "message": "जोड़ें"
+   },
+   "spSettingsPageCustomListItemAddSite": {
+      "message": "साइट जोड़ें"
+   },
+   "spSettingsPageCustomListTitle": {
+      "message": "इन वेबसाइट पर कोई सूचना न दिखाएँ:"
+   },
+   "spSettingsPageCustomListTitleDesc": {
+      "message": "(आप टूलबार आइकन पर क्लिक करके हमेशा ऑफ़र और कूपन देख सकते हैं)"
+   },
+   "spSettingsPageHelp": {
+      "message": "मदद"
+   },
+   "spSettingsPageHelpCouponsTitle": {
+      "message": "3. कूपन"
+   },
+   "spSettingsPageHelpCouponsTitleDesc": {
+      "message": "किसी कूपन का उपयोग करने के लिए, आपको बस इसे क्लिक करना है। अगर इससे कोई कोड आता है, तो आपको इसे चेकआउट के दौरान उचित फ़ील्ड में चिपकाना है। अन्यथा, कूपन अपने आप लागू हो जाएगा।"
+   },
+   "spSettingsPageHelpFAQsTitle": {
+      "message": "\u003Cspan class='asp-faqs-span'>FAQ\u003C/span> में और जानें।"
+   },
+   "spSettingsPageHelpNotificationsTitle": {
+      "message": "1. सूचनाएँ"
+   },
+   "spSettingsPageHelpNotificationsTitleDesc": {
+      "message": "जब SafePrice को आपकी खोज से संबंधित कोई ऑफ़र या कूपन मिलता है, तो एक सूचना पॉप-अप होगी। हमें आपके लिए क्या मिला है यह देखने के लिए हरे बटन पर क्लिक करें।"
+   },
+   "spSettingsPageHelpOffersTitle": {
+      "message": "2. ऑफ़र"
+   },
+   "spSettingsPageHelpOffersTitleDesc": {
+      "message": "किसी ऑफ़र पर क्लिक करना आपको किसी साझीदार के विश्वसनीय ऑनलाइन स्टोर पर ले जाएगा, जहाँ आपको सूचना पर सूचीबद्ध नया मूल्य मिलेगा।"
+   },
+   "spSettingsPageHelpOthersTitle": {
+      "message": "4. अन्य"
+   },
+   "spSettingsPageHelpOthersTitleDesc": {
+      "message": "सूचीबद्ध खास डील पर क्लिक करना आपको साझीदार के विश्वसनीय ऑनलाइन स्टोर पर ले जाएगा।"
+   },
+   "spSettingsPageSave": {
+      "message": "सहेजें"
+   },
+   "spSettingsPageTitleAvast": {
+      "message": "Avast SafePrice सेटिंग"
+   },
+   "spSettingsPageTitleAvg": {
+      "message": "AVG SafePrice सेटिंग"
+   },
+   "spSettingsTabNotifications": {
+      "message": "सूचनाएँ"
+   },
+   "spSettingsTabNotificationsCoupons": {
+      "message": "कूपन सूचनाएँ"
+   },
+   "spSettingsTabNotificationsCouponsHide": {
+      "message": "मुझे कूपन के बारे में सूचित न करें"
+   },
+   "spSettingsTabNotificationsCouponsHideDesc": {
+      "message": "(आप टूलबार आइकन पर क्लिक करके हमेशा कूपन देख सकते हैं)"
+   },
+   "spSettingsTabNotificationsCouponsShowAll": {
+      "message": "जब भी कोई कूपन उपलब्ध हो तो दिखाएँ"
+   },
+   "spSettingsTabNotificationsCouponsShowOnce": {
+      "message": "केवल प्रत्येक वेबसाइट पर एक बार दिखाएँ"
+   },
+   "spSettingsTabNotificationsOffers": {
+      "message": "सूचनाएँ प्रदान करता है"
+   },
+   "spSettingsTabNotificationsOffersBetter": {
+      "message": "केवल तभी दिखाएँ जब कोई ऑफ़र वास्तविक मूल्य से बेहतर पर उपलब्ध हो"
+   },
+   "spSettingsTabNotificationsOffersBetterThanLimit": {
+      "message": "केवल कम से कम 10  % की बचत वाले ऑफ़र दिखाएँ"
+   },
+   "spSettingsTabNotificationsOffersHideAll": {
+      "message": "मुझे ऑफ़र के बारे में सूचित न करें"
+   },
+   "spSettingsTabNotificationsOffersHideAllDesc": {
+      "message": "(आप टूलबार आइकन पर क्लिक करके हमेशा ऑफ़र देख सकते हैं)"
+   },
+   "spSettingsTabNotificationsOffersShowAll": {
+      "message": "जब भी कोई ऑफ़र उपलब्ध हो तो दिखाएँ"
+   },
+   "spSettingsTabNotificationsOthers": {
+      "message": "अन्य"
+   },
+   "spSettingsTabNotificationsOthersDesc": {
+      "message": "मुझे अन्य श्रेणियों (परिवहन, वित्त, बिजली की आपूर्ति इत्यादि) के लिए खास डील के बारे में सूचित करें"
+   },
+   "spShippingLabel": {
+      "message": "सर्वश्रेष्ठ ऑफ़र"
+   },
+   "spShowNotificationMessage": {
+      "message": "दिखाएँ"
+   },
+   "spShowNotificationRedirectMessage": {
+      "message": "देखें हमें क्या मिला!"
+   },
+   "spSimilarHotelsNotificationMessage": {
+      "message": "वैकल्पिक होटल मिले!"
+   }
+}
