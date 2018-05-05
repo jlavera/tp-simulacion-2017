@@ -43,12 +43,16 @@
           let intervaloArribo = IA();
 
           ctrl.TPLL = ctrl.T + intervaloArribo;
+		  
+		  ctrl.NT += 1;
 
           // Rechazar por sistema lleno
           if (ctrl.NS === ctrl.MS) {
             ctrl.CR = ctrl.CR + 1;
           } else {
             ctrl.NS = ctrl.NS + 1;
+			
+			ctrl.STLL += ctrl.TPLL;
 
             if (ctrl.NS <= ctrl.CI) {
               let instanciaDisponibleIdx = buscarInstanciaLibreIdx();
@@ -56,15 +60,19 @@
               let tiempoRespuesta = TA();
 
               ctrl.TPS[instanciaDisponibleIdx] = ctrl.T + tiempoRespuesta;
+			  
+			  ctrl.STOI[instanciaDisponibleIdx] += ctrl.T - ctrl.ITOI[instanciaDisponibleIdx];
             }
           }
         } else {
           // Salida
           ctrl.T = ctrl.TPS[proxInstanciaSalidaIdx];
+		  
+		  ctrl.STS += ctrl.TPS[proxInstanciaSalidaIdx];
 
           ctrl.NS = ctrl.NS - 1;
 
-          if (ctrl.NS >= ctrl.N) {
+          if (ctrl.NS >= ctrl.CI) {
             let tiempoRespuesta = TA();
 
             ctrl.TPS[proxInstanciaSalidaIdx] = ctrl.T + tiempoRespuesta;
@@ -90,56 +98,47 @@
       ctrl.simulating = false;
     };
 
-    // function calcularResultado(){
-    //   let resultados = [];
-
-    //   // Porcentaje Tiempo Ocioso Fermentador
-    //   let PTOF = [];
-    //   ctrl.STOF.forEach( STOFI => PTOF.push(100 * ( STOFI / ctrl.T)) );
-    //   PTOF = PTOF.map( (value, idx) => {
-    //     return {
-    //       description: `Porcentaje Tiempo Ocioso Fermentador ${idx}`,
-    //       value: value
-    //     };
-    //   });
-    //   PTOF.forEach( _ => resultados.push(_));
-
-    //   // Porcentaje Tiempo Ocioso equipo de Cocción
-    //   let PTOC = {
-    //     description: `Porcentaje Tiempo Ocioso equipo de Cocción`,
-    //     value: 100 * (ctrl.STOC / ctrl.T)
-    //   };
-    //   resultados.push(PTOC);
-
-    //   // Porcentaje Litros No Entregados
-    //   let cociente = ctrl.CLNE + ctrl.CLC;
-    //   let PLNE = {
-    //     description: `Porcentaje Litros No Entregados`,
-    //     value: cociente === 0 ? 0 : 100 * (ctrl.CLNE / (ctrl.CLNE + ctrl.CLC))
-    //   };
-    //   resultados.push(PLNE);
-
-    //   // Promedio de Desperdicio
-    //   let PDD = {
-    //     description: `Promedio de Desperdicio`,
-    //     value: 100 * (ctrl.CLD / ctrl.CLP)
-    //   };
-    //   resultados.push(PDD);
-
-    //   let pddValue = $filter('number')(PDD.value, 2);
-    //   let plneValue = $filter('number')(PLNE.value, 2);
-
-    //   return {
-    //     colors: [getChartColorFor(parseInt(pddValue)), getChartColorFor(parseInt(plneValue))],
-    //     labels: ['Promedio Desperdicio', 'Porcentaje No Entregados'],
-    //     series: ['Desperdicio', 'No Entregado'],
-    //     data: [pddValue, plneValue],
-    //     cantidadFermentadores: ctrl.CF,
-    //     stockMaximo: ctrl.stockMaximo,
-    //     duracion: ctrl.TF,
-    //     resultados
-    //   };
-    // }
+    function calcularResultado(){
+		let resultados = [];
+		
+		// Porcentaje Tiempo Ocioso por instancia
+		let PTOI = [];
+		ctrl.STOI.forEach( STOII => PTOI.push(100 * ( STOII / ctrl.T)) );
+		PTOI = PTOI.map( (value, idx) => {
+			return {
+				description: 'Porcentaje Tiempo Ocioso Instancia ${idx}',
+				value: value
+			};
+		});
+		PTOI.forEach( _ => resultados.push(_));
+		
+		// Tiempo Promedio de Respuesta
+		let PTR = {
+			description: 'Promedio Tiempo de Respuesta',
+			value: (ctrl.STS - ctrl.STLL) / ctrl.NT
+		};
+		resultados.push(PTR);
+		
+		// Porcentaje Cantidad de Rechazos
+		let PCR = {
+			description: 'Porcentaje Cantidad de Rechazos',
+			value: 100 * (ctrl.CR / ctrl.NT)
+		};
+		resultados.push(PCR);
+		
+		let pcrValue = $filter('number')(PCR.value, 2);
+		
+		return {
+			colors: [getChartColorFor(parseInt(pcrValue))],
+			labels: ['Porcentaje Rechazos'],
+			series: ['Rechazos'],
+			data: [pcrValue],
+			cantidadInstancias: ctrl.CI,
+			filaMaxima: ctrl.MS,
+			duracion: ctrl.TF,
+			resultados
+		};
+	}
 
     function getChartColorFor(value){
       if (value < 5) return "rgb(66,244,69)";
@@ -187,7 +186,7 @@
 
     function initState(){
       // Resultado
-      ctrl.CR   = 0; // Cantidad de rechazos
+      ctrl.PCR  = 0; // Porcentaje Cantidad de rechazos
       ctrl.PTOI = initArrayWith(ctrl.CI, 0); // Porcentaje de Tiempo Ocioso por Instancia
       ctrl.PTR  = 0; // Promedio Tiempo de Respuesta
 
@@ -204,8 +203,10 @@
       ctrl.T      = 0;
       ctrl.ITOI   = initArrayWith(ctrl.CI, 0); // Inicio Tiempo Ocioso Instancia
       ctrl.STOI   = initArrayWith(ctrl.CI, 0); // Sumatoria Tiempo Ocioso Instancia
-      ctrl.ITA    = 0; // Inicio tiempo de atencion
-      ctrl.STA    = 0; // Sumatoria tiempo de atencion
+      ctrl.STLL   = 0; // Sumatoria Tiempo de Llegada
+      ctrl.STS    = 0; // Sumatoria Tiempo de Salida
+	  ctrl.NT     = 0; // Cantidad total de llamadas al sistema
+	  ctrl.CR     = 0; // Cantidad de rechazos
     }
   }
 })();
