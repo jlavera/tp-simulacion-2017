@@ -64,8 +64,8 @@
                 <div class="panel-heading resultado-heading" role="tab" id="heading{{$index}}">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{$index}}" aria-expanded="true" aria-controls="collapse{{$index}}">
-                      <div class="col-sm-3 resultado-heading-content">Fermentadores: {{resultado.cantidadInstancias}}</div>
-                      <div class="col-sm-3 resultado-heading-content">Stock Máximo: {{resultado.stockMaximo}}</div>
+                      <div class="col-sm-3 resultado-heading-content">Instancias: {{resultado.cantidadInstancias}}</div>
+                      <div class="col-sm-3 resultado-heading-content">Maximo elementos en sistema: {{resultado.filaMaxima}}</div>
                       <div class="col-sm-3 resultado-heading-content">Duración: {{resultado.duracion}}</div>
                     </a>
                   </h4>
@@ -88,7 +88,7 @@
                         <tbody>
                           <tr ng-repeat="res in resultado.resultados">
                             <td> {{res.description}}</td>
-                            <td> {{res.value | number : 2 }} %</td>
+                            <td> {{res.value | limitTo : 3}}</td>
                           </tr>
                         </tbody>
                       </table>

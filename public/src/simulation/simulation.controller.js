@@ -10,12 +10,12 @@
     // Datos
     // Intervalo entre Arribos
     function IA(){
-      return ctrl.IAFunc();
+      return Math.trunc(ctrl.IAFunc());
     }
 
     // Tiempo de respuesta
     function TA() {
-      return ctrl.TAFunc();
+      return Math.trunc(ctrl.TAFunc());
     }
 
     // Control
@@ -43,16 +43,16 @@
           let intervaloArribo = IA();
 
           ctrl.TPLL = ctrl.T + intervaloArribo;
-		  
-		  ctrl.NT += 1;
+
+          ctrl.NT += 1;
 
           // Rechazar por sistema lleno
           if (ctrl.NS === ctrl.MS) {
             ctrl.CR = ctrl.CR + 1;
           } else {
             ctrl.NS = ctrl.NS + 1;
-			
-			ctrl.STLL += ctrl.TPLL;
+
+            ctrl.STLL += ctrl.TPLL;
 
             if (ctrl.NS <= ctrl.CI) {
               let instanciaDisponibleIdx = buscarInstanciaLibreIdx();
@@ -61,14 +61,14 @@
 
               ctrl.TPS[instanciaDisponibleIdx] = ctrl.T + tiempoRespuesta;
 			  
-			  ctrl.STOI[instanciaDisponibleIdx] += ctrl.T - ctrl.ITOI[instanciaDisponibleIdx];
+              ctrl.STOI[instanciaDisponibleIdx] += ctrl.T - ctrl.ITOI[instanciaDisponibleIdx];
             }
           }
         } else {
           // Salida
           ctrl.T = ctrl.TPS[proxInstanciaSalidaIdx];
-		  
-		  ctrl.STS += ctrl.TPS[proxInstanciaSalidaIdx];
+
+          ctrl.STS += ctrl.TPS[proxInstanciaSalidaIdx];
 
           ctrl.NS = ctrl.NS - 1;
 
@@ -94,51 +94,52 @@
         return false;
       })());
 
-      // ctrl.resultados.push(calcularResultado());
+      ctrl.resultados.unshift(calcularResultado());
       ctrl.simulating = false;
     };
 
     function calcularResultado(){
-		let resultados = [];
-		
-		// Porcentaje Tiempo Ocioso por instancia
-		let PTOI = [];
-		ctrl.STOI.forEach( STOII => PTOI.push(100 * ( STOII / ctrl.T)) );
-		PTOI = PTOI.map( (value, idx) => {
-			return {
-				description: 'Porcentaje Tiempo Ocioso Instancia ${idx}',
-				value: value
-			};
-		});
-		PTOI.forEach( _ => resultados.push(_));
-		
-		// Tiempo Promedio de Respuesta
-		let PTR = {
-			description: 'Promedio Tiempo de Respuesta',
-			value: (ctrl.STS - ctrl.STLL) / ctrl.NT
-		};
-		resultados.push(PTR);
-		
-		// Porcentaje Cantidad de Rechazos
-		let PCR = {
-			description: 'Porcentaje Cantidad de Rechazos',
-			value: 100 * (ctrl.CR / ctrl.NT)
-		};
-		resultados.push(PCR);
-		
-		let pcrValue = $filter('number')(PCR.value, 2);
-		
-		return {
-			colors: [getChartColorFor(parseInt(pcrValue))],
-			labels: ['Porcentaje Rechazos'],
-			series: ['Rechazos'],
-			data: [pcrValue],
-			cantidadInstancias: ctrl.CI,
-			filaMaxima: ctrl.MS,
-			duracion: ctrl.TF,
-			resultados
-		};
-	}
+      let resultados = [];
+
+      // Porcentaje Tiempo Ocioso por instancia
+      let PTOI = [];
+      ctrl.STOI.forEach(STOII => PTOI.push(100 * (STOII / ctrl.T)));
+      PTOI = PTOI.map((value, idx) => {
+        return {
+          description: `Porcentaje Tiempo Ocioso Instancia ${idx + 1}`,
+          value:       `${Math.round(value)}%`
+        };
+      });
+      PTOI.forEach(resultado => resultados.push(resultado));
+
+      // Tiempo Promedio de Respuesta
+      let PTR = {
+        description: 'Promedio Tiempo de Respuesta',
+        value:        (ctrl.STS - ctrl.STLL) / (ctrl.NT - ctrl.CR)
+      };
+      resultados.push(PTR);
+
+      // Porcentaje Cantidad de Rechazos
+      const PCRValue = Math.round(100 * (ctrl.CR / ctrl.NT));
+      let PCR = {
+        description: 'Porcentaje Cantidad de Rechazos',
+        value:       `${PCRValue}%`
+      };
+      resultados.push(PCR);
+
+      let pcrValue = $filter('number')(PCRValue, 2);
+
+      return {
+        colors:             [getChartColorFor(parseInt(pcrValue))],
+        labels:             ['Porcentaje Rechazos'],
+        series:             ['Rechazos'],
+        data:               [pcrValue],
+        cantidadInstancias: ctrl.CI,
+        filaMaxima:         ctrl.MS,
+        duracion:           ctrl.TF,
+        resultados
+      };
+    }
 
     function getChartColorFor(value){
       if (value < 5) return "rgb(66,244,69)";
@@ -205,8 +206,8 @@
       ctrl.STOI   = initArrayWith(ctrl.CI, 0); // Sumatoria Tiempo Ocioso Instancia
       ctrl.STLL   = 0; // Sumatoria Tiempo de Llegada
       ctrl.STS    = 0; // Sumatoria Tiempo de Salida
-	  ctrl.NT     = 0; // Cantidad total de llamadas al sistema
-	  ctrl.CR     = 0; // Cantidad de rechazos
+      ctrl.NT     = 0; // Cantidad total de llamadas al sistema
+      ctrl.CR     = 0; // Cantidad de rechazos
     }
   }
 })();
