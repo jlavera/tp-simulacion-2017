@@ -51,8 +51,8 @@
             ctrl.CR = ctrl.CR + 1;
           } else {
             ctrl.NS = ctrl.NS + 1;
-
-            ctrl.STLL += ctrl.TPLL;
+ 
+            ctrl.STLL += ctrl.T;
 
             if (ctrl.NS <= ctrl.CI) {
               let instanciaDisponibleIdx = buscarInstanciaLibreIdx();
@@ -78,6 +78,8 @@
             ctrl.TPS[proxInstanciaSalidaIdx] = ctrl.T + tiempoRespuesta;
           } else {
             ctrl.TPS[proxInstanciaSalidaIdx] = HV;
+			
+			ctrl.ITOI[proxInstanciaSalidaIdx] = ctrl.T;
           }
         } 
       } while ((function () {
