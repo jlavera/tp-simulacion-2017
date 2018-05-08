@@ -15,13 +15,13 @@
 
     // Tiempo de respuesta
     function TA() {
-      return Math.trunc(ctrl.TAFunc());
+      return Math.trunc(ctrl.TAFunc()) * 10;
     }
 
     // Control
-    ctrl.CI = 5; // Cantidad Instancias
+    ctrl.CI = 3; // Cantidad Instancias
     ctrl.MS = 100; // Maximo Fila
-    ctrl.TF = 10; // Tiempo Final
+    ctrl.TF = 5000; // Tiempo Final
 
     // Array de resultados
     ctrl.resultados = [];
@@ -51,7 +51,7 @@
             ctrl.CR = ctrl.CR + 1;
           } else {
             ctrl.NS = ctrl.NS + 1;
- 
+
             ctrl.STLL += ctrl.T;
 
             if (ctrl.NS <= ctrl.CI) {
@@ -60,7 +60,7 @@
               let tiempoRespuesta = TA();
 
               ctrl.TPS[instanciaDisponibleIdx] = ctrl.T + tiempoRespuesta;
-			  
+
               ctrl.STOI[instanciaDisponibleIdx] += ctrl.T - ctrl.ITOI[instanciaDisponibleIdx];
             }
           }
@@ -78,10 +78,10 @@
             ctrl.TPS[proxInstanciaSalidaIdx] = ctrl.T + tiempoRespuesta;
           } else {
             ctrl.TPS[proxInstanciaSalidaIdx] = HV;
-			
+
 			ctrl.ITOI[proxInstanciaSalidaIdx] = ctrl.T;
           }
-        } 
+        }
       } while ((function () {
         if (ctrl.T <= ctrl.TF) {
           return true;
@@ -202,7 +202,7 @@
 
       // Auxiliares
       ctrl.IAFunc = Prob.lognormal(2, 1);
-      ctrl.TAFunc = Prob.lognormal(2, 0.5);
+      ctrl.TAFunc = Prob.lognormal(2, 0.2);
       ctrl.T      = 0;
       ctrl.ITOI   = initArrayWith(ctrl.CI, 0); // Inicio Tiempo Ocioso Instancia
       ctrl.STOI   = initArrayWith(ctrl.CI, 0); // Sumatoria Tiempo Ocioso Instancia
