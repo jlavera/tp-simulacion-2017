@@ -7,138 +7,199 @@
   function SimulationController(HV, $filter){
     let ctrl = this;
 
-    // Datos
-    // Intervalo entre Arribos
-    function IA(){
-      return Math.trunc(ctrl.IAFunc());
+    ctrl.resultados = [];
+
+    function exponencial(b) {
+      return x => -Math.log(Math.pow(1 - x, b));
     }
 
-    // Tiempo de respuesta
-    function TA() {
-      return Math.trunc(ctrl.TAFunc()) * 10;
+    // Datos
+    //  FdP de la lluvia
+    function fpdLluvia() {
+      let fn;
+
+      switch  (ctrl.estacion) {
+        case 'verano':
+          fn = exponencial(0.072254);
+          break;
+        case 'primavera':
+          fn = exponencial(0.11571);
+          break;
+        case 'invierno':
+          fn = exponencial(0.089158);
+          break;
+        case 'otono':
+          fn = exponencial(0.095987);
+          break;
+        default:
+          throw Error('Estacion no encontrada');
+      }
+
+      return fn(Math.random());
+    }
+
+    //  Desagote Maldonado
+    function fpdMaldonado() {
+      return 5;
+    }
+
+    //  Desagote Vega
+    function fdpVega() {
+      return 6;
+    }
+
+    //  Desagote Medrano
+    function fdpMedrano() {
+      return 7;
     }
 
     // Control
-    ctrl.CI = 3; // Cantidad Instancias
-    ctrl.MS = 100; // Maximo Fila
-    ctrl.TF = 5000; // Tiempo Final
-
-    // Array de resultados
-    ctrl.resultados = [];
+    ctrl.TF   = 24 * 90; // Tiempo final
+    ctrl.ABSR = 0;  // Absorcion por reservorio
+    ctrl.ABSV = 0;  // Absorcion por vegetacion
+    ctrl.DVR  = 9999999;  // Dias vaciado de reservorio
+    ctrl.estacion = 'verano';
 
     ctrl.startSimulation = function() {
       initState();
 
       ctrl.simulating = true;
 
-      let proxInstanciaSalidaIdx;
-
       do {
-        proxInstanciaSalidaIdx = buscarMenorTPSIdx();
+        ctrl.T    = ctrl.T + 1;
+        ctrl.DUVR = ctrl.DUVR + 1;
 
-        // Llegada
-        if (ctrl.TPLL <= ctrl.TPS[proxInstanciaSalidaIdx]){
-          ctrl.T = ctrl.TPLL;
+        // Vaciar reservorios
+        if (ctrl.DVR <= ctrl.DUVR) {
+          ctrl.DUVR = 0;
+          ctrl.ABSR_AUX = ctrtl.ABSR;
+        }
 
-          let intervaloArribo = IA();
+        let lluviaCaida = fpdLluvia();
 
-          ctrl.TPLL = ctrl.T + intervaloArribo;
+        // Contar dias con lluvia
+        if (lluviaCaida > 0) {
+          ctrl.lluviaTotal   = ctrl.lluviaTotal + lluviaCaida;
+          ctrl.diasConLluvia = ctrl.diasConLluvia + 1;
+        }
 
-          ctrl.NT += 1;
+        // Acumular lluvia
+        ctrl.AASC = ctrl.AASC + lluviaCaida;
 
-          // Rechazar por sistema lleno
-          if (ctrl.NS === ctrl.MS) {
-            ctrl.CR = ctrl.CR + 1;
-          } else {
-            ctrl.NS = ctrl.NS + 1;
+        // Capacidad de desagote
+        let desagoteTotal = fpdMaldonado() + fdpVega() + fdpMedrano();
 
-            ctrl.STLL += ctrl.T;
+        // Desagotar agua acumulada
+        if (ctrl.AASC > 0) {
+          ctrl.AASC = ctrl.AASC - desagoteTotal;
+        } else if (ctrl.AASC < 0) {
+          ctrl.AASC = 0;
+        }
 
-            if (ctrl.NS <= ctrl.CI) {
-              let instanciaDisponibleIdx = buscarInstanciaLibreIdx();
+        // Contar distintas absorciones
+        if (ctrl.AASC > 0) {
+          let lt = 0;
+          lt = ctrl.AASC * ctrl.areaComuna;
 
-              let tiempoRespuesta = TA();
+          // Primero absorve el reservorio
+          if (lt >= ctrl.ABSR_AUX) {
+            lt = lt - ctrl.ABSR_AUX;
+            ctrl.ACUMR = ctrl.ACUMR + ctrl.ABSR_AUX;
+            ctrl.ABSR_AUX = 0;
 
-              ctrl.TPS[instanciaDisponibleIdx] = ctrl.T + tiempoRespuesta;
-
-              ctrl.STOI[instanciaDisponibleIdx] += ctrl.T - ctrl.ITOI[instanciaDisponibleIdx];
+            // Luego absorve la vegetación
+            if (lf >= ctrl.ABSV_AUX) {
+              lt = lt - ctrl.ABSV_AUX;
+              ctrl.ACUMV = ctrl.ACUMV + ctrl.ABSV_AUX;
+            } else {
+              ctrl.ACUMV = ctrl.ACUMV + lt;
+              lt = 0;
             }
-          }
-        } else {
-          // Salida
-          ctrl.T = ctrl.TPS[proxInstanciaSalidaIdx];
-
-          ctrl.STS += ctrl.TPS[proxInstanciaSalidaIdx];
-
-          ctrl.NS = ctrl.NS - 1;
-
-          if (ctrl.NS >= ctrl.CI) {
-            let tiempoRespuesta = TA();
-
-            ctrl.TPS[proxInstanciaSalidaIdx] = ctrl.T + tiempoRespuesta;
           } else {
-            ctrl.TPS[proxInstanciaSalidaIdx] = HV;
+            ctrl.ACUMR = ctrl.ACUMR + lt;
+            ctrl.ABSR_AUX = ctrl.ABSR_AUX - lt;
+            lt = 0;
+          }
 
-			ctrl.ITOI[proxInstanciaSalidaIdx] = ctrl.T;
+          ctrl.AASC = lt / ctrl.areaComuna;
+
+          if (ctrl.AASC > 0) {
+            ctrl.CHAA = ctrl.CHAA = 1;
+            if (ctrl.MaxRI < ctrl.AASC) {
+              ctrl.MaxRI = ctrl.AASC;
+            }
+
+            ctrl.CantInund = ctrl.CantInund + 1;
           }
         }
-      } while ((function () {
-        if (ctrl.T <= ctrl.TF) {
-          return true;
-        }
-
-        if (ctrl.NS !== 0) {
-          ctrl.TPLL = HV;
-
-          return true;
-        }
-
-        return false;
-      })());
+      } while (ctrl.T <= ctrl.TF);
 
       ctrl.resultados.unshift(calcularResultado());
+      console.log(ctrl.resultados);
       ctrl.simulating = false;
     };
 
     function calcularResultado(){
       let resultados = [];
 
-      // Porcentaje Tiempo Ocioso por instancia
-      let PTOI = [];
-      ctrl.STOI.forEach(STOII => PTOI.push(100 * (STOII / ctrl.T)));
-      PTOI = PTOI.map((value, idx) => {
-        return {
-          description: `Porcentaje Tiempo Ocioso Instancia ${idx + 1}`,
-          value:       `${Math.round(value)}%`
-        };
+      // ctrl.MMMI = -1; // Máximo registro de mm inundados (mm)
+      // ctrl.CHAA = 0; // Cantidad de horas con agua acumulada (horas)
+      // ctrl.PHI = 0; // Porcentaje de horas con inundación registrada respecto al total de horas que se detectó precipitación (%)
+      // ctrl.PAV = 0; // Porcentaje de agua absorbida por vegetación respecto al total de precipitaciones (%)
+      // ctrl.PAR = 0; // Porcentaje de agua absorbida por reservorios respecto al total de precipitaciones (%)
+
+      resultados.push({
+        description: 'Máximo registro de inundación (mm.)',
+        value:       ctrl.MMMI
       });
-      PTOI.forEach(resultado => resultados.push(resultado));
 
-      // Tiempo Promedio de Respuesta
-      let PTR = {
-        description: 'Promedio Tiempo de Respuesta',
-        value:        (ctrl.STS - ctrl.STLL) / (ctrl.NT - ctrl.CR)
-      };
-      resultados.push(PTR);
+      resultados.push({
+        description: 'Tiempo con agua acumulada (horas)',
+        value:       ctrl.CHHA
+      });
 
-      // Porcentaje Cantidad de Rechazos
-      const PCRValue = Math.round(100 * (ctrl.CR / ctrl.NT));
-      let PCR = {
-        description: 'Porcentaje Cantidad de Rechazos',
-        value:       `${PCRValue}%`
-      };
-      resultados.push(PCR);
+      // resultados.push({
+      //   description: 'Porcentaje de horas con inundación registrada respecto al total de horas que se detectó precipitación (%)',
+      //   value:       ctrl.CHAA / ctrl.TF
+      // });
 
-      let pcrValue = $filter('number')(PCRValue, 2);
+      // // Porcentaje Tiempo Ocioso por instancia
+      // let PTOI = [];
+      // ctrl.STOI.forEach(STOII => PTOI.push(100 * (STOII / ctrl.T)));
+      // PTOI = PTOI.map((value, idx) => {
+      //   return {
+      //     description: `Porcentaje Tiempo Ocioso Instancia ${idx + 1}`,
+      //     value:       `${Math.round(value)}%`
+      //   };
+      // });
+      // PTOI.forEach(resultado => resultados.push(resultado));
+
+      // // Tiempo Promedio de Respuesta
+      // let PTR = {
+      //   description: 'Promedio Tiempo de Respuesta',
+      //   value:        (ctrl.STS - ctrl.STLL) / (ctrl.NT - ctrl.CR)
+      // };
+      // resultados.push(PTR);
+
+      // // Porcentaje Cantidad de Rechazos
+      // const PCRValue = Math.round(100 * (ctrl.CR / ctrl.NT));
+      // let PCR = {
+      //   description: 'Porcentaje Cantidad de Rechazos',
+      //   value:       `${PCRValue}%`
+      // };
+      // resultados.push(PCR);
+
+      // let pcrValue = $filter('number')(PCRValue, 2);
 
       return {
-        colors:             [getChartColorFor(parseInt(pcrValue))],
-        labels:             ['Porcentaje Rechazos'],
-        series:             ['Rechazos'],
-        data:               [pcrValue],
-        cantidadInstancias: ctrl.CI,
-        filaMaxima:         ctrl.MS,
-        duracion:           ctrl.TF,
+        colors:                [getChartColorFor(parseInt(ctrl.CHAA / ctrl.TF))],
+        labels:                ['Porcentaje horas con inundación'],
+        series:                ['Rechazos'],
+        data:                  [ctrl.CHAA / ctrl.TF],
+        absorcionReservorio:   ctrl.ABSR,
+        absorcionVegetacion:   ctrl.ABSV,
+        diasVaciadoReservorio: ctrl.DVR,
+        duracion:              ctrl.TF,
         resultados
       };
     }
@@ -151,65 +212,24 @@
       else return "rgb(186,26,1)";
     }
 
-    function initArrayWith(arraySize, value){
-      let array = [];
-
-      for (let i = 0; i < arraySize; i++) {
-        array.push(value);
-      }
-
-      return array;
-    }
-
-    function buscarMenorTPSIdx() {
-      let index;
-      let min;
-
-      ctrl.TPS.forEach((current, idx) => {
-        if (!min || current < min) {
-          min = current;
-          index = idx;
-        }
-      });
-
-      return index;
-    }
-
-    function buscarInstanciaLibreIdx() {
-      let index = -1;
-
-      ctrl.TPS.forEach((current, idx) => {
-        if (index < 0 && current === HV) {
-          index = idx;
-        }
-      });
-
-      return index;
-    }
-
     function initState(){
       // Resultado
-      ctrl.PCR  = 0; // Porcentaje Cantidad de rechazos
-      ctrl.PTOI = initArrayWith(ctrl.CI, 0); // Porcentaje de Tiempo Ocioso por Instancia
-      ctrl.PTR  = 0; // Promedio Tiempo de Respuesta
+      ctrl.MMMI = -1; // Máximo registro de mm inundados (mm)
+      ctrl.CHAA = 0; // Cantidad de horas con agua acumulada (horas)
+      ctrl.PHI = 0; // Porcentaje de horas con inundación registrada respecto al total de horas que se detectó precipitación (%)
+      ctrl.PAV = 0; // Porcentaje de agua absorbida por vegetación respecto al total de precipitaciones (%)
+      ctrl.PAR = 0; // Porcentaje de agua absorbida por reservorios respecto al total de precipitaciones (%)
 
       // Estado
-      ctrl.NS   = 0; // Cantidad de Llamadas en el Sistema
-
-      // TEF
-      ctrl.TPLL = 0; // Tiempo Proxima Llegada
-      ctrl.TPS  = initArrayWith(ctrl.CI, HV); // Tiempo Proximas Salidas Instancias
+      ctrl.AASC = 0; // Agua acumulada sobre la superficie (mm)
 
       // Auxiliares
-      ctrl.IAFunc = Prob.lognormal(2, 1);
-      ctrl.TAFunc = Prob.lognormal(2, 0.2);
-      ctrl.T      = 0;
-      ctrl.ITOI   = initArrayWith(ctrl.CI, 0); // Inicio Tiempo Ocioso Instancia
-      ctrl.STOI   = initArrayWith(ctrl.CI, 0); // Sumatoria Tiempo Ocioso Instancia
-      ctrl.STLL   = 0; // Sumatoria Tiempo de Llegada
-      ctrl.STS    = 0; // Sumatoria Tiempo de Salida
-      ctrl.NT     = 0; // Cantidad total de llamadas al sistema
-      ctrl.CR     = 0; // Cantidad de rechazos
+      ctrl.areaComuna = 14600000;
+      ctrl.T          = 0;
+      ctrl.ABSR_AUX   = ctrl.ABSR;  // Absorcion por reservorio (aux)
+      ctrl.ABSV_AUX   = ctrl.ABSV;  // Absorcion por vegetacion (aux)
+      ctrl.DUVR       = 0; // Dias desde ultimo vaciamiento de reservorio (dias)
+
     }
   }
 })();
