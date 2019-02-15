@@ -1,0 +1,12 @@
+LAT;;;;;-34.6132
+LON;;;;;-58.3772
+ASL;;;;;31.0000
+CITY;;;;;Buenos Aires
+DOMAIN;;;;;NEMSSA
+LEVEL;;;;;sfc
+NAME;;;;;Total Precipitation (low resolution)
+UNIT;;;;;mm
+AGGREGATION;;;;;
+UTC_OFFSET;;;;;-3
+
+Year;Month;Day;Hour;Minute;Total Precipitation (low resolution)  [sfc]
