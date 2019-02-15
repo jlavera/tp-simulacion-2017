@@ -1,6 +1,6 @@
 (function(){
   angular.module('simulationApp')
-  .controller('simulationController', SimulationController);
+    .controller('simulationController', SimulationController);
 
   SimulationController.$inject = ['HV', '$filter'];
 
@@ -9,8 +9,30 @@
 
     ctrl.resultados = [];
 
-    function exponencial(b) {
-      return x => -Math.log(Math.pow(1 - x, b));
+    function retriable(fn, args, from, to) {
+      return x => {
+        let res = fn(x || Math.random());
+        
+        return ((res >= from && res <= to) || x) ? res : retriable(fn, args, from, to)();
+      };
+    }
+
+    function pareto(a, b, from, to) {
+      return retriable(
+        x => (b - b * Math.pow(1 - x, 1/a))/Math.pow(1 - x, 1/a), [a, b], from, to
+      );
+    }
+
+    function weibull(a, b, c, from, to) {
+      return retriable(
+        x => c - b * (Math.pow(Math.log(1 - a), 1/x)), [a, b, c], from, to
+      );
+    }
+
+    function logLogistic(a, b, c, from, to) {
+      return retriable(
+        x => Math.pow(1/a - 1, -1/x) * (c * Math.pow(1/a - 1, 1/x) + bs), [a, b, c], from, to
+      );
     }
 
     // Datos
@@ -20,16 +42,62 @@
 
       switch  (ctrl.estacion) {
         case 'verano':
-          fn = exponencial(0.072254);
+          fn = pareto(3.6313, 3.0334, 0.1, 20);
           break;
         case 'primavera':
-          fn = exponencial(0.11571);
+          fn = pareto(2.3601, 1.9138, 0.1, 18);
           break;
         case 'invierno':
-          fn = exponencial(0.089158);
+          fn = pareto(2.0897, 1.0266, 0.1, 15.9);
           break;
         case 'otono':
-          fn = exponencial(0.095987);
+          fn = pareto(1.8154, 1.2131, 0.1, 25);
+          break;
+        default:
+          throw Error('Estacion no encontrada');
+      }
+
+      return fn();
+    }
+
+    function fpdIntervalo() {
+      let fn;
+
+      switch  (ctrl.estacion) {
+        case 'verano':
+          fn = weibull(0.49246, 26.592, 2);
+          break;
+        case 'primavera':
+          fn = weibull(0.4275, 20.984, 2);
+          break;
+        case 'invierno':
+          fn = weibull(0.36946, 21.455, 2);
+          break;
+        case 'otono':
+          fn = weibull(0.44571, 21.093, 2);
+          break;
+        default:
+          throw Error('Estacion no encontrada');
+      }
+
+      return fn(Math.random());
+    }
+
+    function fpdLogistic() {
+      let fn;
+
+      switch  (ctrl.estacion) {
+        case 'verano':
+          fn = logLogistic(2.0006, 2.8099, 0);
+          break;
+        case 'primavera':
+          fn = logLogistic(1.8491, 2.9105, 0);
+          break;
+        case 'invierno':
+          fn = logLogistic(1.8125, 2.7529, 0);
+          break;
+        case 'otono':
+          fn = logLogistic(1.8739, 2.7047, 0);
           break;
         default:
           throw Error('Estacion no encontrada');
